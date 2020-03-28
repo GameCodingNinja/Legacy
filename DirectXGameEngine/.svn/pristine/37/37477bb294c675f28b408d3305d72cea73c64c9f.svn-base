@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F1282BA-6834-4D6D-8FCB-6A8C49E06A02}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>library</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\devlib\boost;..\library;..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\devlib\boost;..\library;..\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\devlib\boost;..\library;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\devlib\boost;..\library;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="2d\actorsprite2d.h" />
+    <ClInclude Include="2d\font.h" />
+    <ClInclude Include="2d\fontmanager.h" />
+    <ClInclude Include="2d\fontsprite.h" />
+    <ClInclude Include="2d\generator2d.h" />
+    <ClInclude Include="2d\iaibase.h" />
+    <ClInclude Include="2d\instancemesh2d.h" />
+    <ClInclude Include="2d\ismartspritegroup.h" />
+    <ClInclude Include="2d\collisionsprite2d.h" />
+    <ClInclude Include="2d\objectcollisiondata2d.h" />
+    <ClInclude Include="2d\objectdata2d.h" />
+    <ClInclude Include="2d\objectdatalist2d.h" />
+    <ClInclude Include="2d\objectscriptdata2d.h" />
+    <ClInclude Include="2d\objectvisualdata2d.h" />
+    <ClInclude Include="2d\physicsworld.h" />
+    <ClInclude Include="2d\sector2d.h" />
+    <ClInclude Include="2d\spritegroup2d.h" />
+    <ClInclude Include="2d\stage2d.h" />
+    <ClInclude Include="2d\visualmesh2d.h" />
+    <ClInclude Include="2d\visualsprite2d.h" />
+    <ClInclude Include="3d\collision.h" />
+    <ClInclude Include="3d\collisioncheck.h" />
+    <ClInclude Include="3d\collisionmesh3d.h" />
+    <ClInclude Include="3d\collisionsprite3d.h" />
+    <ClInclude Include="3d\hotspot.h" />
+    <ClInclude Include="3d\hotspotwarp.h" />
+    <ClInclude Include="3d\joint.h" />
+    <ClInclude Include="3d\jointanimation.h" />
+    <ClInclude Include="3d\jointanimationmanager.h" />
+    <ClInclude Include="3d\jointanimationmesh3d.h" />
+    <ClInclude Include="3d\jointanimationsprite3d.h" />
+    <ClInclude Include="3d\jointmultilinklist.h" />
+    <ClInclude Include="3d\jointnode.h" />
+    <ClInclude Include="3d\keyframe.h" />
+    <ClInclude Include="3d\light.h" />
+    <ClInclude Include="3d\lightlst.h" />
+    <ClInclude Include="3d\mesh3d.h" />
+    <ClInclude Include="3d\meshanimation.h" />
+    <ClInclude Include="3d\objectcollisiondata3d.h" />
+    <ClInclude Include="3d\objectdata3d.h" />
+    <ClInclude Include="3d\objectdatalist3d.h" />
+    <ClInclude Include="3d\objectshadowdata3d.h" />
+    <ClInclude Include="3d\objectvisualdata3d.h" />
+    <ClInclude Include="3d\sector3d.h" />
+    <ClInclude Include="3d\sprite3d.h" />
+    <ClInclude Include="3d\spritegroup3d.h" />
+    <ClInclude Include="3d\stage3d.h" />
+    <ClInclude Include="3d\visualmesh3d.h" />
+    <ClInclude Include="3d\visualsprite3d.h" />
+    <ClInclude Include="3d\worldcamera.h" />
+    <ClInclude Include="3d\xalphaface.h" />
+    <ClInclude Include="common\actordata.h" />
+    <ClInclude Include="common\bitmask.h" />
+    <ClInclude Include="common\camera.h" />
+    <ClInclude Include="common\color.h" />
+    <ClInclude Include="common\defs.h" />
+    <ClInclude Include="common\dynamicoffset.h" />
+    <ClInclude Include="common\face.h" />
+    <ClInclude Include="common\fontgroup.h" />
+    <ClInclude Include="common\jpoint.h" />
+    <ClInclude Include="common\jvertex.h" />
+    <ClInclude Include="common\matrix.h" />
+    <ClInclude Include="common\megatexture.h" />
+    <ClInclude Include="common\megatexturecomponent.h" />
+    <ClInclude Include="common\normal.h" />
+    <ClInclude Include="common\object.h" />
+    <ClInclude Include="common\point.h" />
+    <ClInclude Include="common\pointint.h" />
+    <ClInclude Include="common\progressbar.h" />
+    <ClInclude Include="common\quad.h" />
+    <ClInclude Include="common\quaternion.h" />
+    <ClInclude Include="common\radian.h" />
+    <ClInclude Include="common\rect.h" />
+    <ClInclude Include="common\sectordata.h" />
+    <ClInclude Include="common\size.h" />
+    <ClInclude Include="common\spritedata.h" />
+    <ClInclude Include="common\stagedata.h" />
+    <ClInclude Include="common\texture.h" />
+    <ClInclude Include="common\texturepartition.h" />
+    <ClInclude Include="common\transformdata.h" />
+    <ClInclude Include="common\uv.h" />
+    <ClInclude Include="common\vertex.h" />
+    <ClInclude Include="common\vertex2d.h" />
+    <ClInclude Include="common\winapidefs.h" />
+    <ClInclude Include="common\worldpoint.h" />
+    <ClInclude Include="common\worldvalue.h" />
+    <ClInclude Include="common\xface.h" />
+    <ClInclude Include="common\xface2d.h" />
+    <ClInclude Include="common\xjface.h" />
+    <ClInclude Include="common\xquad2d.h" />
+    <ClInclude Include="common\xvert2d.h" />
+    <ClInclude Include="common\xvertexbuffer.h" />
+    <ClInclude Include="controller\axischeck.h" />
+    <ClInclude Include="controller\basecontroller.h" />
+    <ClInclude Include="controller\controllerdefs.h" />
+    <ClInclude Include="controller\devicemovement.h" />
+    <ClInclude Include="controller\gamecontroller.h" />
+    <ClInclude Include="controller\joypadcontroller.h" />
+    <ClInclude Include="controller\keyboardcontroller.h" />
+    <ClInclude Include="controller\keybuttonaction.h" />
+    <ClInclude Include="controller\mousecontroller.h" />
+    <ClInclude Include="gui\controlevent.h" />
+    <ClInclude Include="gui\ismartguibase.h" />
+    <ClInclude Include="gui\uiamountbutton.h" />
+    <ClInclude Include="gui\uibutton.h" />
+    <ClInclude Include="gui\uibuttonlist.h" />
+    <ClInclude Include="gui\uicheckbox.h" />
+    <ClInclude Include="gui\uicontrol.h" />
+    <ClInclude Include="gui\uicontroldefs.h" />
+    <ClInclude Include="gui\uicontrolfactory.h" />
+    <ClInclude Include="gui\uihudcontrol.h" />
+    <ClInclude Include="gui\uilabel.h" />
+    <ClInclude Include="gui\uimenu.h" />
+    <ClInclude Include="gui\uimenudefs.h" />
+    <ClInclude Include="gui\uimenutree.h" />
+    <ClInclude Include="gui\uiprogressbar.h" />
+    <ClInclude Include="gui\uiscrollbox.h" />
+    <ClInclude Include="gui\uislider.h" />
+    <ClInclude Include="gui\uisubcontrol.h" />
+    <ClInclude Include="gui\uitabcontrol.h" />
+    <ClInclude Include="managers\actordatalist.h" />
+    <ClInclude Include="managers\actormanager.h" />
+    <ClInclude Include="managers\basesavefile.h" />
+    <ClInclude Include="managers\generatormanager.h" />
+    <ClInclude Include="managers\hudmanager.h" />
+    <ClInclude Include="managers\instancemeshmanager.h" />
+    <ClInclude Include="managers\megatexturemanager.h" />
+    <ClInclude Include="managers\meshmanager.h" />
+    <ClInclude Include="managers\physicsworldmanager.h" />
+    <ClInclude Include="managers\shader.h" />
+    <ClInclude Include="managers\stagedatalist.h" />
+    <ClInclude Include="managers\texturemanager.h" />
+    <ClInclude Include="managers\vertexbuffermanager2d.h" />
+    <ClInclude Include="misc\effectdata.h" />
+    <ClInclude Include="misc\eventapi.h" />
+    <ClInclude Include="misc\settings.h" />
+    <ClInclude Include="misc\shaderevent.h" />
+    <ClInclude Include="misc\spritebinaryfileheader.h" />
+    <ClInclude Include="scripting\colorscriptdefs.h" />
+    <ClInclude Include="scripting\command.h" />
+    <ClInclude Include="scripting\commandscript.h" />
+    <ClInclude Include="scripting\framescriptdefs.h" />
+    <ClInclude Include="scripting\generalscriptdefs.h" />
+    <ClInclude Include="scripting\positionscriptdefs.h" />
+    <ClInclude Include="scripting\rotationscriptdefs.h" />
+    <ClInclude Include="scripting\scalescriptdefs.h" />
+    <ClInclude Include="scripting\script.h" />
+    <ClInclude Include="scripting\scriptcolor.h" />
+    <ClInclude Include="scripting\scriptcolorto.h" />
+    <ClInclude Include="scripting\scriptcolortodefault.h" />
+    <ClInclude Include="scripting\scriptdefs.h" />
+    <ClInclude Include="scripting\scriptinccolor.h" />
+    <ClInclude Include="scripting\scriptmanager.h" />
+    <ClInclude Include="scripting\scriptobject.h" />
+    <ClInclude Include="scripting\scriptsetcolor.h" />
+    <ClInclude Include="scripting\scriptsetcolortodefault.h" />
+    <ClInclude Include="scripting\scriptstep.h" />
+    <ClInclude Include="scripting\soundscriptdefs.h" />
+    <ClInclude Include="system\gamewnd.h" />
+    <ClInclude Include="system\xdevice.h" />
+    <ClInclude Include="utilities\collisionfunc2d.h" />
+    <ClInclude Include="utilities\criticalsection.h" />
+    <ClInclude Include="utilities\cullfunc.h" />
+    <ClInclude Include="utilities\deletefuncs.h" />
+    <ClInclude Include="utilities\doublylinkedlist.h" />
+    <ClInclude Include="utilities\exceptionhandling.h" />
+    <ClInclude Include="utilities\genfunc.h" />
+    <ClInclude Include="utilities\highresolutiontimer.h" />
+    <ClInclude Include="utilities\mathfunc.h" />
+    <ClInclude Include="utilities\multilinklist.h" />
+    <ClInclude Include="utilities\smartpointers.h" />
+    <ClInclude Include="utilities\sortfunc.h" />
+    <ClInclude Include="utilities\statcounter.h" />
+    <ClInclude Include="utilities\state.h" />
+    <ClInclude Include="utilities\thread.h" />
+    <ClInclude Include="utilities\timer.h" />
+    <ClInclude Include="utilities\xmlparsehelper.h" />
+    <ClInclude Include="xact\soundcue.h" />
+    <ClInclude Include="xact\xact.h" />
+    <ClInclude Include="xact\xactdefs.h" />
+    <ClInclude Include="xmlParser\xmlParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2d\actorsprite2d.cpp" />
+    <ClCompile Include="2d\font.cpp" />
+    <ClCompile Include="2d\fontmanager.cpp" />
+    <ClCompile Include="2d\fontsprite.cpp" />
+    <ClCompile Include="2d\generator2d.cpp" />
+    <ClCompile Include="2d\iaibase.cpp" />
+    <ClCompile Include="2d\instancemesh2d.cpp" />
+    <ClCompile Include="2d\ismartspritegroup.cpp" />
+    <ClCompile Include="2d\collisionsprite2d.cpp" />
+    <ClCompile Include="2d\objectcollisiondata2d.cpp" />
+    <ClCompile Include="2d\objectdatalist2d.cpp" />
+    <ClCompile Include="2d\objectscriptdata2d.cpp" />
+    <ClCompile Include="2d\objectvisualdata2d.cpp" />
+    <ClCompile Include="2d\physicsworld.cpp" />
+    <ClCompile Include="2d\sector2d.cpp" />
+    <ClCompile Include="2d\spritegroup2d.cpp" />
+    <ClCompile Include="2d\stage2d.cpp" />
+    <ClCompile Include="2d\visualmesh2d.cpp" />
+    <ClCompile Include="2d\visualsprite2d.cpp" />
+    <ClCompile Include="3d\collision.cpp" />
+    <ClCompile Include="3d\collisioncheck.cpp" />
+    <ClCompile Include="3d\collisionmesh3d.cpp" />
+    <ClCompile Include="3d\collisionsprite3d.cpp" />
+    <ClCompile Include="3d\hotspot.cpp" />
+    <ClCompile Include="3d\hotspotwarp.cpp" />
+    <ClCompile Include="3d\jointanimationmanager.cpp" />
+    <ClCompile Include="3d\jointanimationmesh3d.cpp" />
+    <ClCompile Include="3d\jointanimationsprite3d.cpp" />
+    <ClCompile Include="3d\jointnode.cpp" />
+    <ClCompile Include="3d\light.cpp" />
+    <ClCompile Include="3d\lightlst.cpp" />
+    <ClCompile Include="3d\mesh3d.cpp" />
+    <ClCompile Include="3d\objectcollisiondata3d.cpp" />
+    <ClCompile Include="3d\objectdatalist3d.cpp" />
+    <ClCompile Include="3d\objectshadowdata3d.cpp" />
+    <ClCompile Include="3d\objectvisualdata3d.cpp" />
+    <ClCompile Include="3d\sector3d.cpp" />
+    <ClCompile Include="3d\sprite3d.cpp" />
+    <ClCompile Include="3d\spritegroup3d.cpp" />
+    <ClCompile Include="3d\stage3d.cpp" />
+    <ClCompile Include="3d\visualmesh3d.cpp" />
+    <ClCompile Include="3d\visualsprite3d.cpp" />
+    <ClCompile Include="3d\worldcamera.cpp" />
+    <ClCompile Include="3d\xalphaface.cpp" />
+    <ClCompile Include="common\actordata.cpp" />
+    <ClCompile Include="common\bitmask.cpp" />
+    <ClCompile Include="common\camera.cpp" />
+    <ClCompile Include="common\face.cpp" />
+    <ClCompile Include="common\matrix.cpp" />
+    <ClCompile Include="common\megatexture.cpp" />
+    <ClCompile Include="common\object.cpp" />
+    <ClCompile Include="common\point.cpp" />
+    <ClCompile Include="common\pointint.cpp" />
+    <ClCompile Include="common\sectordata.cpp" />
+    <ClCompile Include="common\spritedata.cpp" />
+    <ClCompile Include="common\stagedata.cpp" />
+    <ClCompile Include="common\transformdata.cpp" />
+    <ClCompile Include="common\worldpoint.cpp" />
+    <ClCompile Include="common\worldvalue.cpp" />
+    <ClCompile Include="controller\basecontroller.cpp" />
+    <ClCompile Include="controller\gamecontroller.cpp" />
+    <ClCompile Include="controller\joypadcontroller.cpp" />
+    <ClCompile Include="controller\keyboardcontroller.cpp" />
+    <ClCompile Include="controller\mousecontroller.cpp" />
+    <ClCompile Include="gui\ismartguibase.cpp" />
+    <ClCompile Include="gui\uiamountbutton.cpp" />
+    <ClCompile Include="gui\uibutton.cpp" />
+    <ClCompile Include="gui\uibuttonlist.cpp" />
+    <ClCompile Include="gui\uicheckbox.cpp" />
+    <ClCompile Include="gui\uicontrol.cpp" />
+    <ClCompile Include="gui\uicontrolfactory.cpp" />
+    <ClCompile Include="gui\uihudcontrol.cpp" />
+    <ClCompile Include="gui\uilabel.cpp" />
+    <ClCompile Include="gui\uimenu.cpp" />
+    <ClCompile Include="gui\uimenutree.cpp" />
+    <ClCompile Include="gui\uiprogressbar.cpp" />
+    <ClCompile Include="gui\uiscrollbox.cpp" />
+    <ClCompile Include="gui\uislider.cpp" />
+    <ClCompile Include="gui\uisubcontrol.cpp" />
+    <ClCompile Include="gui\uitabcontrol.cpp" />
+    <ClCompile Include="managers\actordatalist.cpp" />
+    <ClCompile Include="managers\actormanager.cpp" />
+    <ClCompile Include="managers\basesavefile.cpp" />
+    <ClCompile Include="managers\generatormanager.cpp" />
+    <ClCompile Include="managers\hudmanager.cpp" />
+    <ClCompile Include="managers\instancemeshmanager.cpp" />
+    <ClCompile Include="managers\megatexturemanager.cpp" />
+    <ClCompile Include="managers\meshmanager.cpp" />
+    <ClCompile Include="managers\physicsworldmanager.cpp" />
+    <ClCompile Include="managers\shader.cpp" />
+    <ClCompile Include="managers\stagedatalist.cpp" />
+    <ClCompile Include="managers\texturemanager.cpp" />
+    <ClCompile Include="managers\vertexbuffermanager2d.cpp" />
+    <ClCompile Include="misc\settings.cpp" />
+    <ClCompile Include="scripting\command.cpp" />
+    <ClCompile Include="scripting\commandscript.cpp" />
+    <ClCompile Include="scripting\scriptcolor.cpp" />
+    <ClCompile Include="scripting\scriptcolorto.cpp" />
+    <ClCompile Include="scripting\scriptcolortodefault.cpp" />
+    <ClCompile Include="scripting\scriptinccolor.cpp" />
+    <ClCompile Include="scripting\scriptmanager.cpp" />
+    <ClCompile Include="scripting\scriptobject.cpp" />
+    <ClCompile Include="scripting\scriptsetcolor.cpp" />
+    <ClCompile Include="scripting\scriptsetcolortodefault.cpp" />
+    <ClCompile Include="scripting\scriptstep.cpp" />
+    <ClCompile Include="system\gamewnd.cpp" />
+    <ClCompile Include="system\xdevice.cpp" />
+    <ClCompile Include="utilities\collisionfunc2d.cpp" />
+    <ClCompile Include="utilities\criticalsection.cpp" />
+    <ClCompile Include="utilities\genfunc.cpp" />
+    <ClCompile Include="utilities\highresolutiontimer.cpp" />
+    <ClCompile Include="utilities\mathfunc.cpp" />
+    <ClCompile Include="utilities\sortfunc.cpp" />
+    <ClCompile Include="utilities\statcounter.cpp" />
+    <ClCompile Include="utilities\state.cpp" />
+    <ClCompile Include="utilities\timer.cpp" />
+    <ClCompile Include="utilities\xmlparsehelper.cpp" />
+    <ClCompile Include="xact\xact.cpp" />
+    <ClCompile Include="xmlParser\xmlParser.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

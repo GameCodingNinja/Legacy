@@ -1,0 +1,20 @@
+<actor>
+
+  <camera use="true"/>
+  
+  <spriteDataList>
+
+    <spriteData name="fireTail" group="(actors)" type="player_fire_tail">
+      <position x="-115" y="3"/>
+    </spriteData>
+    
+    <spriteData group="(actors)" type="player_ship"/>
+
+    <spriteData name="gun" group="(actors)" type="player_ship_gun">
+      <scale uniform="0.4"/>
+    </spriteData>
+
+  </spriteDataList>
+  
+</actor>
+

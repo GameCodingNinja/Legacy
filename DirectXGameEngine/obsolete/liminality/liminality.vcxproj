@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 64-bit|Win32">
+      <Configuration>Release 64-bit</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{871B4288-3F67-4FEE-938D-A89C82487FE9}</ProjectGuid>
+    <RootNamespace>liminality</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\svnRabidSquirrelGamesClient\library;C:\Program Files\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\svnRabidSquirrelGamesClient\library;C:\Program Files\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;C:\development\GameCodingNinja\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source Files\game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\library\2d\actorsprite2d.cpp" />
+    <ClCompile Include="..\library\2d\collisioncheck2d.cpp" />
+    <ClCompile Include="..\library\2d\collisionmesh2d.cpp" />
+    <ClCompile Include="..\library\2d\collisionsprite2d.cpp" />
+    <ClCompile Include="..\library\2d\font.cpp" />
+    <ClCompile Include="..\library\2d\iaibase.cpp" />
+    <ClCompile Include="..\library\2d\spritepath2d.cpp" />
+    <ClCompile Include="..\library\2d\fontmanager.cpp" />
+    <ClCompile Include="..\library\2d\fontsprite.cpp" />
+    <ClCompile Include="..\library\2d\objectdatalist2d.cpp" />
+    <ClCompile Include="..\library\2d\sector2d.cpp" />
+    <ClCompile Include="..\library\2d\sprite2d.cpp" />
+    <ClCompile Include="..\library\2d\spritegroup2d.cpp" />
+    <ClCompile Include="..\library\2d\stage2d.cpp" />
+    <ClCompile Include="..\library\2d\vertexbuffermanager2d.cpp" />
+    <ClCompile Include="..\library\2d\vertexpath.cpp" />
+    <ClCompile Include="..\library\2d\visualmesh2d.cpp" />
+    <ClCompile Include="..\library\2d\visualsprite2d.cpp" />
+    <ClCompile Include="..\library\3d\animatedspritegroup.cpp" />
+    <ClCompile Include="..\library\3d\collision.cpp" />
+    <ClCompile Include="..\library\3d\collisioncheck.cpp" />
+    <ClCompile Include="..\library\3d\collisionmesh.cpp" />
+    <ClCompile Include="..\library\3d\collisionsprite.cpp" />
+    <ClCompile Include="..\library\3d\hotspot.cpp" />
+    <ClCompile Include="..\library\3d\hotspotwarp.cpp" />
+    <ClCompile Include="..\library\3d\jointanimationmanager.cpp" />
+    <ClCompile Include="..\library\3d\jointanimationmesh.cpp" />
+    <ClCompile Include="..\library\3d\jointanimationsprite.cpp" />
+    <ClCompile Include="..\library\3d\jointnode.cpp" />
+    <ClCompile Include="..\library\3d\light.cpp" />
+    <ClCompile Include="..\library\3d\lightlst.cpp" />
+    <ClCompile Include="..\library\3d\mesh.cpp" />
+    <ClCompile Include="..\library\3d\objectdatalist.cpp" />
+    <ClCompile Include="..\library\3d\sector3d.cpp" />
+    <ClCompile Include="..\library\3d\sprite.cpp" />
+    <ClCompile Include="..\library\3d\spritegroup.cpp" />
+    <ClCompile Include="..\library\3d\stage.cpp" />
+    <ClCompile Include="..\library\3d\stagedata.cpp" />
+    <ClCompile Include="..\library\3d\visualmesh.cpp" />
+    <ClCompile Include="..\library\3d\visualsprite.cpp" />
+    <ClCompile Include="..\library\3d\worldcamera.cpp" />
+    <ClCompile Include="..\library\3d\xalphaface.cpp" />
+    <ClCompile Include="..\library\common\actordata.cpp" />
+    <ClCompile Include="..\library\common\camera.cpp" />
+    <ClCompile Include="..\library\common\collisionvertex.cpp" />
+    <ClCompile Include="..\library\common\edge.cpp" />
+    <ClCompile Include="..\library\common\face.cpp" />
+    <ClCompile Include="..\library\common\matrix.cpp" />
+    <ClCompile Include="..\library\common\object.cpp" />
+    <ClCompile Include="..\library\common\pointint.cpp" />
+    <ClCompile Include="..\library\gui\ismartguibase.cpp" />
+    <ClCompile Include="..\library\gui\uibutton.cpp" />
+    <ClCompile Include="..\library\gui\uibuttonlist.cpp" />
+    <ClCompile Include="..\library\gui\uicheckbox.cpp" />
+    <ClCompile Include="..\library\gui\uicontrol.cpp" />
+    <ClCompile Include="..\library\gui\uilable.cpp" />
+    <ClCompile Include="..\library\gui\uimenu.cpp" />
+    <ClCompile Include="..\library\gui\uimenutree.cpp" />
+    <ClCompile Include="..\library\managers\actordatalist.cpp" />
+    <ClCompile Include="..\library\managers\actormanager.cpp" />
+    <ClCompile Include="..\library\managers\meshmanager.cpp" />
+    <ClCompile Include="..\library\managers\shader.cpp" />
+    <ClCompile Include="..\library\managers\stagedatalist.cpp" />
+    <ClCompile Include="..\library\managers\texturemanager.cpp" />
+    <ClCompile Include="..\library\misc\settings.cpp" />
+    <ClCompile Include="..\library\scripting\command.cpp" />
+    <ClCompile Include="..\library\scripting\commandscript.cpp" />
+    <ClCompile Include="..\library\scripting\scriptmanager.cpp" />
+    <ClCompile Include="..\library\scripting\scriptstep.cpp" />
+    <ClCompile Include="..\library\system\gamewnd.cpp" />
+    <ClCompile Include="..\library\system\xwindow.cpp" />
+    <ClCompile Include="..\library\utilities\collisionfunc2d.cpp" />
+    <ClCompile Include="..\library\utilities\criticalsection.cpp" />
+    <ClCompile Include="..\library\utilities\genfunc.cpp" />
+    <ClCompile Include="..\library\utilities\highresolutiontimer.cpp" />
+    <ClCompile Include="..\library\utilities\statcounter.cpp" />
+    <ClCompile Include="..\library\utilities\state.cpp" />
+    <ClCompile Include="..\library\utilities\timer.cpp" />
+    <ClCompile Include="..\library\utilities\xmlparsehelper.cpp" />
+    <ClCompile Include="Source Files\commonstate.cpp" />
+    <ClCompile Include="Source Files\liminality.cpp" />
+    <ClCompile Include="Source Files\matuvlist.cpp" />
+    <ClCompile Include="Source Files\matuvlistmanager.cpp" />
+    <ClCompile Include="Source Files\runstate.cpp" />
+    <ClCompile Include="Source Files\sectorlayer.cpp" />
+    <ClCompile Include="Source Files\smartapplysettingsbtn.cpp" />
+    <ClCompile Include="Source Files\smartbtncapturemenu.cpp" />
+    <ClCompile Include="Source Files\smartcontrolbindinglist.cpp" />
+    <ClCompile Include="Source Files\smartexitbtn.cpp" />
+    <ClCompile Include="Source Files\smartfullscreencheckbox.cpp" />
+    <ClCompile Include="Source Files\smartkeybindbtn.cpp" />
+    <ClCompile Include="Source Files\smartresolutionbtn.cpp" />
+    <ClCompile Include="Source Files\smartsettingsmenubtn.cpp" />
+    <ClCompile Include="Source Files\smartvsynccheckbox.cpp" />
+    <ClCompile Include="Source Files\startupstate.cpp" />
+    <ClCompile Include="Source Files\winmain.cpp" />
+    <ClCompile Include="..\library\xmlParser\xmlParser.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+    </ClCompile>
+    <ClCompile Include="..\library\controller\basecontroller.cpp" />
+    <ClCompile Include="..\library\controller\gamecontroller.cpp" />
+    <ClCompile Include="..\library\controller\joypadcontroller.cpp" />
+    <ClCompile Include="..\library\controller\keyboardcontroller.cpp" />
+    <ClCompile Include="..\library\controller\mousecontroller.cpp" />
+    <ClCompile Include="..\library\xact\xact.cpp" />
+    <ClCompile Include="Source Files\worldmanager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\library\2d\actorsprite2d.h" />
+    <ClInclude Include="..\library\2d\collisioncheck2d.h" />
+    <ClInclude Include="..\library\2d\collisionmesh2d.h" />
+    <ClInclude Include="..\library\2d\collisionsprite2d.h" />
+    <ClInclude Include="..\library\2d\font.h" />
+    <ClInclude Include="..\library\2d\iaibase.h" />
+    <ClInclude Include="..\library\2d\spritepath2d.h" />
+    <ClInclude Include="..\library\2d\fontmanager.h" />
+    <ClInclude Include="..\library\2d\fontsprite.h" />
+    <ClInclude Include="..\library\2d\objectdata2d.h" />
+    <ClInclude Include="..\library\2d\objectdatalist2d.h" />
+    <ClInclude Include="..\library\2d\sector2d.h" />
+    <ClInclude Include="..\library\2d\sprite2d.h" />
+    <ClInclude Include="..\library\2d\spritegroup2d.h" />
+    <ClInclude Include="..\library\2d\stage2d.h" />
+    <ClInclude Include="..\library\2d\vertexbuffermanager2d.h" />
+    <ClInclude Include="..\library\2d\vertexpath.h" />
+    <ClInclude Include="..\library\2d\visualmesh2d.h" />
+    <ClInclude Include="..\library\2d\visualsprite2d.h" />
+    <ClInclude Include="..\library\3d\animatedspritegroup.h" />
+    <ClInclude Include="..\library\3d\collision.h" />
+    <ClInclude Include="..\library\3d\collisioncheck.h" />
+    <ClInclude Include="..\library\3d\collisionmesh.h" />
+    <ClInclude Include="..\library\3d\collisionsprite.h" />
+    <ClInclude Include="..\library\3d\group.h" />
+    <ClInclude Include="..\library\3d\hotspot.h" />
+    <ClInclude Include="..\library\3d\hotspotwarp.h" />
+    <ClInclude Include="..\library\3d\joint.h" />
+    <ClInclude Include="..\library\3d\jointanimation.h" />
+    <ClInclude Include="..\library\3d\jointanimationmanager.h" />
+    <ClInclude Include="..\library\3d\jointanimationmesh.h" />
+    <ClInclude Include="..\library\3d\jointanimationsprite.h" />
+    <ClInclude Include="..\library\3d\jointmultilinklist.h" />
+    <ClInclude Include="..\library\3d\jointnode.h" />
+    <ClInclude Include="..\library\3d\keyframe.h" />
+    <ClInclude Include="..\library\3d\light.h" />
+    <ClInclude Include="..\library\3d\lighthandlecounter.h" />
+    <ClInclude Include="..\library\3d\lightlst.h" />
+    <ClInclude Include="..\library\3d\mesh.h" />
+    <ClInclude Include="..\library\3d\meshanimation.h" />
+    <ClInclude Include="..\library\3d\objectdata.h" />
+    <ClInclude Include="..\library\3d\objectdatalist.h" />
+    <ClInclude Include="..\library\3d\sector3d.h" />
+    <ClInclude Include="..\library\3d\sectordata.h" />
+    <ClInclude Include="..\library\3d\sprite.h" />
+    <ClInclude Include="..\library\3d\spritegroup.h" />
+    <ClInclude Include="..\library\3d\stage.h" />
+    <ClInclude Include="..\library\3d\stagedata.h" />
+    <ClInclude Include="..\library\3d\stageobjectdata.h" />
+    <ClInclude Include="..\library\3d\visualmesh.h" />
+    <ClInclude Include="..\library\3d\visualsprite.h" />
+    <ClInclude Include="..\library\3d\worldcamera.h" />
+    <ClInclude Include="..\library\3d\xalphaface.h" />
+    <ClInclude Include="..\library\common\actordata.h" />
+    <ClInclude Include="..\library\common\camera.h" />
+    <ClInclude Include="..\library\common\collisionvertex.h" />
+    <ClInclude Include="..\library\common\color.h" />
+    <ClInclude Include="..\library\common\defs.h" />
+    <ClInclude Include="..\library\common\edge.h" />
+    <ClInclude Include="..\library\common\face.h" />
+    <ClInclude Include="..\library\common\face2d.h" />
+    <ClInclude Include="..\library\common\fontgroup.h" />
+    <ClInclude Include="..\library\common\jpoint.h" />
+    <ClInclude Include="..\library\common\jvertex.h" />
+    <ClInclude Include="..\library\common\matrix.h" />
+    <ClInclude Include="..\library\common\normal.h" />
+    <ClInclude Include="..\library\common\object.h" />
+    <ClInclude Include="..\library\common\point.h" />
+    <ClInclude Include="..\library\common\pointint.h" />
+    <ClInclude Include="..\library\common\quad.h" />
+    <ClInclude Include="..\library\common\quaternion.h" />
+    <ClInclude Include="..\library\common\radian.h" />
+    <ClInclude Include="..\library\common\rect.h" />
+    <ClInclude Include="..\library\common\size.h" />
+    <ClInclude Include="..\library\common\spritedata.h" />
+    <ClInclude Include="..\library\common\texture.h" />
+    <ClInclude Include="..\library\common\uv.h" />
+    <ClInclude Include="..\library\common\vertex.h" />
+    <ClInclude Include="..\library\common\vertex2d.h" />
+    <ClInclude Include="..\library\common\winapidefs.h" />
+    <ClInclude Include="..\library\common\worldpoint.h" />
+    <ClInclude Include="..\library\common\xface.h" />
+    <ClInclude Include="..\library\common\xface2d.h" />
+    <ClInclude Include="..\library\common\xjface.h" />
+    <ClInclude Include="..\library\common\xquad2d.h" />
+    <ClInclude Include="..\library\common\xvert2d.h" />
+    <ClInclude Include="..\library\common\xvertexbuffer.h" />
+    <ClInclude Include="..\library\gui\controlevent.h" />
+    <ClInclude Include="..\library\gui\ismartguibase.h" />
+    <ClInclude Include="..\library\gui\menudefs.h" />
+    <ClInclude Include="..\library\gui\uibutton.h" />
+    <ClInclude Include="..\library\gui\uibuttonlist.h" />
+    <ClInclude Include="..\library\gui\uicheckbox.h" />
+    <ClInclude Include="..\library\gui\uicontrol.h" />
+    <ClInclude Include="..\library\gui\uicontroldefs.h" />
+    <ClInclude Include="..\library\gui\uilabel.h" />
+    <ClInclude Include="..\library\gui\uimenu.h" />
+    <ClInclude Include="..\library\gui\uimenutree.h" />
+    <ClInclude Include="..\library\managers\actordatalist.h" />
+    <ClInclude Include="..\library\managers\actormanager.h" />
+    <ClInclude Include="..\library\managers\meshmanager.h" />
+    <ClInclude Include="..\library\managers\shader.h" />
+    <ClInclude Include="..\library\managers\stagedatalist.h" />
+    <ClInclude Include="..\library\managers\texturemanager.h" />
+    <ClInclude Include="..\library\misc\effectdata.h" />
+    <ClInclude Include="..\library\misc\eventapi.h" />
+    <ClInclude Include="..\library\misc\settings.h" />
+    <ClInclude Include="..\library\misc\shaderevent.h" />
+    <ClInclude Include="..\library\misc\spritebinaryfileheader.h" />
+    <ClInclude Include="..\library\scripting\colorscriptdefs.h" />
+    <ClInclude Include="..\library\scripting\command.h" />
+    <ClInclude Include="..\library\scripting\commandscript.h" />
+    <ClInclude Include="..\library\scripting\framescriptdefs.h" />
+    <ClInclude Include="..\library\scripting\generalscriptdefs.h" />
+    <ClInclude Include="..\library\scripting\iobjectanimationdata.h" />
+    <ClInclude Include="..\library\scripting\iobjectlightdata.h" />
+    <ClInclude Include="..\library\scripting\iscriptobject.h" />
+    <ClInclude Include="..\library\scripting\positionscriptdefs.h" />
+    <ClInclude Include="..\library\scripting\rotationscriptdefs.h" />
+    <ClInclude Include="..\library\scripting\scalescriptdefs.h" />
+    <ClInclude Include="..\library\scripting\script.h" />
+    <ClInclude Include="..\library\scripting\scriptdefs.h" />
+    <ClInclude Include="..\library\scripting\scriptmanager.h" />
+    <ClInclude Include="..\library\scripting\scriptstep.h" />
+    <ClInclude Include="..\library\system\gamewnd.h" />
+    <ClInclude Include="..\library\system\xwindow.h" />
+    <ClInclude Include="..\library\utilities\collisionfunc2d.h" />
+    <ClInclude Include="..\library\utilities\criticalsection.h" />
+    <ClInclude Include="..\library\utilities\cullfunc.h" />
+    <ClInclude Include="..\library\utilities\deletefuncs.h" />
+    <ClInclude Include="..\library\utilities\genfunc.h" />
+    <ClInclude Include="..\library\utilities\highresolutiontimer.h" />
+    <ClInclude Include="..\library\utilities\multilinklist.h" />
+    <ClInclude Include="..\library\utilities\smartpointers.h" />
+    <ClInclude Include="..\library\utilities\statcounter.h" />
+    <ClInclude Include="..\library\utilities\state.h" />
+    <ClInclude Include="..\library\utilities\thread.h" />
+    <ClInclude Include="..\library\utilities\timer.h" />
+    <ClInclude Include="..\library\utilities\xmlparsehelper.h" />
+    <ClInclude Include="Source Files\commonstate.h" />
+    <ClInclude Include="Source Files\igamestate.h" />
+    <ClInclude Include="Source Files\liminality.h" />
+    <ClInclude Include="Source Files\matlistdefs.h" />
+    <ClInclude Include="Source Files\matuvlist.h" />
+    <ClInclude Include="..\library\xmlParser\xmlParser.h" />
+    <ClInclude Include="..\library\controller\basecontroller.h" />
+    <ClInclude Include="..\library\controller\controllerdefs.h" />
+    <ClInclude Include="..\library\controller\gamecontroller.h" />
+    <ClInclude Include="..\library\controller\joypadcontroller.h" />
+    <ClInclude Include="..\library\controller\keyboardcontroller.h" />
+    <ClInclude Include="..\library\controller\mousecontroller.h" />
+    <ClInclude Include="..\library\xact\soundcue.h" />
+    <ClInclude Include="..\library\xact\xact.h" />
+    <ClInclude Include="..\library\xact\xactdefs.h" />
+    <ClInclude Include="Source Files\matuvlistmanager.h" />
+    <ClInclude Include="Source Files\runstate.h" />
+    <ClInclude Include="Source Files\sectorlayer.h" />
+    <ClInclude Include="Source Files\smartapplysettingsbtn.h" />
+    <ClInclude Include="Source Files\smartbtncapturemenu.h" />
+    <ClInclude Include="Source Files\smartcontrolbindinglist.h" />
+    <ClInclude Include="Source Files\smartexitbtn.h" />
+    <ClInclude Include="Source Files\smartfullscreencheckbox.h" />
+    <ClInclude Include="Source Files\smartkeybindbtn.h" />
+    <ClInclude Include="Source Files\smartresolutionbtn.h" />
+    <ClInclude Include="Source Files\smartsettingsmenubtn.h" />
+    <ClInclude Include="Source Files\smartvsynccheckbox.h" />
+    <ClInclude Include="Source Files\startupstate.h" />
+    <ClInclude Include="Source Files\winmain.h" />
+    <ClInclude Include="Source Files\worldmanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\materials\fonts\fonts.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\actor\actorDataList.lst" />
+    <None Include="data\objects\2d\actor\player.act" />
+    <None Include="data\objects\2d\menus\button_capture.menu" />
+    <None Include="data\objects\2d\menus\controls.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_120x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_120x52_persistant_frame.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_140x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_240x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_key_binding.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_list.ctrl" />
+    <None Include="data\objects\2d\menus\controls\check_box_240x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\label.ctrl" />
+    <None Include="data\objects\2d\menus\mainTree.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\pause.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\quit.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\save.menu" />
+    <None Include="data\objects\2d\menus\settings.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\title_screen.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\bl_grass_dirt.2dm" />
+    <None Include="data\objects\2d\meshes\br_grass_dirt.2dm" />
+    <None Include="data\objects\2d\meshes\female_test.2dm" />
+    <None Include="data\objects\2d\meshes\grass_dirt.2dm" />
+    <None Include="data\objects\2d\meshes\hatless_link.2dm" />
+    <None Include="data\objects\2d\meshes\menu\120x52_button_blank_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\120x52_button_blank_solid.2dm" />
+    <None Include="data\objects\2d\meshes\menu\140x52_button_blank_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\140x52_button_blank_solid.2dm" />
+    <None Include="data\objects\2d\meshes\menu\240x52_button_blank_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\240x52_button_blank_solid.2dm" />
+    <None Include="data\objects\2d\meshes\menu\290x360_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\304x410_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\450x42_button_blank_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\450x42_button_blank_solid.2dm" />
+    <None Include="data\objects\2d\meshes\menu\500x650_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\540x294_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\arrow_button.2dm" />
+    <None Include="data\objects\2d\meshes\menu\arrow_button_blank_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\arrow_button_blank_solid.2dm" />
+    <None Include="data\objects\2d\meshes\menu\button_list_text_box.2dm" />
+    <None Include="data\objects\2d\meshes\menu\check.2dm" />
+    <None Include="data\objects\2d\meshes\menu\check_box.2dm" />
+    <None Include="data\objects\2d\meshes\tl_grass_dirt.2dm" />
+    <None Include="data\objects\2d\meshes\tr_grass_dirt.2dm" />
+    <None Include="data\objects\2d\object data list\menuDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\object data list\objectDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\object data list\startupDataList.lst" />
+    <None Include="data\objects\2d\scriptList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\button_blank_frame_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_blank_solid_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_list_blank_frame_script.cmd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\button_list_blank_solid_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_list_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\fadeInOutScript.cmd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\female_test.cmd" />
+    <None Include="data\objects\2d\scripts\poweredbywaffles.cmd" />
+    <None Include="data\objects\2d\sectors\sector0.sector">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\sectors\sector1.sector" />
+    <None Include="data\objects\2d\sectors\sector2.sector" />
+    <None Include="data\objects\2d\sectors\sector3.sector" />
+    <None Include="data\objects\2d\sectors\sector4.sector" />
+    <None Include="data\objects\2d\sectors\sector5.sector" />
+    <None Include="data\objects\2d\sectors\sector6.sector" />
+    <None Include="data\objects\2d\sectors\sector7.sector" />
+    <None Include="data\objects\2d\sectors\sector8.sector" />
+    <None Include="data\objects\2d\stageDataList.lst" />
+    <None Include="data\objects\2d\stages\testStageData.stage">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\settings\controllerMapping.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\settings\settings.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\shaders\lights_gausian.fx" />
+    <None Include="data\shaders\post_process.fx" />
+    <None Include="data\shaders\shader_2d.fx" />
+    <None Include="data\shaders\shader_effects.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\shaders\startup_shader_effects.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+<jointAnimLst>
+
+   <anim name="idle" fps="24" file="data\objects\3d\animations\robot_animation.3da"/>
+
+</jointAnimLst>
+

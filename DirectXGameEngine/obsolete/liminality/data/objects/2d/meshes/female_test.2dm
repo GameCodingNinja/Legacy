@@ -1,0 +1,57 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\test animation\female run back01.png"/> <!-- Frame 0 -->
+    <filePath image="data\materials\textures\test animation\female run back02.png"/>
+    <filePath image="data\materials\textures\test animation\female run back03.png"/>
+    <filePath image="data\materials\textures\test animation\female run back04.png"/>
+    <filePath image="data\materials\textures\test animation\female run back05.png"/>
+    <filePath image="data\materials\textures\test animation\female run back06.png"/>
+    <filePath image="data\materials\textures\test animation\female run back07.png"/>
+    <filePath image="data\materials\textures\test animation\female run back08.png"/>
+    <filePath image="data\materials\textures\test animation\female run back09.png"/>
+    <filePath image="data\materials\textures\test animation\female run back10.png"/>
+    <filePath image="data\materials\textures\test animation\female run back11.png"/>
+    <filePath image="data\materials\textures\test animation\female run back12.png"/> <!-- Frame 11 -->
+
+    <filePath image="data\materials\textures\test animation\female run front01.png"/> <!-- Frame 12 -->
+    <filePath image="data\materials\textures\test animation\female run front02.png"/>
+    <filePath image="data\materials\textures\test animation\female run front03.png"/>
+    <filePath image="data\materials\textures\test animation\female run front04.png"/>
+    <filePath image="data\materials\textures\test animation\female run front05.png"/>
+    <filePath image="data\materials\textures\test animation\female run front06.png"/>
+    <filePath image="data\materials\textures\test animation\female run front07.png"/>
+    <filePath image="data\materials\textures\test animation\female run front08.png"/>
+    <filePath image="data\materials\textures\test animation\female run front09.png"/>
+    <filePath image="data\materials\textures\test animation\female run front10.png"/>
+    <filePath image="data\materials\textures\test animation\female run front11.png"/>
+    <filePath image="data\materials\textures\test animation\female run front12.png"/>  <!-- Frame 23 -->
+
+    <filePath image="data\materials\textures\test animation\female run side left01.png"/> <!-- Frame 24 -->
+    <filePath image="data\materials\textures\test animation\female run side left02.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left03.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left04.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left05.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left06.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left07.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left08.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left09.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left10.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left11.png"/>
+    <filePath image="data\materials\textures\test animation\female run side left12.png"/> <!-- Frame 35 -->
+
+    <filePath image="data\materials\textures\test animation\female run side right01.png"/> <!-- Frame 36 -->
+    <filePath image="data\materials\textures\test animation\female run side right02.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right03.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right04.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right05.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right06.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right07.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right08.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right09.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right10.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right11.png"/>
+    <filePath image="data\materials\textures\test animation\female run side right12.png"/> <!-- Frame 47 -->
+  </file>
+
+</mesh2D>

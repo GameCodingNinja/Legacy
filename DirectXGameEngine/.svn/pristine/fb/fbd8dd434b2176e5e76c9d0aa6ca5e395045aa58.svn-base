@@ -1,0 +1,7 @@
+<actorDataList>
+
+  <actorData name="player_ship" aiName="player_ship" instance="(actors)" file="data\objects\2d\actor\playerShip\ship.act"/>
+  <actorData name="player_projectile" aiName="player_projectile" instance="(actors)" file="data\objects\2d\actor\playerShip\projectile.act"/>
+ 
+</actorDataList>
+

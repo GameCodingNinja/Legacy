@@ -1,0 +1,12 @@
+<actor>
+
+  <camera use="true"/>
+  
+  <spriteDataList>
+
+    <spriteData name="player_projectile" group="(actors)" type="player_projectile"/>
+
+  </spriteDataList>
+  
+</actor>
+

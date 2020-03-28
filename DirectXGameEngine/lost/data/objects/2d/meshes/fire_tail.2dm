@@ -1,0 +1,19 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\playerShip\firetail00.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail01.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail02.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail03.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail04.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail05.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail06.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail07.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail08.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail09.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail10.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail11.png"/>
+    <filePath image="data\materials\textures\playerShip\firetail12.png"/>
+  </file>
+
+</mesh2D>

@@ -1,0 +1,5 @@
+<hudListTable>
+
+  <hud name="space" file="data/objects/2d/hud/space.hud"/>
+  
+</hudListTable>

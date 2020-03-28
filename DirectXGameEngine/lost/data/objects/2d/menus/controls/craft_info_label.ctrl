@@ -1,0 +1,22 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <objectDataType type="craft_item_info_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+
+  <fontList>
+    <font fontName="dejavu_sans_cond_26" wrapWidth="543">
+      <position x="-270" y="-4" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="0.30" g="0.52" b="0.77" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <script name="transitionScript"/>
+    </font>
+  </fontList>
+
+</UIControl>

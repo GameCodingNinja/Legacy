@@ -1,0 +1,206 @@
+<objectDataList2D>
+
+  <listGroup name="(menu)"/>
+
+  <objectList>
+  
+    <object name="loading_image">
+      <visual file="data\objects\2d\meshes\loading_image.2dm"/>
+      <properties gravity="false" playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="loading_image" defaultCommand="fadeIn"/>
+    </object>
+
+    <!-- Menu backgrounds -->
+    <object name="290x360_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\290x360_menu_bg.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="transitionScript"/>
+    </object>
+
+    <object name="304x410_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\304x410_menu_bg.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="transitionScript"/>
+    </object>
+
+    <object name="500x650_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\500x650_menu_bg.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="transitionScript"/>
+    </object>
+
+    <object name="540x294_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\540x294_menu_bg.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="transitionScript"/>
+    </object>
+
+    <object name="full_screen_bg">
+      <visual file="rect">
+        <size width="-1" height="-1"/>
+        <!-- -1 width & height indicates the size of the screen -->
+      </visual>
+      <lighting effect="shader_2d" technique="solidRect">
+        <materialColor r="0.2" g="0.2" b="0.2" a="0.2"/>
+      </lighting>
+      <animation scriptName="transitionScript"/>
+    </object>
+  
+  
+    <!-- Control assets -->
+    <object name="450x42_button_blank_persistant_frame">
+      <visual file="data\objects\2d\meshes\menu\450x42_button_blank_frame.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_display_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="450x42_button_blank_solid">
+      <visual file="data\objects\2d\meshes\menu\450x42_button_blank_solid.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_solid_script" defaultCommand="inactive"/>
+    </object>
+  
+    <object name="240x52_button_blank_frame">
+      <visual file="data\objects\2d\meshes\menu\240x52_button_blank_frame.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_frame_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="240x52_button_blank_solid">
+      <visual file="data\objects\2d\meshes\menu\240x52_button_blank_solid.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_solid_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="120x52_button_blank_frame">
+      <visual file="data\objects\2d\meshes\menu\120x52_button_blank_frame.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_frame_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="120x52_button_blank_solid">
+      <visual file="data\objects\2d\meshes\menu\120x52_button_blank_solid.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_solid_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="140x52_button_blank_frame">
+      <visual file="data\objects\2d\meshes\menu\140x52_button_blank_frame.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_frame_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="140x52_button_blank_solid">
+      <visual file="data\objects\2d\meshes\menu\140x52_button_blank_solid.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_blank_solid_script" defaultCommand="inactive"/>
+    </object>
+    
+    <object name="120x52_button_blank_persistant_frame">
+      <visual file="data\objects\2d\meshes\menu\120x52_button_blank_frame.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_display_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="arrow_button_blank_frame">
+      <visual file="data\objects\2d\meshes\menu\arrow_button_blank_frame.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_blank_frame_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="arrow_button_blank_solid">
+      <visual file="data\objects\2d\meshes\menu\arrow_button_blank_solid.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_blank_solid_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="arrow_button">
+      <visual file="data\objects\2d\meshes\menu\arrow_button.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_display_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="button_list_text_box">
+      <visual file="data\objects\2d\meshes\menu\button_list_text_box.2dm"/>
+      <collision file="generate">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_list_display_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="check">
+      <visual file="data\objects\2d\meshes\menu\check.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_display_script" defaultCommand="inactive"/>
+    </object>
+
+    <object name="check_box">
+      <visual file="data\objects\2d\meshes\menu\check_box.2dm"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="button_display_script" defaultCommand="inactive"/>
+    </object>
+    
+  </objectList>
+  
+</objectDataList2D>
+

@@ -1,0 +1,12 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType type="amount_arrow_wide_side">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+
+</UIControl>

@@ -1,0 +1,28 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType type="230_slider_frame">
+      <position x="0" y="0" z="-10"/>
+      <rotation x="0" y="0" z="90"/>
+    </objectDataType>
+  </objectDataList>
+
+  <!-- max travel distance is pixel size area -->
+  <settings maxTravelDistPixels="182" moveDelay="100" moveWaitDelay="400"/>
+
+  <subControlList>
+
+    <!-- slider -->
+    <control controltype="button" defaultState="inactive" playNavSnds="false">
+      <filePath file="data\objects\2d\menus\controls\button_slider_arrow.ctrl"/>
+      <position x="0" y="0" z="-15"/>
+      <rotation x="0" y="0" z="90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+  </subControlList>
+
+</UIControl>

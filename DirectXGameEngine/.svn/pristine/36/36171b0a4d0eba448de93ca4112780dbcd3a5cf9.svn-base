@@ -1,0 +1,44 @@
+<menuManager>
+
+  <menus root="title_screen_menu" returnAction="Menu Back" toggleAction="Menu Toggle" escapeAction="Menu Escape">
+
+    <menu name="title_screen_menu" file="data\objects\2d\menus\title_screen.menu">
+      <dynamicOffset right="100" bottom="100"/>
+      <position z="50"/>
+    </menu>
+
+    <menu name="new_game_menu" file="data\objects\2d\menus\new_game.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="load_game_menu" file="data\objects\2d\menus\load_game.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="pause_menu" file="data\objects\2d\menus\pause.menu">
+      <alignment horizontal="center"/>
+      <position z="50"/>
+    </menu>
+
+    <menu name="settings_menu" file="data\objects\2d\menus\settings.menu">
+      <alignment horizontal="center"/>
+      <position z="50"/>
+    </menu>
+
+    <menu name="key_bindings_menu" file="data\objects\2d\menus\key_bindings.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="button_capture_menu" file="data\objects\2d\menus\button_capture.menu">
+      <alignment horizontal="center"/>
+      <position z="50"/>
+    </menu>
+
+    <menu name="confirmation_menu" file="data\objects\2d\menus\confirmation.menu">
+      <position z="50"/>
+    </menu>
+    
+  </menus>
+
+</menuManager>
+

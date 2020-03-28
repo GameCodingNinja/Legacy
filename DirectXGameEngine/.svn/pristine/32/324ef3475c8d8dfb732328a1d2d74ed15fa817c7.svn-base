@@ -1,0 +1,13 @@
+<fontCfg>
+  
+  <fonts>
+
+    <!-- the name of the font xml file and texture needs to be the same name except for the file extension -->
+    <font name="arial_28" file="data\materials\fonts\arial_28"/>
+    <font name="ocr_a_std_45" file="data\materials\fonts\ocr_a_std_45"/>
+    <font name="ocr_a_std_35" file="data\materials\fonts\ocr_a_std_35"/>
+    <font name="ocr_a_std_26" file="data\materials\fonts\ocr_a_std_26"/>
+
+  </fonts>
+  
+</fontCfg>

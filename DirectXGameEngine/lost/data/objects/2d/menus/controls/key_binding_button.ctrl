@@ -1,0 +1,49 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <objectDataType type="key_binding_button_solid">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>-->
+    <!-- collision handled by this object -->
+    <objectDataType type="key_binding_button_frame">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="dejavu_sans_cond_32">
+      <position x="-435" y="0" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <script name="button_persistant_script"/>
+    </font>
+  </fontList>
+
+  <subControlSettings respondsToAllStates="true"/>
+
+  <subControlList>
+
+    <!-- Keyboard Label -->
+    <control controltype="label" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_label.ctrl"/>
+      <position x="-85" y="0" z="-5"/>
+    </control>
+
+    <!-- Mouse Label -->
+    <control controltype="label" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_label.ctrl"/>
+      <position x="157" y="0" z="-5"/>
+    </control>
+
+    <!-- Joypad Label -->
+    <control controltype="label" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_label.ctrl"/>
+      <position x="370" y="0" z="-5"/>
+    </control>
+
+  </subControlList>
+
+</UIControl>

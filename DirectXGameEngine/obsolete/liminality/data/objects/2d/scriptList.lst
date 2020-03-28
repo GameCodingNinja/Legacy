@@ -1,0 +1,16 @@
+<scriptList>
+
+  <script name="button_blank_frame_script" file="data\objects\2d\scripts\button_blank_frame_script.cmd"/>
+  <script name="button_blank_solid_script" file="data\objects\2d\scripts\button_blank_solid_script.cmd"/>
+  <script name="button_display_script" file="data\objects\2d\scripts\button_display_script.cmd"/>
+  
+  <script name="button_list_blank_frame_script" file="data\objects\2d\scripts\button_list_blank_frame_script.cmd"/>
+  <script name="button_list_blank_solid_script" file="data\objects\2d\scripts\button_list_blank_solid_script.cmd"/>
+  <script name="button_list_display_script" file="data\objects\2d\scripts\button_list_display_script.cmd"/>
+  
+  <script name="transitionScript" file="data\objects\2d\scripts\fadeInOutScript.cmd"/>
+
+  <script name="female_test" file="data\objects\2d\scripts\female_test.cmd"/>
+ 
+</scriptList>
+

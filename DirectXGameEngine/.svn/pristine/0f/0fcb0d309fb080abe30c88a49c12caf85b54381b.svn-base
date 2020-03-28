@@ -1,0 +1,66 @@
+<menu>
+
+  <menuType type="overlay"/>
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="260" height="270"/>
+  
+  <menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Continue Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="104" z="0"/>
+      <fontStringLst>
+        <string text="Continue"/>
+      </fontStringLst>
+      <action actionType="return" executionAction="continue"/>
+    </control>
+
+
+    <!-- New Game Button -->
+    <control controltype="button" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="52" z="0"/>
+      <fontStringLst>
+        <string text="New Game"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="new_game_menu"/>
+    </control>
+    
+    
+    <!-- Load Game Button -->
+    <control controltype="button" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="0" z="0"/>
+      <fontStringLst>
+        <string text="Load Game"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="load_game_menu"/>
+    </control>
+
+    
+    <!-- Settings Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="-52" z="0"/>
+      <fontStringLst>
+        <string text="Settings"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="settings_menu"/>
+    </control>
+
+    
+    <!-- Exit Game Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="-104" z="0"/>
+      <fontStringLst>
+        <string text="Exit Game"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="quit_menu"/>
+    </control>
+
+  </menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
+</menu>
+

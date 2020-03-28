@@ -1,0 +1,12 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\menu\ship1.png"/>
+    <filePath image="data\materials\textures\menu\ship2.png"/>
+    <filePath image="data\materials\textures\menu\ship3.png"/>
+    <filePath image="data\materials\textures\menu\ship4.png"/>
+    <filePath image="data\materials\textures\menu\ship5.png"/>
+    <filePath image="data\materials\textures\menu\ship6.png"/>
+  </file>
+
+</mesh2D>

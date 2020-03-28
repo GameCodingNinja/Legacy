@@ -1,0 +1,169 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+
+  <objectDataList> -->
+    <!-- collision handled by this object -->
+    <objectDataType type="craft_tab_scroll_box_collision">
+      <position x="0" y="0" z="0"/>
+    </objectDataType>
+  </objectDataList>
+
+  <!-- Scroll box mask -->
+  <stencilMask type="craft_tab_scroll_box_mask">
+    <position x="-35" y="0" z="-5"/>
+  </stencilMask>
+
+  <subControlList>
+
+    <!-- Decrement Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="295" y="370" z="0"/>
+      <rotation x="0" y="0" z="-90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- Increment Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="295" y="-370" z="0"/>
+      <rotation x="0" y="0" z="90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- slider Control -->
+    <control controltype="slider" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_scroll_box_slider.ctrl"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+      <position x="295" y="0" z="0"/>
+      <settings orientation="VERT"/>
+    </control>
+
+  </subControlList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+
+  <navigation pageUp="Menu Left" pageDown="Menu Right"/>
+
+  <scrollBoxSettings downWaitTimerDelay="170" holdWaitTimerDelay="400" scrollSpeed="0.2" pageSpeed="1.0"/>
+  
+  <scrollBoxControlList>
+
+    <!-- initial offset -->
+    <position x="-35" y="364" z="-5"/>
+    <controlInfo height="52" visibleInScrollBox="15"/>
+
+    
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Small Munitions Crystals"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Medium Munitions Crystals"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Large Munitions Crystals"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Dark Matter"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="White Crystals"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Red Crystals"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Catalyst-X"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Atomic ?????"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Bad-Day Nitric Compound"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="?????? Matter"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Atom-Smasher Nitrate"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="??????? Capsule"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+  </scrollBoxControlList>
+
+</UIControl>

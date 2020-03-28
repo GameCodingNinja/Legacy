@@ -1,0 +1,101 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+      
+      <!-- Pause Label -->
+      <control controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\menu_label.ctrl"/>
+        <position x="0" y="136" z="0"/>
+        <fontStringLst>
+          <string text="Pause"/>
+        </fontStringLst>
+      </control>
+
+      <!-- mouse-only close Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\close_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="125" y="146" z="0"/>
+        <action actionType="close"/>
+      </control>
+
+      <!-- Resume Button -->
+      <control controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="76" z="0"/>
+        <fontStringLst>
+          <string text="Resume"/>
+        </fontStringLst>
+        <action actionType="return"/>
+      </control>
+
+      <!-- Settings Button -->
+      <control controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="24" z="0"/>
+        <fontStringLst>
+          <string text="Settings"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="settings_menu"/>
+      </control>
+
+      <!-- Key Bindings Button -->
+      <control controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-28" z="0"/>
+        <fontStringLst>
+          <string text="Key Bindings"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="key_bindings_menu"/>
+      </control>
+
+      <!-- Main Menu Button -->
+      <control name="main_menu_btn" controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-80" z="0"/>
+        <fontStringLst>
+          <string text="Main Menu"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="confirmation_menu"/>
+        <!-- <action actionType="deactivate" executionAction="to_main_menu"/> -->
+      </control>
+
+      <!-- Exit Game Button -->
+      <control name="exit_btn" controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-132" z="0"/>
+        <fontStringLst>
+          <string text="Exit Game"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="confirmation_menu"/>
+      </control>
+
+    </focusGroup>
+
+  </menuControls>
+
+  
+  <staticSprites>
+    
+    <sprite objectType="pause_menu_bg">
+      <position x="0" y="0" z="0"/>
+      <scale uniform="1"/>
+    </sprite>
+    
+  </staticSprites>
+  
+  
+</menu>
+

@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{5edcfcef-d6bd-4cd8-8eeb-556916a2b6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\settings">
+      <UniqueIdentifier>{0e2462b0-7b44-4404-99cc-5b9eebee64be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects">
+      <UniqueIdentifier>{76148a3b-82b4-4d57-94aa-a71b12fd6247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d">
+      <UniqueIdentifier>{1e555716-2abd-4dd6-82fd-4a7f34954d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\sectors">
+      <UniqueIdentifier>{87108e83-3692-48b1-b598-c09b06310db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\stages">
+      <UniqueIdentifier>{f67f65bf-20ec-4f9a-bd06-26a4986f4b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\menus">
+      <UniqueIdentifier>{0afdf1b8-6afb-45df-ab7a-8816de87912e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\menus\controls">
+      <UniqueIdentifier>{330818ad-cdbb-4f55-8249-3e640b842b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\actor">
+      <UniqueIdentifier>{2c44d94f-ef51-40f6-9bc0-3ca4ebaa5ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\objectDataLists">
+      <UniqueIdentifier>{4d2c8f3b-94f2-4ae2-a012-056b3a64d86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists">
+      <UniqueIdentifier>{3fb1c107-2f7b-4627-a423-6687d24b0684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists\scripts">
+      <UniqueIdentifier>{c07a21e7-dec2-45ae-8f64-beff214a4a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists\scripts\menu">
+      <UniqueIdentifier>{6f00a0a9-6c2e-4f8f-be91-43c67154ef7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists\scripts\startUp">
+      <UniqueIdentifier>{98bc3f8a-9c0f-40e7-a39b-17ecc8c7d08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists\scripts\run">
+      <UniqueIdentifier>{ddf46507-b826-41ca-b8fc-ee61f96b336f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\shaders">
+      <UniqueIdentifier>{22595637-ab5b-47a0-96c7-11f8886da22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{13cdba46-7f5f-41c3-ad2d-1658b6a65603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{f003fc34-7072-4da9-b6aa-b87201a0afda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ai">
+      <UniqueIdentifier>{653e2254-6954-4f91-b434-f8e3c553103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\smartGUI">
+      <UniqueIdentifier>{12307de3-8161-43c3-9502-9be0fbeb10c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\state">
+      <UniqueIdentifier>{8a6c374c-7706-4201-ba7f-e5c2ccf43498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\hud">
+      <UniqueIdentifier>{61a08269-394c-4d96-811e-e08cddf25095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\scriptLists\scripts\loadScreen">
+      <UniqueIdentifier>{bbffe7b3-9283-43b6-bc7d-2c5e29291fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\actor\playerShip">
+      <UniqueIdentifier>{658eab3f-0a3a-464a-87fe-413bd7d24a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\sectors\level_1">
+      <UniqueIdentifier>{8f57ee57-1135-4d45-8aa1-9d4fad5169e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\generators">
+      <UniqueIdentifier>{3816d10e-5569-40cb-b360-3ddfabf10922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes">
+      <UniqueIdentifier>{046cc592-05d1-4976-b193-a0772b172883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes\menu">
+      <UniqueIdentifier>{00faa1cc-c6f8-44fa-8d5e-9e41ca5569d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes\player_ship">
+      <UniqueIdentifier>{a7ffe88f-8fb0-42bd-8532-e6f28ebf2e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes\startup">
+      <UniqueIdentifier>{4cdde4f5-7a99-446e-968f-aa55409b4cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes\space">
+      <UniqueIdentifier>{9d3ff0ad-1622-4b72-925f-0f865b6fb0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\meshes\enemy_ships">
+      <UniqueIdentifier>{e5ce6708-b22f-464a-a4b7-c00fa567b196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\objects\2d\actor\enemyShips">
+      <UniqueIdentifier>{9e544333-b9c9-4a9b-9842-bf524250ab71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\ai\playershipai.cpp">
+      <Filter>source\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\game\winmain.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\state\commonstate.cpp">
+      <Filter>source\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\state\runstate.cpp">
+      <Filter>source\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\state\startupstate.cpp">
+      <Filter>source\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartapplysettingsbtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartbtncapturemenu.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartexitbtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartfullscreencheckbox.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartkeybindbtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartresolutionbtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartscrollbox.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartsettingsmenubtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartvsynccheckbox.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\game\game.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartconfirmbtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartdeadzoneslider.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartkeybindscrollbox.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartnewgamesavebtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartnewloadscrollbox.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartresetkeybind.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\game\savefile.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartcontinuebtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\state\gameloadstate.cpp">
+      <Filter>source\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\state\titlescreenstate.cpp">
+      <Filter>source\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\smartGUI\smartloadgamesavebtn.cpp">
+      <Filter>source\smartGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ai\playerprojectileai.cpp">
+      <Filter>source\ai</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source Files\ai\playershipai.h">
+      <Filter>source\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\game\winmain.h">
+      <Filter>source\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\commonstate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\igamestate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\runstate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\startupstate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartapplysettingsbtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartbtncapturemenu.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartexitbtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartfullscreencheckbox.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartkeybindbtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartresolutionbtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartscrollbox.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartsettingsmenubtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartvsynccheckbox.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\game\game.h">
+      <Filter>source\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartconfirmbtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartdeadzoneslider.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartkeybindscrollbox.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartnewgamesavebtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartnewloadscrollbox.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartresetkeybind.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\game\savefile.h">
+      <Filter>source\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartcontinuebtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\gameloadstate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\state\titlescreenstate.h">
+      <Filter>source\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\smartGUI\smartloadgamesavebtn.h">
+      <Filter>source\smartGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source Files\ai\playerprojectileai.h">
+      <Filter>source\ai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\settings\settings.cfg">
+      <Filter>data\settings</Filter>
+    </None>
+    <None Include="data\objects\2d\stageDataList.lst">
+      <Filter>data\objects\2d</Filter>
+    </None>
+    <None Include="data\shaders\lights_gausian.fx">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\post_process.fx">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\shaders\shader_effects.cfg">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\pause.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\mainTree.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\shaders\shader_2d.fx">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\settings.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\settings\controllerMapping.cfg">
+      <Filter>data\settings</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\arrow_button.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\button_list_text_box.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\check.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\check_box.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\shaders\startup_shader_effects.cfg">
+      <Filter>data\shaders</Filter>
+    </None>
+    <None Include="data\objects\2d\actor\actorDataList.lst">
+      <Filter>data\objects\2d\actor</Filter>
+    </None>
+    <None Include="data\objects\2d\startupScriptList.lst">
+      <Filter>data\objects\2d</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\title_screen.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\button_capture.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_120x52.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_120x52_persistant_frame.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_240x52.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_list.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\check_box_240x52.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\pause_menu_bg.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\settings_menu_bg.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\close_button.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_arrow.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_140x52.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\close_button.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_list_display_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\menuScriptList.lst">
+      <Filter>data\objects\2d\scriptLists</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\startupScriptList.lst">
+      <Filter>data\objects\2d\scriptLists</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\player_ship.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\run</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\fadeInOutScript.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\poweredbywaffles.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\startUp</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\menuDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\startupDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\dataListTable.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\materials\fonts\font.lst">
+      <Filter>data\objects\2d</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\scriptListTable.lst">
+      <Filter>data\objects\2d\scriptLists</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\confirmation.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\message_menu_bg.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\240x52_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\120x52_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\140x52_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\arrow_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_frame_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_solid_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_list_frame_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_list_solid_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_275x52.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\back_button.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\275x52_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\back_button.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\gamepad_deadzone_slider.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\slider_button_arrow_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\slider_selection_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\230_slider_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_slider_frame_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\slider_button_solid_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_slider_arrow.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_140x52_persistant_frame.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_binding_button_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_binding_button_frame_reset.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_binding_scroll_box.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_binding_slider_frame.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_bindings_menu_bg.2dm">
+      <Filter>data\objects\2d\meshes\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\key_bindings.menu">
+      <Filter>data\objects\2d\menus</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\menu_label.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_capture_menu_label.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\confirmation_label.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_button.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_button_reset.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_label.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_menu_label.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_scroll_box.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_scroll_box_slider.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl">
+      <Filter>data\objects\2d\menus\controls</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\scroll_box_display_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\button_persistant_script.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\menu</Filter>
+    </None>
+    <None Include="data\objects\2d\hud\fuel_progress_bar.ctrl">
+      <Filter>data\objects\2d\hud</Filter>
+    </None>
+    <None Include="data\objects\2d\hud\hudListTable.lst">
+      <Filter>data\objects\2d\hud</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\hudDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\hud\objects.hud">
+      <Filter>data\objects\2d\hud</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\loadScreenDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\titleScreenDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\loadScreenScriptList.lst">
+      <Filter>data\objects\2d\scriptLists</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\loading_image.cmd">
+      <Filter>data\objects\2d\scriptLists\scripts\loadScreen</Filter>
+    </None>
+    <None Include="data\objects\2d\actor\playerShip\projectile.act">
+      <Filter>data\objects\2d\actor\playerShip</Filter>
+    </None>
+    <None Include="data\objects\2d\actor\playerShip\ship.act">
+      <Filter>data\objects\2d\actor\playerShip</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\fire_tail.2dm">
+      <Filter>data\objects\2d\meshes\player_ship</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\player_ship.2dm">
+      <Filter>data\objects\2d\meshes\player_ship</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\playerShip\gun.2dm">
+      <Filter>data\objects\2d\meshes\player_ship</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\playerShip\projectile.2dm">
+      <Filter>data\objects\2d\meshes\player_ship</Filter>
+    </None>
+    <None Include="data\objects\2d\stages\level_1.stage">
+      <Filter>data\objects\2d\stages</Filter>
+    </None>
+    <None Include="data\objects\2d\sectors\level_1\sector_01.sector">
+      <Filter>data\objects\2d\sectors\level_1</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\actorsDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\objectDataList\spaceDataList.lst">
+      <Filter>data\objects\2d\objectDataLists</Filter>
+    </None>
+    <None Include="data\objects\2d\scripts\actorsScriptList.lst">
+      <Filter>data\objects\2d\scriptLists</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\startup_waffles.2dm">
+      <Filter>data\objects\2d\meshes\startup</Filter>
+    </None>
+    <None Include="data\objects\2d\generators\generator.lst">
+      <Filter>data\objects\2d\generators</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\space\bigStars.2dm">
+      <Filter>data\objects\2d\meshes\space</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\space\debris.2dm">
+      <Filter>data\objects\2d\meshes\space</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\space\planet.2dm">
+      <Filter>data\objects\2d\meshes\space</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\space\stars.2dm">
+      <Filter>data\objects\2d\meshes\space</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\space\dust.2dm">
+      <Filter>data\objects\2d\meshes\space</Filter>
+    </None>
+    <None Include="data\objects\2d\meshes\enemyShips\orange_ship.2dm">
+      <Filter>data\objects\2d\meshes\enemy_ships</Filter>
+    </None>
+    <None Include="data\objects\2d\actor\enemyShips\green_ship.act">
+      <Filter>data\objects\2d\actor\enemyShips</Filter>
+    </None>
+    <None Include="data\objects\2d\physicsWorldList.lst">
+      <Filter>data\objects\2d</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source Files\game.rc" />
+  </ItemGroup>
+</Project>

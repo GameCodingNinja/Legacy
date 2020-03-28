@@ -1,0 +1,51 @@
+<objectDataList>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <visual file="" alpha="false">
+      <projection type="perspective"/>
+      <shader effect="gausian_lights" technique="rigidBodyLightTransform"/>
+      <specular shine="0.0" intensity="0.0"/>
+      <color r="1.0" g="1.0" b="1.0" a="1.0"/>
+      <animation file="" default=""/>
+    </visual>
+    <collision file="">
+      <body mass="0.0" restitution="0.0" inertia="0.0"/>
+      <color r="1.0" g="1.0" b="1.0" a="1.0"/>
+    </collision>
+    <shadow file="" castShadow="false">
+      <projection type="perspective" minZDist="50.0" maxZDist="500" bias="-8.0" orthoScreenPercent="0.0"/>
+      <shader effect="gausian_lights" technique="rigidBodyLightTransform"/>
+      <color r="1.0" g="1.0" b="1.0" a="1.0"/>
+    </shadow>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+
+  <objectList>
+
+    <object name="robot">
+      <visual file="data\objects\3d\meshes\robot.3dm">
+        <shader effect="gausian_lights" technique="jointBodyLightTransform"/>
+        <animation file="data\objects\3d\scripts\robot.anim" default="idle"/>
+      </visual>
+      <shadow file="">
+        <projection type="perspective" minZDist="50.0" maxZDist="500" bias="-8.0"/>
+        <shader effect="gausian_lights" technique="jointBodyShadowTransform"/>
+      </shadow>
+    </object>
+  
+    <object name="environmentPiece">
+      <visual file="data\objects\3d\meshes\flat_environment_visual.3dm"/>
+    </object>
+
+    <object name="box">
+      <visual file="data\objects\3d\meshes\box.3dm">
+        <shader effect="gausian_lights" technique="rigidBodyLightTextLightTransform"/>
+        <specular shine="20.0" intensity="5.0"/>
+      </visual>
+    </object>
+
+  </objectList>
+ 
+</objectDataList>
+

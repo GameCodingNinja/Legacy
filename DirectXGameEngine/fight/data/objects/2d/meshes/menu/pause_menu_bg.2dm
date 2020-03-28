@@ -1,0 +1,12 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\menu\menu_bg.png"/>
+  </file>
+
+  <generateMesh>
+    <size width="330" height="362"/>
+    <scaledFrame width="30" height="30"/>
+  </generateMesh>
+
+</mesh2D>

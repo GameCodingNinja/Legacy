@@ -1,0 +1,25 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <objectDataType type="140x52_button_solid">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <!-- collision handled by this object -->
+    <objectDataType type="140x52_button_persistant_frame">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="dejavu_sans_reg_40">
+      <position x="0" y="3" z="-15"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <script name="button_persistant_script"/>
+    </font>
+  </fontList>
+
+</UIControl>

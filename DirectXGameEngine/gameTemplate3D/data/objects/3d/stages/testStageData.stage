@@ -1,0 +1,27 @@
+<stage>
+  
+  <!-- Default position and rotation of the camera. -->
+  <defaultCamera>
+    <position x="0.0" y="105.0" z="0.0"/>
+    <rotation x="0.0" y="0.0" z="0.0"/>
+  </defaultCamera>
+
+  <!-- Information for the stage's sky mesh. -->
+  <!-- CURRENTLY NOT SET UP -->
+  <skyMesh file="asdf">
+    <position x="0" y="0" z="0"/>
+    <rotation x="0" y="0" z="0"/>
+  </skyMesh>
+
+  <!-- The stage's sectors and their integer position in the world -->
+  <sectors shaderEffect="gausian_lights">
+
+    <sector>
+      <filePath file="data\objects\3d\sectors\sector0.sector"/>
+      <position x="0" y="0" z="0"/> <!-- Int position only. Don't use floats -->
+    </sector>
+
+  </sectors>
+  
+</stage>
+

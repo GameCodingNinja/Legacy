@@ -1,0 +1,58 @@
+<objectDataList2D>
+
+  <listGroup name="(object)"/>
+
+  <objectList>
+
+    <object name="female_test">
+      <visual file="data\objects\2d\meshes\female_test.2dm"/>
+      <collision file="generate"/>
+      <properties playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="female_test" defaultCommand="runBackward"/>
+    </object>
+  
+    <object name="link">
+      <visual file="data\objects\2d\meshes\hatless_link.2dm"/>
+      <collision file="generate"/>
+      <properties playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+    </object>
+
+    <object name="br_grass_dirt">
+      <visual file="data\objects\2d\meshes\br_grass_dirt.2dm"/>
+      <collision file="generate" genType="bottom_right"/>
+      <properties playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+    </object>
+
+    <object name="tl_grass_dirt">
+      <visual file="data\objects\2d\meshes\tl_grass_dirt.2dm"/>
+      <collision file="generate" genType="top_left"/>
+      <properties playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+    </object>
+
+    <object name="grass_dirt">
+      <visual file="data\objects\2d\meshes\grass_dirt.2dm">
+        <divisions rows="16" columns="16"/>
+        <size width="1024" height="1024"/>
+      </visual>
+      <properties playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+    </object>
+
+  </objectList>
+      
+</objectDataList2D>
+

@@ -1,0 +1,8 @@
+<control name="create_new_save_btn" controltype="button" defaultState="inactive">
+  <filePath file="data\objects\2d\menus\controls\button_new_load_game.ctrl"/>
+  <selection selectAction="Menu Select"/>
+  <fontStringLst>
+    <string text="Create New Save"/>
+  </fontStringLst>
+  <action actionType="deactivate"/>
+</control>

@@ -1,0 +1,8 @@
+<scriptList>
+
+  <listGroup name="(actors)"/>
+
+  <script name="player_ship" file="data\objects\2d\scripts\player_ship.cmd"/>
+ 
+</scriptList>
+

@@ -1,0 +1,20 @@
+<sector>
+
+  <objectLst instance="space">
+<!--
+    <object group="(space)" type="planet">
+      <position x="500" y="270" z="2000"/>
+    </object>
+
+    <object group="(space)" type="planet_atmosphere">
+      <position x="500" y="270" z="2000"/>
+    </object>
+
+    <object group="(space)" type="planet_shadow">
+      <position x="500" y="270" z="2000"/>
+    </object>
+-->
+  </objectLst>
+  
+</sector>
+

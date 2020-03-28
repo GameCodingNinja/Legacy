@@ -1,0 +1,89 @@
+<menu>
+
+  <menuType type="exclusive"/>
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="304" height="410"/>
+  
+  <menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Settings Label -->
+    <control controltype="label" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\label.ctrl"/>
+      <position x="0" y="160" z="0"/>
+      <fontStringLst>
+        <string text="Settings"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Resolution button list -->
+    <control controltype="button_list" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_list.ctrl"/>
+      <position x="0" y="105" z="0"/>
+      <action actionType="action" executionAction="resolution_button_list"/>
+    </control>
+
+    <!-- Full Screen Check Box -->
+    <control controltype="check_box" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\check_box_240x52.ctrl"/>
+      <position x="0" y="55" z="0"/>
+      <fontStringLst>
+        <string text="Full Screen"/>
+      </fontStringLst>
+      <action actionType="action" executionAction="full_screen_check_box"/>
+    </control>
+
+    <!-- V_Sync Check Box -->
+    <control controltype="check_box" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\check_box_240x52.ctrl"/>
+      <position x="0" y="0" z="0"/>
+      <fontStringLst>
+        <string text="V-Sync"/>
+      </fontStringLst>
+      <action actionType="action" executionAction="v-sync_check_box"/>
+    </control>
+    
+    <!-- Controls Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_240x52.ctrl"/>
+      <position x="0" y="-52" z="0"/>
+      <fontStringLst>
+        <string text="Controls"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="controls_menu"/>
+    </control>
+
+    <!-- Apply Button -->
+    <control controltype="button" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\button_140x52.ctrl"/>
+      <position x="0" y="-104" z="0"/>
+      <fontStringLst>
+        <string text="Apply"/>
+      </fontStringLst>
+      <action actionType="return" executionAction="settings_apply_button"/>
+    </control>
+    
+    <!-- Back Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_140x52.ctrl"/>
+      <position x="0" y="-160" z="0"/>
+      <fontStringLst>
+        <string text="Back"/>
+      </fontStringLst>
+      <action actionType="return" executionAction="settings_back_button"/>
+    </control>
+    
+  </menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  
+  <staticSprites> <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+    
+    <sprite objectGroup="(menu)" objectType="304x410_menu_bg">
+      <position x="0" y="0" z="1"/>
+      <scale defaultScale="1"/>
+    </sprite>
+    
+  </staticSprites> <!--//////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
+  
+</menu>
+

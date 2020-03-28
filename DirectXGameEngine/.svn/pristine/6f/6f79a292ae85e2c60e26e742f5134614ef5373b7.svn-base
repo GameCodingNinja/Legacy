@@ -1,0 +1,241 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+
+  <objectDataList> -->
+    <!-- collision handled by this object -->
+    <objectDataType type="craft_tab_scroll_box_collision">
+      <position x="0" y="0" z="0"/>
+    </objectDataType>
+  </objectDataList>
+
+  <!-- Scroll box mask -->
+  <stencilMask type="craft_tab_scroll_box_mask">
+    <position x="-35" y="0" z="-5"/>
+  </stencilMask>
+
+  <subControlList>
+
+    <!-- Decrement Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="295" y="370" z="0"/>
+      <rotation x="0" y="0" z="-90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- Increment Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="295" y="-370" z="0"/>
+      <rotation x="0" y="0" z="90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- slider Control -->
+    <control controltype="slider" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_scroll_box_slider.ctrl"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+      <position x="295" y="0" z="0"/>
+      <settings orientation="VERT"/>
+    </control>
+
+  </subControlList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+
+  <navigation pageUp="Menu Left" pageDown="Menu Right"/>
+
+  <scrollBoxSettings downWaitTimerDelay="170" holdWaitTimerDelay="400" scrollSpeed="0.2" pageSpeed="1.0"/>
+  
+  <scrollBoxControlList>
+
+    <!-- initial offset -->
+    <position x="-35" y="364" z="-5"/>
+    <controlInfo height="52" visibleInScrollBox="15"/>
+
+    
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Exosmose Intender"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Eumenides Manduca Homogamy"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Matricentric Alignment"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Sanctionary"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Foolhardise Interpretive"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="????????? Metopic"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Zodiacal Spouse"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Corvee Basenet"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Niter ???????"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Depopulator Unadvised"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Dissuader Silicule"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="??????? Tollage"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Polyclinic Panicled Muxy"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Motorpathy"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Epistle Tropologize"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Peract ?????????"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Extensometer Strawed"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="???????? Seerfish"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Advancer"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Figpecker Egocentrism Unanimity"/>
+      </fontStringLst>
+      <action actionType="change_focus" executionAction="craft_tab_1"/>
+    </control>
+
+  </scrollBoxControlList>
+
+</UIControl>

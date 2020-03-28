@@ -1,0 +1,111 @@
+<menu>
+
+  <menuType type="exclusive"/>
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="500" height="650"/>
+  
+  <menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Controls Label -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\label.ctrl"/>
+      <position x="0" y="270" z="0"/>
+      <fontStringLst>
+        <string text="Controls"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Device button list -->
+    <control controltype="button_list" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_list.ctrl"/>
+      <position x="0" y="210" z="0"/>
+      <fontStringLst>
+        <string text="Keyboard"/>
+        <string text="Mouse"/>
+        <string text="Gamepad"/>
+      </fontStringLst>
+      <action actionType="action" executionAction="control_device_list"/>
+    </control>
+
+    <!-- Key Binding Button 1 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="150" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 2 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="100" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 3 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="50" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 4 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="0" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 5 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="-50" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 6 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="-100" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 7 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="-150" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+
+    <!-- Key Binding Button 8 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_key_binding.ctrl"/>
+      <position x="0" y="-200" z="0"/>
+      <action actionType="to_menu" executionAction="button_capture_overlay"/>
+    </control>
+    
+    <!-- Back Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_120x52.ctrl"/>
+      <position x="0" y="-270" z="0"/>
+      <fontStringLst>
+        <string text="Back"/>
+      </fontStringLst>
+      <action actionType="return" executionAction="controls_back_button"/>
+    </control>
+    
+    
+  </menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  
+  <staticSprites> <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+    
+    <sprite objectGroup="(menu)" objectType="500x650_menu_bg">
+      <position x="0" y="0" z="1"/>
+      <scale defaultScale="1"/>
+    </sprite>
+    
+  </staticSprites> <!--//////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
+  
+</menu>
+

@@ -1,0 +1,8 @@
+<actorDataList>
+
+  <actorData name="player_ship" aiName="player_ship" file="data\objects\2d\actor\player_ship.act"/>
+  <actorData name="enemy_ship" aiName="enemy_ship" file="data\objects\2d\actor\enemy_ship.act"/>
+  <actorData name="player_projectile" aiName="player_projectile" file="data\objects\2d\actor\player_projectile.act"/>
+ 
+</actorDataList>
+

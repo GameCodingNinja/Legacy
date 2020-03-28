@@ -1,0 +1,49 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+
+      <!-- Load Game Label -->
+      <control controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\menu_label.ctrl"/>
+        <position x="0" y="175" z="0"/>
+        <fontStringLst>
+          <string text="Load Game"/>
+        </fontStringLst>
+      </control>
+
+      <!-- mouse-only back Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\back_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="310" y="180" z="0"/>
+        <action actionType="return"/>
+      </control>
+
+      <!-- load game scroll box -->
+      <control name="load_game_scroll_box" controltype="scroll_box" defaultState="inactive" playNavSnds="false">
+        <filePath file="data\objects\2d\menus\controls\load_game_scroll_box.ctrl"/>
+        <position x="-27" y="-25" z="0"/>
+        <action executionAction="new_load_game_scroll_box"/>
+      </control>
+
+    </focusGroup>
+    
+  </menuControls>
+
+  
+  <staticSprites>
+    
+    <sprite objectType="new_load_menu_bg"/>
+    
+  </staticSprites>
+  
+  
+</menu>
+

@@ -1,0 +1,52 @@
+Original Mesh List Count: 1
+  Object Name: Cube, Type: MESH
+Total Unique Vert Count: 8
+Total Unique UV Count: 4
+Total Unique Normal Count: 6
+Face Group Count: 1
+  Face List Count: 12; Text Count: 2; Text Indexes: 0 1
+Total Unique Texture Count: 2
+
+Vert List: 8
+ x:   1.000000, y:  -1.000000, z:   1.000000
+ x:   1.000000, y:  -1.000000, z:  -1.000000
+ x:  -1.000000, y:  -1.000000, z:  -1.000000
+ x:  -1.000000, y:  -1.000000, z:   1.000000
+ x:   1.000000, y:   1.000000, z:   0.999999
+ x:   0.999999, y:   1.000000, z:  -1.000001
+ x:  -1.000000, y:   1.000000, z:  -1.000000
+ x:  -1.000000, y:   1.000000, z:   1.000000
+
+UV List: 4
+ u: 0.000000, v: 1.000000
+ u: 1.000000, v: 1.000000
+ u: 1.000000, v: 0.000000
+ u: 0.000000, v: 0.000000
+
+Normal List: 6
+ x:   0.000000, y:  -1.000000, z:   0.000000
+ x:   0.000000, y:   1.000000, z:  -0.000000
+ x:   1.000000, y:   0.000000, z:  -0.000000
+ x:  -0.000000, y:  -0.000000, z:  -1.000000
+ x:  -1.000000, y:  -0.000000, z:   0.000000
+ x:   0.000000, y:   0.000000, z:   1.000000
+
+Face Group Count: 1
+
+  Face List Count: 12; Text Count: 2; Text Indexes: 0 1
+  0, 2, 1    0, 2, 1    0, 0, 0
+  2, 0, 3    2, 0, 3    0, 0, 0
+  4, 6, 7    0, 2, 1    1, 1, 1
+  6, 4, 5    2, 0, 3    1, 1, 1
+  0, 5, 4    0, 2, 1    2, 2, 2
+  5, 0, 1    2, 0, 3    2, 2, 2
+  1, 6, 5    0, 2, 1    3, 3, 3
+  6, 1, 2    2, 0, 3    3, 3, 3
+  2, 7, 6    0, 2, 1    4, 4, 4
+  7, 2, 3    2, 0, 3    4, 4, 4
+  4, 3, 0    0, 2, 1    5, 5, 5
+  3, 4, 7    2, 0, 3    5, 5, 5
+
+Texture List: 2
+  diffuse: data\materials\textures\color_map.png
+  normal: data\materials\normals\normal.png

@@ -1,0 +1,50 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+
+      <!-- Controls Label -->
+      <control controltype="label" defaultState="disabled">
+        <filePath file="data\objects\2d\menus\controls\menu_label.ctrl"/>
+        <position x="0" y="410" z="0"/>
+        <fontStringLst>
+          <string text="Map"/>
+        </fontStringLst>
+      </control>
+
+      <!-- mouse-only close Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\close_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="525" y="415" z="0"/>
+        <action actionType="close"/>
+      </control>
+
+      <!-- mouse-only back Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\back_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="500" y="415" z="0"/>
+        <action actionType="return"/>
+      </control>
+
+    </focusGroup>
+    
+  </menuControls>
+
+  
+  <staticSprites>
+    
+    <sprite objectType="map_menu_bg"/>
+    
+  </staticSprites>
+  
+  
+</menu>
+

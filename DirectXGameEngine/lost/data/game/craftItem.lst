@@ -1,0 +1,25 @@
+<craftItemList>
+
+  <craftItem name="Exosmose Intender" stackSize="50" iconIndex="0">
+    <recipe amount="25">
+      <ingredient name="Eumenides Manduca Homogamy" amount="1"/>
+      <ingredient name="Corvee Basenet" amount="1"/>
+      <ingredient name="Dissuader Silicule" amount="1"/>
+    </recipe>
+    <info>The Exosmose Intender, when equiped to any weapon, will alow for more shots to be fired with the same ammo amount.</info>
+  </craftItem>
+
+  <craftItem name="Eumenides Manduca Homogamy" stackSize="10" iconIndex="0">
+    <info>Useful in crafting many different items. Can be found floating near alien space craft wreckage.</info>
+  </craftItem>
+
+  <craftItem name="Corvee Basenet" stackSize="15" iconIndex="0">
+    <info>A colorful mineral which is the byproduct of a sun going super nova. Can be found near green space clouds.</info>
+  </craftItem>
+
+  <craftItem name="Dissuader Silicule" stackSize="20" iconIndex="0">
+    <info>A form of fungus that grows on astroids. Usually orange in color but can also be more of a red due to which sun it has been exposed to.</info>
+  </craftItem>
+ 
+</craftItemList>
+

@@ -1,0 +1,30 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="menu_down" previousAction="menu_up"/>
+  
+  <menuControls>
+
+    <focusGroup>
+      
+      <!-- Bind Button Label -->
+      <control controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_capture_menu_label.ctrl"/>
+        <fontStringLst>
+          <string text="Press the button of the|selected device to bind it to|the desired action. Press the|same button to unbind.||Press Esc to cancel."/>
+        </fontStringLst>
+      </control>
+
+    </focusGroup>
+    
+  </menuControls>
+
+  <staticSprites>
+
+    <sprite objectType="message_menu_bg"/>
+    
+  </staticSprites>
+
+</menu>
+

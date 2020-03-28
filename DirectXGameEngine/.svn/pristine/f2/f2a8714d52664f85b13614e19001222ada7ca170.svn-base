@@ -1,0 +1,19 @@
+<objectDataList2D>
+
+  <listGroup name="(startup)"/>
+
+  <objectList>
+
+    <object name="waffles">
+      <visual file="data\objects\2d\meshes\startup_waffles.2dm"/>
+      <properties gravity="false" playerCollision="false" objectCollision="false"/>
+      <lighting effect="shader_2d" technique="pointFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <animation scriptName="waffle_startup" defaultCommand="fadeIn"/>
+    </object>
+
+  </objectList>
+
+</objectDataList2D>
+

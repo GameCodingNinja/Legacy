@@ -1,0 +1,43 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object. -->
+    <objectDataType type="button_list_text_box">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="dejavu_sans_cond_32" maxChar="10">
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <position x="0" y="0" z="-25"/>
+      <script name="button_list_display_script"/>
+    </font>
+  </fontList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+
+  <subControlList>
+
+    <!-- Decrement Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="-116" y="0" z="0"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <!-- Increment Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="116" y="0" z="0"/>
+      <rotation x="0" y="0" z="180"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+  </subControlList>
+
+</UIControl>

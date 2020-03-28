@@ -1,0 +1,8 @@
+<scriptList>
+
+  <listGroup name="(load_screen)"/>
+
+  <script name="loading_image" file="data\objects\2d\scripts\loading_image.cmd"/>
+ 
+</scriptList>
+

@@ -1,0 +1,50 @@
+<objectDataList2D>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <visual file="">
+      <projection type="perspective"/>
+      <size width="0" height="0"/>
+      <divisions rows="1" columns="1"/>
+      <color r="1" g="1" b="1" a="1"/>
+      <shader effect="shader_2d" technique="linearFilter"/>
+    </visual>
+    <collision file="" world="" type="static">
+      <size width="0" height="0"/>
+      <sizeMod top="0" bottom="0" left="0" right="0"/>
+      <body density="0" restitution="0"/>
+      <color r="1" g="1" b="1" a="1"/>
+    </collision>
+    <script name="" command=""/>
+    <scale x="1" y="1" z="1"/>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+
+  <objectList>
+
+    <object name="smallStars">
+      <visual file="data\objects\2d\meshes\space\stars.2dm"/>
+    </object>
+
+    <object name="bigStars">
+      <visual file="data\objects\2d\meshes\space\bigStars.2dm"/>
+    </object>
+
+    <object name="planet">
+      <visual file="data\objects\2d\meshes\space\planet.2dm"/>
+    </object>
+
+    <object name="dust">
+      <visual file="data\objects\2d\meshes\space\dust.2dm"/>
+    </object>
+
+    <object name="debris">
+      <visual file="data\objects\2d\meshes\space\debris.2dm">
+        <color r="0.7" g="0.7" b="0.7" a="1"/>
+      </visual>
+    </object>
+    
+  </objectList>
+
+</objectDataList2D>
+

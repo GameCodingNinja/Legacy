@@ -1,0 +1,13 @@
+<actor>
+
+  <camera use="true"/>
+  <position xi="5" yi="0" xf="0" yf="0"/>
+
+  <spriteDataList>
+
+    <spriteData group="(actors)" type="green_enemy_ship"/>
+
+  </spriteDataList>
+  
+</actor>
+

@@ -1,0 +1,122 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+      
+      <!-- Settings Label -->
+      <control controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\menu_label.ctrl"/>
+        <position x="0" y="185" z="0"/>
+        <fontStringLst>
+          <string text="Settings"/>
+        </fontStringLst>
+      </control>
+
+      <!-- mouse-only back Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\back_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="100" y="200" z="0"/>
+        <action actionType="return"/>
+      </control>
+
+      <!-- mouse-only close Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\close_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="125" y="200" z="0"/>
+        <action actionType="close"/>
+      </control>
+
+      <!-- Resolution button list -->
+      <control name="resolution_btn_lst" controltype="button_list" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_list.ctrl"/>
+        <selection decSelect="Menu Left" incSelect="Menu Right"/>
+        <position x="0" y="130" z="0"/>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Anisotropic button list -->
+      <control name="anisotropic_btn_lst" controltype="button_list" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_list.ctrl"/>
+        <selection decSelect="Menu Left" incSelect="Menu Right"/>
+        <position x="0" y="80" z="0"/>
+        <fontStringLst>
+          <string text="Point"/>
+          <string text="Bilinear"/>
+          <string text="AF 2x"/>
+          <string text="AF 4x"/>
+          <string text="AF 8x"/>
+          <string text="AF 16x"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Full Screen Check Box -->
+      <control name="full_screen_check_box" controltype="check_box" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\check_box_240x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="30" z="0"/>
+        <fontStringLst>
+          <string text="Full Screen"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- V_Sync Check Box -->
+      <control name="v-sync_check_box" controltype="check_box" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\check_box_240x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-23" z="0"/>
+        <fontStringLst>
+          <string text="V-Sync"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- slider Control -->
+      <control name="settings_dead_zone_slider" controltype="slider" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\gamepad_deadzone_slider.ctrl"/>
+        <selection selectAction="Menu Select" decSelect="Menu Left" incSelect="Menu Right" mouseActionPress="down"/>
+        <position x="0" y="-100" z="0"/>
+        <settings orientation="HORZ" minValue="0" maxValue="90" defValue="0" displayValueAsInt="true"/>
+        <fontStringLst>
+          <string text="GPad Deadzone: %d%%"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Apply Button -->
+      <control name="settings_apply_btn" controltype="button" defaultState="disabled">
+        <filePath file="data\objects\2d\menus\controls\button_140x52_persistant_frame.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-180" z="0"/>
+        <fontStringLst>
+          <string text="Apply"/>
+        </fontStringLst>
+        <action actionType="return"/>
+      </control>
+
+    </focusGroup>
+    
+  </menuControls>
+
+  
+  <staticSprites>
+    
+    <sprite objectType="settings_menu_bg">
+      <position x="0" y="0" z="1"/>
+      <scale uniform="1"/>
+    </sprite>
+    
+  </staticSprites>
+  
+  
+</menu>
+

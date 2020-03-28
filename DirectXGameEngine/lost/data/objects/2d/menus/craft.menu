@@ -1,0 +1,129 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+
+      <!-- Menu Label -->
+      <control controltype="label" defaultState="disabled">
+        <filePath file="data\objects\2d\menus\controls\menu_label.ctrl"/>
+        <position x="0" y="435" z="0"/>
+        <fontStringLst>
+          <string text="Craft"/>
+        </fontStringLst>
+      </control>
+
+      <!-- mouse-only close Button -->
+      <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+        <filePath file="data\objects\2d\menus\controls\close_button.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="622" y="440" z="0"/>
+        <action actionType="close"/>
+      </control>
+
+      <!-- tab control -->
+      <control name="craft_tab_control" controltype="tab_control" defaultState="inactive" playNavSnds="false">
+        <filePath file="data\objects\2d\menus\controls\craft_tab.ctrl"/>
+        <position x="-300" y="-45" z="0"/>
+        <selection decSelect="Menu Tab Left" incSelect="Menu Tab Right"/>
+      </control>
+      
+    </focusGroup>
+
+    <focusGroup>
+
+      <!-- Item to be crafted is displayed here -->
+      <control name="craft_item" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_item.ctrl"/>
+        <position x="345" y="337" z="0"/>
+        <fontStringLst>
+          <string text="Unknown item to craft"/>
+        </fontStringLst>
+      </control>
+      
+      <!-- List of possible ingredients -->
+      
+      <control name="craft_ingredient_0" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="230" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+      
+      <control name="craft_ingredient_1" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="153" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+
+      <control name="craft_ingredient_2" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="76" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+
+      <control name="craft_ingredient_3" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="-1" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+
+      <control name="craft_ingredient_4" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="-78" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+
+      <control name="craft_ingredient_5" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_ingredient.ctrl"/>
+        <position x="341" y="-155" z="0"/>
+        <fontStringLst>
+          <string text="Unknown ingredient"/>
+        </fontStringLst>
+      </control>
+      
+      <control name="craft_amount" controltype="amount_button" playNavSnds="false" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_amount.ctrl"/>
+        <selection customSelectAction="Menu Select" decSelectSmall="Menu Down" incSelectSmall="Menu Up" decSelectLarge="Menu Right" incSelectLarge="Menu Left"/>
+        <position x="420" y="-230" z="0"/>
+        <settings minValue="1" maxValue="999" defValue="1" smallIncrease="1" largeIncrease="10" displayValueAsInt="true"/>
+        <fontStringLst>
+          <string text="Quantity:" fontIndex="1"/>
+        </fontStringLst>
+      </control>
+
+      <!-- Craft Info Label -->
+      <control name="craft_item_info_lbl" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\craft_info_label.ctrl"/>
+        <position x="345" y="-364" z="0"/>
+        <fontStringLst>
+          <string text="This is a test of the craft info label. Information about the item to be crafted will display here. There is plenty of room for all sorts of info. To think we can profide all these hints to the player. Lower case test jgpqy."/>
+        </fontStringLst>
+      </control>
+
+   </focusGroup>
+    
+  </menuControls>
+
+  <staticSprites>
+    
+    <sprite objectType="craft_menu_bg"/>
+    
+  </staticSprites>
+  
+</menu>
+

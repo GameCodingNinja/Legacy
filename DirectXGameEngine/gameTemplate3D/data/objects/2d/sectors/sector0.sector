@@ -1,0 +1,12 @@
+<sector>
+  
+  <objectList>
+
+    <object group="(object)" type="radar">
+      <position x="500" y="270" z="20"/>
+    </object>
+
+  </objectList>
+  
+</sector>
+

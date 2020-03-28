@@ -1,0 +1,38 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType type="slider_selection_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <objectDataType type="230_slider_persistant_frame">
+      <position x="0" y="-15" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="dejavu_sans_cond_26">
+      <position x="-112" y="25" z="-15"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="0.30" g="0.52" b="0.77" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <script name="slider_button_frame_script"/>
+    </font>
+  </fontList>
+
+  <settings maxTravelDistPixels="180" moveDelay="50" moveWaitDelay="400"/>
+
+  <subControlList>
+
+    <!-- slider nub -->
+    <control controltype="button" defaultState="inactive" playNavSnds="false">
+      <filePath file="data\objects\2d\menus\controls\button_slider_arrow.ctrl"/>
+      <position x="0" y="-15" z="-5"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+  </subControlList>
+
+</UIControl>

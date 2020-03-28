@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{d2a8b8e6-b655-4236-bf50-511d865bef10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Network">
+      <UniqueIdentifier>{64fafdba-bc4e-40e3-bde5-de4575313a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Utilities">
+      <UniqueIdentifier>{df1ea743-15a3-4dda-a7f0-2ab64265a085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Common">
+      <UniqueIdentifier>{3c15164c-0213-41dc-acee-5e1fa0457f98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\library\utilities\genfunc.h">
+      <Filter>Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\library\common\defs.h">
+      <Filter>Library\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\library\networking\boostsockettcp.h">
+      <Filter>Library\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\library\networking\boosttcp.h">
+      <Filter>Library\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\library\networking\boostclienttcp.h">
+      <Filter>Library\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clientTestAp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\library\utilities\genfunc.cpp">
+      <Filter>Library\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\library\networking\boostsockettcp.cpp">
+      <Filter>Library\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\library\networking\boosttcp.cpp">
+      <Filter>Library\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\library\networking\boostclienttcp.cpp">
+      <Filter>Library\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\loadingImage\loadingImage00.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage01.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage02.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage03.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage04.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage05.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage06.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage07.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage08.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage09.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage10.png"/>
+    <filePath image="data\materials\textures\loadingImage\loadingImage11.png"/>
+  </file>
+
+</mesh2D>

@@ -1,0 +1,88 @@
+﻿<controllerMapping>
+	<keyboardMapping>
+		<!-- Key binding controls not displayed in the settings -->
+		<playerHidden>
+			<actionMap action="Menu Up" componetId="W"/>
+			<actionMap action="Menu Down" componetId="S"/>
+			<actionMap action="Menu Left" componetId="A"/>
+			<actionMap action="Menu Right" componetId="D"/>
+			<actionMap action="Menu Up" componetId="ARROW UP"/>
+			<actionMap action="Menu Down" componetId="ARROW DOWN"/>
+			<actionMap action="Menu Left" componetId="ARROW LEFT"/>
+			<actionMap action="Menu Right" componetId="ARROW RIGHT"/>
+			<actionMap action="Up" componetId="ARROW UP" configurable="true"/>
+			<actionMap action="Down" componetId="ARROW DOWN" configurable="true"/>
+			<actionMap action="Left" componetId="ARROW LEFT" configurable="true"/>
+			<actionMap action="Right" componetId="ARROW RIGHT" configurable="true"/>
+			<!-- Test sounds -->
+			<actionMap action="music" componetId="M"/>
+			<actionMap action="effect1" componetId="K"/>
+			<actionMap action="effect2" componetId="L"/>
+		</playerHidden>
+		<!-- Key binding controls displayed in the settings -->
+		<playerVisible>
+			<actionMap action="Menu Select" componetId="RETURN" configurable="false"/>
+			<actionMap action="Menu Escape" componetId="ESCAPE" configurable="false"/>
+			<actionMap action="Up" componetId="W" defaultId="W" configurable="true"/>
+			<actionMap action="Down" componetId="S" defaultId="S" configurable="true"/>
+			<actionMap action="Left" componetId="A" defaultId="A" configurable="true"/>
+			<actionMap action="Right" componetId="D" defaultId="D" configurable="true"/>
+			<actionMap action="Jump" componetId="SPACE" defaultId="SPACE" configurable="true"/>
+			<actionMap action="Shoot" componetId="L" defaultId="E" configurable="true"/>
+		</playerVisible>
+	</keyboardMapping>
+	<mouseMapping>
+		<!-- Key binding controls displayed in the settings -->
+		<playerVisible>
+			<actionMap action="Menu Select" componetId="LEFT MOUSE" configurable="false"/>
+			<actionMap action="Jump" componetId="RIGHT MOUSE" defaultId="RIGHT MOUSE" configurable="true"/>
+			<actionMap action="Shoot" componetId="LEFT MOUSE" defaultId="LEFT MOUSE" configurable="true"/>
+			<actionMap action="Crouch" componetId="MIDDLE MOUSE" defaultId="MIDDLE MOUSE" configurable="true"/>
+		</playerVisible>
+	</mouseMapping>
+	<joypadMapping>
+		<xInputDevice>
+			<!-- Key binding controls not displayed in the settings -->
+			<playerHidden>
+				<actionMap action="Menu Up" componetId="L STICK UP"/>
+				<actionMap action="Menu Down" componetId="L STICK DOWN"/>
+				<actionMap action="Menu Left" componetId="L STICK LEFT"/>
+				<actionMap action="Menu Right" componetId="L STICK RIGHT"/>
+				<actionMap action="Menu Up" componetId="UP"/>
+				<actionMap action="Menu Down" componetId="DOWN"/>
+				<actionMap action="Menu Left" componetId="LEFT"/>
+				<actionMap action="Menu Right" componetId="RIGHT"/>
+				<actionMap action="Menu Select" componetId="B1" defaultId="B1"/>
+				<actionMap action="Menu Back" componetId="B2" defaultId="B2"/>
+				<actionMap action="Menu Toggle" componetId="B8" defaultId="B8"/>
+			</playerHidden>
+			<!-- Key binding controls not displayed in the settings -->
+			<playerVisible>
+				<actionMap action="Jump" componetId="B1" defaultId="B1" configurable="true"/>
+				<actionMap action="Shoot" componetId="B3" defaultId="B3" configurable="true"/>
+				<actionMap action="Crouch" componetId="B2" defaultId="B2" configurable="true"/>
+			</playerVisible>
+		</xInputDevice>
+		<miscDevice>
+			<!-- Key binding controls not displayed in the settings -->
+			<playerHidden>
+				<actionMap action="Menu Up" componetId="L STICK UP"/>
+				<actionMap action="Menu Down" componetId="L STICK DOWN"/>
+				<actionMap action="Menu Left" componetId="L STICK LEFT"/>
+				<actionMap action="Menu Right" componetId="L STICK RIGHT"/>
+				<actionMap action="Menu Up" componetId="UP"/>
+				<actionMap action="Menu Down" componetId="DOWN"/>
+				<actionMap action="Menu Left" componetId="LEFT"/>
+				<actionMap action="Menu Right" componetId="RIGHT"/>
+			</playerHidden>
+			<!-- Key binding controls displayed in the settings -->
+			<playerVisible>
+				<actionMap action="Menu Select" componetId="B2" defaultId="B2" configurable="true"/>
+				<actionMap action="Menu Back" componetId="B3" defaultId="B3" configurable="true"/>
+				<actionMap action="Menu Toggle" componetId="B10" defaultId="B10" configurable="true"/>
+				<actionMap action="Jump" componetId="B2" defaultId="B2" configurable="true"/>
+				<actionMap action="Shoot" componetId="B2" defaultId="B1" configurable="true"/>
+			</playerVisible>
+		</miscDevice>
+	</joypadMapping>
+</controllerMapping>

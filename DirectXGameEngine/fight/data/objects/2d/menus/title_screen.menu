@@ -1,0 +1,62 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="350" height="350"/>
+  
+  <menuControls>
+
+    <focusGroup>
+
+      <!-- Start Game Button -->
+      <control name="start_game_btn" controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="84" z="0"/>
+        <fontStringLst>
+          <string text="Start Game"/>
+        </fontStringLst>
+        <!--<action actionType="to_menu" executionAction="player_select_menu"/>-->
+        <action actionType="deactivate"/>
+      </control>
+
+      <!-- Settings Button -->
+      <control controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="28" z="0"/>
+        <fontStringLst>
+          <string text="Settings"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="settings_menu"/>
+      </control>
+
+      <!-- Key Bindings Button -->
+      <control controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-28" z="0"/>
+        <fontStringLst>
+          <string text="Key Bindings"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="key_bindings_menu"/>
+      </control>
+
+      <!-- Exit Game Button -->
+      <control name="exit_btn" controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_275x52.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="0" y="-84" z="0"/>
+        <fontStringLst>
+          <string text="Exit Game"/>
+        </fontStringLst>
+        <action actionType="to_menu" executionAction="confirmation_menu"/>
+      </control>
+
+    </focusGroup>
+
+  </menuControls>
+  
+</menu>
+

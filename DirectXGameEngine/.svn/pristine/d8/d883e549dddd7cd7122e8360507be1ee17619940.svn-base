@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 64-bit|Win32">
+      <Configuration>Release 64-bit</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 64-bit|x64">
+      <Configuration>Release 64-bit</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{871B4288-3F67-4FEE-938D-A89C82487FE9}</ProjectGuid>
+    <RootNamespace>lost</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\library;C:\devlib\boost;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\devlib\boost\stage\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\library;C:\devlib\boost;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\devlib\boost\stage\lib64;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\library;C:\devlib\boost;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\devlib\boost\stage\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\library;C:\devlib\boost;..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>C:\devlib\boost\stage\lib64;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;C:\development\GameCodingNinja\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 64-bit|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Include;C:\development\GameCodingNinja\library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;d3d9.lib;dinput8.lib;dxguid.lib;X3DAudio.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28February 2010%29\Lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source Files\game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\ai\enemyshipai.cpp" />
+    <ClCompile Include="Source Files\ai\playerprojectileai.cpp" />
+    <ClCompile Include="Source Files\ai\playershipai.cpp" />
+    <ClCompile Include="Source Files\game\craftitemlist.cpp" />
+    <ClCompile Include="Source Files\game\game.cpp" />
+    <ClCompile Include="Source Files\game\savefile.cpp" />
+    <ClCompile Include="Source Files\game\winmain.cpp" />
+    <ClCompile Include="Source Files\generators\dustgenerator.cpp" />
+    <ClCompile Include="Source Files\generators\debrisgenerator.cpp" />
+    <ClCompile Include="Source Files\generators\generator.cpp" />
+    <ClCompile Include="Source Files\generators\planetgenerator.cpp" />
+    <ClCompile Include="Source Files\generators\stargenerator.cpp" />
+    <ClCompile Include="Source Files\generators\worldgenerator.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartapplysettingsbtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartbtncapturemenu.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartconfirmbtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartcontinuebtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartdeadzoneslider.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartexitbtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartfullscreencheckbox.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartkeybindbtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartkeybindscrollbox.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartloadgamesavebtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartnewgamesavebtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartnewloadscrollbox.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartresetkeybind.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartresolutionbtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartsettingsmenubtn.cpp" />
+    <ClCompile Include="Source Files\smartGUI\smartvsynccheckbox.cpp" />
+    <ClCompile Include="Source Files\state\commonstate.cpp" />
+    <ClCompile Include="Source Files\state\gameloadstate.cpp" />
+    <ClCompile Include="Source Files\state\runstate.cpp" />
+    <ClCompile Include="Source Files\state\startupstate.cpp" />
+    <ClCompile Include="Source Files\state\titlescreenstate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source Files\ai\enemyshipai.h" />
+    <ClInclude Include="Source Files\ai\playerprojectileai.h" />
+    <ClInclude Include="Source Files\ai\playershipai.h" />
+    <ClInclude Include="Source Files\game\craftingredient.h" />
+    <ClInclude Include="Source Files\game\craftitem.h" />
+    <ClInclude Include="Source Files\game\craftitemlist.h" />
+    <ClInclude Include="Source Files\game\craftrecipe.h" />
+    <ClInclude Include="Source Files\game\game.h" />
+    <ClInclude Include="Source Files\game\savefile.h" />
+    <ClInclude Include="Source Files\game\winmain.h" />
+    <ClInclude Include="Source Files\generators\dustgenerator.h" />
+    <ClInclude Include="Source Files\generators\debrisgenerator.h" />
+    <ClInclude Include="Source Files\generators\generator.h" />
+    <ClInclude Include="Source Files\generators\planetgenerator.h" />
+    <ClInclude Include="Source Files\generators\stargenerator.h" />
+    <ClInclude Include="Source Files\generators\worldgenerator.h" />
+    <ClInclude Include="Source Files\smartGUI\smartapplysettingsbtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartbtncapturemenu.h" />
+    <ClInclude Include="Source Files\smartGUI\smartconfirmbtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartcontinuebtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartdeadzoneslider.h" />
+    <ClInclude Include="Source Files\smartGUI\smartexitbtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartfullscreencheckbox.h" />
+    <ClInclude Include="Source Files\smartGUI\smartkeybindbtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartkeybindscrollbox.h" />
+    <ClInclude Include="Source Files\smartGUI\smartloadgamesavebtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartnewgamesavebtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartnewloadscrollbox.h" />
+    <ClInclude Include="Source Files\smartGUI\smartresetkeybind.h" />
+    <ClInclude Include="Source Files\smartGUI\smartresolutionbtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartsettingsmenubtn.h" />
+    <ClInclude Include="Source Files\smartGUI\smartvsynccheckbox.h" />
+    <ClInclude Include="Source Files\state\commonstate.h" />
+    <ClInclude Include="Source Files\state\gameloadstate.h" />
+    <ClInclude Include="Source Files\state\igamestate.h" />
+    <ClInclude Include="Source Files\state\runstate.h" />
+    <ClInclude Include="Source Files\state\startupstate.h" />
+    <ClInclude Include="Source Files\state\titlescreenstate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\game\craftItem.lst" />
+    <None Include="data\materials\fonts\font.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\actor\actorDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\actor\enemy_ship.act" />
+    <None Include="data\objects\2d\actor\player_projectile.act">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\actor\player_ship.act">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\hud\ammo_tier_1_progress_bar.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\hud\ammo_tier_2_progress_bar.ctrl" />
+    <None Include="data\objects\2d\hud\ammo_tier_3_progress_bar.ctrl" />
+    <None Include="data\objects\2d\hud\ammo_tier_4_progress_bar.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\hud\fuel_progress_bar.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\hud\hudListTable.lst" />
+    <None Include="data\objects\2d\hud\shield_progress_bar.ctrl" />
+    <None Include="data\objects\2d\hud\ship_progress_bar.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\hud\space.hud">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\button_capture.menu" />
+    <None Include="data\objects\2d\menus\controls\back_button.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_140x52_persistant_frame.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_140x52_persistant_frame_tab.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_165x52_persistant_frame_tab.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_275x52_persistant_frame.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_amount_arrow_side.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_amount_arrow_top_bot.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_craft_tab_scroll_box_persistant_frame.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_dynamic_create_game.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_dynamic_load_game.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_dynamic_overwrite_game.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_new_load_game.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_slider_arrow.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\confirmation_label.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_amount.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\craft_info_label.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_ingredient.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_item.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\craft_tab_1.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\craft_tab_2.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\craft_tab_3.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab_4.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab_scroll_box_1.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\craft_tab_scroll_box_2.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab_scroll_box_3.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab_scroll_box_4.ctrl" />
+    <None Include="data\objects\2d\menus\controls\craft_tab_scroll_box_slider.ctrl" />
+    <None Include="data\objects\2d\menus\controls\gamepad_deadzone_slider.ctrl" />
+    <None Include="data\objects\2d\menus\controls\key_binding_button.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_button_reset.ctrl" />
+    <None Include="data\objects\2d\menus\controls\key_binding_label.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_capture_menu_label.ctrl" />
+    <None Include="data\objects\2d\menus\controls\key_binding_scroll_box.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_menu_label.ctrl" />
+    <None Include="data\objects\2d\menus\controls\key_binding_scroll_box_slider.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl" />
+    <None Include="data\objects\2d\menus\controls\load_game_scroll_box.ctrl" />
+    <None Include="data\objects\2d\menus\controls\new_game_scroll_box.ctrl" />
+    <None Include="data\objects\2d\menus\controls\new_load_game_label.ctrl" />
+    <None Include="data\objects\2d\menus\controls\new_load_scroll_box_slider.ctrl" />
+    <None Include="data\objects\2d\menus\controls\tab_button_arrow.ctrl" />
+    <None Include="data\objects\2d\menus\craft.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\inventory.menu" />
+    <None Include="data\objects\2d\menus\key_bindings.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_120x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\button_120x52_persistant_frame.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_140x52.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_275x52.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_arrow.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\button_list.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\controls\check_box_240x52.ctrl" />
+    <None Include="data\objects\2d\menus\controls\close_button.ctrl" />
+    <None Include="data\objects\2d\menus\controls\menu_label.ctrl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\loadout.menu" />
+    <None Include="data\objects\2d\menus\load_game.menu" />
+    <None Include="data\objects\2d\menus\mainTree.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\map.menu" />
+    <None Include="data\objects\2d\menus\new_game.menu" />
+    <None Include="data\objects\2d\menus\pause.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\confirmation.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\settings.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\menus\mod_ship.menu" />
+    <None Include="data\objects\2d\menus\title_screen.menu">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\big_star.2dm" />
+    <None Include="data\objects\2d\meshes\debris.2dm" />
+    <None Include="data\objects\2d\meshes\enemy_ship.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\fire_tail.2dm" />
+    <None Include="data\objects\2d\meshes\hud\ammo_tier_1_progress_bar.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\hud\ammo_tier_2_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\ammo_tier_3_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\ammo_tier_4_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\fuel_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\fuel_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\shield_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\shield_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\ship_progress_bar.2dm" />
+    <None Include="data\objects\2d\meshes\hud\tier_1_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\tier_2_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\tier_3_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\tier_4_icon.2dm" />
+    <None Include="data\objects\2d\meshes\hud\wrench_icon.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\loading_image.2dm" />
+    <None Include="data\objects\2d\meshes\menu\120x52_button_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\140x52_button_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\140x52_button_frame_tab.2dm" />
+    <None Include="data\objects\2d\meshes\menu\165x52_button_frame_tab.2dm" />
+    <None Include="data\objects\2d\meshes\menu\230_slider_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\275x52_button_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\570x46_button_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\amount_arrow_wide_side.2dm" />
+    <None Include="data\objects\2d\meshes\menu\amount_arrow_wide_top_bot.2dm" />
+    <None Include="data\objects\2d\meshes\menu\check_box_selection_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\craft_amount_display_box.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\craft_item.2dm" />
+    <None Include="data\objects\2d\meshes\menu\craft_item_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\craft_item_info_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\craft_menu_bg.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\craft_tab.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\craft_tab_slider_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\inventory_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\key_binding_button_frame.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\key_binding_button_frame_reset.2dm" />
+    <None Include="data\objects\2d\meshes\menu\key_binding_slider_frame.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\back_button.2dm" />
+    <None Include="data\objects\2d\meshes\menu\key_binding_scroll_box.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\loadout_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\map_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\mod_ship_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\new_load_button_frame.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\new_load_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\new_load_scroll_box.2dm" />
+    <None Include="data\objects\2d\meshes\menu\pause_menu_bg.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\settings_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\key_bindings_menu_bg.2dm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\meshes\menu\message_menu_bg.2dm" />
+    <None Include="data\objects\2d\meshes\menu\arrow.2dm" />
+    <None Include="data\objects\2d\meshes\menu\arrow_button_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\button_list_text_box.2dm" />
+    <None Include="data\objects\2d\meshes\menu\check.2dm" />
+    <None Include="data\objects\2d\meshes\menu\check_box.2dm" />
+    <None Include="data\objects\2d\meshes\menu\close_button.2dm" />
+    <None Include="data\objects\2d\meshes\menu\slider_button_arrow_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\slider_selection_frame.2dm" />
+    <None Include="data\objects\2d\meshes\menu\tab_button_arrow.2dm" />
+    <None Include="data\objects\2d\meshes\planet.2dm" />
+    <None Include="data\objects\2d\meshes\planet_atmosphere.2dm" />
+    <None Include="data\objects\2d\meshes\planet_shadow.2dm" />
+    <None Include="data\objects\2d\meshes\player_projectile.2dm" />
+    <None Include="data\objects\2d\meshes\player_ship.2dm" />
+    <None Include="data\objects\2d\meshes\ship_direction_test.2dm" />
+    <None Include="data\objects\2d\meshes\ship_gun.2dm" />
+    <None Include="data\objects\2d\meshes\space_dust.2dm" />
+    <None Include="data\objects\2d\meshes\stars.2dm" />
+    <None Include="data\objects\2d\meshes\startup_waffles.2dm" />
+    <None Include="data\objects\2d\meshes\star_bg.2dm" />
+    <None Include="data\objects\2d\meshes\star_twinkle.2dm" />
+    <None Include="data\objects\2d\meshes\titleScreen\title_background.2dm" />
+    <None Include="data\objects\2d\objectDataList\actorsDataList.lst" />
+    <None Include="data\objects\2d\objectDataList\dataListTable.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\hudDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\loadScreenDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\menuDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\spaceDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\startupDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\objectDataList\titleScreenDataList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\physicsWorldList.lst" />
+    <None Include="data\objects\2d\scripts\button_amount_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_frame_script.cmd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\button_solid_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_list_frame_script.cmd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\button_list_solid_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_list_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_persistant_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_slider_frame_script.cmd" />
+    <None Include="data\objects\2d\scripts\button_tab_persistant_frame_script.cmd" />
+    <None Include="data\objects\2d\scripts\scroll_box_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\slider_button_solid_script.cmd" />
+    <None Include="data\objects\2d\scripts\fadeInOutScript.cmd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\loading_image.cmd" />
+    <None Include="data\objects\2d\scripts\loadScreenScriptList.lst" />
+    <None Include="data\objects\2d\scripts\menuScriptList.lst">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\scripts\player_projectile.cmd" />
+    <None Include="data\objects\2d\scripts\player_ship.cmd" />
+    <None Include="data\objects\2d\scripts\poweredbywaffles.cmd" />
+    <None Include="data\objects\2d\scripts\scriptListTable.lst" />
+    <None Include="data\objects\2d\scripts\actorsScriptList.lst" />
+    <None Include="data\objects\2d\scripts\startupScriptList.lst" />
+    <None Include="data\objects\2d\scripts\sub_control_display_script.cmd" />
+    <None Include="data\objects\2d\scripts\tab_button_solid_script.cmd" />
+    <None Include="data\objects\2d\sectors\sector0.sector">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\objects\2d\stageDataList.lst" />
+    <None Include="data\objects\2d\stages\testStageData.stage" />
+    <None Include="data\settings\controllerMapping.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\settings\settings.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\shaders\lights_gausian.fx" />
+    <None Include="data\shaders\post_process.fx" />
+    <None Include="data\shaders\shader_2d.fx" />
+    <None Include="data\shaders\shader_effects.cfg">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\shaders\startup_shader_effects.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Box2D\Box2D.vcxproj">
+      <Project>{90ff76ae-9e6d-407f-912e-152f43f3cd13}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\library\library.vcxproj">
+      <Project>{8f1282ba-6834-4d6d-8fcb-6a8c49e06a02}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

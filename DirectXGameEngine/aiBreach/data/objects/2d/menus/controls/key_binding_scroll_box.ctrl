@@ -1,0 +1,327 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType type="key_binding_scroll_box">
+      <position x="0" y="0" z="0"/>
+    </objectDataType>
+  </objectDataList>
+
+  <!-- Scroll box mask -->
+  <stencilMask type="key_binding_scroll_box_mask">
+    <position x="0" y="0" z="-5"/>
+  </stencilMask>
+
+  <subControlList>
+
+    <!-- Decrement Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="510" y="264" z="0"/>
+      <rotation x="0" y="0" z="-90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- Increment Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="510" y="-264" z="0"/>
+      <rotation x="0" y="0" z="90"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+    </control>
+
+    <!-- slider Control -->
+    <control controltype="slider" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_scroll_box_slider.ctrl"/>
+      <selection selectAction="Menu Select" mouseActionPress="down"/>
+      <position x="510" y="0" z="0"/>
+      <settings orientation="VERT"/>
+    </control>
+
+  </subControlList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+
+  <navigation pageUp="Menu Left" pageDown="Menu Right"/>
+
+  <scrollBoxSettings downWaitTimerDelay="170" holdWaitTimerDelay="400" scrollSpeed="0.2" pageSpeed="1.0"/>
+  
+  <scrollBoxControlList>
+
+    <!-- initial offset -->
+    <position x="0" y="250" z="-5"/>
+    <controlInfo height="50" visibleInScrollBox="11"/>
+
+    <!-- Menu Seperator - Menu Navigation -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Menu Navigation"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Menu Select Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Menu Select:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Back Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Menu Back:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Toggle Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Menu Toggle:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Tab Left Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Menu Tab Left:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Tab Right Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Menu Tab Right:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+    
+    <!-- Menu Seperator - Ship Movement -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Ship Movement"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Up Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Up:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Down Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Down:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Left Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Left:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Right Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Right:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Deccelerate Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Deccelerate:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Seperator - Weapon Loadout hot keys -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Combat"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Shoot Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Shoot:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Shields Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Shields:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Seperator - Weapon Loadout hot keys -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Weapon Loadout Hot keys"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Loadout 1 Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Loadout 1:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Loadout 2 Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Loadout 2:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Loadout 3 Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Loadout 3:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Loadout 4 Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Loadout 4:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Seperator - Menu Screens -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Menu Screens"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Loadout Menu Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Loadout:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Map Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Map:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Craft Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Craft:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Craft Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Inventory:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Mod Ship Key Binding Button -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Mod Ship:"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="button_capture_menu"/>
+    </control>
+
+    <!-- Menu Seperator - Key Binding Option(s) -->
+    <control controltype="label" defaultState="disabled">
+      <filePath file="data\objects\2d\menus\controls\key_binding_Seperator_button.ctrl"/>
+      <fontStringLst>
+        <string text="Key Binding Option(s)"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Reset Defaults Button -->
+    <control name="Key_Binding_reset_btn" controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\key_binding_button_reset.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <fontStringLst>
+        <string text="Reset To Default"/>
+      </fontStringLst>
+      <action actionType="to_menu" executionAction="confirmation_menu"/>
+    </control>
+
+  </scrollBoxControlList>
+
+</UIControl>

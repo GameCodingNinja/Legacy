@@ -1,0 +1,11 @@
+<dataListTable>
+
+  <dataList groupName="(startup)" file="data/objects/2d/objectDataList/startupDataList.lst"/>
+  <dataList groupName="(menu)" file="data/objects/2d/objectDataList/menuDataList.lst"/>
+  <dataList groupName="(title_screen)" file="data/objects/2d/objectDataList/titleScreenDataList.lst"/>
+  <dataList groupName="(load_screen)" file="data/objects/2d/objectDataList/loadScreenDataList.lst"/>
+  <dataList groupName="(hud)" file="data/objects/2d/objectDataList/hudDataList.lst"/>
+  <dataList groupName="(actors)" file="data/objects/2d/objectDataList/actorsDataList.lst"/>
+  <dataList groupName="(space)" file="data/objects/2d/objectDataList/spaceDataList.lst"/>
+  
+</dataListTable>

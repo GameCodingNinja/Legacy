@@ -1,0 +1,61 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="1260" height="850"/>
+  
+  <menuControls>
+
+    <focusGroup>
+
+      <!-- Player 1 control -->
+      <control name="player_1" controltype="sub_control" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\player_select.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="-480" y="0" z="0"/>
+        <fontStringLst>
+          <string text="Player 1"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Player 2 control -->
+      <control name="player_2" controltype="sub_control" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\player_select.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="-160" y="0" z="0"/>
+        <fontStringLst>
+          <string text="Player 2"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Player 3 control -->
+      <control name="player_3" controltype="sub_control" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\player_select.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="160" y="0" z="0"/>
+        <fontStringLst>
+          <string text="Player 3"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+      <!-- Player 4 control -->
+      <control name="player_4" controltype="sub_control" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\player_select.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="480" y="0" z="0"/>
+        <fontStringLst>
+          <string text="Player 4"/>
+        </fontStringLst>
+        <action actionType="action"/>
+      </control>
+
+    </focusGroup>
+
+  </menuControls>
+  
+</menu>
+

@@ -1,0 +1,110 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType type="craft_tab">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+
+  <decBumperBtn>
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\tab_button_arrow.ctrl"/>
+      <position x="-321" y="421" z="0"/>
+    </control>
+  </decBumperBtn>
+
+  <incBumperBtn>
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\tab_button_arrow.ctrl"/>
+      <position x="322" y="421" z="0"/>
+      <rotation x="0" y="0" z="180"/>
+    </control>
+  </incBumperBtn>
+
+  <subControlList>
+
+    <!-- Tab 1 -->
+    <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+      <filePath file="data\objects\2d\menus\controls\button_140x52_persistant_frame_tab.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="-230" y="419" z="0"/>
+      <fontStringLst>
+        <string text="Resources"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Tab 2 -->
+    <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+      <filePath file="data\objects\2d\menus\controls\button_140x52_persistant_frame_tab.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="-85" y="419" z="0"/>
+      <fontStringLst>
+        <string text="Ship Parts"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Tab 3 -->
+    <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+      <filePath file="data\objects\2d\menus\controls\button_140x52_persistant_frame_tab.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="60" y="419" z="0"/>
+      <fontStringLst>
+        <string text="Artillery"/>
+      </fontStringLst>
+    </control>
+
+    <!-- Tab 4 -->
+    <control controltype="button" defaultState="inactive" mouseOnlyCtrl="true">
+      <filePath file="data\objects\2d\menus\controls\button_165x52_persistant_frame_tab.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="218" y="419" z="0"/>
+      <fontStringLst>
+        <string text="Components"/>
+      </fontStringLst>
+    </control>
+
+  </subControlList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+  <navigation pageUp="Menu Left" pageDown="Menu Right"/>
+
+  <tabControlList>
+
+    <!-- Controls on tab 1 -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_1.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="-0" y="0" z="0"/>
+      <action actionType="action" executionAction="craft_1_tab_group"/>
+    </control>
+
+    <!-- Controls on tab 2 -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_2.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="0" y="0" z="0"/>
+      <action actionType="action" executionAction="craft_2_tab"/>
+    </control>
+
+    <!-- Controls on tab 3 -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_3.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="0" y="0" z="0"/>
+      <action actionType="action" executionAction="craft_3_tab"/>
+    </control>
+
+    <!-- Controls on tab 4 -->
+    <control controltype="sub_control" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\craft_tab_4.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="0" y="0" z="0"/>
+      <action actionType="action" executionAction="craft_4_tab"/>
+    </control>
+
+  </tabControlList>
+
+</UIControl>

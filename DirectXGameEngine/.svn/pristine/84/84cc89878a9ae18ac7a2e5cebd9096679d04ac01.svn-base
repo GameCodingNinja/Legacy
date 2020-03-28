@@ -1,0 +1,9 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\spaceBG\bigStar0.png"/>
+    <filePath image="data\materials\textures\spaceBG\bigStar1.png"/>
+    <filePath image="data\materials\textures\spaceBG\bigStar2.png"/>
+  </file>
+
+</mesh2D>

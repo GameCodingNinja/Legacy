@@ -1,0 +1,17 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <!-- No collision for this object -->
+  <fontList>
+    <font fontName="dejavu_sans_reg_bold_32">
+      <position x="-420" y="0" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <script name="button_persistant_script"/>
+    </font>
+  </fontList>
+
+</UIControl>

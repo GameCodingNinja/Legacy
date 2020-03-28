@@ -1,0 +1,22 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\grass_dirt\ping19.png"/>
+    <filePath image="data\materials\textures\grass_dirt\grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\t-dirt_grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\b-dirt_grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\l-dirt_grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\r-dirt_grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\c-dirt_grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_t-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_b-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_l-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_r-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_tl-d-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_tr-d-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_bl-d-grass_tile.png"/>
+    <filePath image="data\materials\textures\grass_dirt\dirt_br-d-grass_tile.png"/>
+  </file>
+
+</mesh2D>

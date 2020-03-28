@@ -1,0 +1,27 @@
+<menuControl>
+
+  <objectDataList>
+    <!-- collision handled by this object -->
+    <objectDataType group="(menu)" type="240x52_button_blank_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <objectDataType group="(menu)" type="check_box">
+      <position x="-97" y="0" z="-10"/>
+    </objectDataType>
+    <!-- The check assest is expeced to be last -->
+    <objectDataType group="(menu)" type="check">
+      <position x="-97" y="0" z="-15"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="ocr_a_std_26" kerning="-2" spaceCharKerning="-4" wrapWidth="-1" wrapPad="0">
+      <position x="-75" y="-1" z="-20"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <animation scriptName="button_display_script"/>
+    </font>
+  </fontList>
+
+</menuControl>

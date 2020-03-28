@@ -1,0 +1,47 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\menu\16x16_3_pixel_frame.png"/>
+  </file>
+
+  <generateMesh>
+    <size width="910" height="42"/>
+    <scaledFrame width="5" height="5" centerQuad="false"/>
+    <meshData>
+      <!-- button Line Seperator -->
+      <tri>
+        <vert x="247" y="7" u="0" v="5"/>
+        <vert x="251" y="7" u="4" v="5"/>
+        <vert x="247" y="34" u="0" v="10"/>
+      </tri>
+      <tri>
+        <vert x="251" y="7" u="4" v="5"/>
+        <vert x="251" y="34" u="4" v="5"/>
+        <vert x="247" y="34" u="0" v="10"/>
+      </tri>
+      <!-- button Line Seperator -->
+      <tri>
+        <vert x="485" y="7" u="0" v="5"/>
+        <vert x="489" y="7" u="4" v="5"/>
+        <vert x="485" y="34" u="0" v="10"/>
+      </tri>
+      <tri>
+        <vert x="489" y="7" u="4" v="5"/>
+        <vert x="489" y="34" u="4" v="5"/>
+        <vert x="485" y="34" u="0" v="10"/>
+      </tri>
+      <!-- button Line Seperator -->
+      <tri>
+        <vert x="731" y="7" u="0" v="5"/>
+        <vert x="735" y="7" u="4" v="5"/>
+        <vert x="731" y="34" u="0" v="10"/>
+      </tri>
+      <tri>
+        <vert x="735" y="7" u="4" v="5"/>
+        <vert x="735" y="34" u="4" v="5"/>
+        <vert x="731" y="34" u="0" v="10"/>
+      </tri>
+    </meshData>
+  </generateMesh>
+
+</mesh2D>

@@ -1,0 +1,53 @@
+<menu>
+
+  <listGroup name="(menu)"/>
+  
+  <menuNavigation nextAction="Menu Right" previousAction="Menu Left"/>
+  <menuCollision generateFromStaticSpriteIndex="0"/>
+  
+  <menuControls>
+
+    <focusGroup>
+      
+      <!-- Message Game Label -->
+      <control name="message_label" controltype="label" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\confirmation_label.ctrl"/>
+        <position x="0" y="40" z="0"/>
+      </control>
+
+      <!-- No Button -->
+      <control name="no_button" controltype="button" defaultState="inactive">
+        <filePath file="data\objects\2d\menus\controls\button_120x52_persistant_frame.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="70" y="-70" z="0"/>
+        <fontStringLst>
+          <string text="No"/>
+        </fontStringLst>
+        <action actionType="return"/>
+      </control>
+
+      <!-- Yes Button -->
+      <control name="yes_button" controltype="button" defaultState="inactive" dispatchActionEvent="true">
+        <filePath file="data\objects\2d\menus\controls\button_120x52_persistant_frame.ctrl"/>
+        <selection selectAction="Menu Select"/>
+        <position x="-70" y="-70" z="0"/>
+        <fontStringLst>
+          <string text="Yes"/>
+        </fontStringLst>
+        <action actionType="return"/>
+      </control>
+
+    </focusGroup>
+    
+  </menuControls>
+
+  
+  <staticSprites>
+
+    <sprite objectType="message_menu_bg"/>
+
+  </staticSprites>
+  
+  
+</menu>
+

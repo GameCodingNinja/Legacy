@@ -1,0 +1,80 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object. -->
+    <objectDataType type="craft_amount_collision_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <objectDataType type="craft_amount_display_box">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <!-- used to display the controls amount -->
+    <font fontName="dejavu_sans_reg_45" maxChar="3" kerning="-1">
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <position x="1" y="0" z="-5"/>
+      <script name="sub_control_display_script"/>
+    </font>
+    <font fontName="dejavu_sans_reg_40" maxChar="3" kerning="-1">
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="0.25" g="0.49" b="0.75" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <position x="-138" y="0" z="-5"/>
+      <script name="transitionScript"/>
+    </font>
+  </fontList>
+
+  <subControlSettings baseControlRespondsToSelect="false"/>
+
+  <subControlList>
+
+    <!-- Decrement by 1 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_amount_arrow_top_bot.ctrl"/>
+      <position x="0" y="-33" z="-5"/>
+      <rotation x="0" y="0" z="180"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <!-- Increment by 1 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_amount_arrow_top_bot.ctrl"/>
+      <position x="0" y="33" z="-5"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <!-- Decrement by 10 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_amount_arrow_side.ctrl"/>
+      <position x="-51" y="0" z="-5"/>
+      <rotation x="0" y="0" z="180"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <!-- Increment by 10 -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_amount_arrow_side.ctrl"/>
+      <position x="51" y="0" z="-5"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_140x52_persistant_frame.ctrl"/>
+      <selection selectAction="Menu Select"/>
+      <position x="140" y="0" z="-5"/>
+      <fontStringLst>
+        <string text="Craft"/>
+      </fontStringLst>
+      <action actionType="change_focus"/>
+    </control>
+
+  </subControlList>
+
+</UIControl>

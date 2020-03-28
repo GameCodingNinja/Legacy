@@ -1,0 +1,23 @@
+<menuControl>
+
+  <objectDataList>
+    <objectDataType group="(menu)" type="120x52_button_blank_solid">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <!-- collision handled by this object -->
+    <objectDataType group="(menu)" type="120x52_button_blank_frame">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="ocr_a_std_35" kerning="-3" wrapWidth="-1" wrapPad="0">
+      <position x="0" y="-3" z="-15"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <animation scriptName="button_display_script"/>
+    </font>
+  </fontList>
+
+</menuControl>

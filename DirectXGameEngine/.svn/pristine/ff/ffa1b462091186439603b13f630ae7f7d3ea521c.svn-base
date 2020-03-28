@@ -1,0 +1,16 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <fontList>
+    <font fontName="dejavu_sans_bold_45">
+      <position x="0" y="0" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="0.30" g="0.52" b="0.77" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <script name="transitionScript"/>
+    </font>
+  </fontList>
+
+</UIControl>

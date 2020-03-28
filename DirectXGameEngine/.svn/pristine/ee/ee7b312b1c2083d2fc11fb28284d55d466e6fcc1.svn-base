@@ -1,0 +1,8 @@
+<scriptListTable>
+
+  <scriptList groupName="(startup)" file="data/objects/2d/scripts/startupScriptList.lst"/>
+  <scriptList groupName="(menu)" file="data/objects/2d/scripts/menuScriptList.lst"/>
+  <scriptList groupName="(object)" file="data/objects/2d/scripts/objectScriptList.lst"/>
+  <scriptList groupName="(load_screen)" file="data/objects/2d/scripts/loadScreenScriptList.lst"/>
+  
+</scriptListTable>

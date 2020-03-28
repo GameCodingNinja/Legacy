@@ -1,0 +1,5 @@
+<control name="load_game_save_btn" controltype="button" defaultState="inactive">
+  <filePath file="data\objects\2d\menus\controls\button_new_load_game.ctrl"/>
+  <selection selectAction="Menu Select"/>
+  <action actionType="deactivate"/>
+</control>

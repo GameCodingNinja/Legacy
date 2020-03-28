@@ -1,0 +1,19 @@
+<actor>
+
+  <camera use="true"/>
+
+  <spriteDataList>
+    
+    <spriteData group="(actors)" type="player_ship"/>
+
+    <spriteData name="gun" group="(actors)" type="player_ship_gun"/>
+
+  </spriteDataList>
+
+  <collision file="rect" world="game" type="dynamic">
+    <size width="94" height="92"/>
+    <body density="5" restitution="0.2" damping="5" fixedRotation="true"/>
+  </collision>
+  
+</actor>
+

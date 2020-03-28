@@ -1,0 +1,8 @@
+<scriptList>
+
+  <listGroup name="(startup)"/>
+
+  <script name="startup" file="data\objects\2d\scripts\startup.cmd"/>
+ 
+</scriptList>
+

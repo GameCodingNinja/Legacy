@@ -1,0 +1,17 @@
+<menuControl>
+
+  <fontList>
+    <font fontName="ocr_a_std_35" kerning="-3" spaceCharKerning="-5" wrapWidth="-1" wrapPad="0">
+      <position x="0" y="0" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="0" b="0" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <animation scriptName="transitionScript"/>
+      <!--<stringLst>
+        <string text="Save Game"/>
+      </stringLst>-->
+    </font>
+  </fontList>
+
+</menuControl>

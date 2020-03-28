@@ -1,0 +1,13 @@
+<actor>
+
+  <camera use="true"/>
+  <position x="300" y="100" z="20"/>
+
+  <spriteDataList>
+
+    <spriteData name="enemy_ship" group="(actors)" type="enemy_ship"/>
+
+  </spriteDataList>
+  
+</actor>
+

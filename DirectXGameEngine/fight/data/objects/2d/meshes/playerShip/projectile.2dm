@@ -1,0 +1,11 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\projectiles\projectile_1.png"/>
+    <filePath image="data\materials\textures\projectiles\projectile_2.png"/>
+    <filePath image="data\materials\textures\projectiles\projectile_3.png"/>
+    <filePath image="data\materials\textures\projectiles\projectile_4.png"/>
+    <filePath image="data\materials\textures\projectiles\projectile_5.png"/>
+  </file>
+
+</mesh2D>

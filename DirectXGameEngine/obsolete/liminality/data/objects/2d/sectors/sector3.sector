@@ -1,0 +1,15 @@
+<sector>
+  
+
+  <objectList>
+
+    <object group="(object)" type="grass_dirt" unique="gd3">
+      <position x="0" y="0" z="0"/>
+      <rotation x="0" y="0" z="0"/>
+    </object>
+
+  </objectList>
+
+  
+</sector>
+

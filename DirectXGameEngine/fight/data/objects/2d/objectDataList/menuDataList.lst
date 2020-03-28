@@ -1,0 +1,330 @@
+<objectDataList2D>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <visual file="">
+      <projection type="orthographic"/>
+      <size width="0" height="0"/>
+      <divisions rows="1" columns="1"/>
+      <color r="1" g="1" b="1" a="1"/>
+      <shader effect="shader_2d" technique="linearFilter"/>
+    </visual>
+    <collision file="" world="gui" type="static">
+      <size width="0" height="0"/>
+      <sizeMod top="0" bottom="0" left="0" right="0"/>
+      <body density="0" restitution="0" damping="0" angDamping="0" fixedRotation="false"/>
+      <color r="1" g="1" b="1" a="1"/>
+    </collision>
+    <script name="" command=""/>
+    <scale x="1" y="1" z="1"/>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+
+  <objectList>
+  
+    <!-- Menu backgrounds -->
+    
+    <object name="pause_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\pause_menu_bg.2dm">
+        <color r="0.19" g="0.38" b="0.60" a="0.85"/>
+      </visual>
+      <script name="transitionScript"/>
+    </object>
+
+    <object name="settings_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\settings_menu_bg.2dm">
+        <color r="0.19" g="0.38" b="0.60" a="0.85"/>
+      </visual>
+      <script name="transitionScript"/>
+    </object>
+
+    <object name="key_bindings_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\key_bindings_menu_bg.2dm">
+        <color r="0.19" g="0.38" b="0.60" a="0.85"/>
+      </visual>
+      <script name="transitionScript"/>
+    </object>
+
+    <object name="message_menu_bg">
+      <visual file="data\objects\2d\meshes\menu\message_menu_bg.2dm">
+        <color r="0.19" g="0.38" b="0.60" a="0.85"/>
+      </visual>
+      <script name="transitionScript"/>
+    </object>
+
+    <!-- Button assets -->
+    <object name="120x52_button_frame">
+      <visual file="data\objects\2d\meshes\menu\120x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_frame_script" command="inactive"/>
+    </object>
+
+    <object name="120x52_button_persistant_frame">
+      <visual file="data\objects\2d\meshes\menu\120x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_list_display_script" command="inactive"/>
+    </object>
+
+    <object name="120x52_button_solid">
+      <visual file="rect">
+        <size width="114" height="46"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="140x52_button_frame">
+      <visual file="data\objects\2d\meshes\menu\140x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_frame_script" command="inactive"/>
+    </object>
+
+    <object name="140x52_button_persistant_frame">
+      <visual file="data\objects\2d\meshes\menu\140x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_list_display_script" command="inactive"/>
+    </object>
+
+    <object name="140x52_button_solid">
+      <visual file="rect">
+        <size width="134" height="46"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="240x52_button_frame">
+      <visual file="data\objects\2d\meshes\menu\240x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_frame_script" command="inactive"/>
+    </object>
+
+    <object name="240x52_button_solid">
+      <visual file="rect">
+        <size width="234" height="46"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="275x52_button_frame">
+      <visual file="data\objects\2d\meshes\menu\275x52_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_frame_script" command="inactive"/>
+    </object>
+
+    <object name="275x52_button_solid">
+      <visual file="rect">
+        <size width="269" height="46"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="arrow_button_frame">
+      <visual file="data\objects\2d\meshes\menu\arrow_button_frame.2dm"/>
+      <script name="button_list_frame_script" command="inactive"/>
+    </object>
+
+    <object name="arrow_button_solid">
+      <visual file="rect">
+        <size width="29" height="36"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_list_solid_script" command="inactive"/>
+    </object>
+
+    <object name="arrow_button">
+      <visual file="data\objects\2d\meshes\menu\arrow_button.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_list_display_script" command="inactive"/>
+    </object>
+
+    <object name="button_list_text_box">
+      <visual file="data\objects\2d\meshes\menu\button_list_text_box.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="38" right="38"/>
+      </collision>
+      <script name="button_list_display_script" command="inactive"/>
+    </object>
+
+    <object name="check">
+      <visual file="data\objects\2d\meshes\menu\check.2dm"/>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="check_box">
+      <visual file="data\objects\2d\meshes\menu\check_box.2dm"/>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="close_button">
+      <visual file="data\objects\2d\meshes\menu\close_button.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="back_button">
+      <visual file="data\objects\2d\meshes\menu\back_button.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="mouse_only_button_solid">
+      <visual file="rect">
+        <size width="18" height="18"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <!-- Slider assets -->
+
+    <object name="slider_selection_frame">
+      <visual file="data\objects\2d\meshes\menu\slider_selection_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_list_frame_script" command="inactive"/>
+    </object>
+
+    <object name="slider_button_solid">
+      <visual file="rect">
+        <size width="36" height="36"/>
+        <color r="0.04" g="0.09" b="0.13"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="slider_button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="230_slider_persistant_frame">
+      <visual file="data\objects\2d\meshes\menu\230_slider_frame.2dm"/>
+      <script name="slider_button_frame_script" command="inactive"/>
+    </object>
+
+    <object name="slider_button_arrow_frame">
+      <visual file="data\objects\2d\meshes\menu\slider_button_arrow_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="slider_button_frame_script" command="inactive"/>
+    </object>
+
+    
+    <!-- Scroll box assets -->
+
+    <object name="key_binding_scroll_box_mask">
+      <visual file="rect">
+        <size width="916" height="548"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="key_binding_scroll_box">
+      <visual file="data\objects\2d\meshes\menu\key_binding_scroll_box.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="100"/>
+      </collision>
+      <script name="scroll_box_display_script" command="inactive"/>
+    </object>
+
+
+    <!-- Scroll box button assets -->
+
+    <object name="key_binding_button_frame">
+      <visual file="data\objects\2d\meshes\menu\key_binding_button_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="key_binding_button_frame_reset">
+      <visual file="data\objects\2d\meshes\menu\key_binding_button_frame_reset.2dm"/>
+      <collision file="rect">
+        <sizeMod top="-1" bottom="-1" left="-1" right="-1"/>
+      </collision>
+      <script name="button_persistant_script" command="inactive"/>
+    </object>
+
+    <object name="key_binding_button_solid">
+      <visual file="rect">
+        <size width="904" height="36"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="570x46_button_solid">
+      <visual file="rect">
+        <size width="564" height="40"/>
+        <color a="0.8"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <script name="button_solid_script" command="inactive"/>
+    </object>
+
+    <object name="key_binding_slider_frame">
+      <visual file="data\objects\2d\meshes\menu\key_binding_slider_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="0" bottom="0" left="40" right="55"/>
+      </collision>
+      <script name="button_list_frame_script" command="inactive"/>
+    </object>
+
+
+
+    <!-- Player Select Menu -->
+    <object name="player_select_frame">
+      <visual file="data\objects\2d\meshes\menu\player_select_frame.2dm">
+        <color r="0.19" g="0.38" b="0.60" a="0.85"/>
+      </visual>
+      <collision file="rect">
+        <sizeMod top="0" bottom="0" left="0" right="0"/>
+      </collision>
+      <script name="transitionScript"/>
+    </object>
+
+    <object name="player_base">
+      <visual file="data\objects\2d\meshes\menu\player_base.2dm"/>
+      <script name="transitionScript"/>
+    </object>
+
+    <object name="player_base_frame">
+      <visual file="data\objects\2d\meshes\menu\player_base_frame.2dm"/>
+      <collision file="rect">
+        <sizeMod top="50" bottom="50" left="50" right="50"/>
+      </collision>
+      <script name="button_persistant_script"/>
+    </object>
+    
+
+  </objectList>
+  
+</objectDataList2D>
+

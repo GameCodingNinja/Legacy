@@ -1,0 +1,5 @@
+<control controltype="button" defaultState="inactive">
+  <filePath file="data\objects\2d\menus\controls\button_new_load_game.ctrl"/>
+  <selection selectAction="Menu Select"/>
+  <action actionType="to_menu" executionAction="confirmation_menu"/>
+</control>

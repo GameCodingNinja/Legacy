@@ -1,0 +1,20 @@
+<stage>
+
+  <!-- Default position and rotation of the camera. -->
+  <defaultCamera>
+    <position x="0.0" y="0.0" z="0.0"/>
+    <rotation x="0.0" y="0.0" z="0.0"/>
+  </defaultCamera>
+
+  <!-- The stage's sectors and their integer position in the world -->
+  <sectors>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector0.sector"/>
+      <position x="0" y="0" z="0"/> <!-- Integer position only. Don't use floats -->
+    </sector>
+
+  </sectors>
+  
+</stage>
+

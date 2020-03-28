@@ -1,0 +1,42 @@
+<menu>
+
+  <menuType type="exclusive"/>
+  <menuNavigation nextAction="Menu Down" previousAction="Menu Up"/>
+  <menuCollision width="304" height="410"/>
+  
+  <menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Save Game Label -->
+    <control controltype="label" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\label.ctrl"/>
+      <position x="0" y="120" z="0"/>
+      <fontStringLst>
+        <string text="Save Game"/>
+      </fontStringLst>
+    </control>
+    
+    <!-- Back Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_120x52.ctrl"/>
+      <position x="0" y="-120" z="0"/>
+      <fontStringLst>
+        <string text="Back"/>
+      </fontStringLst>
+      <action actionType="return" executionAction="save_back_button"/>
+    </control>
+    
+  </menuControls> <!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  
+  <staticSprites> <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+    
+    <sprite objectGroup="(menu)" objectType="304x410_menu_bg">
+      <position x="0" y="0" z="1"/>
+      <scale defaultScale="1"/>
+    </sprite>
+    
+  </staticSprites> <!--//////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
+  
+</menu>
+

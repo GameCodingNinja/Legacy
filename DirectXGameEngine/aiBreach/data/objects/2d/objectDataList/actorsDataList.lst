@@ -1,0 +1,49 @@
+<objectDataList2D>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <visual file="">
+      <projection type="perspective"/>
+      <size width="0" height="0"/>
+      <divisions rows="1" columns="1"/>
+      <color r="1" g="1" b="1" a="1"/>
+      <shader effect="shader_2d" technique="linearFilter"/>
+    </visual>
+    <collision file="" world="" type="static">
+      <size width="0" height="0"/>
+      <sizeMod top="0" bottom="0" left="0" right="0"/>
+      <body density="0" restitution="0"/>
+      <color r="1" g="1" b="1" a="1"/>
+    </collision>
+    <script name="" command=""/>
+    <scale x="1" y="1" z="1"/>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->  
+  
+  <objectList>
+    
+    <object name="player_ship">
+      <visual file="data\objects\2d\meshes\playerShip\ship.2dm"/>
+    </object>
+
+    <object name="player_fire_tail">
+      <visual file="data\objects\2d\meshes\playerShip\fire_tail.2dm"/>
+      <script name="player_ship" command="playerFireTail"/>
+    </object>
+
+    <object name="player_ship_gun">
+      <visual file="data\objects\2d\meshes\playerShip\gun.2dm"/>
+    </object>
+
+    <object name="player_projectile">
+      <visual file="data\objects\2d\meshes\playerShip\projectile.2dm"/>
+    </object>
+
+    <object name="green_enemy_ship">
+      <visual file="data\objects\2d\meshes\enemyShips\orange_ship.2dm"/>
+    </object>
+    
+  </objectList>
+
+</objectDataList2D>
+

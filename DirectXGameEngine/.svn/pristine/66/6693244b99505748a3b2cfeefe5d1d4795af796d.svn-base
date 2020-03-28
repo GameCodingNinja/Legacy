@@ -1,0 +1,66 @@
+<sector>
+  <!--
+  <objectList>
+  
+    <object name="example_1" type="example" parent="example_0">
+      <position x="0" y="100" z="20"/>
+      <rotation x="0" y="90" z="0"/>
+      <scale scale="1"/>
+    </object>
+    
+  </objectList>
+  
+  <lightList>
+  
+    <light name="point" type="point_radius" enable="yes" castShadow="no">
+      <position x="-200.0" y="120.0" z="-150.0"/>
+      <diffuse r="0.2" g="0.2" b="0.3"/>
+      <properties radius="20"/>
+    </light>
+    
+  <lightList/>
+  -->
+
+  <objectList>
+
+    <object group="(object)" type="robot">
+      <position x="-20" y="100" z="30"/>
+    </object>
+
+    <object group="(object)" type="robot">
+      <rotation x="0" y="100" z="0"/>
+      <position x="20" y="100" z="30"/>
+    </object>
+
+    <object group="(object)" type="environmentPiece">
+      <position x="0" y="0" z="0"/>
+      <scale uniform="30"/>
+    </object>
+    <!--
+    <object name="box" type="box">
+      <position x="0" y="100" z="0"/>
+      <rotation x="0" y="0" z="0"/>
+      <scale uniform="3"/>
+    </object>
+    -->
+  </objectList>
+
+
+  <lightList>
+
+    <light name="light1" type="point_radius" enable="yes" castShadow="no">
+      <position x="-200.0" y="120.0" z="-150.0"/>
+      <diffuse r="0.2" g="0.2" b="0.3"/>
+      <properties radius="20"/>
+    </light>
+
+    <light name="light2" type="point_radius" enable="yes" castShadow="yes">
+      <position x="200.0" y="120.0" z="-150.0"/>
+      <diffuse r="0.3" g="0.2" b="0.2"/>
+      <properties radius="20"/>
+    </light>
+
+  </lightList>
+    
+</sector>
+

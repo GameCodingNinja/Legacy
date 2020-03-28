@@ -1,0 +1,43 @@
+<menuManager>
+
+  <menus root="pause_menu" returnAction="Menu Back" selectAction="Menu Select" toggleAction="Menu Toggle" escapeAction="Menu Escape" leftSelect="Menu Left" rightSelect="Menu Right">
+
+    <menu name="title_screen_menu" file="data\objects\2d\menus\title_screen.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="pause_menu" file="data\objects\2d\menus\pause.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="save_menu" file="data\objects\2d\menus\save.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="settings_menu" file="data\objects\2d\menus\settings.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="controls_menu" file="data\objects\2d\menus\controls.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="button_capture_overlay" file="data\objects\2d\menus\button_capture.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+
+    <menu name="quit_menu" file="data\objects\2d\menus\quit.menu">
+      <alignment horizontal="center"/>
+      <position x="0" y="0" z="50"/>
+    </menu>
+    
+  </menus>
+
+</menuManager>
+

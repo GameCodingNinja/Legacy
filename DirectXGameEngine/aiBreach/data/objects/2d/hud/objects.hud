@@ -1,0 +1,23 @@
+<hud>
+
+  <hudControls>
+
+    <!-- fuel progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\fuel_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset right="50" bottom="70"/>
+      <settings maxValue="50" justify="left"/>
+      <curValueLst>
+        <curValue value="13"/>
+      </curValueLst>
+      <fontStringLst>
+        <string text="%d/%d"/>
+      </fontStringLst>
+      <action executionAction="fuel_progress_bar"/>
+    </control>
+    
+  </hudControls>
+  
+</hud>
+

@@ -1,0 +1,12 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\menu\16x16_3_pixel_frame.png"/>
+  </file>
+
+  <generateMesh>
+    <size width="570" height="160"/>
+    <scaledFrame width="5" height="5" centerQuad="false"/>
+  </generateMesh>
+
+</mesh2D>

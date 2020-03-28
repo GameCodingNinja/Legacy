@@ -1,0 +1,41 @@
+<UIControl>
+
+  <listGroup name="(hud)"/>
+
+  <artOrentation vert="true"/>
+
+  <objectDataList>
+    <objectDataType type="ammo_tier_2_progress_bar_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+
+    <objectDataType type="tier_2_progress_bar_icon">
+      <position x="0" y="95" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+
+  <!-- progress bar art - List it in order from top to bottom -->
+  <progressBarList>
+    <progressBarType type="tier_2_progress_bar">
+      <position x="0" y="0" z="-10"/>
+    </progressBarType>
+  </progressBarList>
+
+  <!-- Subtract 8 from width and height of mesh size -->
+  <stencilMaskList width="10" height="142">
+    <stencilMaskType type="tier_2_progress_bar_scaled_mask">
+      <position x="0" y="0" z="-25"/>
+    </stencilMaskType>
+  </stencilMaskList>
+
+  <fontList>
+    <font fontName="dejavu_sans_reg_bold_14">
+      <position x="0" y="-95" z="-30"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+    </font>
+  </fontList>
+
+</UIControl>

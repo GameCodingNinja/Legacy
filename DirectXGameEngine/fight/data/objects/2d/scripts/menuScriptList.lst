@@ -1,0 +1,21 @@
+<scriptList>
+
+  <listGroup name="(menu)"/>
+
+  <script name="button_frame_script" file="data\objects\2d\scripts\button_frame_script.cmd"/>
+  <script name="button_persistant_script" file="data\objects\2d\scripts\button_persistant_script.cmd"/>
+  <script name="button_solid_script" file="data\objects\2d\scripts\button_solid_script.cmd"/>
+  
+  <script name="button_list_frame_script" file="data\objects\2d\scripts\button_list_frame_script.cmd"/>
+  <script name="button_list_solid_script" file="data\objects\2d\scripts\button_list_solid_script.cmd"/>
+  <script name="button_list_display_script" file="data\objects\2d\scripts\button_list_display_script.cmd"/>
+
+  <script name="scroll_box_display_script" file="data\objects\2d\scripts\scroll_box_display_script.cmd"/>
+
+  <script name="slider_button_frame_script" file="data\objects\2d\scripts\button_slider_frame_script.cmd"/>
+  <script name="slider_button_solid_script" file="data\objects\2d\scripts\slider_button_solid_script.cmd"/>
+  
+  <script name="transitionScript" file="data\objects\2d\scripts\fadeInOutScript.cmd"/>
+ 
+</scriptList>
+

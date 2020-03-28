@@ -1,0 +1,26 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\menu\16x16_3_pixel_frame.png"/>
+  </file>
+
+  <generateMesh>
+    <size width="664" height="798"/>
+    <scaledFrame width="5" height="5" centerQuad="false"/>
+
+    <meshData>
+      <!-- Line to seperate scroll bar from scroll box items -->
+      <tri>
+        <vert x="589" y="4" u="0" v="5"/>
+        <vert x="593" y="4" u="4" v="5"/>
+        <vert x="589" y="794" u="0" v="10"/>
+      </tri>
+      <tri>
+        <vert x="593" y="4" u="4" v="5"/>
+        <vert x="593" y="794" u="4" v="5"/>
+        <vert x="589" y="794" u="0" v="10"/>
+      </tri>
+    </meshData>
+  </generateMesh>
+
+</mesh2D>

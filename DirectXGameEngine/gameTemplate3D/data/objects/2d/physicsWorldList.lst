@@ -1,0 +1,23 @@
+<physicsWorldList>
+  
+  <!-- DEFAULT ********************************
+  
+  <world name="">
+    <settings active="false" fps="60"/>
+    <gravity x="0" y="0"/>
+  </world>
+  
+  **** DEFAULT ******************************** -->
+
+  <world name="object">
+    <settings active="false" fps="60"/>
+    <gravity x="0" y="0"/>
+  </world>
+
+  <world name="gui">
+    <settings active="false" fps="60"/>
+    <gravity x="0" y="0"/>
+  </world>
+ 
+</physicsWorldList>
+

@@ -1,0 +1,10 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\space\planet1.png"/>
+    <filePath image="data\materials\textures\space\planet2.png"/>
+    <filePath image="data\materials\textures\space\planet3.png"/>
+    <filePath image="data\materials\textures\space\planet4.png"/>
+  </file>
+
+</mesh2D>

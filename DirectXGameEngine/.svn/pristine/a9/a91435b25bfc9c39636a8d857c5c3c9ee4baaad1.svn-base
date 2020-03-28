@@ -1,0 +1,92 @@
+<hud>
+
+  <hudControls>
+
+    <!-- ship health progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\ship_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset horzCenter="0" bottom="120"/>
+      <settings justify="center"/>
+      <fontStringLst>
+        <string text="%d/%d"/>
+      </fontStringLst>
+      <action executionAction="ship_progress_bar"/>
+    </control>
+
+    <!-- shield progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\shield_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset horzCenter="0" bottom="80"/>
+      <settings justify="center"/>
+      <fontStringLst>
+        <string text="%d/%d"/>
+      </fontStringLst>
+      <action executionAction="shield_progress_bar"/>
+    </control>
+
+    <!-- fuel progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\fuel_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset right="50" bottom="70"/>
+      <settings justify="left"/>
+      <fontStringLst>
+        <string text="%d/%d"/>
+      </fontStringLst>
+      <action executionAction="fuel_progress_bar"/>
+    </control>
+    
+    <!-- ammo tier 1 progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\ammo_tier_1_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset left="50" bottom="82"/>
+      <settings justify="left"/>
+      <fontStringLst>
+        <string text="%d/|%d"/>
+      </fontStringLst>
+      <action executionAction="ammo_tier_1_progress_bar"/>
+    </control>
+
+    <!-- ammo tier 2 progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\ammo_tier_2_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset left="80" bottom="82"/>
+      <settings justify="left"/>
+      <fontStringLst>
+        <string text="%d/|%d"/>
+      </fontStringLst>
+      <action executionAction="ammo_tier_2_progress_bar"/>
+    </control>
+
+    <!-- ammo tier 3 progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\ammo_tier_3_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset left="115" bottom="82"/>
+      <settings justify="left"/>
+      <fontStringLst>
+        <string text="%d/|%d"/>
+      </fontStringLst>
+      <action executionAction="ammo_tier_3_progress_bar"/>
+    </control>
+
+    <!-- ammo tier 4 progress bar -->
+    <control controltype="progress_bar" defaultState="inactive">
+      <filePath file="data\objects\2d\hud\ammo_tier_4_progress_bar.ctrl"/>
+      <position z="50"/>
+      <dynamicOffset left="155" bottom="82"/>
+      <settings justify="left"/>
+      <fontStringLst>
+        <string text="%d/|%d"/>
+      </fontStringLst>
+      <action executionAction="ammo_tier_4_progress_bar"/>
+    </control>
+
+  </hudControls>
+  
+</hud>
+

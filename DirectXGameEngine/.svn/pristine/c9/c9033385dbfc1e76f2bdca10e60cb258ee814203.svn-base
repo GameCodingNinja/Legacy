@@ -1,0 +1,24 @@
+<mesh2D>
+
+  <file>
+    <filePath image="data\materials\textures\space\debris0.png"/>
+    <filePath image="data\materials\textures\space\debris1.png"/>
+    <filePath image="data\materials\textures\space\debris2.png"/>
+    <filePath image="data\materials\textures\space\debris3.png"/>
+    <filePath image="data\materials\textures\space\debris4.png"/>
+    <filePath image="data\materials\textures\space\debris5.png"/>
+    <filePath image="data\materials\textures\space\debris6.png"/>
+    <filePath image="data\materials\textures\space\debris7.png"/>
+    <filePath image="data\materials\textures\space\debris8.png"/>
+    <filePath image="data\materials\textures\space\debris9.png"/>
+    <filePath image="data\materials\textures\space\debris10.png"/>
+    <filePath image="data\materials\textures\space\debris11.png"/>
+    <filePath image="data\materials\textures\space\debris12.png"/>
+    <filePath image="data\materials\textures\space\debris13.png"/>
+    <filePath image="data\materials\textures\space\debris14.png"/>
+    <filePath image="data\materials\textures\space\debris15.png"/>
+    <filePath image="data\materials\textures\space\debris16.png"/>
+    <filePath image="data\materials\textures\space\debris17.png"/>
+  </file>
+
+</mesh2D>

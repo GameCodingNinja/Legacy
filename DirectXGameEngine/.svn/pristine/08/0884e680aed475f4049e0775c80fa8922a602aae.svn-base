@@ -1,0 +1,12 @@
+<actor>
+
+  <position x="0" y="0" z="0"/>
+  
+  <spriteDataList>
+
+    <spriteData name="player" group="(object)" type="female_test"/>
+
+  </spriteDataList>
+  
+</actor>
+

@@ -1,0 +1,7 @@
+DESCRIPTION 'XML Exporter'
+
+VERSION     1.0
+
+LIBRARY      "msXMLExporter"
+EXPORTS
+    CreatePlugIn

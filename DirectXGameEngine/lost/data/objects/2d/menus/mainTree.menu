@@ -1,0 +1,61 @@
+<menuManager>
+
+  <menus root="title_screen_menu" returnAction="Menu Back" toggleAction="Menu Toggle" escapeAction="Menu Escape">
+
+    <menu name="title_screen_menu" file="data\objects\2d\menus\title_screen.menu">
+      <position z="50"/>
+      <dynamicOffset right="100" bottom="100"/>
+    </menu>
+
+    <menu name="new_game_menu" file="data\objects\2d\menus\new_game.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="load_game_menu" file="data\objects\2d\menus\load_game.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="pause_menu" file="data\objects\2d\menus\pause.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="settings_menu" file="data\objects\2d\menus\settings.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="key_bindings_menu" file="data\objects\2d\menus\key_bindings.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="button_capture_menu" file="data\objects\2d\menus\button_capture.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="confirmation_menu" file="data\objects\2d\menus\confirmation.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="loadout_menu" file="data\objects\2d\menus\loadout.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="map_menu" file="data\objects\2d\menus\map.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="craft_menu" file="data\objects\2d\menus\craft.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="inventory_menu" file="data\objects\2d\menus\inventory.menu">
+      <position z="50"/>
+    </menu>
+
+    <menu name="mod_ship_menu" file="data\objects\2d\menus\mod_ship.menu">
+      <position z="50"/>
+    </menu>
+    
+  </menus>
+
+</menuManager>
+

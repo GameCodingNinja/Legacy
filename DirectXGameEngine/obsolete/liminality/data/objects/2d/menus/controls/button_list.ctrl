@@ -1,0 +1,39 @@
+<menuControl>
+
+  <objectDataList>
+    <!-- collision handled by this object. -->
+    <objectDataType group="(menu)" type="button_list_text_box">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+  <fontList>
+    <font fontName="ocr_a_std_26" maxChar="10" kerning="-1" spaceCharKerning="-13" wrapWidth="-1" wrapPad="0">
+      <lighting effect="shader_2d" technique="linearFilter">
+        <materialColor r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <position x="0" y="-2" z="-25"/>
+      <animation scriptName="button_list_display_script"/>
+    </font>
+  </fontList>
+
+  <controlList>
+
+    <!-- Decrement Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="-116" y="0" z="0"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+    <!-- Increment Button -->
+    <control controltype="button" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\button_arrow.ctrl"/>
+      <position x="116" y="0" z="0"/>
+      <rotation x="0" y="0" z="180"/>
+      <selection selectAction="Menu Select"/>
+    </control>
+
+  </controlList>
+
+</menuControl>

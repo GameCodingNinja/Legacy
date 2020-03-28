@@ -1,0 +1,211 @@
+<objectDataList2D>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <visual file="">
+      <projection type="orthographic"/>
+      <size width="0" height="0"/>
+      <divisions rows="1" columns="1"/>
+      <color r="1" g="1" b="1" a="1"/>
+      <shader effect="shader_2d" technique="linearFilter"/>
+    </visual>
+    <collision file="" world="" type="static">
+      <size width="0" height="0"/>
+      <sizeMod top="0" bottom="0" left="0" right="0"/>
+      <body density="0" restitution="0"/>
+      <color r="1" g="1" b="1" a="1"/>
+    </collision>
+    <script name="" command=""/>
+    <scale x="1" y="1" z="1"/>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+
+  <objectList>
+    
+    <!-- Progress bar frames -->
+    <object name="ship_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\ship_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="shield_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\shield_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="fuel_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\fuel_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="ammo_tier_1_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\ammo_tier_1_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="ammo_tier_2_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\ammo_tier_2_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="ammo_tier_3_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\ammo_tier_3_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="ammo_tier_4_progress_bar_frame">
+      <visual file="data\objects\2d\meshes\hud\ammo_tier_4_progress_bar.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+
+    <!-- Progress bar Icons -->
+    <object name="ship_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\wrench_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="shield_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\shield_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="fuel_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\fuel_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="tier_1_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\tier_1_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="tier_2_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\tier_2_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="tier_3_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\tier_3_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+    <object name="tier_4_progress_bar_icon">
+      <visual file="data\objects\2d\meshes\hud\tier_4_icon.2dm">
+        <color r="0.19" g="0.38" b="0.60"/>
+      </visual>
+    </object>
+
+
+    <!-- Progress bar solid color -->
+    <!-- Subtract 8 from width and 7 from height of mesh size -->
+    <object name="progress_bar_600x20_solid_red">
+      <visual file="rect">
+        <size width="600" height="20"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="fuel_progress_bar">
+      <visual file="rect">
+        <size width="32" height="142"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_1_progress_bar">
+      <visual file="rect">
+        <size width="5" height="142"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_2_progress_bar">
+      <visual file="rect">
+        <size width="10" height="142"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_3_progress_bar">
+      <visual file="rect">
+        <size width="15" height="142"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_4_progress_bar">
+      <visual file="rect">
+        <size width="30" height="142"/>
+        <color r="19" g="38" b="58"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+
+    <!-- Progress bar scaled masks -->
+    <!-- Same height as the progress bar art with one of the sides to be scaled -->
+    <object name="progress_bar_1x20_scaled_mask">
+      <visual file="rect">
+        <size width="1" height="20"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="fuel_progress_bar_scaled_mask">
+      <visual file="rect">
+        <size width="32" height="1"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_1_progress_bar_scaled_mask">
+      <visual file="rect">
+        <size width="5" height="1"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_2_progress_bar_scaled_mask">
+      <visual file="rect">
+        <size width="10" height="1"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_3_progress_bar_scaled_mask">
+      <visual file="rect">
+        <size width="15" height="1"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+    <object name="tier_4_progress_bar_scaled_mask">
+      <visual file="rect">
+        <size width="30" height="1"/>
+        <shader technique="solidRect"/>
+      </visual>
+    </object>
+
+  </objectList>
+    
+</objectDataList2D>
+

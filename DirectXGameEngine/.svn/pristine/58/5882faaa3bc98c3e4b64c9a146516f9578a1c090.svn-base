@@ -1,0 +1,67 @@
+<objectDataList2D>
+
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  <default>
+    <scale x="1" y="1" z="1"/>
+    <visual file="">
+      <projection type="orthographic"/>
+      <size width="0" height="0"/>
+      <divisions rows="1" columns="1"/>
+      <color r="1" g="1" b="1" a="1"/>
+      <shader effect="shader_2d" technique="linearFilter"/>
+    </visual>
+    <collision file="" world="object" type="static">
+      <size width="0" height="0"/>
+      <sizeMod top="0" bottom="0" left="0" right="0"/>
+      <body density="0" restitution="0"/>
+      <color r="1" g="1" b="1" a="1"/>
+    </collision>
+    <script name="" command=""/>
+  </default>
+  <!-- DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT -->
+  
+  <objectList>
+
+    <object name="radar">
+      <visual file="data\objects\2d\meshes\radar.2dm">
+        <color a="0.5"/>
+      </visual>
+    </object>
+
+    <object name="player_ship">
+      <visual file="data\objects\2d\meshes\player_ship.2dm"/>
+      <collision file="rect"/>
+    </object>
+
+    <object name="player_fire_tail">
+      <visual file="data\objects\2d\meshes\fire_tail.2dm"/>
+      <script name="player_ship" command="playerFireTail"/>
+    </object>
+
+    <object name="collision_test">
+      <scale x="2" y="2"/>
+      <visual file="rect">
+        <size width="101" height="101"/>
+        <color a="0.5"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <collision file="rect">
+        <body density="10" restitution="3"/>
+      </collision>
+    </object>
+
+    <object name="collision_test2">
+      <visual file="rect">
+        <size width="101" height="101"/>
+        <color a="0.5"/>
+        <shader technique="solidRect"/>
+      </visual>
+      <collision file="rect">
+        <body density="10" restitution="3"/>
+      </collision>
+    </object>
+
+  </objectList>
+    
+</objectDataList2D>
+

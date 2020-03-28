@@ -1,0 +1,25 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <objectDataType type="craft_item_frame">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <objectDataType type="craft_item">
+      <position x="-222" y="0" z="-5"/>
+    </objectDataType>
+  </objectDataList>
+  
+  <fontList>
+    <font fontName="dejavu_sans_reg_40">
+      <position x="-160" y="0" z="-5"/>
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="1" g="1" b="1" a="1"/>
+      </lighting>
+      <alignment horzAlign="left" vertAlign="center"/>
+      <script name="button_persistant_script"/>
+    </font>
+  </fontList>
+
+</UIControl>

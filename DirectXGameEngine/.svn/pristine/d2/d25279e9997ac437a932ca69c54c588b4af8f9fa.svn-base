@@ -1,0 +1,70 @@
+<generatorLst>
+<!--
+  <generator seed="8068153429" instance="true">
+
+    values need to be odd only
+    <sector dimensions="3" size="121"/>
+
+    colorGridSize needs to be odd value
+    <color r_min="1" r_max="1" g_min="1" g_max="1" b_min="1" b_max="1" a_min="1" a_max="1" colorGridSize="0" hueShiftMin="0" hueShiftMax="0"/>
+
+  </generator>
+  -->
+
+  <generator seed="8068153429" instance="true">
+    <objectData group="(space)" type="smallStars"/>
+    <sector dimensions="3" size="121"/>
+    <count min="35" max="35"/>
+    <depth min="100" max="100"/>
+    <scale min="160" max="200"/>
+    <rotate min="0" max="360"/>
+    <color r_min="1" r_max="1" g_min="1" g_max="1" b_min="1" b_max="1" a_min="1" a_max="1" colorGridSize="0" hueShiftMin="0" hueShiftMax="0"/>
+    <frameDisplay displayType="random"/>
+  </generator>
+
+  <generator seed="5714037253" instance="true">
+    <objectData group="(space)" type="bigStars"/>
+    <sector dimensions="3" size="121"/>
+    <count min="1" max="4"/>
+    <depth min="100" max="100"/>
+    <scale min="70" max="120"/>
+    <rotate min="0" max="360"/>
+    <color r_min="1" r_max="1" g_min="1" g_max="1" b_min="1" b_max="1" a_min="1" a_max="1" colorGridSize="0" hueShiftMin="0" hueShiftMax="0"/>
+    <frameDisplay displayType="random"/>
+  </generator>
+
+  <generator seed="9503250471" instance="true">
+    <objectData group="(space)" type="planet"/>
+    <sector dimensions="3" size="121"/>
+    <count min="1" max="3"/>
+    <depth min="50" max="90"/>
+    <scale min="10" max="80"/>
+    <rotate min="0" max="0"/>
+    <color r_min="0.3" r_max="1.0" g_min="0.3" g_max="1.0" b_min="0.3" b_max="1.0" a_min="1" a_max="1" colorGridSize="3" hueShiftMin="-90" hueShiftMax="90"/>
+    <frameDisplay displayType="random"/>
+  </generator>
+
+  <generator seed="8456309801" instance="true">
+    <objectData group="(space)" type="dust"/>
+    <sector dimensions="3" size="121"/>
+    <count min="3" max="10"/>
+    <depth min="30" max="90"/>
+    <scale min="80" max="140"/>
+    <rotate min="0" max="360"/>
+    <color r_min="0.0" r_max="1.0" g_min="0.0" g_max="1.0" b_min="0.0" b_max="1.0" a_min="0.8" a_max="0.9" colorGridSize="3" hueShiftMin="-45" hueShiftMax="45"/>
+    <frameDisplay displayType="random"/>
+  </generator>
+
+  <generator seed="4570295139" instance="true">
+    <objectData group="(space)" type="debris"/>
+    <sector dimensions="3" size="3"/>
+    <count min="6" max="12"/>
+    <depth min="1" max="1"/>
+    <scale min="0.5" max="2"/>
+    <rotate min="0" max="360"/>
+    <color r_min="1" r_max="1" g_min="1" g_max="1" b_min="1" b_max="1" a_min="1" a_max="1" colorGridSize="0" hueShiftMin="0" hueShiftMax="0"/>
+    <frameDisplay displayType="random"/>
+  </generator>
+  
+</generatorLst>
+

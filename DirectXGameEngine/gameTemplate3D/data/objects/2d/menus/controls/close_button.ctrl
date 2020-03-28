@@ -1,0 +1,15 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <objectDataType type="mouse_only_button_solid">
+      <position x="0" y="0" z="-5"/>
+    </objectDataType>
+    <!-- collision handled by this object -->
+    <objectDataType type="close_button">
+      <position x="0" y="0" z="-10"/>
+    </objectDataType>
+  </objectDataList>
+
+</UIControl>

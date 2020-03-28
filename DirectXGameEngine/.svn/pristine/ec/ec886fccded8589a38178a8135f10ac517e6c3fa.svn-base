@@ -1,0 +1,35 @@
+<UIControl>
+
+  <listGroup name="(menu)"/>
+
+  <objectDataList>
+    <!-- collision handled by this object. -->
+    <objectDataType type="player_select_frame"/>
+  </objectDataList>
+  <fontList>
+    <font fontName="dejavu_sans_bold_45">
+      <lighting effect="shader_2d" technique="linearFilter">
+        <color r="0.16" g="0.32" b="0.50" a="1"/>
+      </lighting>
+      <alignment horzAlign="center" vertAlign="center"/>
+      <position x="0" y="350" z="0"/>
+      <script name="transitionScript"/>
+    </font>
+  </fontList>
+
+  <subControlSettings baseControlRespondsToSelect="false" baseControlAsContainer="true"/>
+
+  <subControlList>
+
+    <control name="player_base" controltype="button_list" defaultState="inactive">
+      <filePath file="data\objects\2d\menus\controls\player_base_button_list.ctrl"/>
+      <selection decSelect="Menu Left" incSelect="Menu Right"/>
+      <objectDataType type="player_base"/>
+      <position x="0" y="0" z="0"/>
+      <action actionType="action"/>
+    </control>
+
+
+  </subControlList>
+
+</UIControl>

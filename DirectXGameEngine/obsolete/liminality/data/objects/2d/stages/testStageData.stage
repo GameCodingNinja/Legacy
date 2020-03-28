@@ -1,0 +1,66 @@
+<stage>
+  
+  <!-- Default position and rotation of the camera. -->
+  <defaultCameraPosition x="0.0" y="0.0" z="0.0"/>
+  <defaultCameraRotation x="0.0" y="0.0" z="0.0"/>
+
+  <!-- The stage's sectors and their integer position in the world -->
+  <sectors>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector0.sector"/>
+      <position x="-1" y="1" z="0"/> <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector1.sector"/>
+      <position x="0" y="1" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector2.sector"/>
+      <position x="1" y="1" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector3.sector"/>
+      <position x="-1" y="0" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector4.sector"/>
+      <position x="0" y="0" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector5.sector"/>
+      <position x="1" y="0" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector6.sector"/>
+      <position x="-1" y="-1" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector7.sector"/>
+      <position x="0" y="-1" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+    <sector>
+      <filePath file="data\objects\2d\sectors\sector8.sector"/>
+      <position x="1" y="-1" z="0"/>
+      <!-- Integer position only. Don't use floats -->
+    </sector>
+
+  </sectors>
+  
+</stage>
+

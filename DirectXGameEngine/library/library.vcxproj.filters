@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2d">
+      <UniqueIdentifier>{c9e6ad9b-ae88-4214-886f-dbb36165982a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d">
+      <UniqueIdentifier>{1f845cd3-df9d-4a79-a8ab-33ccf291e3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{46a3ba10-68f8-4d80-8af8-5b581511f27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{7e8da096-43cc-4c21-9aa9-54c4d2fea146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{d989e60b-0462-4388-b258-08a5e61162e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers">
+      <UniqueIdentifier>{7d2bf3d9-81da-42a0-b324-a23db494aeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{7efc5066-36c0-44ae-be5e-dd1817dae2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting">
+      <UniqueIdentifier>{8dbde5d6-ea13-4543-8dfc-664ff53dcd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{0abbe837-b389-473a-a0e3-52da952ba4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{dd8edf75-d10a-4aee-8129-1d0aef3dc46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xact">
+      <UniqueIdentifier>{22369bac-1781-4c2f-b9b7-8e85a8017f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmlparser">
+      <UniqueIdentifier>{079d248a-993a-4a28-a011-76181d8e3978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2d\include">
+      <UniqueIdentifier>{e219ba88-a34e-4cf8-a41e-938df020628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2d\source">
+      <UniqueIdentifier>{e8aa4d6f-0bb5-4acd-a038-a176b497f2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d\include">
+      <UniqueIdentifier>{39914097-412d-41ef-85e8-2c6b7b2eebf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d\source">
+      <UniqueIdentifier>{ec335002-d1e0-44c9-a684-4f35103a7d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include">
+      <UniqueIdentifier>{72ed1902-b4b7-4522-8097-73c957a6034f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\source">
+      <UniqueIdentifier>{0531dfe1-6eed-4ca4-9985-3963817693fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller\include">
+      <UniqueIdentifier>{bac58185-6ff7-486d-9242-befed759bd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller\source">
+      <UniqueIdentifier>{f455ba14-cb68-445a-a750-6d880adc0565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\include">
+      <UniqueIdentifier>{797e9107-36c5-46e8-97a5-3e25e4463c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\source">
+      <UniqueIdentifier>{1a404145-567d-439d-8305-7c1eaa1d6a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers\include">
+      <UniqueIdentifier>{04fc0b79-c98a-4687-8559-d59775219668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="managers\source">
+      <UniqueIdentifier>{6bd47c94-a87b-415d-a721-420f463fe264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\include">
+      <UniqueIdentifier>{c8e049c4-e1dd-4fe0-a628-e2dcdcf5ad55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\source">
+      <UniqueIdentifier>{f65721be-3f6d-4cb5-ad2c-af5cb074f2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting\include">
+      <UniqueIdentifier>{a9d4bc8f-7de9-42d2-acc2-a427220c3d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting\source">
+      <UniqueIdentifier>{d027ca56-e160-46b0-9650-7a0697bb2d1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2d\actorsprite2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\font.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\fontmanager.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\fontsprite.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\iaibase.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\instancemesh2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\ismartspritegroup.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\objectcollisiondata2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\objectdata2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\objectdatalist2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\objectscriptdata2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\objectvisualdata2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\sector2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\spritegroup2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\stage2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\visualmesh2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\visualsprite2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\collision.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\collisioncheck.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\hotspot.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\hotspotwarp.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\joint.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointanimation.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointanimationmanager.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointmultilinklist.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointnode.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\keyframe.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\light.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\lightlst.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\meshanimation.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\sector3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\worldcamera.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\xalphaface.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\actordata.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bitmask.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\camera.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\color.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\defs.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dynamicoffset.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\face.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\fontgroup.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\jpoint.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\jvertex.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\matrix.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\megatexture.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\megatexturecomponent.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\normal.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\object.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\point.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pointint.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\progressbar.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quad.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quaternion.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\radian.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rect.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\size.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\spritedata.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\texture.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\texturepartition.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\uv.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\vertex.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\vertex2d.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\winapidefs.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\worldpoint.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\worldvalue.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xface.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xface2d.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xjface.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xquad2d.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xvert2d.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\xvertexbuffer.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\axischeck.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\basecontroller.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\controllerdefs.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\devicemovement.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\gamecontroller.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\joypadcontroller.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\keyboardcontroller.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\keybuttonaction.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\mousecontroller.h">
+      <Filter>controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\controlevent.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\ismartguibase.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uiamountbutton.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uibutton.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uibuttonlist.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uicheckbox.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uicontrol.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uicontroldefs.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uicontrolfactory.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uihudcontrol.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uilabel.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uimenu.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uimenudefs.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uimenutree.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uiprogressbar.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uiscrollbox.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uislider.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uisubcontrol.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\uitabcontrol.h">
+      <Filter>gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\actordatalist.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\actormanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\basesavefile.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\hudmanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\instancemeshmanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\megatexturemanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\meshmanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\shader.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\stagedatalist.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\texturemanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\vertexbuffermanager2d.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\effectdata.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\eventapi.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\settings.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\shaderevent.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\spritebinaryfileheader.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlParser\xmlParser.h">
+      <Filter>xmlparser</Filter>
+    </ClInclude>
+    <ClInclude Include="xact\soundcue.h">
+      <Filter>xact</Filter>
+    </ClInclude>
+    <ClInclude Include="xact\xact.h">
+      <Filter>xact</Filter>
+    </ClInclude>
+    <ClInclude Include="xact\xactdefs.h">
+      <Filter>xact</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\criticalsection.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\cullfunc.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\deletefuncs.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\doublylinkedlist.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\exceptionhandling.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\genfunc.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\highresolutiontimer.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\mathfunc.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\multilinklist.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\smartpointers.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\sortfunc.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\statcounter.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\state.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\thread.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\timer.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\xmlparsehelper.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\gamewnd.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\colorscriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\command.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\commandscript.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\framescriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\generalscriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\positionscriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\rotationscriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scalescriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\script.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptcolor.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptcolorto.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptcolortodefault.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptinccolor.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptmanager.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptobject.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptsetcolor.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptsetcolortodefault.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\scriptstep.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\soundscriptdefs.h">
+      <Filter>scripting\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\sprite3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\mesh3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\spritegroup3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\visualmesh3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\collisionmesh3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointanimationmesh3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\collisionsprite3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\jointanimationsprite3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\visualsprite3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\objectdatalist3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\objectdata3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sectordata.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stagedata.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\objectvisualdata3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\objectcollisiondata3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\objectshadowdata3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\stage3d.h">
+      <Filter>3d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\generatormanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\generator2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\physicsworld.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+    <ClInclude Include="managers\physicsworldmanager.h">
+      <Filter>managers\include</Filter>
+    </ClInclude>
+    <ClInclude Include="system\xdevice.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\collisionfunc2d.h">
+      <Filter>utilities\include</Filter>
+    </ClInclude>
+    <ClInclude Include="common\transformdata.h">
+      <Filter>common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\collisionsprite2d.h">
+      <Filter>2d\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2d\actorsprite2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\font.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\fontmanager.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\fontsprite.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\iaibase.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\instancemesh2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\ismartspritegroup.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\objectdatalist2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\sector2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\spritegroup2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\stage2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\visualmesh2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\visualsprite2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\collision.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\collisioncheck.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\hotspot.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\hotspotwarp.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\jointanimationmanager.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\jointnode.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\light.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\lightlst.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\sector3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\worldcamera.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\xalphaface.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\actordata.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bitmask.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\camera.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\face.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\matrix.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\megatexture.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\object.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\point.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pointint.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\worldpoint.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\worldvalue.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\basecontroller.cpp">
+      <Filter>controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\gamecontroller.cpp">
+      <Filter>controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\joypadcontroller.cpp">
+      <Filter>controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\keyboardcontroller.cpp">
+      <Filter>controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\mousecontroller.cpp">
+      <Filter>controller\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\ismartguibase.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uiamountbutton.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uibutton.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uibuttonlist.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uicheckbox.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uicontrol.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uicontrolfactory.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uihudcontrol.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uilabel.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uimenu.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uimenutree.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uiprogressbar.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uiscrollbox.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uislider.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uisubcontrol.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\uitabcontrol.cpp">
+      <Filter>gui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\actordatalist.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\actormanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\basesavefile.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\hudmanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\instancemeshmanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\megatexturemanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\meshmanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\shader.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\stagedatalist.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\texturemanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\vertexbuffermanager2d.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\settings.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlParser\xmlParser.cpp">
+      <Filter>xmlparser</Filter>
+    </ClCompile>
+    <ClCompile Include="xact\xact.cpp">
+      <Filter>xact</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\criticalsection.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\genfunc.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\highresolutiontimer.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\mathfunc.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\sortfunc.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\statcounter.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\state.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\timer.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\xmlparsehelper.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\gamewnd.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\command.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\commandscript.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptcolor.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptcolorto.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptcolortodefault.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptinccolor.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptmanager.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptobject.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptsetcolor.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptsetcolortodefault.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\scriptstep.cpp">
+      <Filter>scripting\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\sprite3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\mesh3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\spritegroup3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\visualmesh3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\collisionmesh3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\jointanimationmesh3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\collisionsprite3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\jointanimationsprite3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\visualsprite3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\objectdatalist3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stagedata.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\objectvisualdata3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\objectcollisiondata3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\objectshadowdata3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\objectcollisiondata2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\objectvisualdata2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\objectscriptdata2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="3d\stage3d.cpp">
+      <Filter>3d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sectordata.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\spritedata.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\generatormanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\generator2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\physicsworld.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+    <ClCompile Include="managers\physicsworldmanager.cpp">
+      <Filter>managers\source</Filter>
+    </ClCompile>
+    <ClCompile Include="system\xdevice.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\collisionfunc2d.cpp">
+      <Filter>utilities\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common\transformdata.cpp">
+      <Filter>common\source</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\collisionsprite2d.cpp">
+      <Filter>2d\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
