@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DCAE3AD-DDF0-482B-9FB6-C7976EBC3C80}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/MVC Start.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>
+      </AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\development\Funware Projects MVC\Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>NotSet</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.lib;glu32.lib;d3dx9d.lib;d3d9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/MVC Start.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/MVC Start.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\development\Funware Projects MVC\Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>
+      </AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc80.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;glu32.lib;d3dx9d.lib;d3d9.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>
+      </ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/MVC Start.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="DoNothingDlg.cpp" />
+    <ClCompile Include="Example.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="..\Library\baseset.cpp" />
+    <ClCompile Include="..\Library\bitmap.cpp" />
+    <ClCompile Include="..\Library\dib.cpp" />
+    <ClCompile Include="..\Library\gTools.cpp" />
+    <ClCompile Include="..\Library\minTools.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\Library\OLE_Pict.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\C3DWindow.cpp" />
+    <ClCompile Include="..\Library\3D\CAnimMesh.cpp" />
+    <ClCompile Include="..\Library\3D\CAnimPolygon.cpp" />
+    <ClCompile Include="..\Library\3D\CBaseCamera.cpp" />
+    <ClCompile Include="..\Library\3D\CLight.cpp" />
+    <ClCompile Include="..\Library\3D\CMatrix.cpp" />
+    <ClCompile Include="..\Library\3D\CMesh.cpp" />
+    <ClCompile Include="..\Library\3D\CMeshMap.cpp" />
+    <ClCompile Include="..\Library\3D\CPathNode.cpp" />
+    <ClCompile Include="..\Library\3D\CPolyDirectX.cpp" />
+    <ClCompile Include="..\Library\3D\CPolygon.cpp" />
+    <ClCompile Include="..\Library\3D\CPolygonMap.cpp" />
+    <ClCompile Include="..\Library\3D\CPolyOpenGL.cpp" />
+    <ClCompile Include="..\Library\3D\CPolySoftware.cpp" />
+    <ClCompile Include="..\Library\3D\CTextLib.cpp" />
+    <ClCompile Include="..\Library\3D\CTextMap.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadefarraynode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadefdoublenode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadeffloatnode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadefintegernode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadefnode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\datadefstringnode.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\tagfileparser.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\tagtokenparser.cpp" />
+    <ClCompile Include="..\Library\tagfileparser\tokenizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoNothingDlg.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CZombie.h" />
+    <ClInclude Include="Example.h" />
+    <ClInclude Include="GDefines.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="..\Library\baseset.h" />
+    <ClInclude Include="..\Library\bitmap.h" />
+    <ClInclude Include="..\Library\dib.h" />
+    <ClInclude Include="..\Library\FreePtr.h" />
+    <ClInclude Include="..\Library\gTools.h" />
+    <ClInclude Include="..\Library\minTools.h" />
+    <ClInclude Include="..\Library\OLE_Pict.h" />
+    <ClInclude Include="..\Library\3D\C3DWindow.h" />
+    <ClInclude Include="..\Library\3D\CAnimMapObj.h" />
+    <ClInclude Include="..\Library\3D\CAnimMesh.h" />
+    <ClInclude Include="..\Library\3D\CAnimMeshLst.h" />
+    <ClInclude Include="..\Library\3D\CAnimPolygon.h" />
+    <ClInclude Include="..\Library\3D\CBaseCamera.h" />
+    <ClInclude Include="..\Library\3D\CBot.h" />
+    <ClInclude Include="..\Library\3D\CGraphList.h" />
+    <ClInclude Include="..\Library\3D\CLight.h" />
+    <ClInclude Include="..\Library\3D\CMapLightLst.h" />
+    <ClInclude Include="..\Library\3D\CMapMgr.h" />
+    <ClInclude Include="..\Library\3D\CMatrix.h" />
+    <ClInclude Include="..\Library\3D\CMesh.h" />
+    <ClInclude Include="..\Library\3D\CMeshList.h" />
+    <ClInclude Include="..\Library\3D\CMeshMap.h" />
+    <ClInclude Include="..\Library\3D\CPathNode.h" />
+    <ClInclude Include="..\Library\3D\CPoint.h" />
+    <ClInclude Include="..\Library\3D\CPolygon.h" />
+    <ClInclude Include="..\Library\3D\CPolygonMap.h" />
+    <ClInclude Include="..\Library\3D\CTextLib.h" />
+    <ClInclude Include="..\Library\3D\CTextMap.h" />
+    <ClInclude Include="..\Library\3D\CTSParser.h" />
+    <ClInclude Include="..\Library\3D\directXBuildDef.h" />
+    <ClInclude Include="..\Library\3D\types.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadefarraynode.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadefdoublenode.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadeffloatnode.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadefintegernode.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadefnode.h" />
+    <ClInclude Include="..\Library\tagfileparser\datadefstringnode.h" />
+    <ClInclude Include="..\Library\tagfileparser\tagfileparser.h" />
+    <ClInclude Include="..\Library\tagfileparser\tagtokenparser.h" />
+    <ClInclude Include="..\Library\tagfileparser\tokenizer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Example.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

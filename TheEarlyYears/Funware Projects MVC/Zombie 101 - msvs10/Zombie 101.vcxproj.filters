@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{49380b6b-d454-481f-865a-b5d59c0da9dc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\library">
+      <UniqueIdentifier>{32103e2d-7be9-41d6-aaa7-33bc4fdd0cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3D">
+      <UniqueIdentifier>{260dfc15-3608-48ad-bd0b-c6381698ef74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tagfileparser">
+      <UniqueIdentifier>{cc401884-fe17-4c34-8100-ad0ba3fbe7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2857ff2c-bded-4213-b17c-92a9bd5d1d44}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\library">
+      <UniqueIdentifier>{be63216d-01d4-4721-9559-6fe8a0a788d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D">
+      <UniqueIdentifier>{817a252c-8e3c-4bee-a429-e5b742a6b976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tagfileparser">
+      <UniqueIdentifier>{f6c49cc6-0904-4796-bef9-bd27daae8c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{894d12aa-1bb5-4054-bddf-260d722cf534}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoNothingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\baseset.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\bitmap.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\dib.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\gTools.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\minTools.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\OLE_Pict.cpp">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\C3DWindow.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CAnimMesh.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CAnimPolygon.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CBaseCamera.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CLight.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CMatrix.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CMesh.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CMeshMap.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPathNode.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPolyDirectX.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPolygon.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPolygonMap.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPolyOpenGL.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CPolySoftware.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CTextLib.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\3D\CTextMap.cpp">
+      <Filter>Source Files\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadefarraynode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadefdoublenode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadeffloatnode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadefintegernode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadefnode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\datadefstringnode.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\tagfileparser.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\tagtokenparser.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\tagfileparser\tokenizer.cpp">
+      <Filter>Source Files\tagfileparser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoNothingDlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CZombie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\baseset.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\bitmap.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\dib.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\FreePtr.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\gTools.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\minTools.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\OLE_Pict.h">
+      <Filter>Header Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\C3DWindow.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CAnimMapObj.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CAnimMesh.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CAnimMeshLst.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CAnimPolygon.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CBaseCamera.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CBot.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CGraphList.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CLight.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMapLightLst.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMapMgr.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMatrix.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMesh.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMeshList.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CMeshMap.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CPathNode.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CPoint.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CPolygon.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CPolygonMap.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CTextLib.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CTextMap.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\CTSParser.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\directXBuildDef.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\3D\types.h">
+      <Filter>Header Files\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadefarraynode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadefdoublenode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadeffloatnode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadefintegernode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadefnode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\datadefstringnode.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\tagfileparser.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\tagtokenparser.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\tagfileparser\tokenizer.h">
+      <Filter>Header Files\tagfileparser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Example.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

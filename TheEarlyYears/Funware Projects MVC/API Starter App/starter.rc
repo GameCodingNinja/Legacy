@@ -1,0 +1,36 @@
+//  Starter Resource File
+//  File Starter.rc
+
+#include "GDefines.h"        // Header file with #defines
+#include <windows.h>
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "starter.ico"
+
+
+Menu_1 MENU
+{
+    POPUP "&File"
+   {
+      MENUITEM "&Create Dialog", MNU_CREATE_DLG
+      MENUITEM SEPARATOR
+      MENUITEM "&Exit", MNU_EXIT
+   }
+
+   POPUP "&Help"
+   {
+      MENUITEM "&About", MNU_ABOUT
+   }
+}
+
+DLG_DO_NOTHING DIALOG 0, 0, 240, 89
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "The Do Nothing Dialog Box"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", MNU_EXIT, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 180, 64, 50, 14
+ CONTROL "The do nothing dialog box.\r\rCreating a model dialog requires a call to DialogBox.\r\rCreating a modelless dialog box requires a call to CreateDialog. This example doesn't make modelless dialogs.", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 8, 208, 52, 0
+}
+

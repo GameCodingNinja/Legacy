@@ -1,0 +1,18 @@
+mapObjects	  [global][objectList]
+global		  [mapScale]
+objectList    ([object]) 
+object        [AnimName][floorId][objectType][mapId][trans]<[objOffset]><[rot]><[scale]><[shadow]><[shadowInten]><[shadowProject]><[lightOffset]>
+
+AnimName      S
+floorId 	  i
+objectType    S
+mapId         i 
+trans         (f) 
+rot           (f)
+scale         (f)
+mapScale      (f)
+objOffset     (i)
+shadow        i
+shadowInten   i
+shadowProject (f)
+lightOffset   (f)

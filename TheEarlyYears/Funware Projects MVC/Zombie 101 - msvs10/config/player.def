@@ -1,0 +1,19 @@
+player		  [map][spawnList]
+spawnList     ([spawn]) 
+spawn         [floorId][objectType][mapId][trans]<[rot]>
+map 		  [moveSpeed][strafeSpeed][radious][gravity][distFromFloor][distFromWall][mapScale]
+
+floorId 	  i
+objectType    S
+mapId         i 
+trans         (f) 
+rot           (f)
+mapScale      (f)
+
+moveSpeed      f
+strafeSpeed    f
+radious		   f
+gravity        f
+distFromFloor  f
+distFromWall   f
+

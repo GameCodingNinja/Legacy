@@ -1,0 +1,113 @@
+#include "ssdefines.h"
+#include <windows.h>
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+settings GIF LOADONCALL MOVEABLE "SettingB.GIF"
+
+/* midi toons */
+ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// graphics
+background GIF LOADONCALL DISCARDABLE "screen.gif"
+
+symbol_0 GIF LOADONCALL DISCARDABLE "symbol-01.gif"
+symbol_1 GIF LOADONCALL DISCARDABLE "symbol-02.gif"
+symbol_2 GIF LOADONCALL DISCARDABLE "symbol-03.gif"
+symbol_3 GIF LOADONCALL DISCARDABLE "symbol-04.gif"
+symbol_4 GIF LOADONCALL DISCARDABLE "symbol-05.gif"
+symbol_5 GIF LOADONCALL DISCARDABLE "symbol-06.gif"
+symbol_6 GIF LOADONCALL DISCARDABLE "symbol-07.gif"
+symbol_7 GIF LOADONCALL DISCARDABLE "symbol-08.gif"
+symbol_8 GIF LOADONCALL DISCARDABLE "symbol-09.gif"
+symbol_9 GIF LOADONCALL DISCARDABLE  "symbol-10.gif"
+symbol_10 GIF LOADONCALL DISCARDABLE "symbol-11.gif"
+symbol_11 GIF LOADONCALL DISCARDABLE "symbol-12.gif"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 187
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 146, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 146, 45, 14
+ CONTROL "Text1", TXT_SPEED, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 68, 100, 8, 0
+ CONTROL "ScrollBar1", SCRBAR_SPEED, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 81, 100, 9, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 70, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 82, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 94, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 106, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 118, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 96, 164, 124, 13, 0
+}
+
+
+// helpful hint dialog
+DLG_HELPFUL_HINT DIALOG 0, 0, 257, 206
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Helpful Hint"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 204, 184, 46, 15
+ CONTROL "", EDT_HELPFUL_HINT, "edit", ES_LEFT | ES_MULTILINE | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 24, 241, 152, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 185, 84, 12, 0
+ CONTROL "", TXT_HLP_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 240, 16, 0
+}
+
+
+DLG_MEDIA_DIR DIALOG 0, 0, 262, 35
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Test Selected Sound File", BTN_PLAY_SOUND, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 54, 16, 155, 14
+ CONTROL "Be sure to test each sound file before using it with the screen saver", TXT_MEDIA_DIR, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 248, 10, 0
+}
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Screen Saver\0"
+			VALUE "FileVersion", "1.0.0\0"
+            VALUE "InternalName", "Stars\0"
+            VALUE "LegalCopyright", "\251 Copyright 2000 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "stars.scr\0"
+            VALUE "ProductName", "Space Oddities\0"
+            VALUE "ProductVersion", "1.0.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

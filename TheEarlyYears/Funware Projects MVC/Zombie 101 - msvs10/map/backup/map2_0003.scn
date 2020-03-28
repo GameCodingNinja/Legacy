@@ -1,0 +1,751 @@
+Caligari V00.01ALH             
+BitM V0.01 Id 0 Parent 0 Size 00003301
+ThumbNailHdrSize 40
+ThumbHeader:28 00 00 00 5e 00 00 00 44 00 00 00 01 00 18 00 00 00 00 00 70 4b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+ColorBufSize 19312
+ColorBufZipSize 1030
+ZippedThumbnail:78 9c ed 9a 5d 6f d3 48 14 86 e7 e7 ad 84 b8 5a 21 71 c3 0d 68 2f ba 0d 25 21 4d a1 81 d2 38 fe 1a 7f c4 49 6c 27 ce 17 94 c2 45 3f 7e 25 6f e7 55 ac 6a b5 23 dc 5d 44 db cc 3c b2 ac e3 f1 8c da f3 f4 9c b1 5c 79 3e b7 fc 3b 42 dc f7 6f f0 70 b1 6e f4 58 37 7a ac 1b 3d d6 cd 2d 66 b3 d9 c7 f8 e3 61 d6 8d f3 78 6e ba 9b a2 28 4a e9 17 9d 56 d9 7b 5b 7e 78 f7 a2 f7 e7 13 f9 c7 f3 e2 d9 53 f9 64 6e ba 1b e0 79 6e bb 7d d0 39 68 75 5b 7b af ff 7e d5 3b e9 b9 61 d2 8f 8f e7 a6 bb 99 4e a7 83 1b 4e 0f 0e f6 5b ad bd 37 9d d6 fe 51 fb e8 68 ca bb 66 bb c1 06 23 a5 ac f5 fc 35 78 d9 3f 3d 3e 3c 9c f0 ae d9 6e e6 4a cf 64 32 c9 b2 2c 8a e4 fe a7 3d d7 1d 4a 19 f2 96 f1 6e 6a 66 8a db 23 d6 8d 1e eb 46 8f 75 a3 c7 0c 37 d8 48 f2 bc 28 cb f2 4e ab cc 70 53 e4 65 9a 64 d9 68 0c 3d 55 55 9c 7d 4e 9b ac 32 c5 4d 31 19 4f ab f9 42 5d e1 61 d4 a8 80 cc 70 33 2b 67 a3 34 18 3a 1f 06 a7 c7 27 27 ef 40 9e e7 3f 5d 65 86 1b d8 19 0c fa 9d ce 5b 1c 47 bd 76 bf df 6f b2 c6 0c 37 8b 2a ef 76 bb 74 d3 eb b5 f1 9e d0 64 95 19 6e b2 4c 52 0c 8e f7 ef bb 0d 1f 58 66 b8 59 2e cb e5 72 b5 d9 6c ce ce ce ce cf d7 0d 57 99 e1 e6 eb d7 f5 d5 96 cb cb f3 86 ab cc 70 f3 e5 cb 52 59 01 17 d7 57 df 1a ae 32 c3 cd 66 3d a7 9b ab ab ef d0 b3 58 2c 9a ac 32 c3 cd 6a 59 aa a2 b9 bc be fe 7e 71 71 b1 5a ad 9a ac 32 c3 4d 55 95 9b cd 6c bd c6 0b c3 1d 5e a9 cc 70 f3 df b0 6e f4 58 37 7a ac 1b 3d d6 8d 1e eb 46 8f 75 a3 c7 ba d1 63 dd e8 b1 6e f4 58 37 7a ac 1b 3d d6 8d 1e eb 46 8f 75 a3 c7 ba d1 63 dd e8 11 a2 28 8a 7c 0b e3 a9 02 c1 58 91 65 19 ce 18 c9 b6 60 da 7d ff de bf 03 21 d2 34 1d 8d 46 52 ca 38 8e 11 d0 47 aa 80 1e 7e 0b 07 26 8a 24 49 38 ff 1f 9f 7f ed 24 42 40 09 32 a6 0f a9 40 ea 90 91 28 68 0b b7 18 d3 16 cd 21 d8 6d 43 42 40 03 53 c7 b9 2e 1a da a2 21 5c b2 74 10 47 51 c4 4b ea 41 b0 c3 7a 84 40 ba 48 9a bd c3 5a 41 80 12 41 3d d1 16 ce 91 82 3e 68 8b d5 c3 18 c5 b4 93 86 84 60 ad d0 10 0b 82 7b 0f ab 24 0c 43 c4 d4 c6 0d a9 6e 3d 8a 61 b0 93 fd 25 04 b2 67 7e 48 1d 31 eb 83 31 0d 85 0a 96 14 b5 71 02 62 4e a6 2a 04 77 fd a0 ee 81 a3 7a 8a 89 52 0c 02 cf f3 28 83 83 b5 a1 ba 6e d8 6b a8 95 91 82 7d c7 69 bb f4 78 57 cf f0 7a 3b a1 0f 0a 60 97 d5 83 48 1d 23 41 10 b0 5c a0 ca f7 7d 0c 62 04 01 27 60 10 97 68 c0 fb ce ea d7 20 84 27 87 38 dc d0 71 d5 d9 8f bc 20 f1 10 fb 91 1b 26 48 df c5 11 67 12 07 2e d3 49 9c 8c 23 99 06 37 23 23 89 39 88 93 71 1c 65 61 34 0a d3 69 12 65 32 88 bd 38 8d 77 a0 bf 84 e0 5f 1d c5 51 d7 04 03 80 80 a5 e0 2a 30 13 ed 36 1c 0e 7d 05 c6 59 70 6c c6 7a bb 62 03 22 78 ec fd 25 44 e0 39 32 70 03 df a5 a4 70 8b bf 85 86 ea 3e c2 d9 53 20 a0 33 b6 15 46 b0 9c f3 d9 86 08 b0 15 3d de e7 97 10 48 ee 26 53 77 18 fa 38 20 e9 a6 32 38 18 28 10 20 63 8c 38 8e 43 07 bc 45 73 ac 33 ea ac 97 60 a6 b7 05 3b d6 23 d5 a3 dc 40 c6 60 8b e3 0c fc e1 c0 77 1d 0c d3 44 5d 40 b5 00 5e d6 ce 08 d6 52 2a 02 b6 21 0c f1 8c 99 4d be e7 7d 68 a8 e7 14 e1 6b 14 5f 2b 11 4f 27 19 07 d1 17 7c 56 f3 2e 5e c8 31 81 2f ea 08 ea 17 78 6c be 3c 33 b8 fd 43 aa aa ba af fc fe 0f f6 ff 37 7a ac 1b 3d d6 8d 1e eb 46 8f 75 a3 c7 ba d1 63 dd e8 b1 6e f4 08 f1 03 fd 5a 9c c6 
+PhAS V0.03 Id 0 Parent 0 Size 00000134
+AtmosphereThin 10
+AtmosphDen 1.4
+GravConst 981
+PhysSceneAttr 142
+PhysSceneDraw 2
+ConstantFrameRate 10
+SimulationTime 60
+VisibleRes 2
+Scen V0.05 Id 78693700 Parent 0 Size 00000248
+Name NoName
+Selected map_hallway
+Background rgba 0.501961,0.501961,0.501961,0
+Background name 6(None) movie 0
+Global env rgb 0,0,0
+Global env name 6(None) movie 0
+Fog enable 0 rgb 0.501961,0.501961,0.501961
+Fog near 0.1 far 50
+Fog max 1 MinKS 0.1
+ROpt V0.05 Id 0 Parent 78693700 Size 00000471
+Raytrace enable 0
+Resolution 2
+Width 800
+Height 600
+Antialias 1
+Framerate 1
+Depth 2
+Base framerate 2
+Options 3200
+Flags 0
+Frame 1
+JPEG quality 75
+FLIC flags 9
+Targa flags 0
+Resolution preset 0
+Depth focus 4
+Fieldrender flags 0
+Motionblur flags 9
+Motionblur frames 6
+Pixel aspect 1.0
+Filename C:\ts5manual\tutorials\3dpaint1\02big.tga
+Depth focal dist 15.0
+Motionblur length 1.0
+Render AA 0001
+Ray depth limit 5
+Max ray depth 10
+Render quality 1
+Render mode 5
+Options2 1
+Seff V0.08 Id 0 Parent 78693700 Size 00002448
+Foreground 1
+Background 1
+Fog density 10
+Samples 25
+Noise amplitude 10
+Noise scale 50
+Noise gain 50
+Source attenuation 0
+Surface attenuation 0
+Volume attenuation 0
+Clouds scale 100
+Clouds detail 2
+Clouds background rgb 110,110,210
+Clouds color rgb 210,210,210
+Graduated top rgb 210,210,210
+Graduated bottom rgb 110,110,110
+Depth cue near 100
+Depth cue far 1000
+Depth cue rgb 210,210,210
+Fog distance 1000
+Fog height 100
+Fog density 10
+Fog type 16
+Fog color rgb 128,128,128
+Snow near scale 100
+Snow far scale 20
+Snow flake size 40
+Snow flake density 40
+Snow noise amplitude 0
+Snow noise scale 0
+Snow flake rgb 250,250,250
+Postprocess0
+Lens flares intensity100
+Lens flares shape1
+Lens flares glow radius800
+Lens flares glow factor100
+Lens flares glow focus100
+Lens flares halo radius1000
+Lens flares halo factor60
+Lens flares halo width100
+Lens flares rays type1
+Lens flares rays count4
+Lens flares rays factor40
+Lens flares rays range100
+Lens flares ghosts1
+Lens flares ghosts factor100
+Depth of field focal length500
+Depth of field units1
+Depth of field aperture16
+Depth of field focus plane20
+Depth of field near blur1
+Depth of field far blur1
+Depth of field near focus0
+Depth of field far focus0
+Depth of field ignore background1
+Treshold100
+Samples16
+Early out1
+Relative sensitivity40
+Enable postprocess0
+Adv.volumetric medium density 10
+Adv.volumetric medium auttenuation 0
+Adv.volumetric medium ambient 0
+Adv.volumetric min lod 10
+Adv.volumetric max lod 100
+Adv.volumetric error bound 10
+Adv.volumetric model 0
+Adv.volumetric density shader 0
+Adv.volumetric shadows 1
+Adv.volumetric medium color rgb 255,255,255
+Adv.volumetric bluemarble scale 100
+Adv.volumetric bluemarble detail 3
+Adv.volumetric turbulent scale 100
+Adv.volumetric turbulent color rgb 255,255,255
+Adv.volumetric turbulent detail 2
+Adv.volumetric turbulent amplitude 50
+Adv.volumetric turbulent contrast 50
+Adv.volumetric solidpolka scale 100
+Adv.volumetric solidpolka separation 100
+Adv.volumetric solidpolka radius 40
+Adv.volumetric solidpolka edgesoftness 10
+Adv.volumetric solidpolka backcolor rgb 255,255,255
+Adv.volumetric solidpolka spotcolor rgb 255,0,0
+Adv.volumetric solidclouds scale 100
+Adv.volumetric solidclouds detail 2
+Adv.volumetric solidclouds backcolor rgb 0,0,255
+Adv.volumetric solidpolka cloudscolor rgb 255,255,255
+Tone mapping 1
+Tone mapping shift 50
+Tone mapping brightness 50
+Tone mapping max lum 100
+Tone mapping min lum 0
+Tone mapping autosetup 1
+Vews V0.08 Id 0 Parent 0 Size 00001222
+Stored Eye num 1
+Eye flags 0
+Eye units 2
+Eye zoom 1 ortho depth 2.62841e-029 horiz -0.995344,-0.0963882,0
+center -75.7631 137.533 27.0438
+x axis -0.995344 -0.0963882 0
+y axis 0.0340936 -0.352065 0.935355
+z axis 0.0901571 -0.930999 -0.353712
+Eye flags 21
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz -1,0,0
+center 0 0 4
+x axis -1 0 0
+y axis 0 -1 0
+z axis 0 0 -1
+Eye flags 1
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz -1,0,0
+center 0 4 0
+x axis -1 0 0
+y axis 0 0 1
+z axis 0 -1 0
+Eye flags 1
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz 0,1,0
+center 4 0 0
+x axis 0 1 0
+y axis 0 0 1
+z axis -1 0 0
+Eye flags 0
+Eye units 2
+Eye zoom 1 ortho depth 2.62841e-029 horiz -0.707107,0.707107,0
+center 16.6 16.32 13.7
+x axis -0.707107 0.707107 0
+y axis -0.3987 -0.3987 0.825879
+z axis -0.583985 -0.583985 -0.563847
+Eye flags 21
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz -1,0,0
+center 0 0 -4
+x axis -1 0 0
+y axis 0 1 0
+z axis 0 0 1
+Eye flags 1
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz 0,-1,0
+center -4 0 0
+x axis 0 -1 0
+y axis 0 0 1
+z axis 1 0 0
+Eye flags 1
+Eye units 2
+Eye zoom 0.2 ortho depth 2.62841e-029 horiz 1,0,0
+center 0 -4 0
+x axis 1 0 0
+y axis 0 0 1
+z axis 0 1 0
+Rads V0.02 Id 0 Parent 78693700 Size 00000208
+Radiosity step 8
+Radiosity quality 4
+Radiosity tone mapping 100
+Radiosity converged 90
+Radiosity render every 4
+Radiosity flags 9218
+Radiosity max area 1440
+Radiosity min area 350
+Radiosity mesh accuracy 40
+PolH V0.08 Id 78699044 Parent 78693700 Size 00004191
+Name map_hallway
+center -0.00220183 -0.00566852 1
+x axis 1 0 0
+y axis 0 1 0
+z axis 0 0 1
+Transform
+0.8 0 0 -0.00220184
+0 0.8 0 -0.0056685
+0 0 1.65 -0.65
+0 0 0 1
+World Vertices 27
+-112.930000 68.812103 -7.547340
+-112.928566 70.812386 -7.547338
+-112.927460 72.812561 -7.547479
+-112.926239 74.812660 -7.547338
+-112.925110 76.812706 -7.547338
+-112.951294 68.819061 -5.092794
+-112.946892 76.819649 -5.092793
+-112.948021 74.819611 -5.094510
+-112.949242 72.819511 -5.092794
+-112.950348 70.819336 -5.092793
+-112.947685 68.816978 -5.547339
+-112.943283 76.817566 -5.547339
+-112.944412 74.817528 -5.547339
+-112.945633 72.817429 -5.547339
+-112.946739 70.817253 -5.547407
+-114.951271 68.820152 -5.096969
+-114.947662 68.818069 -5.551514
+-114.929489 68.813202 -7.551513
+-114.928543 70.813477 -7.551513
+-114.927437 72.813652 -7.551653
+-114.926216 74.813751 -7.551513
+-114.925087 76.813797 -7.551513
+-114.943260 76.818657 -5.551514
+-114.946869 76.820740 -5.096968
+-114.947998 74.820702 -5.098684
+-114.949219 72.820602 -5.096969
+-114.950325 70.820427 -5.096968
+Texture Vertices 108
+0.427448 0.666690
+0.500002 0.666690
+0.572559 0.666690
+0.645119 0.666690
+0.599981 1.000000
+0.699980 1.000000
+0.799983 1.000000
+0.899989 1.000000
+0.000000 0.575690
+0.599981 0.575690
+0.699980 0.575690
+0.799983 0.575690
+0.899989 0.575690
+1.000000 0.654229
+0.000000 0.654229
+0.599981 0.654229
+0.699980 0.654229
+0.799983 0.654229
+0.899989 0.654229
+0.000000 1.000000
+1.000000 1.000000
+0.095657 1.000000
+0.191317 1.000000
+0.286981 1.000000
+0.382649 1.000000
+0.478279 1.000000
+0.500000 1.000000
+0.595668 1.000000
+0.691332 1.000000
+0.786992 1.000000
+0.882649 1.000000
+0.904371 1.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.021739 1.000000
+0.021739 0.000000
+0.021739 1.000000
+0.021739 0.000000
+0.117389 1.000000
+0.117389 0.000000
+0.117389 1.000000
+0.117389 0.000000
+0.213047 1.000000
+0.213047 0.000000
+0.213047 1.000000
+0.213047 0.000000
+0.308702 1.000000
+0.308702 0.000000
+0.308702 1.000000
+0.308702 0.000000
+0.404352 1.000000
+0.404352 0.000000
+0.404352 1.000000
+0.404352 0.000000
+0.500000 1.000000
+0.500000 0.000000
+0.500000 1.000000
+0.500000 0.000000
+0.595650 1.000000
+0.595650 0.000000
+0.595650 1.000000
+0.595650 0.000000
+0.617389 1.000000
+0.617389 0.000000
+0.617389 1.000000
+0.617389 0.000000
+0.713036 1.000000
+0.713036 0.000000
+0.713036 1.000000
+0.713036 0.000000
+0.808687 1.000000
+0.808687 0.000000
+0.808687 1.000000
+0.808687 0.000000
+0.904341 1.000000
+0.904341 0.000000
+0.904341 1.000000
+0.904341 0.000000
+0.000000 0.575690
+0.000000 0.575690
+0.000000 0.654229
+0.000000 0.654229
+0.645119 0.666690
+0.645119 0.666690
+0.572559 0.666690
+0.572559 0.666690
+0.500002 0.666690
+0.500002 0.666690
+0.427448 0.666690
+0.427448 0.666690
+0.599981 1.000000
+0.599981 1.000000
+0.599981 0.654229
+0.599981 0.654229
+0.599981 0.575690
+0.599981 0.575690
+0.699980 0.575690
+0.699980 0.575690
+0.799983 0.575690
+0.799983 0.575690
+0.899989 0.575690
+0.899989 0.575690
+Faces 20
+Face verts 4 flags 0 mat 0
+<14,18> <10,40> <0,44> <1,7> 
+Face verts 4 flags 0 mat 0
+<16,41> <17,45> <0,24> <10,40> 
+Face verts 4 flags 0 mat 0
+<21,61> <22,65> <11,31> <4,60> 
+Face verts 4 flags 0 mat 0
+<11,15> <12,16> <3,56> <4,60> 
+Face verts 4 flags 0 mat 0
+<12,16> <13,17> <2,52> <3,5> 
+Face verts 4 flags 0 mat 0
+<13,17> <14,18> <1,48> <2,6> 
+Face verts 4 flags 0 mat 0
+<17,45> <18,49> <1,23> <0,44> 
+Face verts 4 flags 0 mat 0
+<18,49> <19,53> <2,22> <1,48> 
+Face verts 4 flags 0 mat 0
+<19,53> <20,57> <3,21> <2,52> 
+Face verts 4 flags 0 mat 0
+<20,57> <21,61> <4,19> <3,56> 
+Face verts 4 flags 0 mat 0
+<23,69> <24,73> <7,29> <6,68> 
+Face verts 4 flags 0 mat 0
+<24,73> <25,77> <8,28> <7,72> 
+Face verts 4 flags 0 mat 0
+<25,77> <26,81> <9,27> <8,76> 
+Face verts 4 flags 0 mat 0
+<26,81> <15,34> <5,26> <9,80> 
+Face verts 4 flags 0 mat 0
+<15,34> <16,41> <10,25> <5,33> 
+Face verts 4 flags 0 mat 0
+<22,65> <23,69> <6,30> <11,64> 
+Face verts 4 flags 0 mat 0
+<12,16> <11,64> <6,68> <7,10> 
+Face verts 4 flags 0 mat 0
+<13,17> <12,16> <7,72> <8,11> 
+Face verts 4 flags 0 mat 0
+<14,18> <13,17> <8,76> <9,12> 
+Face verts 4 flags 0 mat 0
+<10,13> <14,18> <9,80> <5,32> 
+DrawFlags 0
+Unit V0.01 Id 78699045 Parent 78699044 Size 00000009
+Units 2
+ObRQ V0.01 Id 78699049 Parent 78699044 Size 00000121
+Object Radiosity Quality: 0
+Object Radiosity Max Area: 0
+Object Radiosity Min Area: 0
+Object Radiosity Mesh Accuracy: 0
+Mat1 V0.06 Id 78682436 Parent 78699044 Size 00000085
+mat# 0
+shader: phong  facet: auto32
+rgb 1,1,1
+alpha 1  ka 0.1  ks 0.1  exp 0  ior 1
+ShBx V0.03 Id 78682437 Parent 78682436 Size 00000517
+Shader class: color
+Shader name: "plain color" (plain)
+Number of parameters: 1
+colour: color (255, 255, 255)
+Flags: 3
+Shader class: transparency
+Shader name: "none" (none)
+Number of parameters: 0
+Flags: 3
+Shader class: reflectance
+Shader name: "phong" (phong)
+Number of parameters: 5
+ambient factor: float 0.1
+diffuse factor: float 0.9
+specular factor: float 0.1
+exponent: float 3
+specular colour: color (255, 255, 255)
+Flags: 3
+Shader class: displacement
+Shader name: "none" (none)
+Number of parameters: 0
+Flags: 3
+PolH V0.08 Id 78681588 Parent 78693700 Size 00003259
+Name map_halldoorway
+center -0.00220183 -0.00566852 1
+x axis 1 0 0
+y axis 0 1 0
+z axis 0 0 1
+Transform
+0.8 0 0 -0.00220184
+0 0.8 0 -0.0056685
+0 0 1.65 -0.65
+0 0 0 1
+World Vertices 24
+-116.924614 76.820740 -7.557574
+-116.927071 74.815437 -7.556865
+-116.928291 72.815338 -7.556314
+-116.929398 70.815155 -7.555620
+-116.930344 68.814880 -7.554782
+-116.948517 68.819748 -5.555405
+-116.952126 68.821831 -5.101262
+-116.951180 70.822105 -5.102099
+-116.950073 72.822289 -5.102795
+-116.948853 74.822388 -5.103345
+-116.948364 76.822426 -5.103746
+-116.948357 76.821983 -5.557889
+-114.951271 68.820152 -5.096969
+-114.947662 68.818069 -5.551514
+-114.929489 68.813202 -7.551513
+-114.928543 70.813477 -7.551513
+-114.927437 72.813652 -7.551653
+-114.926216 74.813751 -7.551513
+-114.925087 76.813797 -7.551513
+-114.943260 76.818657 -5.551514
+-114.946869 76.820740 -5.096968
+-114.947998 74.820702 -5.098684
+-114.949219 72.820602 -5.096969
+-114.950325 70.820427 -5.096968
+Texture Vertices 60
+0.000000 0.499952
+0.095657 0.499952
+0.191317 0.499952
+0.286981 0.499952
+0.382649 0.499952
+0.478279 0.499952
+0.500000 0.499952
+0.595668 0.499952
+0.691332 0.499952
+0.786992 0.499952
+0.882649 0.499952
+0.904371 0.499952
+0.500000 1.000000
+0.000000 0.575690
+0.500000 1.000000
+0.000000 0.575690
+0.478279 1.000000
+0.000000 0.654229
+0.478279 1.000000
+0.000000 0.654229
+0.382649 1.000000
+0.645119 0.666690
+0.382649 1.000000
+0.645119 0.666690
+0.286981 1.000000
+0.572559 0.666690
+0.286981 1.000000
+0.572559 0.666690
+0.191317 1.000000
+0.500002 0.666690
+0.191317 1.000000
+0.500002 0.666690
+0.095657 1.000000
+0.427448 0.666690
+0.095657 1.000000
+0.427448 0.666690
+1.000000 1.000000
+0.599981 1.000000
+1.000000 1.000000
+0.599981 1.000000
+0.904371 1.000000
+0.599981 0.654229
+0.904371 1.000000
+0.599981 0.654229
+0.882649 1.000000
+0.599981 0.575690
+0.882649 1.000000
+0.599981 0.575690
+0.786992 1.000000
+0.699980 0.575690
+0.786992 1.000000
+0.699980 0.575690
+0.691332 1.000000
+0.799983 0.575690
+0.691332 1.000000
+0.799983 0.575690
+0.595668 1.000000
+0.899989 0.575690
+0.595668 1.000000
+0.899989 0.575690
+Faces 24
+Face verts 3 flags 0 mat 0
+<5,5> <13,17> <12,12> 
+Face verts 3 flags 0 mat 0
+<5,5> <12,12> <6,6> 
+Face verts 3 flags 0 mat 0
+<4,4> <14,21> <13,16> 
+Face verts 3 flags 0 mat 0
+<4,4> <13,16> <5,5> 
+Face verts 3 flags 0 mat 0
+<4,4> <3,3> <15,25> 
+Face verts 3 flags 0 mat 0
+<4,4> <15,25> <14,20> 
+Face verts 3 flags 0 mat 0
+<3,3> <2,2> <16,29> 
+Face verts 3 flags 0 mat 0
+<3,3> <16,29> <15,24> 
+Face verts 3 flags 0 mat 0
+<2,2> <1,1> <17,33> 
+Face verts 3 flags 0 mat 0
+<2,2> <17,33> <16,28> 
+Face verts 3 flags 0 mat 0
+<1,1> <0,0> <18,37> 
+Face verts 3 flags 0 mat 0
+<1,1> <18,37> <17,32> 
+Face verts 3 flags 0 mat 0
+<0,0> <11,11> <19,41> 
+Face verts 3 flags 0 mat 0
+<0,0> <19,41> <18,36> 
+Face verts 3 flags 0 mat 0
+<20,45> <19,40> <11,11> 
+Face verts 3 flags 0 mat 0
+<20,45> <11,11> <10,10> 
+Face verts 3 flags 0 mat 0
+<20,44> <10,10> <9,9> 
+Face verts 3 flags 0 mat 0
+<20,44> <9,9> <21,49> 
+Face verts 3 flags 0 mat 0
+<8,8> <22,53> <21,48> 
+Face verts 3 flags 0 mat 0
+<8,8> <21,48> <9,9> 
+Face verts 3 flags 0 mat 0
+<22,52> <8,8> <7,7> 
+Face verts 3 flags 0 mat 0
+<22,52> <7,7> <23,57> 
+Face verts 3 flags 0 mat 0
+<23,56> <7,7> <6,6> 
+Face verts 3 flags 0 mat 0
+<23,56> <6,6> <12,13> 
+DrawFlags 0
+Unit V0.01 Id 78681589 Parent 78681588 Size 00000009
+Units 2
+ObRQ V0.01 Id 78681593 Parent 78681588 Size 00000121
+Object Radiosity Quality: 0
+Object Radiosity Max Area: 0
+Object Radiosity Min Area: 0
+Object Radiosity Mesh Accuracy: 0
+Mat1 V0.06 Id 78678516 Parent 78681588 Size 00000085
+mat# 0
+shader: phong  facet: auto32
+rgb 1,1,1
+alpha 1  ka 0.1  ks 0.1  exp 0  ior 1
+ShBx V0.03 Id 78678517 Parent 78678516 Size 00000517
+Shader class: color
+Shader name: "plain color" (plain)
+Number of parameters: 1
+colour: color (255, 255, 255)
+Flags: 3
+Shader class: transparency
+Shader name: "none" (none)
+Number of parameters: 0
+Flags: 3
+Shader class: reflectance
+Shader name: "phong" (phong)
+Number of parameters: 5
+ambient factor: float 0.1
+diffuse factor: float 0.9
+specular factor: float 0.1
+exponent: float 3
+specular colour: color (255, 255, 255)
+Flags: 3
+Shader class: displacement
+Shader name: "none" (none)
+Number of parameters: 0
+Flags: 3
+Lght V0.10 Id 78677844 Parent 78693700 Size 00000594
+Name LocLight
+center 11.9865 13.809 12.272
+x axis 1 0 0
+y axis 0 1 0
+z axis 0 0 1
+Transform
+1 0 0 11.9865
+0 1 0 13.809
+0 0 1 12.272
+0 0 0 1
+Local NoShadows
+color 0.72,0.72,0.72 cone angle 90 inner angle 0 falloff 1
+Project: 0
+SkyType: 2
+Physically-based: 1
+Intensity Units: 9EmpiricalColor Temperature: 0
+Goniom: 0
+IBL Sphere Resolution: 78678050
+IBL Light Cutoff: 0.000000
+IBL Shadow Cutoff: 0.000000
+IBL Sample Fuzziness: 0.000000
+IBL Nbr Samples: 78678064
+IBL Show Environment: 78678066
+IBL Lights Below Ground: 78678068
+IBL U Repeats: 0.000000
+IBL V Repeats: 0.000000
+faloff distance 0.05
+Unit V0.01 Id 78677845 Parent 78677844 Size 00000009
+Units 2
+Lght V0.10 Id 77950660 Parent 78693700 Size 00000600
+Name LocLight,1
+center -10.347 2.443 5.992
+x axis 1 0 0
+y axis 0 1 0
+z axis 0 0 1
+Transform
+1 0 0 -10.347
+0 1 0 2.443
+0 0 1 5.992
+0 0 0 1
+Local NoShadows
+color 0.49,0.436196,0.407373 cone angle 90 inner angle 0 falloff 1
+Project: 0
+SkyType: 2
+Physically-based: 1
+Intensity Units: 9EmpiricalColor Temperature: 0
+Goniom: 0
+IBL Sphere Resolution: 77950866
+IBL Light Cutoff: 0.000000
+IBL Shadow Cutoff: 0.000000
+IBL Sample Fuzziness: 0.000000
+IBL Nbr Samples: 77950880
+IBL Show Environment: 77950882
+IBL Lights Below Ground: 77950884
+IBL U Repeats: 0.000000
+IBL V Repeats: 0.000000
+faloff distance 0.05
+Unit V0.01 Id 77950661 Parent 77950660 Size 00000009
+Units 2
+Lght V0.10 Id 77933780 Parent 78693700 Size 00000698
+Name InfLight
+center 0 0 0
+x axis -0.755746 0.654785 0.0101905
+y axis 0.483743 0.568674 -0.665284
+z axis -0.441414 -0.497853 -0.746523
+Transform
+-0.75574 0.48374 -0.441414 0
+0.65478 0.56867 -0.497853 0
+0.0101904 -0.66528 -0.746523 0
+0 0 0 1
+Infinite NoShadows
+color 0.46,0.46,0.46 cone angle 90 inner angle 0 falloff 0
+Project: 0
+SkyType: 2
+Physically-based: 1
+Intensity Units: 9EmpiricalColor Temperature: 0
+Goniom: 0
+IBL Sphere Resolution: 77933986
+IBL Light Cutoff: 0.000000
+IBL Shadow Cutoff: 0.000000
+IBL Sample Fuzziness: 0.000000
+IBL Nbr Samples: 77934000
+IBL Show Environment: 77934002
+IBL Lights Below Ground: 77934004
+IBL U Repeats: 0.000000
+IBL V Repeats: 0.000000
+faloff distance 0.05
+Unit V0.01 Id 77933781 Parent 77933780 Size 00000009
+Units 2
+Lght V0.10 Id 77918356 Parent 78693700 Size 00000697
+Name InfLight,1
+center 0 0 0
+x axis 0.393832 0.163932 -0.904446
+y axis 0.79608 0.431071 0.424777
+z axis 0.459516 -0.887301 0.0392661
+Transform
+0.393832 0.79608 0.459516 0
+0.163932 0.431071 -0.887301 0
+-0.904446 0.424777 0.0392661 0
+0 0 0 1
+Infinite NoShadows
+color 0.38,0.38,0.38 cone angle 90 inner angle 0 falloff 1
+Project: 0
+SkyType: 2
+Physically-based: 1
+Intensity Units: 9EmpiricalColor Temperature: 0
+Goniom: 0
+IBL Sphere Resolution: 77918562
+IBL Light Cutoff: 0.000000
+IBL Shadow Cutoff: 0.000000
+IBL Sample Fuzziness: 0.000000
+IBL Nbr Samples: 77918576
+IBL Show Environment: 77918578
+IBL Lights Below Ground: 77918580
+IBL U Repeats: 0.000000
+IBL V Repeats: 0.000000
+faloff distance 0.05
+Unit V0.01 Id 77918357 Parent 77918356 Size 00000009
+Units 2
+Scrp V0.01 Id 78143364 Parent 78693700 Size 00000038
+Flags: 0
+Enabled: 1
+Size: 0
+Script: 
+END  V1.00 Id 0 Parent 0 Size        0

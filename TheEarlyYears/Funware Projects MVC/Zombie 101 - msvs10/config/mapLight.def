@@ -1,0 +1,22 @@
+maplight     [mapScale][lightList][globalList]<[areaList]>
+globalList   [dynamicType][lightIdList]
+areaList     ([area])
+area         [floorId][objectType][mapId][dynamicType][lightIdList]
+lightList    ([light])
+light	     [Id][lightType][shadeType][color]<[trans]><[range]><[offset]><[radius]>
+lightIdList  ([lightId])
+lightId      [Id]
+
+Id            S
+floorId 	  i
+objectType    S
+mapId         i 
+trans        (f)
+color        (f)
+range         f
+offset        f
+radius        f   
+lightType     S
+shadeType     S
+dynamicType   S
+mapScale      (f)
