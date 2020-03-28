@@ -1,0 +1,40 @@
+[Options]
+Compress=High
+OldKeyPhrase=No
+Warning=1
+
+[Files]
+c:\funwar~1\ebook\stwhelp\stw.rtf
+
+[BuildTags]
+
+[Config]
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+BrowseButtons()
+
+[Bitmaps]
+C:\funwar~1\ebook\STWHELP\STMLOGO.SHG
+C:\funwar~1\ebook\HELP\CONTROL.SHG
+C:\funwar~1\EBOOK\STWHELP\BACKUP.SHG
+C:\funwar~1\ebook\HELP\QNOTE.SHG
+C:\funwar~1\ebook\HELP\PREF-IC.SHG
+C:\funwar~1\EBOOK\STWHELP\REQUIR.SHG
+C:\funwar~1\ART4SA~1\HELP\PREF-IC.SHG
+
+
+[Map]
+contents 1
+stepbystep 2
+Preferences 3
+qanda 4
+FileMenuOptions 5
+prepar 6
+trouble 7
+
+[Alias]
+
+[Windows]
+ZZZZZZZZ="",(0,0,350,623),0,(255,255,255),(192,192,192), 0
+
+[Baggage]

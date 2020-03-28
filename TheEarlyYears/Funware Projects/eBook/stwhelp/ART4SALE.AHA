@@ -1,0 +1,3696 @@
+VBAHA136
+
+
+
+
+
+
+
+
+
+
+
+2
+0
+0
+c:\rounda~1\art4sa~1\help\art4sale.rtf
+
+
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+
+
+1
+0
+0
+1
+1
+1
+1
+1
+1
+
+
+12
+contents
+contents
+
+
+
+
+
+
+4
+17
+7
+MS Sans Serif
+0
+2
+216
+216
+0
+0
+0
+0
+
+C:\ROUNDA~1\ART4SA~1\HELP\E4s_logo.SHG
+
+
+3
+MS Sans Serif
+20
+2
+216
+216
+4
+0
+0
+0
+
+
+www.howiesfunware.com
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+9
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+whatisA4S
+C:\ROUNDA~1\ART4SA~1\HELP\SHARE.SHG
+What Is ebook 4 Sale?
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+CanArt4SaleHelp
+C:\ROUNDA~1\ART4SA~1\HELP\SHARE.SHG
+Can ebook 4 Sale Help Sell My Work?
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+GettingStarted
+C:\ROUNDA~1\ART4SA~1\HELP\CONTROL.SHG
+Getting Started - What you need to make this work
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+stepbystep
+C:\ROUNDA~1\ART4SA~1\HELP\CONTROL.SHG
+Step-by-Step Tutorial - Create Your First ebook
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+PreparingYourFiles
+C:\ROUNDA~1\ART4SA~1\HELP\data.SHG
+Preparing Your Files
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+problems
+C:\ROUNDA~1\ART4SA~1\HELP\key.SHG
+Problems and Pitfalls You Will Encounter
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+sell
+C:\ROUNDA~1\ART4SA~1\HELP\REGIST.SHG
+Making an Ebook That Will Sell
+
+3
+MS Sans Serif
+16
+2
+216
+216
+4
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+qanda
+C:\ROUNDA~1\ART4SA~1\HELP\QNOTE.SHG
+Questions & Answers
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+Preferences
+C:\ROUNDA~1\ART4SA~1\HELP\PREF-IC.SHG
+Preferences
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+FileMenuOptions
+C:\ROUNDA~1\ART4SA~1\HELP\PREF-IC.SHG
+File Menu Options
+
+3
+MS Sans Serif
+16
+2
+216
+216
+0
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+summery
+C:\ROUNDA~1\ART4SA~1\HELP\getting.SHG
+Final Word
+
+what is A4S
+whatisA4S
+What Is ebook
+
+
+
+
+
+
+2
+8
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\SHARE.SHG
+What Is ebook 4 Sale?
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+ebook 4 Sale is a tool that will enable independent artists and writers to sell their work to the general public.  ebook 4 Sale works in two ways by selling a electronic version of your work and/or as a marketing tool. Create a project with ebook 4 Sale, add your artwork and/or stories and generate an ebook. The ebook you create can be downloaded  and sold to anyone who wishes to purchase. This is no different than you going to a book store and purchasing a printed book. The difference is that your book is "electronic" (hence "e"book) and the same people that would go to a book store can now instead purchase your book from you. Use ebook 4 Sale to make any kind of book you want be it eComic book, ePoem book, eChildrens book, eNovel or any other electronic book you can think of.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Selling a physical vs a digital copy of your work:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+For this example, lets say you have drawn a 20 page comic book or written a 300 page romance novel. One of the traditional ways you can go about selling your  book is to pound the pavement with your work in hand in search for a publishing company to print it and distribute it to stores for you. And if sales are good, you might see a little of it. Lets say you do find a company that will make use of your work. They just love your work and your story is the best they have seen in a long time.  But before they can use your work, you'll need to make a few minor changes. A year later your still talking to the same company, still making changes and your main character is someone completely different with an added side kick. The story has been changed so many times, your original vision has been lost.
+
+The second senarro is where you decide to publish the work yourself. First thing you need to do print up many copies of your book. The price for this runs in the thousands. You could try to sell some companies on the idea of purchasing some advertising space. Now your spending all your time hunting down advertisers to help offset the printing costs instead of doing what you want to do which is developing your craft. Now lets say you get all that done and you have boxes and boxes of printed books sitting in your home. The book isn't going to sell itself sitting in your home so now you need to pound the pavement and go from store to store to sell them on the idea of caring your book. After all that you come to the realization that you are spending all your time doing everything but working on your craft.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Using "Shareware" and the "World Wide Web" as a means for selling and distrabuting your work:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+So how does ebook 4 Sale save you from the above two senarios?  Simple, we use the "World Wide Web" as our means of distribution, and "Shareware" as our means of selling your ebook. The webs soul purpose is to move data around. This data can be your ebook. Using ebook 4 Sale is more like the second senario without the printing costs and distributing problems. Your self publishing your ebook under the concept of "Shareware." ebook 4 Sale allows you to limit what you are allowing your customer to see which is what will inspire them to pay your registration fee.
+
+Lets say for example you scanned in all your art boards and/or made text files for each page of your novel. Add these files to ebook 4 Sale and generate your own program. This is your "software" to sell! You can now take your ebook and upload it to other online services (like AOL), web sites (like www.download.com), and your own web site.
+
+The other benifit to this approach is that you are the one in control. You decide what your book is to be and your vision stands. There is no one to force changes onto your work because you are the final say.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Art 4 Sale as a marketing tool:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is also a big plus to selling your ebook this way. As your program makes it's way through the web (because you have it on your web site and other online services), your information (web site, email address) is also in the program. Someone downloads your program, they now know where to find you. They can go to your web site and download your other ebooks. To be succesful at using ebook 4 Sale, you will need a web site, email and have some web experience.
+
+ebook 4 Sale does two important things, it sells your ebook and helps to get your name out there. 
+
+Can Art 4 Sale Help
+CanArt4SaleHelp
+guarantee
+
+
+
+
+
+
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\SHARE.SHG
+Can ebook 4 Sale Help Sell My Work?
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+The world is full of talented, creative people be it artists or writers. Getting your work published is next to impossible because the publishing companies can only work with so many people. You would have to be what "they" would consider top notch because they need some way to weed through all the applicants. In the meantime, your work goes unseen. Out of the millions upon millions of people who are on line today, the odds are there could be thousands who will be happy to pay to see and/or read your work. People are always looking for something different and are very willing to champion the underdog.
+
+Back in my early artist days, I would send submissions to newspaper syndicates in the hopes they would sell my comics. I would visit comic book conventions to show my art to get feedback in the hopes of getting discovered. Well, as you probably guessed it, it never happened. The same holds true for writers hoping a publisher will want to try to publish their stories. The big problem with this scenario is that we need to depend on others to see our dreams through. Well, those days are now over because we can use the power of the "web" and the concept of "shareware" to see our vision through. Now, our success as an artist and/or a writer is in our own hands. We are the publisher and the distributer. Imagine receiving numerous orders each day for your ebook, emails from your devoted fans and even generating enough income that you would be able to work full time on your craft.
+
+You're probably thinking this sounds too good to be true. The odds are more in your favor then you realize. How do I know this? This is how I generate my income. I don't draw that much anymore because I turned to writing software, but I sell my software in the very same way I'm suggesting you sell your ebook. Say for example you download a picture-viewing program and the author wants you to pay the registration fee of $10.00 to use his software. There is no difference between that and someone downloading your ebook and paying the registration fee to view your ebook. ebook 4 Sale is providing the container to hold your work and motivate the customer  to purchase your ebook. It also allows you to limit the number of pages they can see to motivate them to pay the registration fee. This is one of the keys to get them to register your ebook. Show them enough to get them hooked and they should be eager to pay to see the rest. Say for example you are selling five ebooks and once they are hooked on the first ebook they have seen, they will snatch up all your other ebooks without hesitation.
+
+To show you the other side of the coin, in business, there are no guarantees. It's possible to use ebook 4 Sale and have very little to no sales.  Every program I write could do well or not so good at all. The same will now hold true for you. This is the nature of the beast. I'm not here to sell you magic software and give false hopes. I'm here to suggest an option that has not been there before and that option is ebook 4 Sale. Even if sales are not rolling in like mad, one other important function ebook 4 Sale does is that it gets you noticed. It can also be used as a marketing tool to promote your talents. It is quite possible to acquire numerous side work from other companies that get in touch with you because they found your work on the web.
+
+The best approach you can take is to read this help file all the way through and understand what the ebook 4 Sale does.  Experiment with the ebook 4 Sale program and decide if you think it will work for you.  The software is not magic and to fully make use of it you need to understand a completely new set of concepts. These concepts include "Shareware," "the web and web sites," "download directories," and "executable programs." So take a few minutes, sit back and relax with your favorite drink and read this help file (you may even need to read it through a few times) and decide if this is for you and that you are willing to make the investment in time and money to see your vision through.
+
+Getting Started
+GettingStarted
+computer
+scanner
+online provider
+doman name
+
+
+
+
+
+
+2
+12
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\CONTROL.SHG
+Getting Started - What you need to make this work
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+ebook 4 Sale is one piece to the puzzle in selling your ebooks. It's one of the bigger pieces to the puzzle; you just need some other pieces in place to correctly make this work. Below is a list of all the additional items needed.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+0
+0
+0
+
+
+Computer:
+
+3
+MS Sans Serif
+20
+0
+360
+360
+0
+0
+0
+0
+
+
+That's a no-brainer. This is the computer age.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+0
+0
+0
+
+
+Scanner and/or a Drawing Tablet (May not be necessary):
+
+3
+MS Sans Serif
+20
+0
+360
+360
+0
+0
+0
+0
+
+
+You may need some way to get your artwork into the computer. A scanner is a good way to bring in already-drawn artwork. You can also draw your artwork into the computer by using a drawing tablet.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+0
+0
+0
+
+
+Online Provider:
+
+3
+MS Sans Serif
+20
+0
+360
+360
+0
+0
+0
+0
+
+
+You will need an email address and web space to put all your web pages and files. Most online providers will be able to help get you started.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+0
+0
+0
+
+
+Web Page Building Software:
+
+3
+MS Sans Serif
+20
+0
+360
+360
+0
+0
+0
+0
+
+
+You'll need software to help you construct your web pages. Any software that makes it easy to do will work just fine. I use Adobe PageMill because it is easy to use.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+0
+0
+0
+
+
+Domain Name (May not be necessary):
+
+3
+MS Sans Serif
+20
+0
+360
+360
+0
+0
+0
+0
+
+
+You can do this without a domain name (example: www.howiesfunware.com) but it does help you look more professional. Be sure to come up with a name that is not too long because you want your customers to be able to remember it.
+
+
+stepbystep
+stepbystep
+Step-by-Step
+
+
+
+
+
+
+2
+8
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\CONTROL.SHG
+Step-by-Step Tutorial - Create Your First ebook
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+This tutorial assumes you understand the basics of using your Windows computer. This includes making folders, creating files and moving files around. If you are unclear on how to do these things, the Windows help file has all that information. You could also have one of your computer savvy friends sit with you for about an hour and show you how to do all that. It might also be a good idea to have them sit through this tutorial with you if you are not all the computer savvy.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Sample Projects
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+ebook 4 Sale comes with two sample projects, one sample project is a comic book (for the artists) and the other is a joke book (for the writers). For this tutorial, we are going to setup our own project folders and use the files in the comic book project. At any time you can open these projects into ebooks 4 Sale and see how they were setup but for now, we are just going to use these files for the tutorial.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Setup Your Project Folders
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+First lets start by making a folder on your C drive that is the name of your company. This is the folder that will have all your other project folders in them. That way, all your project folders are located in one folder and makes it easy when you go to back-up all your work. Each project folder will hold all the bitmap, text  and associated project files.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Let's Make a Project
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+1.  For this example, make a company folder (example: C:\Joe's Art Co)
+
+2.  Open the "Joe's Art Co" folder and make a folder inside that folder called
+     "Jan Comic Book 2000". This is your project folder. Feel free to
+     substitute these folder names for names that better suite your needs.
+
+3.  ebook 4 Sale comes with sample bitmap files to give you something to 
+     experiment with. Copy these files to your project folder "Jan Comic Book
+     2000". You can find these files in the ebook 4 Sale application folder 
+     C:\Program Files\Art4Sale\Sample eComic Book. 
+     These files are:
+     Sample Page001.gif
+     Sample Page002.gif
+     Sample Page003.gif
+     Sample Page004.gif
+     Sample Page005.gif
+     Sample Page006.gif
+     Sample startup.gif
+     Sample TileBack.gif
+
+4.  Run the ebook 4 Sale program if it's not already running.
+
+5.  Lets start by creating a new project. Use your mouse to click on the
+     "File" menu and then select the "New Project" menu option.
+
+6.  Use the "Save In:" combo box to make your way over to your project
+     folder (example: C:\Joe's Art\Jan Comic Book 2000).
+
+7.  In the "File Name:" edit field, type in a project name. Name it anything
+     you want or type in "Jan Comic".
+
+8.  The "Project Preferences" window should now pop up. Feel free to fill
+     in the "Reg. Fee:" and the "Sales Tax:" edit fields and any of the other
+     information and click OK. Change the "Reg. No." edit field to 12345 just
+     to keep it simple for this example. The "Project Preferences" window is 
+     covered in greater depth under the "Project Preferences" section of
+     this help file.
+
+9.  Lets now add some pages. Click on the "Project" menu and then click
+     on the "Add Page(s)" menu option. ebook 4 Sale considers each bitmap
+     or text file a page.
+
+10. Have file "Sample Page001.bmp" to "Sample Page006.bmp" selected.
+       Do not select the "Sample startup.bmp" or the "Sample TileBack.GIF"
+       file. ebook 4 Sale adds files in alphabetical order which is why you
+       need to number the pages 001, 002 and so on because if you just
+       number them 1, 2, 3 and so on, the file Page10 will list before Page1
+       but if they are numbered Page001, Page010, they will list in their
+       respective order.
+
+11. Click on the "Open" button to load all these images. All the image
+       files you select will be loaded in alphabetical order. Depending on
+       the size, format and number of files selected, the loading process
+       may take a second or two because each file that is loaded  is
+       being checked.
+
+12. You'll now be looking at the very last page in this project. Click on the
+      arrow buttons to go from page to page.
+
+13. Under the "Project" menu you will find two menu options you can 
+       experiment with, "Move Current Page" and "Delete Current Page." Feel
+       free to move any of the pages around and delete one of the pages if
+       you want.
+
+14. Lets add the startup screen by clicking on the "File" menu and then
+       select the "Preferences..." menu option.
+
+15. In the "Build Preferences:" group, click on the "Select bitmap for 
+       startup screen" check box.
+
+16. Select the "Sample startup.bmp" file and click on the "Open" button
+       to use this bitmap file as your startup screen. A startup screen gives
+       your program a more polished look.
+
+17. You'll now notice the "Select bitmap for startup screen" check box
+       is selected. Clicking on this check box again unselects the bitmap
+       file that was chosen for the startup screen.
+
+18. Now click on the "Select Background Tile Bitmap" and select the
+       "Sample TileBack.gif" file. This is the graphic that will tile the 
+       background to give your program even more of a polished look.
+
+19. Click OK in the  "Project Preferences" window to save your changes.
+       Now would be a good time to save your project file so click on the
+       "File" menu and then select the "Save" menu option.
+
+21. Click on the "Project" menu and then select the "Include Startup
+       Info Screen" menu option. This is for information you want your potential
+       customer to know about. What you could put here is your Copyright
+       information, price of your ebook, information about you and your 
+       company and so on. In the "Info Window Caption" edit field, enter in
+       "Helpful Hint". In the "Info Window Title" enter in "What You Should Know"
+       and for the "Info Text" edit field, enter in some misc information about you.
+       Click OK.
+
+22. Click on the "Project" menu and then select the "Include Order Form
+       Info Screen" menu option. This is for aditional information you want 
+       your potential customer to know about ordering your ebook. What you
+       could put here is information about ordering, price of your ebook,
+       and so on. In the "Info Window Caption" edit field, enter in
+       "Helpful Hint". In the "Info Window Title" enter in "How To Order"
+       and for the "Info Text" edit field, enter in some misc information about
+       ordering your ebook. Click OK. 
+
+20. We are now ready to build the program. Please keep in mind that the
+       sample files can only be used for experimentation and can not be used
+       in part or whole in any way in your own projects. To build the program, 
+       Click on the "File" menu and then click on the "Build EXE" menu option.
+       You could also click on the "Run Project" menu option to run your ebook.
+
+21. The file that has been gererated is yours to distrabute. Note: The
+       program generated by the shareware version of ebook 4 Sale will only run
+       on your computer. Only licensed users of ebook 4 Sale can distrabute the
+       generated executable created by ebook 4 Sale.
+
+22. That's it in a nut shell. Read the "Preferences" section of this help file
+       for more information on the different program preference options.
+
+You have created your first ebook (unless this is a refresher cource). You will also notice that it is a program file. One file for your customers to download and run. This is what will also make it easy for your ebook to make it around the web.
+
+Preferences
+Preferences
+Preferences
+Title of your application
+Reg. No.
+EXE file
+Copyright information
+Web Address
+Email Address
+Reg. Fee
+Sales Tax
+Compress Images
+startup screen
+Credit Card Options
+Compress Images
+printing
+
+
+
+
+
+
+2
+42
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\PREF-IC.SHG
+Preferences
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Below is a listing and an explaintion of each item in the "Preferences" dialog box.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Title of your application:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Fill in the title of your ebook. This will show up in the ebooks main window caption.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Reg. No. required to run your application:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If your planning on selling the ebook your building, enter in a custom registration number your customer's will need to enter in to be able to view the entire contents of your ebook. Having your ebook restricted by a registration number will motivate your customers to pay your registration fee.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Name of your application's EXE file:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is the name of the executable ebook 4 Sale will generate for you.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Copyright information:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you choose to allow your customers to print pages from your ebook, use this edit field to fill out specific copyright information you would like to have printed in the header of the page. Be sure to also check the "Allow user to print pages" check box and the "Print copyright info headers" check box.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Information for customer to send payment:
+
+Name and/or Company Name:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in your name and or your company name.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Address, City, State & Zip:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in the address of where you want your customers to send in their payment. The "State" combo box serves an additional purpose of adding sales tax to the total price if they are purchasing your ebook in the same state you are doing your business from.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Web Address:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in your web address here. This information will activate a menu option that will allow your customer to go right to your web page from the order form and any pages that are printed.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Email Address:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in your email address here. This information is displayed on the order form when printed.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Reg. Fee:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in the registration fee you are charging to have full access to your ebook.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Sales Tax:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in the sales tax required by your state to do sales transactions.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Build Preferences:
+
+Request Reg. No. after page...
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is the number of pages you will allow the shareware version of your ebook to display before requesting the user to pay the registration fee if they want to see more. For Example: Say your ebook has 20 pages in it. You could let your potential customer view the first five before requesting registration.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Use Registration No.:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+By checking this check box, this enables your program to require a registration fee and include the order form program.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Compress Images:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Compresses all Windows (*.bmp) bitmaps added to your program.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Allow user to print pages:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Check this check box to allow your customers to print pages from your ebook.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Print page numbers:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Adds page numbers to the footer of the printed page.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Print copyright info headers:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Prints your copyright information in the page's header.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Check program on startup:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Having this check box checked, the program checks itself for missing or changed data. This safeguards your ebook from being tampered with or for bad downloads by causing the program to display an error message if something is wrong.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Select bitmap for startup screen:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Selecting this check box will allow you to select a bitmap to serve as your startup screen. This could be an image with your logo and web site address on it.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Select background tile bitmap:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Select a bitmap that will be tiled across the background. This could be your logo or artwork related to the ebook.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Credit Card Options:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you are able to process credit card orders, select the check box for the credit cards you are able to process. You have to be a registered business and affiliated with a bank to process credit card orders. Do not check any of the credit card options if you're not able to accept credit cards.
+
+qanda
+qanda
+
+
+
+
+
+
+2
+33
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\QNOTE.SHG
+Questions & Answers
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+What Is Shareware?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Shareware is a concept of "try it before you buy it." The program is downloaded from an on-line service or off the web. Some shareware comes complete and unrestricted while others have limits to its use, hoping you’ll like it enough to send a check in the mail to receive the full version. If the software is complete, you are on the honor system to either remove it off your computer or send in a check once you have finished the evaluation period. I can tell you that the honor system doesn't really work so that is why you can set up your ebook with a limitation of how many pages you want to be viewed. Having this limitation will inspire them to purchase your ebook so that they may see the rest.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What is a Stand-Alone Executable File?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+An executable file is any file with the *.EXE extension. This is a program and it will run when the file is double-clicked on. "Stand-Alone" means the program requires nothing else to run. Many programs need other files with an extension of, *.DLL, *.OCX, and *.VBX to run. Without these files, the program can't run. ebook 4 Sale was designed so that it is as simple as it can be for your customers to download and use. Having only one file to download and run is as simple as you can get and your customers will appreciate that. Also, because your ebook is a stand-alone executable, no install is needed.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Who am I selling my ebook to?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Anyone and everyone. Just like a known science fiction novel writer will write a book, and a publisher will print it and distribute it to book stores where people can purchase and enjoy it, you can create your ebook and put it on your web site for people to download to purchase it from you. Not only are you the creator, but you are also the publisher, distributor and the store. Using ebook 4 Sale and putting your ebooks on your web site is like being the publisher, the web is your form of distribution and the concept of shareware is the store so people can purchase your ebook and enjoy it.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Do I have to pay any licensing fee or a percentage of my sales for the use of ebook 4 Sale executable?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+No. The only fee you are required to pay is the registration free to use the ebook 4 Sale software which is no different than purchasing any other software.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+How soon can I expect to see sales from my software?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+That's hard to tell. It is mostly determined by other factors such as are the files on your web site?  Is your site registered with search engines?  Do you have other sites linked to your software, like www.download.com?  Have you tried to upload it to AOL and other online services?  The more places people can find your software, the more sales you will have and the sooner you will have them. If you're just starting out, it could take a few months before you start receiving orders because you need to become more established and your software needs to make its way through the web.  As you become more established and customers are finding your software, it could take less than two weeks before you start seeing sales on a new product.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+I have been trying to sell my software for months and I have not been receiving any sales. Why is this not working?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+There could be many reasons why this isn't working. Is your software clearly displayed on your web site? Is your web site pleasant to look at and easy to navigate? A cluttered and confusing web site will drive customers away. Can your customers send you emails from your web site? Since you are trying to sell your work, your web site needs to sell you to the customer. It needs to instill confidence that they will receive something back if they send money. Also, is your site registered with search engines?  Do you have other sites linked to your software, like www.download.com?  Have you tried to upload it to AOL and other online services? The more places your software can be found, the more downloads you will receive which translates into sales. Is what you put together sellable? Is the price too high? Is the price too low? Get the opinions of your friends and family to see what they think. Ask them if they would purchase your ebook and if not, find out why. Putting your work into ebook 4 Sale doesn't guarantee sales. You may have to make adjustments to the project in a trial and error fashion. Even if sales are not rolling in like mad, one other important function ebook 4 Sale does is that it gets you noticed. It can also be used as a marketing tool to promote your talents. It is quite possible to accrue numerous side work projects from other companies that get in touch with you because they found your work on the web.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+How much should I charge?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Every company with a product asks the same question. Look at what other similar products are selling for. I wouldn't charge less then $5.00. Selling too cheap is just as bad as overpricing it. Depending on what you're selling, pricing over $20.00 may be too high. If you're selling comics or a novel, $10.00 is not a bad price to try. Just use this as a guideline to help you decide.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Do I need to become a registered business to sell my ebooks?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is not nessary if your just starting out, but if you want to you can. In the beginning you could consider this a hobby business. But if things start to get serious and sales are increasing, registering your business is somthing you should do. Just call your local County Clerk's office and ask about registering your business.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Should I claim the sales from my ebooks on my taxes?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Yes, you will need to claim your extra income. If you use Turbo Tax or some other tax program to prepare your income taxes, you'll discover that it is very easy to prepare your tax forms. Be sure to save all your business-related receipts so that all of  your business expenses can be deducted from the money you made from your ebooks. Your computer equipment, software, service providers, car mileage, postage and many other expenses can be deducted from your total sales, so save those receipts!
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Is it possible to take credit card orders over the web?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Yes, however accepting credit cards requires a few things that will need to be set in place first.  ebook 4 Sale supports credit card transactions through the mail but not over the web. The reason for this is because it doesn't need to. You can have a service do all your credit card transactions for you (they will take a percentage of your sales) and you then email the registration number to the customer. You can get setup to take credit card orders your self. This is more complicated and you need to be a registered business and find a bank that will help you get setup. Either way, it can be done.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+I like your ebook 4 Sale software but there is a feature I would like to see it have before I purchase it.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If there is a feature you would like to see ebook 4 Sale support please let me know so that I can consider adding it to the next version. Like any program that you use, ebook 4 Sale will continue to mature over time. Holding off purchasing ebook 4 Sale for a feature or two may be a big mistake because the feature you would like to see may make no difference to your overall sales. The reason a customer will purchase your ebook is because of your work and ideas. Waiting for a feature to show up could mean lost time in getting yourself established. When the feature does get added in a future release, you can update all of your ebooks with the new version of ebooks 4 sale.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Is it possible for someone to steal my work and/or ideas?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Yes, this is possible. Anytime you put your work out there for others to see and enjoy, you run that risk. This is why you provide copyright information with your ebook. Adding copyright info is no guarantee that someone won't infringe on your copyright, but it at least lets them know that your work is protected under the copyright laws and that they could be prosecuted. The only other option is not to sell your work. This also means no one will be enjoying your work.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+How do I copyright my ebook?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in copyright information in the Preferences window "Copyright information" edit field if you want to allow people to print. You could also display your copyright info in your ebooks "Start Up Info" screen. This copyright info could be something like "Copyright @2001 by Joe's ebook, All Rights Reserved." If you want to do a real copyright, you'll need to get copyright information from the Library of Congress.  You can also search the web for copyright laws and information.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+I have this artwork I drew and story I wrote years ago. It's probably too old to use.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+How old your work is is not an indication of whether it will sell or not. Keep in mind, people who see it will be seeing it for the first time, so to them it is new material. In fact, it is best not to associate a date with your work because that will allow you to keep selling the same stories and art for many years.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Why does text only use one font and font size for everything?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+For the most part, it keeps it simple for the end user, your customers. Mixing different fonts, sizes and colors may make the page look more attractive to view but makes it very hard to read and tires the eyes in a very short period of time. This is why any novel you pick up at the book store is usually in one font style and size. Also, this makes it easy for your customers to change the overall font and size to suite their own needs. If their eyesight is not that good, they will be very excited to see that thay can increase the size to whatever they need and choose a font that is easy on their eyes. Have you ever noticed how hard it is to sit and read a magazine for a lengthy period of time but reading a paperback book isn't?
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+My ebook executable file size is huge. Is there anything I can do to make it smaller?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Part of your ebook file is the program. This part is very small, everything else is the files you added. Did you save your image files as a compressed file format like *.GIF or *.JPG? Windows *.BMP files are not compressed and take up a lot of space quickly. It's quite possible to have image files saved in *.GIF or *.JPG format, but will still remain rather large because the nature of the image does not compress well. Also, even though your images are in a compressed format, they may be bigger than what is really needed and all you're doing is carrying around a lot of extra baggage that's not really necessary. Look at the file size of your images.
+
+FileMenuOptions
+FileMenuOptions
+New Project
+Open Project
+go to Web Site
+Build EXE
+Order Form (Mail Order Only)
+Reset Project Defaults
+Run Project
+Print
+Include Order Form Info Screen
+Include Startup Info Screen
+Save
+Move Current Page
+Add Page(s)
+Preferences
+Delete Current Page
+Print Setup
+Save As
+Close Project
+Set Text Font
+Set Text Background Color
+Reset Font and Colors to Default
+
+
+
+
+
+
+2
+46
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\PREF-IC.SHG
+File Menu Options
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+File Menu Options:
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+New Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+For creating a new ebook project. You'll be prompted to enter in a project file name and then the Project Preferences dialog box will display for you to select the options for your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Open Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Open an existing project on your hard drive.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Save
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Save the project that you currently have open and are working on.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Save As
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Save the project that you currently have open and are working on as a different file name.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Close Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Close the current project that is open.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Print
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Print pages from your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Print Setup
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select printing options for your printer.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Preferences
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Set up your ebook by selecting different program options.  The "Project Preferences" window is covered in greater depth under the "Project Preferences" section of this help file.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Project Menu Options:
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Add Page(s)
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Add pages to your project which can be an image or a text file.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Move Current Page
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Move the current page to a new position in your ebook.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Delete Current Page
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Deletes the current page from your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Include Startup Info Screen
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+This will allow you to create an info screen that will pop up after your ebook starts up.  What you could put here is your Copyright information, price of your ebook, information about you and your company and so on.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Include Order Form Info Screen
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+This will allow you to create an order form info screen that will pop up after your potential customer clicks on the button or menu option that will bring them into the order form screen. This is for additional information you want your potential customer to know about ordering your ebook. What you could put here is information about ordering, price of your ebook, and so on.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Set Text Font
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select the default font for the text pages of your ebook. If you are going to select a font to display your text pages with, be sure to select a font that is standard for all windows computers. You wouldn't want to select a font that most Windows computer don't have.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Set Text Background Color
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select the background color for your text pages.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Reset Font and Colors to Default
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Resets your projects font and text colors to the original defaults.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Run Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Builds your project's ebook and then runs it.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Reset Project Defaults
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Each project you create manages specific critical information like registration and so on. For your own experimentation, you may need your projects on your computer to be reset to their defaults.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Build EXE
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+This builds your ebook's executable file. This is the same thing as "Run Project" without running the ebook executable.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Help/Order Info Menu Options:
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Order Form (Mail Order Only)
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Displays the order form window so that your customers can order your ebook by mail.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Go to Web Site
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+If you entered your web site into the "Project Preferences Web Address:" edit field, clicking on this menu item will load up your web page.
+
+PreparingYourFiles
+PreparingYourFiles
+
+
+
+
+
+
+2
+8
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\data.SHG
+Preparing Your Files
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+As you can probably guess by now, adding files to your ebook 4 Sale project and building your own ebooks is an easy task to complete. The hardest part is in preparing your files to use in your ebook project. For example, if you are adding artwork to your ebook project, you need to create the artwork or scan in your artwork to use in your project. If you have a novel you're trying to create, you'll need to break your novel into individual page text files. Both of these tasks will require a little work and persistance. If you have very little experience using a scanner, it may take you a while to get the results your looking for. Breaking your novel into individual text files is tons easer than scanning but does require some work and persistence. And let's not forget that we need to get our ebook files onto our web site so that people can download them. Don't know much about web sites and creating web pages? I can see we have a little learning curve, but that's OK. Learning new things is fun and before you know it, you'll end up being the expert all your friends come running to for help.
+
+If this sounds like you, just grab hold of your local computer guru, be it a friend or a family member, and pick their brain and solicit their help.
+
+In this section of the help file I'll try to help you understand what you need to do in respect to scanning, text files and your web site. All I can do is try to point you in the right direction because it is beyond the scope of the help file to fully teach these skills. The text file creating is easy and we can handle it here; the scanning and web page building may require you to pick up a how-to book.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Breaking your novel into individual text files
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Lets' say for example you wrote a 350-page science-fiction story. You now need to make 350 text files, each holding an individual page of text. Before you even begin doing all this, you'll need to have proofed all of your writing and maybe have a few other people proof your work for typos. You'll want your story to be solid before embarking on the task of breaking it into idividual files. You'll never get away from making a few changes and fixes but this is not the time to have to do a rewrite. You've worked this story over and over and now it's time to run with it.
+
+Now you need to determine how many words equal a page. This is up to you and you may want to experiment with the amount of text, font, and the font size to achieve the look you're after. There is no right or wrong answer to this equation. Your favorite word processor may allow you to view all your text in individual pages. If that is the case, it will make your job a lot easier because your word processor has already seperated it all for you.
+
+Load your story into your favorite word processor and have Windows Notepad running at the same time. What you want to do is copy a page of text from your word processor and paste it into Windows Notepad. Be sure to select the "Word Wrap" option under the "Edit" menu. Check that there are no hard returns other than in seperating paragraphs. The paragraphs needs to be self-wraping and you can tell this by stretching the Notepad window small and big and you wont see any unusual breaks in your paragraphs. If all is OK, save your first page as page001.txt into your project folder. ebook 4 Sale will only take *.TXT files. After you have done about 10 pages, add these pages to your ebook 4 Sale project. Flip from page to page to see how it feels to you. If you are happy with what you have, break the rest of your pages out in the same manner.
+
+Let's say you have 350 text files and you're ready to add them to your ebook 4 Sale project. Even though you can multi-select all of them, Windows has its limitations and only a small number of them will be loaded. Instead, multi-select 20 at a time because we need to be careful not to miss one or add one twice.
+
+After you're done loading in all your pages, you may want to read through it to make sure all your pages are in the correct order and that you are not missing any pages or have duplicates.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Scanning in artwork
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If reading the below scanning instructions leaves you confused, that is because you may not have any image editing experience. No need to worry, there are books on the subject you can purchase from your local book store. Adobe PhotoShop is a great image-editing tool and there are plenty of books on the subject.
+
+One question you need to ask yourself before you start scanning is how big should the final image size be? What you want to do is scan your images in big, back up the files and then size down a copy of the original to the final size you plan on using. If you're new to scanning, this could be a tough one to get a handle on. Regardless of what resolution you scan an image in at, the basic unit of measurement is pixels wide by pixels tall. You want your final image to be a size that will be comfortable for most people viewing the artwork. If it's too small, you'll miss out on the detail and if it is to big, your customer will have to do too much scrolling and that's no fun. Another problem of your images being too big is that the size of your final ebook file could be too large for most people to download. To help figure this out, let's look at the resolution your computer is currently running at. The most common resolutions are 640 x 480, 800 x 600, 1024 x 768, 1280 x 1024, and some are even higher. These numbers are in pixels wide by pixels tall. You can find this information by clicking on your Start button/Settings/Control Panel/Display/Settings tab. The "Desktop area" will show what resolution you are currently in.
+
+Let's pick a resolution we think most computers are set at and my guess is 800 x 600. If you had to, you could size your images down so that they would fall into this range but we still need the images to be a little smaller then 800 x 600 so a good compromise is about 700 x 500. Now that we have a range to work with, your image may be too small if we want to confine it to this box. The solution is to have it so that you (in most cases) only have to scroll in one direction. When we are reading text files or web surfing, we are only scrolling down. It would be a drag if we had to scroll both ways all the time instead just one. So let's say your images are taller then they are wider. What you could do is have the width of your image fall around 500 pixels wide while the height could go well beyond 800 pixels high. The height no longer matters because having to scroll down to see the rest is OK.
+
+If you plan on having a startup screen image and a background tile image, these images are usually small because the nature of the artwork doesn't lend itself to being big. These images usually fall well below the 640 x 480 image size. To help you get a feel for the size of these images, open the Sample startup.gif and the Sample TileBack.gif file in your image editor to see what the sizes are. Also, it wouldn't be a bad idea to open the Sample Page001.gif file in your image editor to see the size of the file.
+
+Lets say there is text in your scans because maybe this is a comic. Many times the text may not be readable so what we can do is, after we have scanned in the artwork, re-add the text by using the text features in your image-editing software. If there is a lot of text this could be tedious but nonetheless, has to be done. The other option is to have the text in your artwork a little bigger than you would normally have it so that when it is scanned, it is still readable.
+
+Another thing to watch for is to make sure you scan in your artwork straight. This may take some pratice and it may never be absolutely straight; all you can do is get it as close as you can.
+
+Now, what if your artwork is too big for your scanner? You could have it scanned by a graphic arts house which will cost you some money. Another thing you could try is to scan it in pieces and then assemble the pieces in your image editing software. This is much trickier to do but can be done.
+
+After you scan in your artwork, you'll end up with some imperfections due to the process of scanning. This is where you clean up the image in your image-editing softare and remove any blemishes you may find. You can even take this opportunity to fine-tune your artwork by adding a little more contrast, make the colors brighter, and sharpening the image.
+
+The final consideration is what file format to save the image file in. You'll want to use a compressed file format like *.GIF or *.JPG. If you're scanning in line drawings or comic-type art, chances are you may be able to index the image to a 256-color image and save it as a *.GIF. You'll always get a better compression ratio with *.GIF over *.JPG. If you're artwork is a more continuous tone, like a photograph, then keeping the image as an *.RGB file and saving it as a *.JPG is your best choice. *.GIFs are for images with 256 or less colors and *.JPG is for images with more than 256 colors. Do some experiments to see which format works best for you. Keep in mind the *.JPG compression algorithm works by not saving all the color information so you always get back less then what you originally started out with. This is why you never want to save your original big files as *.JPG. Also, depending on how hard you compress the image, the final image could look really bad, so you don't want to compress your *.JPGs too hard. This will require some experimentation.
+
+To recap, here are the steps to take when scanning in your artwork.
+
+1.  Scan in your artwork 3 to 4 times bigger than you currently need it. That way
+     you can always go back to the big one and size it down to your current needs.
+     Only size down, never size up.
+
+2.  Clean up the artwork by removing pits, blemishes and any other imperfections
+      that you can see. This is also a good time to enhance the scan by adding more
+      contrast, brightening up the colors and any other enhancement you can think of.
+      This is NOT the time to sharpen the image, that comes later.
+
+3.  You now want to back-up these images. A removeable drive or a writeable CD
+     is a good way to go. Never save your originals as *.JPG files.
+
+4.  Now that your original scans are safely backed up, you are now free to size a
+     copy of the image files for your use. After you figure out the desired size, size
+     your images down and then sharpen them. If there is text and it's not all that 
+     readable, this is when you would redo the text. The reason we don't redo the
+     text when the files are big is because by the time we size the image down, the
+     text may not be readable and we would have to do it all over again.
+
+5.  The last step is to save your file in the desired file format, be it *.GIF or *.JPG.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Web Page Building
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you don't already have a web site, you'll need one. If you don't have an online provider, you need to acquire one that will also give you web space. There are plenty out there to choose from and deals to be had. You'll also need software for creating web pages fast and easy. I find Adobe PageMill easy to use but there are many other software titles available. A web site is a collection of HTML files and image files that you upload to the folder your online provider has set up for you on their server. If this all seems new to you, you may need to pick up a book and/or find someone who has done all this to show you how. Also, the online provider you select should be very knowledgeable and happy to help you every step of the way.
+
+A few things you need to know in advance before uploading your files to your web space:
+
+1.  Don't use spaces in your file names. File names like "My Great eBook.exe" will only
+     give you problems.
+
+2.  Name all your files in lowercase only. The file "Index.html" and "index.html" are seen as
+     two different file names. UNIX is the standard for the web and this is how UNIX works. So
+     if a link to a file is named "MyNovel.exe" but the real file is named "myNovel.exe", the file
+     will not be seen and can't be downloaded. Error, Error!
+
+3. Make sure the names you give your files are names you want to keep forever. Say for
+    example you have five ebooks on your web site and they have been there for about six
+    months. Changing the names for whatever reason could be a big mistake because
+    other web sites could have linked your ebooks to their site. Now when someone goes
+    to download the file, they can't because the file name has changed and you have lost
+    the opportunity to have other web sites promote your ebooks. The great thing about all
+    this is that the minute you upload a newer version of your ebook (with the name still the
+    same), all downloads after that point will be downloading the newest file.
+
+4. Keep you web site simple. Loading it up with complex, useless graphics will only drive
+    potential customers away. Take this opportunity to use the web site to sell yourself to
+    your customers. People like the personal touch.
+
+5. Test your web page and make sure everything works and all files can be downloaded.
+
+This section dealing with web pages is only to give you a heads-up on a few web page pitfalls. I'm not capable of teaching web page building in this help file. There are tons of books that can help you get started and if you know someone that has done all this, start talking to them. I'm sure they will be able to help.
+
+
+problems
+problems
+
+
+
+
+
+
+2
+18
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\key.SHG
+Problems and Pitfalls You May Encounter
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+In anything you do, there will always be problems you will encounter. Nothing is perfect and there is no utopia, especially in business. In this section of the help file I'll run down the list of possible problems you may encounter selling your ebooks. None of these are anything serious, but it is my duty to make you aware of them just the same. I have run into these problems myself and still do because I sell shareware software which, in reality, is no different than what you are doing with your ebooks. Not all of these are "problems" and many are humorous but I'm using the title "Problems and Pifalls" mainly to get your attention. As a seller of ebooks, you're way of corresponding with your customers is through email. 
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+You'll Receive Plenty of Email
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+I hope you like answering email because as your ebooks make their way around the web and people start downloading them, you'll start getting emails from these people. Now this will work for you and will help bring in sales because people get really charged up when talking to the author. To them they are talking to a celebrity. There will also be plenty of people who won't care but will still appreciate your work.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+People Don't Read
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+There is not much you can do about this. In your ebook you'll have information you'll want your customers to read like "price" and registration information. You'll still get plenty of emails from your customers asking if the software is free, why not, how do you register, and so on. All you can do is be sure to provide the information and hope most will read it.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Your Work Will Touch Peoples Lives
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+There are those people who will find special meaning in your work that relates to the experiences going on in their lives. Your work my help them get through a troubling time.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+You'll Encounter Computer-Challenged People
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is the main reason ebook 4 Sale generates a stand-alone executable program - to keep it simple for your customers. There is nothing for them to install, they just double-click on the file they downloaded. Your customers will love you for the fact that your ebook is so easy to use. However, no matter how easy you make software, there are always people who will be confused by it. They will download the file but don't know where it went on their computer. They'll contribute their computer problems to your ebook just because they downloaded it. The reason they my be experiencing computer problems could be many things, low system resources, some other program they downloaded that's running or their hard drive could be having trouble. Even after they delete the ebook and still continue to have problems, they still think it has to do with your ebook because it coincided with the download. It isn't until much later that they figure out it was something else. This doesn't happen all that often so don't let that concern you but it's good to make you aware of it.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Bounced Checks
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Since you'll be receiving orders in the mail for your ebook, every blue moon you'll get a bounced check from one of your customers. Just email them and let them know what happened and request they send out another check that includes the fee the bank charged you for the bounced check. Most of the time your customer will be horrified that this happened and will send another check out immediately. Sometimes the customer who bounced the check can't be found or ignores your request. This is so rare that is not even a concern.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Foreign Currency
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+As your ebook makes its way through the web, what it's also doing is making its way all over the world. You'll be getting email and orders from everywhere. Getting an order from a far off foreign land is fun but it does cause currency problems. If they send a check, having the check cashed could cost more then the amount on the check. The solution is to instruct the customer to purchase from their bank or post office, the amount requested in a U.S. Postal Money Order. So if your ebook is $5.00, have them purchase a $5.00 U. S. Postal Money Order and send that in the mail. These currency issues go away when taking credit card but if your just starting out, I wouldn't worry about getting involved in credit card transactions just yet.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Wrong Email Addresses
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+You'll get orders from your customers but they will make a mistake entering in their email address and you won't be able to send them their registration number by email. Your only recourse at this point is to send them a letter by standard mail with their registration number, informing them of the email problems. Chances are they will get in touch with you via email wondering where their registration number is. Now you'll have their correct email address and you can reply explaining the situation to them and also giving them their registration number.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Your Ebook IsToo Expensive, Too Cheap
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Pricing your ebook is a tough call. Overpricing your ebook is just as bad as selling it too cheap. You will get people who will love your work and say that your price is too cheap, whereas you'll get other people who will say that your price is too expensive and wouldn't think of purchasing it. Don't run out and change your price when you first start hearing these comments. If you're new at selling ebooks, there's a good chance you'll underprice your ebook.
+
+sell
+sell
+
+
+
+
+
+
+2
+14
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\REGIST.SHG
+Making an Ebook That Will Sell
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Chances are if you're making an ebook, you'll want to sell it. There is no sure fire way to make anything that is guaranteed to sell. It's an ongoing experiment but there are a few things you can do to help sway the readers into your corner. Below are a few tips and tricks you can use to help motivate your customers to purchase your ebooks. One thing you'll notice is how important your web site is for your sales. Your web site can make or break you.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+An Attractive Web Site
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+An easy to view, navigate and attractive web site will aid in the sales of your ebooks. A very busy, loud web site (like yahoo, download.com and others like it) will just confuse potential customers and drive them away. Having animations on your web site just because you can, is a bad idea. Also, you'll want a cheerfull web site. A web site that has an angry feel to it will drive away sales.
+
+Keep in mind, the reason they are visiting your web site is because they downloaded your ebook and they are checking you out.  90% of the battle is to get a potential customer to download your ebook. The last 10% is your ebook and your web site. This is a very critical 10% and if your mess up here, the sale is lost.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Don't Provide Links To Other Web Sites and Other Silly Stuff
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Here's the scenario.  Someone downloads your ebook from somewhere on the web, they pay a visit to your web site only to see another link that sounds interesting.  So now, you have sent them away before they've even had the chance to check out your web site! How's that going to help you? If they are on your web site, you want to keep them there. You want your web site to sell yourself and it can't do that if one of your links caught their eye and off they went.
+
+Don't use the web candy many web sites use. This is the visit counters, guest books, search links or other silly web candy stuff. This will make your web site look cheezy and most people have seen all that stuff before and will stereotype your web site as created by a "Newbie" which is a stereotype you don't want applied to your work.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Your Web Site Needs To Sell You To Your Customer
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+People are curious about other people. They have your ebook and now they want to know who you are. Having a section on your web site that has a short autobiography is not a bad idea. People like reading that kind of stuff. You could also put your picture on your web site but it has to be real good picture. If you're anything less than stunningly attractive, this could be a bad idea. What you could do instead of a picture is to create a drawing of yourself. What all this does is convey the notion that they wont get ripped off and that it is safe to send money to you.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Your Ebook Needs To Have a Good Tease
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+When you see the trailer to a movie that is soon to be released, they are showing you scenes from the movie they hope will inspire you to go see that movie in the theater. ebook 4 Sale allows you to specify how many pages you'll let your customers see before requesting them to purchase your ebook. This is what we call a tease. Your tease needs to be good because they have downloaded your ebook and this is the time your ebook needs to deliver by selling itself to them. Your tease needs to make them want to see the rest of your ebook, then the sale is almost guarenteed. The question now remains, what is a good tease. If your ebook is story-based, you may want to show excerpts from different parts of the story that you feel will hook them. Just showing the beginning of the story may not work because that is usually when the stage is being set and it is not always the most interesting part of the story. Set up your tease and then get the opinions of your family and friends to see if it interests them.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Pricing Your Ebook
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you're new to making ebooks, putting a price on your work is a hard thing to do. Authors tend to underprice their work. Having an ebook that is too cheap is just as bad as being too expensive. Inexpensive doesn't mean more sales. Let's say, for example, your ebook is priced under $5.00. My opinion is that the price is way too low and it's not so much as the price itself as it is what the price conveys to the customer. They may think, "if it's that cheap, it may not be worth it." If your customer is going to pull out their checkbook or go online to purchase with a credit card, the price needs to validate the time spent doing one of these two tasks. They may find to easier to spend $10.00 then it is to spend $5.00 or less. This is a very different concept than what you are normally used to. They can justify the time it takes to spend $10.00 but they may not be able to justify the  time it takes to spend $5.00 or less. Also, people like round numbers, so instead of prices like $7.99, $3.55 etc., a straight $5.00, $10.00, $15.00 will work better. If you're going to put a price tag of about $7.50 on your ebook, you might as well just sell it for $10.00.
+
+The price of your ebook will not motivate the customer to purchase; price will only motivate them NOT to purchase. For example, someone downloads your ebook and decides that they really want it. The price could be anywhere from $5.00 to $20.00. As long as the price it within their comfort zone, they will not have a problem purchasing it. Let's say their comfort zone is in between $5.00 and $20.00 and your ebook is priced higher than $20.00. They have already decided they want your ebook but now they have to convince themselves to pay an amount higher then what they feel is a fair price. Now they have to decide how badly  they want it. Everyone's comfort zone is a little different but what you are trying to do is to pick the highest price that will be within enough comfort zones to yield the most (gross) sales. For example, at $5.00 each you sell on average 100 books a month, which yields a total sales of $500.00. Let's say you sold the same ebooks at $10.00 each but you sell 70 books a month on average, which yields a total sales of $700.00. You've made $200 dollars more selling less number of books. Keep in mind, every order you receive is time spent processing the order, so that's also less time spent for more money.
+
+Please use the above as a guideline to help in pricing your ebooks. Don't be afraid to experiment.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Databasing Your Customers
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+When your orders come in for your ebooks, you'll want to store your customer information in some type of database program. This could be a spreadsheet program like Excel, or a real database program like Access. Setting up one of these programs to hold your customer information is quite easy. Then each time you release a new ebook, you could email all your customers to let them know there is a new ebook available. The customers who purchased before are more likely to purchase again, so a customer database is very valuable.
+
+summery
+summery
+
+
+
+
+
+
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\ART4SA~1\HELP\getting.SHG
+Final Word
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+This part of the help file should be the last part you read. If you have read the help file from beginning to end and you are confused, try reading it again. There is a lot of information in this help file and it may require you to read it through a few times before the concepts can be grasped.
+
+If you're still confused, try the below suggestions. 
+
+    Do the step-by-step tutorial to create an ebook.
+
+    Visit www.download.com and download and install a program. Try a
+    "Shareware" program and then try a "Freeware" program.
+
+    Email me with your questions.   funware@aol.com
+
+
+
+zCredit
+
+
+
+
+
+
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+
+default.bmp
+Taking Credit Cards
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+There are on line services that will do the job of processing your credit card customers for you. This could be a quick way to get setup taking credit cards but they do take a percentage of your sales and you will have to wait for them to tell you who purchased and and to recieve payment from the customers they processed.
+
+You can also be setup to take credit card orders your self. Below are step by step instructions:
+
+**** Donna, here is your section to write!  Love you!  ******
+
+

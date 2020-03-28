@@ -1,0 +1,1 @@
+SET PATH=C:\PROGRA~1\BORLAND\bcc55\BIN;C:\PROGRA~1\BORLAND\TASM\BIN;C:\RoundA~1\ssStart;C:\RoundA~1\library

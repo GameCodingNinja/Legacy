@@ -1,0 +1,568 @@
+//  Starter Resource File
+//  File Starter.rc
+
+#include "gDefines.h"
+
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+TOOLBARBMP BITMAP "Buttons5.bmp"
+noprinter TXT LOADONCALL MOVEABLE "noprint.txt"
+
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+    // Reg Num Info text
+    0, "This ebook is in shareware mode and is restricted to the number of pages you can view.\015\015To view the entire ebook, a registration fee is required. Click on the Order Form Program button below, fill out the order form, print it and mail it along with your payment.\015\015Once payment is received, your registration number will be emailed to you. Type in the registration number into the below edit field to remove the shareware restriction."
+    1, "This program is in shareware mode. The executables it generates will only run on the computer it is built on and can only be used for evaluation.\015\015To have full use of this program requires a registration fee. There are two ways to register this program: \015Online using the order form on my secure and encrypted web site at www.howiesfunware.com or through the mail by completing and filling out the built-in order form located under the Order Info menu."
+    2, "Sorry, but the number entered is not the correct registration number. Check that you have entered the number correctly and that you didn't include any spaces that do not belong."
+    3, "Thank you for registering this program. The program will now run in full registered mode."
+end
+
+
+DLG_STARTUP_SCRN DIALOG 0, 0, 240, 120
+STYLE WS_POPUP | WS_VISIBLE
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+}
+
+
+DLG_PRINTING DIALOG 0, 0, 178, 49
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_TOPMOST
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Printing"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Printing...", TXT_PRINTING, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 10, 160, 16, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 28, 46, 14, 0
+}
+
+
+// helpful hint dialog
+DLG_HELPFUL_HINT DIALOG 0, 0, 257, 206
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 204, 184, 46, 15
+ CONTROL "", EDT_HELPFUL_HINT, "edit", ES_LEFT | ES_MULTILINE | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 24, 241, 152, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 185, 84, 12, 0
+ CONTROL "", TXT_HLP_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 240, 16, 0
+}
+
+
+DLG_ABOUT DIALOG 0, 0, 240, 191
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 168, 42, 14
+ CONTROL "", TXT_ABOUT, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 140, 224, 24, 0
+ CONTROL "Goto Web Site...", BTN_GOTO_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 168, 68, 14, 0
+}
+
+
+#if defined( EBOOK_TOOL ) || !defined( SHARE_THE_MEMORIES )
+
+DLG_REG_NUMBER DIALOG 0, 0, 220, 201
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Register"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 128, 178, 40, 15
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 172, 178, 40, 15
+ CONTROL "reg info", TXT_ORDERING_INFO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 48, 204, 92, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER, 8, 158, 152, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 8, 178, 84, 15, 0
+ CONTROL "Enter in Your Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 144, 156, 10, 0
+ CONTROL "Shareware Mode", TXT_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 8, 204, 20, 0
+ CONTROL "Program cost", TXT_PROGRAM_COST, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 32, 204, 8, 0
+}
+
+DLG_CHOOSE_ORDER_METHOD DIALOG 0, 0, 169, 92
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Choose Your Ordering Method"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Order Online with Credit Card", BTN_ORDER_ONLINE, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 20, 136, 16, 0
+ CONTROL "Please choose an ordering option", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 112, 8, 0
+ CONTROL "Order Through Standard U.S. Mail", BTN_ORDER_THRO_MAIL, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 44, 136, 14, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 68, 52, 14, 0
+}
+
+DLG_ORDERFRM DIALOG 0, 0, 274, 264
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Print Order Form", BTN_PRINT_ORDERFORM, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 240, 74, 15
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 212, 240, 50, 15
+ CONTROL "No Printer Available", BTN_NO_PRINTER, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 240, 88, 15, 0
+ CONTROL "", TXT_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 8, 160, 52, 0
+ CONTROL "", EDT_NAME, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 72, 60, 92, 12, 0
+ CONTROL "First && Last Name:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 60, 60, 12, 0
+ CONTROL "Address Line 1:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 76, 56, 12, 0
+ CONTROL "Address Line 2:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 92, 56, 12, 0
+ CONTROL "", EDT_ADDRESS_1, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 76, 100, 12, 0
+ CONTROL "", EDT_ADDRESS_2, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 92, 100, 12, 0
+ CONTROL "City, State, Zip:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 108, 52, 12, 0
+ CONTROL "", EDT_CITY, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 108, 43, 12, 0
+ CONTROL "E-mail Address:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 124, 60, 12, 0
+ CONTROL "", EDT_EMAIL, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 124, 100, 12, 0
+ CONTROL "", CHK_FLOPPY_DISK, "button", BS_AUTOCHECKBOX | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 12, 144, 152, 12, 0
+ CONTROL "Disk Charge:", TXT_SHIP_HAND_STATIC, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 164, 148, 68, 10, 0
+ CONTROL "$0.00", TXT_SHIP_HAND_COST, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 228, 148, 32, 10, 0
+ CONTROL "$0.00", TXT_IL_RESIDENT, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 228, 160, 32, 8, 0
+ CONTROL "Frame1", -1, "static", SS_ETCHEDFRAME | WS_CHILD | WS_VISIBLE, 164, 177, 96, 2, 0
+ CONTROL "Total Cost:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 164, 186, 44, 10, 0
+ CONTROL "$00.00", TXT_TOTAL_COST, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 208, 186, 52, 10, 0
+ CONTROL "", TXT_CREDIT_CARD_INFO, "static", SS_CENTER | WS_CHILD | NOT WS_VISIBLE, 12, 164, 148, 40, 0
+ CONTROL "Visa", RDOBTN_VISA, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 204, 36, 12, 0
+ CONTROL "MasterCard", RDOBTN_MASTERCARD, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 204, 60, 12, 0
+ CONTROL "Discover", RDOBTN_DISCOVER, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 220, 48, 12, 0
+ CONTROL "American Express", RDOBTN_AMER_EXP, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 220, 76, 12, 0
+ CONTROL "", EDT_CREDIT_CARD_NO, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 136, 217, 88, 12, 0
+ CONTROL "Credit Card Number:", TXT_CREDIT_CARD_NO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 136, 205, 76, 8, 0
+ CONTROL "", EDT_EXP_DATE, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 228, 217, 32, 12, 0
+ CONTROL "Exp. Date:", TXT_CREDIT_CARD_EXP, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 228, 204, 40, 8, 0
+ CONTROL "", CBO_STATE, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 110, 108, 24, 54, 0
+ CONTROL "", EDT_ZIP, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 136, 108, 28, 12, 0
+ CONTROL "State Tax:", TXT_STATE_TAX, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 164, 160, 60, 8, 0
+}
+#endif
+
+
+#ifdef EBOOK_TOOL  // Tool related items
+
+    orderForm GIF LOADONCALL MOVEABLE "orderfrm.GIF"
+
+    // Be sure to NULL terminate these text files and that all the information is correct
+    orderFrmTxt TXT LOADONCALL MOVEABLE "orderform.txt"
+	#ifdef SHARE_THE_MEMORIES
+    orderFrmInfo TXT LOADONCALL MOVEABLE "orderInfoSTM.txt"
+	IntroTxt TXT LOADONCALL MOVEABLE "IntroSTM.txt"
+	startup GIF LOADONCALL MOVEABLE "shareMemlogo.GIF"
+	eBookViewer EXE LOADONCALL MOVEABLE "stm.exe"
+	AppIcon ICON "STMtool.ico"
+	viewIcon ICON "E4Sview.ico"
+	#else
+	orderFrmInfo TXT LOADONCALL MOVEABLE "orderInfo.txt"
+	IntroTxt TXT LOADONCALL MOVEABLE "IntroE4S.txt"
+	startup GIF LOADONCALL MOVEABLE "ebook4sale_logo.gif"
+	eBookViewer EXE LOADONCALL MOVEABLE "efs.exe"
+	AppIcon ICON "E4Stool.ico"
+	#endif
+
+    funwareLogo WMF LOADONCALL MOVEABLE "howlogo2.wmf"
+
+// Move pages around
+DLG_MOVE_PAGE DIALOG 0, 0, 164, 86
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Move Current Page to a New Position"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 48, 60, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 60, 46, 14
+ CONTROL "Select the new position you want the current page to be in:", -1, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 20, 8, 124, 24, 0
+ CONTROL "", CBO_MOVE_PAGE, "combobox", CBS_DROPDOWNLIST | CBS_DISABLENOSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 20, 36, 124, 96, 0
+}
+
+
+DLG_MEDIA_DIR DIALOG 0, 0, 262, 35
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Test Selected Sound File", BTN_PLAY_SOUND, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 54, 16, 155, 14
+ CONTROL "Be sure to test each sound file before using it with the program", TXT_MEDIA_DIR, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 248, 10, 0
+}
+
+DLG_LOAD_PICT DIALOG 0, -1, 247, 119
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", STC_PICTLOAD_IMAGE_WND, "static", SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_BORDER, 44, 0, 188, 104, 0
+ CONTROL "", STC_PICTLOAD_INFO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 44, 107, 188, 8, 0
+}
+
+eBookAccl ACCELERATORS 
+BEGIN 
+    "N", MNU_NEW, CONTROL, VIRTKEY            // CTRL+N 
+    "O", MNU_OPEN, CONTROL, VIRTKEY           // Ctrl+O 
+    "S", MNU_SAVE, CONTROL, VIRTKEY           // Ctrl+S 
+    "Q", MNU_EXIT, CONTROL, VIRTKEY           // Ctrl+Q
+    "A", MNU_ADD_PAGE, CONTROL, VIRTKEY       // Ctrl+A
+    "M", MNU_MOVE_PAGE, CONTROL, VIRTKEY      // Ctrl+M
+    "P", MNU_PRINT, CONTROL, VIRTKEY          // Ctrl+P
+    "R", MNU_RUN_PROJECT, CONTROL, VIRTKEY    // Ctrl+R
+	"F", MNU_FIND_PROJECT, CONTROL, VIRTKEY    // Ctrl+F
+    "B", MNU_BUILD_EXE, CONTROL, VIRTKEY      // Ctrl+B
+    #ifdef SHARE_THE_MEMORIES
+    "T", MNU_ADD_CAPTION, CONTROL, VIRTKEY    // Ctrl+T
+    #endif
+    VK_DELETE, MNU_DELETE_PAGE, VIRTKEY       // Delete key
+    VK_LEFT, BTN_FLIP_LEFT, VIRTKEY           // Left key
+    VK_RIGHT, BTN_FLIP_RIGHT, VIRTKEY         // Right key
+    //VK_UP, BTN_ZOOM_IN, VIRTKEY             // Zoom In key
+    //VK_DOWN, BTN_ZOOM_OUT, VIRTKEY          // Zoom Out 
+END
+
+    Menu_1 MENU
+    {
+       POPUP "&File"
+       {
+          MENUITEM "&New Project...\tCtrl+N", MNU_NEW
+          MENUITEM "&Open Project...\tCtrl+O", MNU_OPEN
+          MENUITEM "&Save\tCtrl+S", MNU_SAVE
+          MENUITEM "Save &As...", MNU_SAVEAS
+          MENUITEM "&Close Project", MNU_CLOSE
+          MENUITEM SEPARATOR
+          MENUITEM "&Print\tCtrl+P", MNU_PRINT
+          MENUITEM "P&rint Setup...", MNU_PRINT_SETUP
+          MENUITEM SEPARATOR
+          MENUITEM "&Preferences...", MNU_PREFS
+          MENUITEM SEPARATOR
+          MENUITEM "&Exit\tCtrl+Q", MNU_EXIT
+       }
+
+       POPUP "&Project"
+       {
+          MENUITEM "&Add Page(s)...\tCtrl+A", MNU_ADD_PAGE
+          MENUITEM SEPARATOR
+          MENUITEM "Add &Sound File to Current Page...", MNU_ADD_SOUND
+          MENUITEM "Remove Sound &File from Current Page...", MNU_REMOVE_SOUND
+          #ifdef SHARE_THE_MEMORIES
+          MENUITEM "A&dd Caption to Current Page...\tCtrl+T", MNU_ADD_CAPTION
+          #endif
+          MENUITEM SEPARATOR
+          MENUITEM "&Move Current Page...\tCtrl+M", MNU_MOVE_PAGE
+          MENUITEM "&Delete Current Page\tDel", MNU_DELETE_PAGE
+          //MENUITEM "Include &AVI File...", MNU_ADD_AVI
+          #ifndef SHARE_THE_MEMORIES
+          MENUITEM SEPARATOR
+          MENUITEM "Include S&tartup Info Screen...", MNU_ADD_STARTUP_INFO
+          MENUITEM "Include &Order Form Info Screen...", MNU_ADD_OF_INFO
+          #endif
+          MENUITEM SEPARATOR
+          MENUITEM "&Set Text Font...", MNU_SET_DEF_FONT
+          MENUITEM "S&et Text Background Color...", MNU_SET_BKG_COLOR
+          MENUITEM "&Reset Font and Colors to Default", MNU_RESET_FONT_DEF
+	   }
+
+	   POPUP "&Run"
+	   {
+          MENUITEM "R&un Project\tCtrl+R", MNU_RUN_PROJECT
+		  #ifndef SHARE_THE_MEMORIES
+          MENUITEM "Reset &Project Defaults", MNU_REST_PROJECTS
+          #endif
+		  MENUITEM SEPARATOR
+          MENUITEM "&Find My eBook\tCtrl+F", MNU_FIND_PROJECT        
+       }
+
+	   POPUP "&Help"
+       {
+          MENUITEM "&Contents...", MNU_HLP_CONTENTS
+          MENUITEM "&Index...", MNU_HLP_INDEX
+          MENUITEM SEPARATOR
+          MENUITEM "&About...", MNU_ABOUT
+       }
+       MENUITEM "go to Web Site...", MNU_WEB_LINK
+    }
+
+DLG_STATUS_WND DIALOG 0, 0, 240, 50
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_BORDER
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", PROG_BAR, "msctls_progress32", WS_CHILD | WS_VISIBLE | WS_BORDER, 8, 24, 224, 12, 0
+ CONTROL "", STC_PROGBAR_TXT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 8, 224, 8, 0
+}
+
+#ifndef SHARE_THE_MEMORIES
+
+DLG_PROJECT_PREFS DIALOG 0, 0, 309, 269
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Project Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", EDT_APP_TITLE, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 16, 148, 12, 0
+ CONTROL "", EDT_EXE_NAME, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 168, 16, 132, 12, 0
+ CONTROL "", EDT_CUST_PASS, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 44, 148, 12, 0
+ CONTROL "", EDT_COPYRIGHT_INFO, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 168, 44, 132, 12, 0
+ CONTROL "Information for customer to send payment:", 101, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 60, 148, 200, 0
+ CONTROL "Build Preferences:", 111, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 168, 60, 132, 132, 0
+ CONTROL "Credit Card Options:", GRP_CREDIT_CARDS, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 168, 200, 132, 40, 0
+ CONTROL "", EDT_INFO_NAME, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 16, 88, 132, 12, 0
+ CONTROL "", EDT_INFO_ADDRESS1, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 16, 116, 132, 12, 0
+ CONTROL "", EDT_INFO_ADDRESS2, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 16, 132, 132, 12, 0
+ CONTROL "", EDT_CITY, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 16, 160, 66, 12, 0
+ CONTROL "", CBO_STATE, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 86, 160, 24, 72, 0
+ CONTROL "", EDT_ZIP, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 112, 160, 36, 12, 0
+ CONTROL "", EDT_WEB_ADDRESS, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 176, 84, 12, 0
+ CONTROL "", EDT_CREDIT_URL, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 194, 84, 12, 0
+ CONTROL "", EDT_EMAIL_ADDRESS, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 212, 84, 12, 0
+ CONTROL "", EDT_REG_FEE, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 16, 240, 44, 12, 0
+ CONTROL "", EDT_SALES_TAX, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 68, 240, 40, 12, 0
+ CONTROL "", EDT_USE_PASS_AFTER, "edit", ES_LEFT | ES_AUTOHSCROLL | ES_NUMBER | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 176, 74, 20, 12, 0
+ CONTROL "Use Registration No.", CHK_USE_REGNO, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 94, 88, 12, 0
+ CONTROL "Allow user to print pages", CHK_ALLOW_PRINTING, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 108, 112, 12, 0
+ CONTROL "Print page numbers", CHK_PRINT_PAGE_NO, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 188, 120, 88, 12, 0
+ CONTROL "Allow File Exports", CHK_ALLOW_FILE_EXPORTS, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 136, 112, 12, 0
+ CONTROL "Check program on startup", CHK_CHECKSUM, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 148, 116, 12, 0
+ CONTROL "Select bitmap for startup screen", CHK_STARTUP_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 160, 120, 12, 0
+ CONTROL "Select Background Tile Bitmap", CHK_USE_BK_BITMAP, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 172, 120, 12, 0
+ CONTROL "Visa", CHK_VISA, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 211, 36, 12, 0
+ CONTROL "American Express", CHK_AMERICAN_EXP, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 216, 211, 76, 12, 0
+ CONTROL "MasterCard", CHK_MASTERCARD, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 176, 223, 56, 12, 0
+ CONTROL "Discover", CHK_DISCOVER, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 244, 223, 48, 12, 0
+ CONTROL "OK", BTN_OK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 168, 248, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 248, 248, 50, 14
+ CONTROL "Title of your application:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 104, 8, 0
+ CONTROL "Name of your application's EXE file:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 168, 4, 120, 8, 0
+ CONTROL "Reg. No. required to run your application:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 32, 144, 8, 0
+ CONTROL "Request Reg. No. ofter page...", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 200, 74, 72, 17, 0
+ CONTROL "Name and/or Company Name:", 105, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 76, 124, 8, 0
+ CONTROL "Address:", 106, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 104, 84, 8, 0
+ CONTROL "City:", 109, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 148, 20, 8, 0
+ CONTROL "Web Address:", 104, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 176, 48, 8, 0
+ CONTROL "Email Address:", 108, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 212, 48, 8, 0
+ CONTROL "State:", 107, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 86, 148, 28, 8, 0
+ CONTROL "Sales Tax Percentage:", 114, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 68, 228, 80, 8, 0
+ CONTROL "Reg. Fee", 115, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 229, 44, 8, 0
+ CONTROL "Zip:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 112, 148, 32, 8, 0
+ CONTROL "Copyright information:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 168, 32, 132, 8, 0
+ CONTROL "Credit Card Web Address:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 16, 192, 48, 16, 0
+}
+
+#else
+
+DLG_PROJECT_PREFS DIALOG 0, 0, 292, 134
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Project Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Build Preferences:", 111, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 152, 4, 132, 92, 0
+ CONTROL "", EDT_APP_TITLE, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 16, 136, 12, 0
+ CONTROL "", EDT_EXE_NAME, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 44, 136, 12, 0
+ CONTROL "", EDT_WEB_ADDRESS, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 72, 136, 12, 0
+ CONTROL "Allow user to print pages", CHK_ALLOW_PRINTING, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 18, 112, 12, 0
+ CONTROL "Print page numbers", CHK_PRINT_PAGE_NO, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 172, 30, 88, 12, 0
+ CONTROL "Select bitmap for startup screen", CHK_STARTUP_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 56, 120, 12, 0
+ CONTROL "OK", BTN_OK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 92, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 112, 50, 14
+ CONTROL "Title of your application:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 136, 8, 0
+ CONTROL "Name of your application's EXE file:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 32, 136, 8, 0
+ CONTROL "Your Web Address (If you have one):", 104, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 60, 136, 8, 0
+ CONTROL "Select Background Tile Bitmap", CHK_USE_BK_BITMAP, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 68, 120, 12, 0
+ CONTROL "Allow File Exports", CHK_ALLOW_FILE_EXPORTS, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 43, 116, 12, 0
+ CONTROL "Check program on startup", CHK_CHECKSUM, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 80, 116, 12, 0
+ CONTROL "Check program on startup is for ebooks that are sent over the web. If you are placing your ebook on a CD-ROM, then make sure that option is not checked.", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 68, 102, 216, 28, 0
+}
+
+#endif
+
+
+DLG_YOUR_INSTALLER DIALOG 0, 0, 229, 77
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Your Install File"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 172, 56, 50, 14
+ CONTROL "viewIcon", -1, "static", SS_ICON | WS_CHILD | WS_VISIBLE, 8, 8, 18, 15, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 60, 88, 12, 0
+ CONTROL "Look for the book icon!", STC_LOOK_FOR, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 40, 8, 192, 16, 0
+ CONTROL "This is the ONLY file you need to run your Share the Memories ebook and is the ONLY file you will need for handing out your ebook to others.", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 40, 28, 180, 24, 0
+}
+
+
+DLG_INFOTXT_SETUP DIALOG 0, 0, 257, 239
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 216, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 200, 216, 50, 14
+ CONTROL "Info Window Caption:", 101, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 128, 8, 0
+ CONTROL "", EDT_INFOWND_CAPTION, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 16, 236, 12, 0
+ CONTROL "Info Window Title:", 103, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 32, 100, 8, 0
+ CONTROL "", EDT_INFOWND_TITLE, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 44, 236, 12, 0
+ CONTROL "Info Text:", 105, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 60, 60, 8, 0
+ CONTROL "", EDT_INFOWND_TEXT, "edit", ES_LEFT | ES_MULTILINE | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 72, 240, 136, 0
+}
+
+
+DLG_ADD_CAPTION DIALOG 0, 0, 217, 94
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Caption to Current Page"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 72, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 158, 72, 50, 14
+ CONTROL "", EDIT_CAPTION, "edit", ES_LEFT | ES_MULTILINE | ES_WANTRETURN | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 8, 200, 56, 0
+}
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "1.0.0\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+			#ifdef SHARE_THE_MEMORIES
+            VALUE "OriginalFilename", "ShareTheMemories.exe\0"
+            VALUE "ProductName", "ShareTheMemories\0"
+			#else
+            VALUE "OriginalFilename", "eBook4Sale.exe\0"
+            VALUE "ProductName", "eBook 4 Sale\0"
+			#endif
+            VALUE "ProductVersion", "1.0.3\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#else
+	
+    
+	#ifndef SHARE_THE_MEMORIES
+    SmallStartup GIF LOADONCALL MOVEABLE "small_ebook4sale_logo.GIF"
+	orderForm GIF LOADONCALL MOVEABLE "orderfrmview.GIF"
+    // Be sure to NULL terminate these text files and that all the information is correct
+    orderFrmTxt TXT LOADONCALL MOVEABLE "ViewOrderform.txt"
+	AppIcon ICON "E4Sview.ico"
+	#else
+	SmallStartup GIF LOADONCALL MOVEABLE "shareMemlogoSmall.GIF"
+	AppIcon ICON "E4Sview.ico"
+	#endif
+
+
+eBookAccl ACCELERATORS 
+BEGIN  
+    "Q", MNU_EXIT, CONTROL, VIRTKEY      // Ctrl+Q
+    VK_LEFT, BTN_FLIP_LEFT, VIRTKEY      // Left key
+    VK_RIGHT, BTN_FLIP_RIGHT, VIRTKEY    // Right key
+    //VK_UP, BTN_ZOOM_IN, VIRTKEY          // Zoom In key
+    //VK_DOWN, BTN_ZOOM_OUT, VIRTKEY       // Zoom Out 
+END
+
+    Menu_1 MENU
+    {
+       POPUP "&File"
+       {
+		  MENUITEM "Export Page File", MNU_EXPORT_PAGE_FILE
+		  MENUITEM "Export Sound File", MNU_EXPORT_SOUND_FILE
+		  #ifndef SHARE_THE_MEMORIES
+          MENUITEM "&Set Text Font...", MNU_SET_DEF_FONT
+          MENUITEM "&Set Text Background Color...", MNU_SET_BKG_COLOR
+		  MENUITEM "&Reset Font and Colors to Default", MNU_RESET_FONT_DEF
+		  #endif
+          MENUITEM "&Print\tCtrl+P", MNU_PRINT
+          MENUITEM "P&rint Setup...", MNU_PRINT_SETUP
+          MENUITEM "&Exit\tCtrl+Q", MNU_EXIT
+       }
+
+       #ifndef SHARE_THE_MEMORIES
+	   POPUP "&Misc"
+	   {
+		  MENUITEM "Auto Sound Play On Page Turn", MNU_PLAY_ON_PAGE_TURN
+		  MENUITEM "Auto Size Images", MNU_AUTO_SIZE
+	   }
+
+       POPUP "&Order Info"
+       {
+          MENUITEM "&About...", MNU_ABOUT
+          MENUITEM "&Order Form...", MNU_ORDER
+       }
+       #else
+       POPUP "&Misc"
+       {
+		  MENUITEM "Auto Sound Play On Page Turn", MNU_PLAY_ON_PAGE_TURN
+		  MENUITEM "Auto Size Images", MNU_AUTO_SIZE
+		  MENUITEM SEPARATOR
+          MENUITEM "&About...", MNU_ABOUT
+       }
+       #endif
+    }
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			#ifdef SHARE_THE_MEMORIES
+            VALUE "Comments", "www.howiesfunware.com  This ebook was created using Howie's Funware Share the Memories program.\0"
+			VALUE "FileDescription", "Share the Memories generated program file\0"
+            #else
+			VALUE "Comments", "www.howiesfunware.com  This ebook was created using Howie's Funware eBook 4 Sale program.\0"
+			VALUE "FileDescription", "eBook 4 Sale generated program file\0"
+			#endif
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileVersion", "1.0.5\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "Howie's Funware, Copyright 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "\0"
+            VALUE "ProductName", "\0"
+            VALUE "ProductVersion", "1.0.5\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+#endif
+
+
+
+

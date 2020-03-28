@@ -1,0 +1,48 @@
+[Options]
+Compress=High
+OldKeyPhrase=No
+Warning=1
+
+[Files]
+c:\rounda~1\ebook\help\art4sale.rtf
+
+[BuildTags]
+
+[Config]
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+BrowseButtons()
+
+[Bitmaps]
+C:\ROUNDA~1\ebook\HELP\E4s_logo.SHG
+C:\ROUNDA~1\ebook\HELP\SHARE.SHG
+C:\ROUNDA~1\ebook\HELP\CONTROL.SHG
+C:\ROUNDA~1\ebook\HELP\data.SHG
+C:\ROUNDA~1\ebook\HELP\key.SHG
+C:\ROUNDA~1\ebook\HELP\REGIST.SHG
+C:\ROUNDA~1\ebook\HELP\QNOTE.SHG
+C:\ROUNDA~1\ebook\HELP\PREF-IC.SHG
+C:\ROUNDA~1\ebook\HELP\getting.SHG
+
+
+[Map]
+contents 1
+whatisA4S 2
+CanArt4SaleHelp 3
+GettingStarted 4
+stepbystep 5
+Preferences 6
+qanda 7
+FileMenuOptions 8
+PreparingYourFiles 9
+problems 10
+sell 11
+summery 12
+zCredit 13
+
+[Alias]
+
+[Windows]
+ZZZZZZZZ="",(0,0,350,623),0,(255,255,255),(192,192,192), 0
+
+[Baggage]

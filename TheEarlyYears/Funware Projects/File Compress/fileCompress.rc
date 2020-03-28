@@ -1,0 +1,19 @@
+//  Starter Resource File
+//  File Starter.rc
+#include "GDefines.h"        // Header file with #defines
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "starter.ico"
+
+
+DLG_STATUS_WND DIALOG 0, 0, 240, 50
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_BORDER
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", PROG_BAR, "msctls_progress32", WS_CHILD | WS_VISIBLE | WS_BORDER, 8, 24, 224, 12, 0
+ CONTROL "", STC_PROGBAR_TXT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 8, 224, 8, 0
+}
+

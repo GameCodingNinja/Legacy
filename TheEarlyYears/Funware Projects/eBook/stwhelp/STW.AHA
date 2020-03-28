@@ -1,0 +1,1862 @@
+VBAHA136
+
+
+
+
+
+
+
+
+
+
+
+2
+0
+0
+c:\funwar~1\ebook\stwhelp\stw.rtf
+
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+
+
+1
+0
+0
+1
+1
+1
+1
+1
+1
+
+
+12
+contents
+contents
+
+
+
+
+
+
+3
+9
+7
+MS Sans Serif
+0
+2
+216
+216
+0
+0
+0
+0
+
+C:\funwar~1\ebook\STWHELP\STMLOGO.SHG
+
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+9
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+stepbystep
+C:\funwar~1\ebook\HELP\CONTROL.SHG
+Step-by-Step Tutorial - Create Your First ePhoto book
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+prepar
+C:\funwar~1\EBOOK\STWHELP\BACKUP.SHG
+Preparing Your Picture Files
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+qanda
+C:\funwar~1\ebook\HELP\QNOTE.SHG
+Questions & Answers
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+Preferences
+C:\funwar~1\ebook\HELP\PREF-IC.SHG
+Preferences
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+FileMenuOptions
+C:\funwar~1\ebook\HELP\PREF-IC.SHG
+File Menu Options
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+trouble
+C:\funwar~1\EBOOK\STWHELP\REQUIR.SHG
+Troubleshooting
+
+stepbystep
+stepbystep
+Step-by-Step
+
+
+
+
+
+
+2
+10
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\ebook\HELP\CONTROL.SHG
+Step-by-Step Tutorial - Create Your First ePhoto Book
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+This tutorial assumes you understand the basics of using your Windows computer. This includes making folders, creating files and moving files around. If you are unclear on how to do these things, the Windows help file has all that information. You could also have one of your computer savvy friends sit with you for about an hour and show you how to do all that. It might also be a good idea to have them sit through this tutorial with you if you are not all that computer knowledgeable.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Sample Projects
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+"Share the Memories" comes with one sample project which includes a few pictures you can use to experiment using the program options. For this tutorial, we are going to set up our own project folders and use the files in the  "Sample ePhoto book" project. At any time you can open this project into "Share the Memories" and see how it was set up, but for now we are just going to use these files for the tutorial.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Set Up Your Project Folders
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+First let's start by making a folder on your C:/ drive. This is the folder that will have all your files in them. Each project folder will hold all the bitmaps, text  and associated project files.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Let's Make a Project
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+1.  For this example, make a folder (example: C:\My ePhoto Book); this is your project folder so feel free to substitute the folder name for a name that better suites your needs.
+
+2.  "Share the Memories" comes with sample bitmap files to give  you something to experiment with. Copy these files to your project folder. You can find these files in the "Share the Memories" application folder, C:\Program Files\ShareTheMemories\Sample ePhoto book. 
+     These files are:
+     Sample Page01.jpg
+     Sample Page02.jpg
+     Sample Page03.jpg
+     Sample Page04.jpg
+     Sample Startup.jpg
+     Sample Tile Background.gif
+
+3.  Run the  "Share the Memories" program if it's not already running.
+
+4.  Let's start by creating a new project. Use your mouse to click on the "File" menu and then select the "New Project" menu option.
+
+5.  Use the "Save In:" combo box to make your way over to your project folder (example: C:\My ePhoto Book) or whatever you named it.
+
+6.  In the "File Name:" edit field, type in a project name. Name it anything you want or type in "My ePhoto Book". This will make your project file which holds all your ePhoto book settings. Don't get this confused with your EXE file which is your executable for sending to other people.
+
+7.  The "Project Preferences" window should now pop up. Feel free to change any of the information. The "Project Preferences" window is covered in greater depth under the "Project Preferences" section of this help file. This is where you can type what the name of your EXE file is. Once you start sending your ePhoto Books to your family and friends, be sure to change the name of this file so that the newest ePhoto book you send doesn't overwrite any previous ePhoto books of yours they may already have.
+
+8.  Now let's add some pages. Click on the "Project" menu and then click on the "Add Page(s)" menu option. "Share the Memories" considers each bitmap or text file a page.
+
+9. Have file "Sample Page01.jpg" to "Sample Page04.jpg" selected. "Share the Memories" adds files in alphabetical order.
+
+10. Click on the "Open" button to load all these images. All the image files you select will be loaded in alphabetical order. Depending on  the size, format and number of files selected, the loading process may take a second or two because each file that is loaded is being checked.
+
+11. When the loading process is complete, you'll see the very last page in this project. Click on the arrow buttons to go from page to page.
+
+12. Under the "Project" menu you will find two menu options you can experiment with, "Move Current Page" and "Delete Current Page." Feel free to move any of the pages around and delete any of the pages if you want.
+
+13. We are now ready to build the EXE program.  Click on the "File" menu and then click on the "Save" menu option. You could also click on the "Project" menu and then click on the "Run Project" menu option to run your ePhoto book.
+
+14. The file that has been generated is yours to distribute to your friends and family. Note: The program generated by the shareware version of "Share the Memories" will only run on your computer. Only licensed users of "Share the Memories" can distribute the generated executable.
+
+15. That's it in a nutshell. Read the "Preferences" section of this help file for more information on the different program preference options.
+
+You have created your first ePhoto book (unless this is a refresher course). You will also notice that it is a program file. This file requires nothing extra to run and anyone you email it to will be able to enjoy your photos.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Extra Credit Work
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you're one of those overachievers, and I know you are, you can give your ePhoto book that extra flair by adding a startup screen and a background tile bitmap. If you have closed out your project, you'll need to load you project file before you can do the following.
+
+1.    Let's start by adding the startup screen by clicking on the "File" menu and then selecting the "Preferences..." menu option.
+
+2.    In the "Build Preferences:" group, click on the "Select bitmap for startup screen" check box.
+
+3.    Select the "Sample startup.jpg" file and click on the "Open" button to use this bitmap file as your startup screen. A startup screen gives your program a more polished look.
+
+4.    You'll now notice the "Select bitmap for startup screen" check box is selected. Clicking on this check box again unselects the bitmap file that was chosen for the startup screen.
+
+5.    Now click on the "Select Background Tile Bitmap" and select the "Sample Tile Background.gif" file. This is the graphic that will tile the background to give your program an even more polished look.
+
+6.    Click OK in the  "Project Preferences" window to save your changes. Now would be a good time to save your project file, so click on the "File" menu and then select the "Save" menu option.
+
+7.    We are now ready to view these new changes so click on the "Project" menu and then click on the "Run Project" menu option to run your ePhoto book. You'll see the startup screen when your ePhoto book loads and the new tiled background that we just added.
+
+Just think how much your family and friends will enjoy seeing your photos.
+
+Preferences
+Preferences
+Preferences
+Title of your application
+EXE file
+Web Address
+Print page numbers
+startup screen
+printing
+Check program on startup
+Allow File Exports
+background tile bitmap
+
+
+
+
+
+
+2
+20
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\ART4SA~1\HELP\PREF-IC.SHG
+Preferences
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Below is a listing and an explanation of each item in the "Preferences" dialog box.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Title of your application:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Fill in the title of your ePhoto book. This will show up in the ePhoto book's main window caption.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Name of your application's EXE file:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This is the name of the executable "Share the Memories" will generate for you. Do not use characters like <>?/*^%$#!@()+= in the name of your EXE file. It will not work.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Web Address:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Enter in your web address here. This information will activate a menu option that will allow your friends and family to go right to your web page if you have one.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Build Preferences:
+
+Allow user to print pages:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Check this check box to allow your friends and family to print pages from your ePhoto book.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Allow File Exports
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Selecting this option will allow your friends and family to export the pictures and sound files from your ePhoto book so that they may use your files in some of their programs.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Print page numbers:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Adds page numbers to the footer of the printed page.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Select bitmap for startup screen:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Selecting this check box will allow you to select a bitmap to serve as your startup screen.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Select background tile bitmap:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Select a bitmap that will be tiled across the background.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Check program on startup:
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This option is on by default for each new project you start. With this option checked, the ebook that you create checks itself on startup. If you are emailing your ebooks and/or making them available for download through the web, there is always a chance the file can be corrupted on download or cut off giving you only part of your ebook. This alerts the recipient of your ebook that there is a problem and that the downloaded file has been damaged. If you are creating big ebooks to burn on a CD-ROM, having your ebook check itself is not needed and the option can be turned off.
+
+qanda
+qanda
+What is Shareware
+Stand-Alone EXE
+file size
+how many pictures
+
+
+
+
+
+
+2
+9
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\ebook\HELP\QNOTE.SHG
+Questions & Answers
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What is "Share the Memories"
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+"Share the Memories" is a software package that will give you the ability to make electronic photo books you can send to anyone. The file you send is all they will need to view your pictures. You can also include sound files and captions.
+
+* This is a full working shareware version except for the fact that the electronic photo books generated while in shareware mode will only run on the computer they were made. You will need to pay the registration fee to be licensed to use the "Share the Memories"-generated electronic photo book files.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What is a Stand-Alone Executable File?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+An executable file is any file with the *.EXE extension. This is a program and it will run when the file is double-clicked on. "Stand-Alone" means the program requires nothing else to run. Many programs need other files with an extension of, *.DLL, *.OCX, and *.VBX to run. Without these files, the programs won't run. "Share the Memories" was designed so that it is as simple as it can be for your friends and family to download and use. Having only one file to download and run is as simple as you can get and your friends and family will appreciate that. Also, because your ePhoto book is a stand-alone executable, no install is needed.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+My "Share the Memories" executable file size is huge. Is there anything I can do to make it smaller?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Part of your ePhoto book file is the program. This part is very small; everything else is the files you added. Did you save your image files as a compressed file format like *.GIF or *.JPG? Windows *.BMP files are not compressed and take up a lot of space quickly. It's quite possible to have image files saved in *.GIF or *.JPG format, but will still remain rather large because the nature of the image does not compress well. Also, even though your images are in a compressed format, they may be bigger than what is really needed and all you're doing is carrying around a lot of extra baggage that's not really necessary. Look at the file size of your images. If you're using *.JPG files, experiment with the amount of compression that provides a small file while still keeping the quality of the image. Some images still look good after they have been crunched down as hard as possible, so experiment with the JPEG compression in your image software.
+
+If you have added sound files, they, too, can be large in size. There are utilities that can save your sound files in compressed formats.
+
+Go to the section "Preparing Your Picture Files" for more information.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+How many pictures can I put into my ePhoto book?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+There's no limit. You can add as many as you want. Each image you add increases the size of your ePhoto book so the limit will be determined by the intended use of your ePicture book and if that use has any file size limitations. Obviously, you are making an ePhoto book to email to someone, so you don't want the file size to be too big or it will take too long to download. If you plan on making an ePhoto book to put on a CD, you could have one that will fill the entire space of the CD. That may be too many pictures for one ePhoto book and you may want to break it down into categories, but the possibility is there if you want to.
+
+
+FileMenuOptions
+FileMenuOptions
+New Project
+Open Project
+go to Web Site
+Run Project
+Print
+Save
+Move Current Page
+Add Page(s)
+Preferences
+Delete Current Page
+Print Setup
+Save As
+Close Project
+Set Text Font
+Set Text Background Color
+Reset Font and Colors to Default
+
+
+
+
+
+
+2
+41
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\ART4SA~1\HELP\PREF-IC.SHG
+File Menu Options
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+File Menu Options:
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+New Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+For creating a new ePhoto book project. You'll be prompted to enter in a project file name and then the Project Preferences dialog box will display for you to select the options for your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Open Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Open an existing project on your hard drive.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Save
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Save the project that you currently have open and are working on and generates an electronic photo book executable (EXE) file.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Save As
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Save the project that you currently have open and are working on as a different file name and generates an electronic photo book executable (EXE) file.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Close Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Close the current project that is open.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Print
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Print pages from your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Print Setup
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select printing options for your printer.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Preferences
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Set up your ePhoto book by selecting different program options.  The "Project Preferences" window is covered in greater depth under the "Project Preferences" section of this help file.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Project Menu Options:
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Add Page(s)
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Add pages to your project which can be an image or a text file.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Move Current Page
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Move the current page to a new position in your ebook.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Delete Current Page
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Deletes the current page from your project.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Include Sound File
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Click on this menu option to select a sound file for the current screen.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Remove Sound File
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Removes the selected sound file from the current page.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Add Caption To Current Page
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Selecting this menu option will load the caption dialog box for you to enter in the caption for the current page.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Set Text Font
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select the default font for the text pages of your ebook. If you are going to select a font to display your text pages with, be sure to select a font that is standard for all Windows computers. You wouldn't want to select a font that most Windows computers don't have.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Set Text Background Color
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Select the background color for your text pages.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Reset Font and Colors to Default
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Resets your project's font and text colors to the original defaults.
+
+
+3
+MS Sans Serif
+20
+0
+432
+216
+4
+1
+0
+0
+
+
+Run Project
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+Builds your project's ePicture book if it needs to and then runs it.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Go to Web Site
+
+3
+MS Sans Serif
+20
+0
+432
+216
+0
+0
+0
+0
+
+
+If you entered your web site into the "Project Preferences Web Address:" edit field, clicking on this menu item will load up your web page.
+
+prepar
+prepar
+GIF
+JPG
+BMP
+Compressed Format
+Image size
+text files
+
+
+
+
+
+
+2
+10
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\EBOOK\STWHELP\BACKUP.SHG
+Preparing Your Picture Files
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+As you can probably guess by now, adding files to your "Share the Memories" project and building your own ePhoto book is an easy task to complete. The harder part can be preparing your image files to use in your ePicture book. What file format? How big? and How many photos do I want to add?
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+The most photos in the least amount of space
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you're planning on making an ePhoto book to email to your friends and family, your goal is probably to stuff in as many photos within the least amount of space to minimize download time for the people receiving your ePhoto book. This is mainly true if they will be downloading via modem. If they have DSL, Cable Modem or some other fast internet access, you may not be too concerned.
+
+Each image file you add  increases the size of your ePhoto book. There's no magic here, sorry to say. Each image takes up space. We can help to control this by knowing what causes a file to be the size that it is and why some are bigger than others. The two main contributors to overall file size is the file format and the physical size (pixels wide by pixels tall) of the image. First lets look at the format.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+What file format to use,  BMP, GIF or JPG?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+We're going to get a little technical here, but stick with me because this will be fun and it's always fun to learn something new. Lets start off with the BMP file format.
+
+BMP - Uncompressed Format:
+
+BMPs will always take up the most space because they are NOT compressed whereas the other two file formats are. Since space is such an issue, why would you want to add your pictures as BMPs? Well, for one thing, because the BMP format is not compressed, image loading is really fast because the computer doesn't have to uncompress the file. GIF and JPG are complex, encoded file formats and take a considerable amount of time to uncompress. One reason I can think of where I would use BMPs for an ePhoto book is if I were planning on handing out CD-ROMs with my ePhoto book on it because there is more than enough room on the CD-ROM, and reading off the CD-ROM requires speed. So here, speed is the issue and space is not.  Also, "Share the Memories" does not support the use of BMP files compressed with RLE encoding
+
+GIF - Indexed Compressed Format
+
+This is a compressed format where the image is limited to 256 colors. This is not a lot of colors if it's a picture from your camera. This file format is best-suited for graphical images that have a fair amount of solid colors. The compression algorithm relies on the solid patches of colors to compress the file. Using this file format with a picture from your camera will not yield much in the way of compression, but it will do an excellent job with images that are line drawing, comics and the like. If it's not from a camera, this file format could be the format of choice. Also, "Share the Memories" does not support the use of animated GIF files and GIF files saved in the interlaced format
+
+JPG - Compressed Format
+
+This compression is best for pictures from your digital camera. Unlike BMP or GIF, with the JPG file format, you don't end up with what you started out with. What the JPG compression does is throws away data to compress the file. When the file is uncompressed, the missing data (as best as it can) is re-made. That is why, when saving an image file in this format, you have the option to select the level of quality you want remaining in the compressed file. The lower the quality, the smaller the file. Even files compressed in low quality can still look okay because it's not all that noticeable until you zoom in.
+
+There you have it - the three main file formats. Don't be afraid to experiment to see what will work best for you.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Physical Size - Pixels Wide by Pixels Tall
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The height and the width of your images may not be too much of an issue if you have a digital camera. Since digital cameras are limited on space, the resolution you may already be shooting could be 1024 x 768 or less. If you had your film  put on CD-ROM when you had your film developed, or if you are scanning in your old photos, those image files could be huge. Now we have to think about size.
+
+One question you need to ask before you start is how big should the final image size be? The most common resolutions on all computers are 640 x 480, 800 x 600, 1024 x 768, 1280 x 1024 and some are even higher. These numbers are in pixels wide by pixels tall. You can find this information by clicking on your Start button/Settings/Control Panel/Display/Settings tab. The "Desktop area" will show what resolution you are currently in. Now if most of the people you want to send your ePhoto book to have their computer's resolution set to 1024 x 768 or less, why would you want to send them an ePhoto book with images any bigger then 1024 x 768? The answer is you wouldn't because it takes up space if the image file's width and height is much bigger than what is needed.
+
+Let's pick a resolution we think most computers are at and my guess is 640 x 480 to 1024 x 768; this is the pixels wide by the pixels tall. Just have the width and the height of your images fall into this range. So if your scanning in your pictures or pulling them off a photo CD-ROM, you'll need image editing software (Windows Paint, Photo Shop, Paint Shop Pro & Image Forge to name a few) to help you size your images to a size that is comfortable to you. The bigger the size, the more space the file will take up. Also, you'll want to have your image files in a given ePhoto book to be similar in size. That way when your recipients are enjoying your pictures, the pictures are not going from big to small, back and forth each page they turn.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Text Files
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+You can also add a page of text if you want instead of a picture. Even though you can give each image a caption, captions are limited to 256 characters. If you have a story to tell, you can write a text file (TXT) and add that as a page.The simplest way to do this is to write your text in your favorite word processor and save the file as a TXT file. Then you can add the TXT file in the same way you add the image files.
+
+trouble
+trouble
+Error Messages
+
+
+
+
+
+
+2
+7
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\funwar~1\EBOOK\STWHELP\REQUIR.SHG
+Troubleshooting
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+I get an error message when loading an image file or image looks wrong.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The image file itself can be corrupt and can't be used. Also, "Share the Memories" does not support the use of animated GIF files, GIF files saved in the interlaced format, and BMP files compressed with RLE encoding.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+I get an error message when playing sound files.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Take note to what the error message says. The error message may have something to do with another sound device currently in use. If you are currently playing music through your PC or have a game running or some other software that uses sound, there could be a sound conflict. Windows can't have more than one similar sound device playing at the same time. If you want to hear the sound in the ePhoto Book, you'll need to close out all other programs that use sound.
+
+An error can also happen when the program tries to play a sound file that is in a compressed format that is not supported on the computer playing it. 
+
+If an error occurs, sound is disabled in the program until it is restarted. This is to help keep further errors from occurring.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+I set up a page of text with a special font but it looks different on another computer.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The computer that has your ePhoto Book doesn't have the font you have chosen. The font will have to be installed on the other computer or a different font will need to be chosen that both computers have.
+
+
+

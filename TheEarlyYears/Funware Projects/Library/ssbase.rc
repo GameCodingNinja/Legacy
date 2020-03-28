@@ -1,0 +1,141 @@
+#include "GDefines.h"
+
+orderForm GIF LOADONCALL MOVEABLE "orderfrm.GIF"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+noprinter TXT LOADONCALL MOVEABLE "noprint.txt"
+orderFrmTxt TXT LOADONCALL MOVEABLE "orderform.txt"
+orderFrmInfo TXT LOADONCALL MOVEABLE "orderInfo.txt"
+
+funwareLogo WMF LOADONCALL MOVEABLE "howlogo2.wmf"
+settings GIF LOADONCALL MOVEABLE "SettingB.GIF"
+
+DLG_ORDERFRM DIALOG 0, 0, 274, 264
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", EDT_NAME, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 72, 60, 96, 12, 0
+ CONTROL "", EDT_ADDRESS_1, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 76, 104, 12, 0
+ CONTROL "", EDT_ADDRESS_2, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 92, 104, 12, 0
+ CONTROL "", EDT_CITY, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 108, 43, 12, 0
+ CONTROL "", CBO_STATE, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 110, 108, 30, 92, 0
+ CONTROL "", EDT_ZIP, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 142, 108, 26, 12, 0
+ CONTROL "", EDT_EMAIL, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 64, 124, 104, 12, 0
+ CONTROL "", CHK_FLOPPY_DISK, "button", BS_AUTOCHECKBOX | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 12, 144, 152, 12, 0
+ CONTROL "Visa", RDOBTN_VISA, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 204, 36, 12, 0
+ CONTROL "MasterCard", RDOBTN_MASTERCARD, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 204, 60, 12, 0
+ CONTROL "Discover", RDOBTN_DISCOVER, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 220, 48, 12, 0
+ CONTROL "American Express", RDOBTN_AMER_EXP, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 220, 76, 12, 0
+ CONTROL "", EDT_CREDIT_CARD_NO, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 136, 217, 88, 12, 0
+ CONTROL "", EDT_EXP_DATE, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 228, 217, 32, 12, 0
+ CONTROL "No Printer Available", BTN_NO_PRINTER, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 240, 88, 15, 0
+ CONTROL "Print Order Form", BTN_PRINT_ORDERFORM, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 240, 74, 15
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 212, 240, 50, 15
+ CONTROL "", TXT_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 8, 160, 52, 0
+ CONTROL "First && Last Name:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 60, 60, 12, 0
+ CONTROL "Address Line 1:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 76, 52, 12, 0
+ CONTROL "Address Line 2:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 92, 52, 12, 0
+ CONTROL "City, State, Zip:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 108, 52, 12, 0
+ CONTROL "E-mail Address:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 12, 124, 52, 12, 0
+ CONTROL "Disk Charge:", TXT_SHIP_HAND_STATIC, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 164, 148, 68, 10, 0
+ CONTROL "$0.00", TXT_SHIP_HAND_COST, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 228, 148, 32, 10, 0
+ CONTROL "$0.00", TXT_IL_RESIDENT, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 228, 160, 32, 8, 0
+ CONTROL "Frame1", -1, "static", SS_ETCHEDFRAME | WS_CHILD | WS_VISIBLE, 164, 177, 96, 2, 0
+ CONTROL "Total Cost:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 164, 186, 44, 10, 0
+ CONTROL "$00.00", TXT_TOTAL_COST, "static", SS_RIGHT | WS_CHILD | WS_VISIBLE, 208, 186, 52, 10, 0
+ CONTROL "", TXT_CREDIT_CARD_INFO, "static", SS_CENTER | WS_CHILD | NOT WS_VISIBLE, 12, 164, 148, 40, 0
+ CONTROL "Credit Card Number:", TXT_CREDIT_CARD_NO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 136, 205, 76, 8, 0
+ CONTROL "Exp. Date:", TXT_CREDIT_CARD_EXP, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 228, 204, 40, 8, 0
+ CONTROL "State Tax:", TXT_STATE_TAX, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_DISABLED, 164, 160, 60, 8, 0
+}
+
+DLG_PRINTING DIALOG 0, 0, 178, 49
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_TOPMOST
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Printing"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Printing...", TXT_PRINTING, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 12, 10, 156, 16, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 28, 46, 14, 0
+}
+
+// helpful hint dialog
+DLG_HELPFUL_HINT DIALOG 0, 0, 257, 206
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Helpful Hint"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 204, 184, 46, 15
+ CONTROL "", EDT_HELPFUL_HINT, "edit", ES_LEFT | ES_MULTILINE | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 24, 241, 152, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 185, 84, 12, 0
+ CONTROL "", TXT_HLP_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 240, 16, 0
+}
+
+STRINGTABLE LOADONCALL DISCARDABLE
+{
+    // Don't use the string index 1 because different versions of Windows will get that to show
+    // as the file name but if one is not defined, it uses the files name which is what we want it to do.
+
+    // Random messages for Shareware version
+    2, "18" // Number of Messages
+    3, "It took many months of hard work to write this " TYPEOFPROGRAM2". So please register your copy."
+    4, "You can register the full version of this " TYPEOFPROGRAM2 " on my web site!\015\015" WEB_ADDRESS
+    5, "Your computer will be much happier when this " TYPEOFPROGRAM2 " is registered."
+    6, "These shareware screens go away when you register this screen saver.\015\015" WEB_ADDRESS
+    7, "Registered users are the first to know when new " TYPEOFPROGRAM2"s are available.\015\015" WEB_ADDRESS
+    8, "Visit my web site to find even more great " TYPEOFPROGRAM2 "s.\015\015" WEB_ADDRESS
+    9, "There's a good chance you'll find a newer version of this " TYPEOFPROGRAM2 " on my web site.\015\015" WEB_ADDRESS
+    10, "I have a lot of other great screen savers on my web site you can try.\015\015" WEB_ADDRESS
+    11, "Registration is a many splendored thing.\015\015" WEB_ADDRESS
+    12, TYPEOFPROGRAM "s are fun and I enjoy making them. By registering, you'll help me create more.\015\015" WEB_ADDRESS
+    13, "Registering is easy. Writing computer code to make " TYPEOFPROGRAM2 "s, now that's hard. Please Register."
+    14, "You can register the full version of this " TYPEOFPROGRAM2 " on my web site!\015\015" WEB_ADDRESS
+    15, "You can register the full version of this " TYPEOFPROGRAM2 " on my web site!\015\015" WEB_ADDRESS
+    16, "I have a lot of other great screen savers on my web site you can try.\015\015" WEB_ADDRESS
+    17, "If you like this " TYPEOFPROGRAM2 ", register it. You'll be glad you did.\015\015" WEB_ADDRESS
+    18, "I have a lot of other great screen savers on my web site you can try.\015\015" WEB_ADDRESS
+    19, "5 out of 6 computers prefer my " TYPEOFPROGRAM2 "s over the leading brands.\015\015" WEB_ADDRESS
+    20, "You can register the full version of this " TYPEOFPROGRAM2 " on my web site!\015\015" WEB_ADDRESS
+
+    // 16 bit or higher color message
+    50, "This screen saver only runs in 16 bit or higher color modes. You'll need to change your display settings."
+
+    // Easy registration shareware message
+    100, "Register online at " WEB_ADDRESS " or fill out the order form program that is built into this " TYPEOFPROGRAM2 ". The order form program can be found in the Start|Settings|Control Panel|Display|Screen Saver|Settings window."
+
+    // how to set a higher system color
+    101, "In the screen saver's settings window you'll find a checkbox called 'Run in 16 Bit Color Mode'. Select that and click OK, or you can change your Display Settings from the Control Panel in the Display Properties window Settings tab."
+    102, "You can change your Display Settings from the Control Panel in the Display Properties window Settings tab. Select High Color [16-bit] or True Color [32-bit] color settings and click on the OK button"
+
+    /* Order Form Strings*/
+    200, "Thank you for registering the " PROGRAM " screen saver. Please visit my web site for more great screen savers.  " WEB_ADDRESS
+    201, "The temporary registration number has been activated. This will allow the screen saver to run for a short period of time in full registered mode while your payment is in transit. You could also register the full version on my web site.  " WEB_ADDRESS
+    202, "The secondary temporary registration number has been activated. This is the last available temporary registration number. You could also register the full version on my web site.  " WEB_ADDRESS
+    203, "Sorry, but the temporary registration number can only be entered once."
+    204, "Sorry, but the number entered is not the correct registration number. Be sure to include any dashes and that you are not trying to enter in a number ment for a different " TYPEOFPROGRAM2 "."
+}
+
+
+DLG_MEDIA_DIR DIALOG 0, 0, 262, 35
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Test Selected Sound File", BTN_PLAY_SOUND, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 54, 16, 155, 14
+ CONTROL "Be sure to test each sound file before using it with the screen saver", TXT_MEDIA_DIR, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 248, 10, 0
+}
+
+DLG_CHOOSE_ORDER_METHOD DIALOG 0, 0, 169, 92
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Choose Your Ordering Method"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Order Online with Credit Card", BTN_ORDER_ONLINE, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 20, 136, 16, 0
+ CONTROL "Please choose an ordering option", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 112, 8, 0
+ CONTROL "Order Through Standard U.S. Mail", BTN_ORDER_THRO_MAIL, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 44, 136, 14, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 68, 52, 14, 0
+}
+
+

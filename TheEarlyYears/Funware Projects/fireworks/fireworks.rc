@@ -1,0 +1,119 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Sounds
+explode0 WAV LOADONCALL "Explode0.pcm"
+explode1 WAV LOADONCALL "Explode1.pcm"
+explode2 WAV LOADONCALL "Explode2.pcm"
+explode3 WAV LOADONCALL "Explode3.pcm"
+explode4 WAV LOADONCALL "Explode4.pcm"
+explode5 WAV LOADONCALL "Explode5.pcm"
+explode6 WAV LOADONCALL "Explode6.pcm"
+explode7 WAV LOADONCALL "Explode7.pcm"
+explode8 WAV LOADONCALL "Explode8.pcm"
+shoot0   WAV LOADONCALL "Shoot0.pcm"
+shoot1   WAV LOADONCALL "Shoot1.pcm"
+shoot2   WAV LOADONCALL "Shoot2.pcm"
+shoot3   WAV LOADONCALL "Shoot3.pcm"
+shoot4   WAV LOADONCALL "Shoot4.pcm"
+shoot5   WAV LOADONCALL "Shoot5.pcm"
+shoot6   WAV LOADONCALL "Shoot6.pcm"
+shoot7   WAV LOADONCALL "Shoot7.pcm"
+fireworks   WAV LOADONCALL "fireworx.pcm"
+croud    WAV LOADONCALL "croud.pcm"
+
+// Graphics
+box POLY LOADONCALL DISCARDABLE "box8.ply"
+boxBig POLY LOADONCALL DISCARDABLE "BOXbig.ply"
+
+boxCrd CRD LOADONCALL DISCARDABLE "box8.crd"
+
+box8Bt BTXT LOADONCALL DISCARDABLE "box8.bt"
+box16Bt BTXT LOADONCALL DISCARDABLE "box16.bt"
+
+ShadedTable8bit STBL LOADONCALL "box8.st8"
+
+// Speed test render files
+SpeedTest POLY LOADONCALL DISCARDABLE "testRender.ply"
+SpeedTestBt BTXT LOADONCALL DISCARDABLE "testRender.bt"
+
+CloudBackground16 BMP LOADONCALL DISCARDABLE "BlueClouds16.bmp"
+CloudBackground8 BMP LOADONCALL DISCARDABLE "BlueClouds8.bmp"
+
+/* midi toons */
+
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 184
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 144, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 144, 45, 14
+ CONTROL "Text1", STC_RENDER_RES, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 71, 112, 8, 0
+ CONTROL "ScrollBar1", SCR_RENDER_RES, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 84, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 120, 248, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 120, 234, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 4, 244, 101, 14, 0
+ CONTROL "Sound (no driver mixing):", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 71, 100, 69, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 100, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 128, 56, 80, 12, 0
+ CONTROL "Load Your Own Music", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 112, 90, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 124, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 104, 162, 116, 13, 0
+ CONTROL "Size To Fill Screen", CHK_FILL_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 152, 80, 12, 0
+ CONTROL "Text4", STC_FIREWORK_COUNT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 100, 108, 8, 0
+ CONTROL "ScrollBar2", SCR_FIREWORK_COUNT, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 112, 100, 9, 0
+ CONTROL "Text6", STC_BURST_ANGLE, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 128, 100, 8, 0
+ CONTROL "ScrollBar4", SCR_BURST_ANGLE, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 140, 100, 9, 0
+ CONTROL "Play Sound Effects", CHK_SND_EFX, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 84, 84, 12, 0
+ CONTROL "Run in 16 Bit Color Mode", CHK_FORCE_16BIT, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 164, 96, 12, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Fireworks Screen Saver\0"
+			VALUE "FileVersion", "1.0.5\0"
+            VALUE "InternalName", "Fireworks\0"
+            VALUE "LegalCopyright", "\251 Copyright 2002 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "Fireworks.scr\0"
+            VALUE "ProductName", "Fireworks\0"
+            VALUE "ProductVersion", "1.0.5\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
