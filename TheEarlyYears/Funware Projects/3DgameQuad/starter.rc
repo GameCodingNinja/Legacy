@@ -1,0 +1,21 @@
+//  Starter Resource File
+//  File Starter.rc
+
+#include "GDefines.h"        // Header file with #defines
+
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "starter.ico"
+
+
+Menu_1 MENU
+{
+    POPUP "&File"
+   {
+      MENUITEM "&Start", MNU_START
+	  MENUITEM SEPARATOR
+      MENUITEM "&Exit", MNU_EXIT
+   }
+}
+

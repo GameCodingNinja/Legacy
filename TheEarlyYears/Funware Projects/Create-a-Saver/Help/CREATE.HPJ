@@ -1,0 +1,53 @@
+[Options]
+Compress=No
+Contents=Contents
+OldKeyPhrase=No
+Title=Create-A-Saver Help File
+Warning=1
+
+[Files]
+c:\rounda~1\create~2\help\create.rtf
+
+[BuildTags]
+
+[Config]
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+BrowseButtons()
+
+[Bitmaps]
+C:\ROUNDA~1\CREATE~1\HELP\SHARE.SHG
+C:\ROUNDA~1\CREATE~1\HELP\REGIST.SHG
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+C:\ROUNDA~1\CREATE~1\HELP\SOUND.SHG
+C:\ROUNDA~1\CREATE~1\HELP\GETTING.SHG
+C:\ROUNDA~1\CREATE~1\HELP\KEY.SHG
+C:\ROUNDA~1\CREATE~1\HELP\BACKUP.SHG
+C:\ROUNDA~1\CREATE~1\HELP\REQUIR.SHG
+C:\ROUNDA~1\CREATE~1\HELP\TRANS.SHG
+C:\ROUNDA~1\CREATE~1\HELP\TRANS1.SHG
+C:\ROUNDA~1\CREATE~1\HELP\TRANS2.SHG
+
+
+[Map]
+contents 1
+Shareware 2
+register 3
+quicksetup 4
+square_bmp 5
+trouble 6
+images 7
+WhatIsCreate 8
+JPGFiles 9
+AddingSound 10
+Scanning 11
+preferences 12
+screendesigner 13
+textfilemessages 14
+
+[Alias]
+
+[Windows]
+main=,(200,100,600,800),0,(255,255,255),(255,255,255), 0 
+
+[Baggage]

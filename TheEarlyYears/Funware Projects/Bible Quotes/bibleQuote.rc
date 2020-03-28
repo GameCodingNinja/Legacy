@@ -1,0 +1,228 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+A_caps POLY LOADONCALL DISCARDABLE "A-caps.ply"
+B_caps POLY LOADONCALL DISCARDABLE "B-caps.ply"
+C_caps POLY LOADONCALL DISCARDABLE "C-caps.ply"
+D_caps POLY LOADONCALL DISCARDABLE "D-caps.ply"
+E_caps POLY LOADONCALL DISCARDABLE "E-caps.ply"
+F_caps POLY LOADONCALL DISCARDABLE "F-caps.ply"
+G_caps POLY LOADONCALL DISCARDABLE "G-caps.ply"
+H_caps POLY LOADONCALL DISCARDABLE "H-caps.ply"
+I_caps POLY LOADONCALL DISCARDABLE "I-caps.ply"
+J_caps POLY LOADONCALL DISCARDABLE "J-caps.ply"
+K_caps POLY LOADONCALL DISCARDABLE "K-caps.ply"
+L_caps POLY LOADONCALL DISCARDABLE "L-caps.ply"
+M_caps POLY LOADONCALL DISCARDABLE "M-caps.ply"
+N_caps POLY LOADONCALL DISCARDABLE "N-caps.ply"
+O_caps POLY LOADONCALL DISCARDABLE "O-caps.ply"
+P_caps POLY LOADONCALL DISCARDABLE "P-caps.ply"
+Q_caps POLY LOADONCALL DISCARDABLE "Q-caps.ply"
+R_caps POLY LOADONCALL DISCARDABLE "R-caps.ply"
+S_caps POLY LOADONCALL DISCARDABLE "S-caps.ply"
+T_caps POLY LOADONCALL DISCARDABLE "T-caps.ply"
+U_caps POLY LOADONCALL DISCARDABLE "U-caps.ply"
+V_caps POLY LOADONCALL DISCARDABLE "V-caps.ply"
+W_caps POLY LOADONCALL DISCARDABLE "W-caps.ply"
+X_caps POLY LOADONCALL DISCARDABLE "X-caps.ply"
+Y_caps POLY LOADONCALL DISCARDABLE "Y-caps.ply"
+Z_caps POLY LOADONCALL DISCARDABLE "Z-caps.ply"
+
+a_under POLY LOADONCALL DISCARDABLE "a-under.ply"
+b_under POLY LOADONCALL DISCARDABLE "b-under.ply"
+c_under POLY LOADONCALL DISCARDABLE "c-under.ply"
+d_under POLY LOADONCALL DISCARDABLE "d-under.ply"
+e_under POLY LOADONCALL DISCARDABLE "e-under.ply"
+f_under POLY LOADONCALL DISCARDABLE "f-under.ply"
+g_under POLY LOADONCALL DISCARDABLE "g-under.ply"
+h_under POLY LOADONCALL DISCARDABLE "h-under.ply"
+i_under POLY LOADONCALL DISCARDABLE "i-under.ply"
+j_under POLY LOADONCALL DISCARDABLE "j-under.ply"
+k_under POLY LOADONCALL DISCARDABLE "k-under.ply"
+l_under POLY LOADONCALL DISCARDABLE "l-under.ply"
+m_under POLY LOADONCALL DISCARDABLE "m-under.ply"
+n_under POLY LOADONCALL DISCARDABLE "n-under.ply"
+o_under POLY LOADONCALL DISCARDABLE "o-under.ply"
+p_under POLY LOADONCALL DISCARDABLE "p-under.ply"
+q_under POLY LOADONCALL DISCARDABLE "q-under.ply"
+r_under POLY LOADONCALL DISCARDABLE "r-under.ply"
+s_under POLY LOADONCALL DISCARDABLE "s-under.ply"
+t_under POLY LOADONCALL DISCARDABLE "t-under.ply"
+u_under POLY LOADONCALL DISCARDABLE "u-under.ply"
+v_under POLY LOADONCALL DISCARDABLE "v-under.ply"
+w_under POLY LOADONCALL DISCARDABLE "w-under.ply"
+x_under POLY LOADONCALL DISCARDABLE "x-under.ply"
+y_under POLY LOADONCALL DISCARDABLE "y-under.ply"
+z_under POLY LOADONCALL DISCARDABLE "z-under.ply"
+
+A_arial POLY LOADONCALL DISCARDABLE "A-arial.ply"
+B_arial POLY LOADONCALL DISCARDABLE "B-arial.ply"
+C_arial POLY LOADONCALL DISCARDABLE "C-arial.ply"
+D_arial POLY LOADONCALL DISCARDABLE "D-arial.ply"
+E_arial POLY LOADONCALL DISCARDABLE "E-arial.ply"
+F_arial POLY LOADONCALL DISCARDABLE "F-arial.ply"
+G_arial POLY LOADONCALL DISCARDABLE "G-arial.ply"
+H_arial POLY LOADONCALL DISCARDABLE "H-arial.ply"
+I_arial POLY LOADONCALL DISCARDABLE "I-arial.ply"
+J_arial POLY LOADONCALL DISCARDABLE "J-arial.ply"
+K_arial POLY LOADONCALL DISCARDABLE "K-arial.ply"
+L_arial POLY LOADONCALL DISCARDABLE "L-arial.ply"
+M_arial POLY LOADONCALL DISCARDABLE "M-arial.ply"
+N_arial POLY LOADONCALL DISCARDABLE "N-arial.ply"
+O_arial POLY LOADONCALL DISCARDABLE "O-arial.ply"
+P_arial POLY LOADONCALL DISCARDABLE "P-arial.ply"
+Q_arial POLY LOADONCALL DISCARDABLE "Q-arial.ply"
+R_arial POLY LOADONCALL DISCARDABLE "R-arial.ply"
+S_arial POLY LOADONCALL DISCARDABLE "S-arial.ply"
+T_arial POLY LOADONCALL DISCARDABLE "T-arial.ply"
+U_arial POLY LOADONCALL DISCARDABLE "U-arial.ply"
+V_arial POLY LOADONCALL DISCARDABLE "V-arial.ply"
+W_arial POLY LOADONCALL DISCARDABLE "W-arial.ply"
+X_arial POLY LOADONCALL DISCARDABLE "X-arial.ply"
+Y_arial POLY LOADONCALL DISCARDABLE "Y-arial.ply"
+Z_arial POLY LOADONCALL DISCARDABLE "Z-arial.ply"
+
+arial_0 POLY LOADONCALL DISCARDABLE "Zero-arial.ply"
+arial_1 POLY LOADONCALL DISCARDABLE "1-arial.ply"
+arial_2 POLY LOADONCALL DISCARDABLE "2-arial.ply"
+arial_3 POLY LOADONCALL DISCARDABLE "3-arial.ply"
+arial_4 POLY LOADONCALL DISCARDABLE "4-arial.ply"
+arial_5 POLY LOADONCALL DISCARDABLE "5-arial.ply"
+arial_6 POLY LOADONCALL DISCARDABLE "6-arial.ply"
+arial_7 POLY LOADONCALL DISCARDABLE "7-arial.ply"
+arial_8 POLY LOADONCALL DISCARDABLE "8-arial.ply"
+arial_9 POLY LOADONCALL DISCARDABLE "9-arial.ply"
+
+arial_colon POLY LOADONCALL DISCARDABLE "Colon-arial.ply"
+arial_dash POLY LOADONCALL DISCARDABLE "Dash-arial.ply"
+
+// Listed in ASCII table order
+exclamation POLY LOADONCALL DISCARDABLE "exclamation.ply"
+quotes POLY LOADONCALL DISCARDABLE "quotes.ply"
+apotrophe POLY LOADONCALL DISCARDABLE "apotrophe.ply"
+parenthesis_L POLY LOADONCALL DISCARDABLE "parenthesis-L.ply"
+parenthesis_R POLY LOADONCALL DISCARDABLE "parenthesis-R.ply"
+comma POLY LOADONCALL DISCARDABLE "comma.ply"
+dash POLY LOADONCALL DISCARDABLE "dash.ply"
+period POLY LOADONCALL DISCARDABLE "period.ply"
+colon POLY LOADONCALL DISCARDABLE "colon.ply"
+semi_colon POLY LOADONCALL DISCARDABLE "semi-colon.ply"
+question_Mark POLY LOADONCALL DISCARDABLE "question-Mark.ply"
+
+clouds BMP LOADONCALL DISCARDABLE "clouds.bmp"
+colors  BITMAP LOADONCALL MOVEABLE "color.BMP"
+
+// midi toons
+Song0 MIDI LOADONCALL DISCARDABLE "allglory.mid"
+Song1 MIDI LOADONCALL DISCARDABLE "amazinggrace.mid"
+Song2 MIDI LOADONCALL DISCARDABLE "beneaththecross.mid"
+Song3 MIDI LOADONCALL DISCARDABLE "crownhim3.mid"
+Song4 MIDI LOADONCALL DISCARDABLE "duke_st.mid"
+Song5 MIDI LOADONCALL DISCARDABLE "fortress.mid"
+Song6 MIDI LOADONCALL DISCARDABLE "foundation.mid"
+Song7 MIDI LOADONCALL DISCARDABLE "greatisthyfaithfulness.mid"
+Song8 MIDI LOADONCALL DISCARDABLE "hamburg.mid"
+Song9 MIDI LOADONCALL DISCARDABLE "holy.mid"
+Song10 MIDI LOADONCALL DISCARDABLE "holygodwepraise.mid"
+Song11 MIDI LOADONCALL DISCARDABLE "ilovetotell.mid"
+Song12 MIDI LOADONCALL DISCARDABLE "jesuslovesme.mid"
+Song13 MIDI LOADONCALL DISCARDABLE "joyful.mid"
+Song14 MIDI LOADONCALL DISCARDABLE "lancashire.mid"
+Song15 MIDI LOADONCALL DISCARDABLE "lordsprayer.mid"
+Song16 MIDI LOADONCALL DISCARDABLE "melita.mid"
+Song17 MIDI LOADONCALL DISCARDABLE "morninghasbroken.mid"
+Song18 MIDI LOADONCALL DISCARDABLE "myfaithlooks.mid"
+Song19 MIDI LOADONCALL DISCARDABLE "oldruggedcross.mid"
+Song20 MIDI LOADONCALL DISCARDABLE "praiseto.mid"
+Song21 MIDI LOADONCALL DISCARDABLE "onward4verses.mid"
+Song22 MIDI LOADONCALL DISCARDABLE "redhead.mid"
+Song23 MIDI LOADONCALL DISCARDABLE "risentoday.mid"
+Song24 MIDI LOADONCALL DISCARDABLE "savioragain.mid"
+Song25 MIDI LOADONCALL DISCARDABLE "sine_nomine.mid"
+Song26 MIDI LOADONCALL DISCARDABLE "standupstandup.mid"
+Song27 MIDI LOADONCALL DISCARDABLE "thineisglory.mid"
+Song28 MIDI LOADONCALL DISCARDABLE "thisismyfathersworld.mid"
+Song29 MIDI LOADONCALL DISCARDABLE "unserher.mid"
+Song30 MIDI LOADONCALL DISCARDABLE "wegather.mid"
+Song31 MIDI LOADONCALL DISCARDABLE "wella6.mid"
+Song32 MIDI LOADONCALL DISCARDABLE "wereyou.mid"
+Song33 MIDI LOADONCALL DISCARDABLE "whenmorninggilds.mid" 
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 228, 208
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 136, 184, 38, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 180, 184, 39, 14
+ CONTROL "Text1", STC_RENDER_RES, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 100, 108, 8, 0
+ CONTROL "ScrollBar1", SCR_RENDER_RES, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 113, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 12, 336, 100, 13, 0
+ CONTROL "Size To Fill Screen", CHK_FILL_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 84, 95, 12, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 12, 322, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 120, 336, 100, 14, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 70, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 82, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 94, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 106, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 118, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 184, 120, 13, 0
+ CONTROL "colors", BTN_FONT_COLOR, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 143, 16, 14, 0
+ CONTROL "colors", BTN_INFO_COLOR, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 160, 16, 14, 0
+ CONTROL "Quote Color:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 140, 147, 48, 8, 0
+ CONTROL "Reference Color:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 140, 164, 60, 8, 0
+ CONTROL "Render At Screen Resolution:", CHK_USE_SCREEN_RES, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 71, 112, 12, 0
+ CONTROL "Shading:", GRP_SHADING, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 128, 100, 48, 0
+ CONTROL "Smooth Shading", RDO_SMOOTH_SHADE, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 150, 84, 12, 0
+ CONTROL "Flat Shading", RDO_FLAT_SHADE, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 138, 88, 12, 0
+ CONTROL "Shimmer Quote", CHK_SHIMMER_QUOTE, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 28, 162, 76, 12, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "Screen Saver\0"
+            VALUE "FileVersion", "1.0.4\0"
+            VALUE "InternalName", "Bible Quotes\0"
+            VALUE "LegalCopyright", "\251 Copyright 2003 Howie's Funware\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Bible Quotes.scr\0"
+            VALUE "ProductName", "Bible Quotes\0"
+            VALUE "ProductVersion", "1.0.3\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

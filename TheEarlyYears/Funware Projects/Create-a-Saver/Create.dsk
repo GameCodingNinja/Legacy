@@ -1,0 +1,364 @@
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1280
+Height=105
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1272
+ClientHeight=78
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=107
+Width=190
+Height=876
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=180
+ClientHeight=850
+TBDockHeight=636
+LRDockWidth=190
+Dockable=1
+SplitPos=85
+
+[Closed Files]
+File_0=SourceModule,'C:\RoundAbout Programs\hlibrary\Order Form\TempRegInfoWnd.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\RoundAbout Programs\hlibrary\savInit.pas',0,1,39,1,1,0,0
+File_2=SourceModule,'C:\RoundAbout Programs\Create-a-Saver Light\savThr.pas',0,1,67,1,77,0,0
+File_3=SourceModule,'C:\Program Files\Borland\MMTOOLS\DOC\MPEG\Mmmptype.int',0,1,1,1,1,0,0
+File_4=SourceModule,'C:\Program Files\Borland\MMTOOLS\DOC\MPEG\Mmmpeg.int',0,1,109,1,1,0,0
+File_5=SourceModule,'C:\Program Files\Borland\MMTOOLS\DOC\MPEG\Mmaudio.int',0,1,73,1,1,0,0
+File_6=SourceModule,'C:\RoundAbout Programs\Create-a-Saver\transitions.pas',0,1,1,101,146,1,0
+
+[Modules]
+Module0=C:\RoundAbout Programs\hlibrary\savRun.pas
+Module1=C:\RoundAbout Programs\Create-a-Saver\ImgLoad.pas
+Module2=C:\RoundAbout Programs\Create-a-Saver\TwoWays.pas
+Module3=C:\RoundAbout Programs\hlibrary\mediaPlayerMPG.pas
+Module4=C:\RoundAbout Programs\Create-a-Saver\savConf.pas
+Module5=C:\RoundAbout Programs\Create-a-Saver\Create.dpr
+Module6=C:\RoundAbout Programs\Create-a-Saver\constants.pas
+Module7=C:\RoundAbout Programs\Create-a-Saver\savThr.pas
+Module8=C:\RoundAbout Programs\Create-a-Saver\globals.pas
+Module9=C:\RoundAbout Programs\hlibrary\Order Form\MainForm.pas
+Module10=C:\RoundAbout Programs\hlibrary\Order Form\gOrderfm.pas
+Module11=C:\RoundAbout Programs\hlibrary\gFunctin.pas
+Module12=C:\RoundAbout Programs\hlibrary\Order Form\noPrinterAv.pas
+Module13=C:\RoundAbout Programs\hlibrary\Order Form\OrderOption.pas
+Module14=C:\RoundAbout Programs\Create-a-Saver\Loadpref.pas
+Module15=C:\RoundAbout Programs\hlibrary\PlaySndMPG.pas
+Module16=C:\RoundAbout Programs\hlibrary\PlaySnd.pas
+Module17=C:\RoundAbout Programs\Create-a-Saver\designer.pas
+Module18=C:\RoundAbout Programs\hlibrary\DecodeGif.pas
+Count=19
+EditWindowCount=1
+
+[C:\RoundAbout Programs\hlibrary\savRun.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\ImgLoad.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\RoundAbout Programs\Create-a-Saver\TwoWays.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\RoundAbout Programs\hlibrary\mediaPlayerMPG.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\RoundAbout Programs\Create-a-Saver\savConf.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\RoundAbout Programs\Create-a-Saver\Create.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\constants.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\savThr.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\globals.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\Order Form\MainForm.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\Order Form\gOrderfm.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\gFunctin.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\Order Form\noPrinterAv.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\Order Form\OrderOption.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\Loadpref.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\PlaySndMPG.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\PlaySnd.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\Create-a-Saver\designer.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\hlibrary\DecodeGif.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi4\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=198
+Top=117
+Width=1015
+Height=701
+MaxLeft=-4
+MaxTop=101
+ClientWidth=1007
+ClientHeight=674
+LeftPanelSize=0
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
+ViewCount=19
+CurrentView=8
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
+View16=16
+View17=17
+View18=18
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=11
+Top=0
+Width=996
+Height=91
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=996
+ClientHeight=91
+TBDockHeight=91
+LRDockWidth=443
+Dockable=1
+
+[View0]
+Module=C:\RoundAbout Programs\Create-a-Saver\Create.dpr
+CursorX=2
+CursorY=35
+TopLine=28
+LeftCol=1
+
+[View1]
+Module=C:\RoundAbout Programs\hlibrary\Order Form\OrderOption.pas
+CursorX=41
+CursorY=7
+TopLine=1
+LeftCol=1
+
+[View2]
+Module=C:\RoundAbout Programs\Create-a-Saver\Loadpref.pas
+CursorX=26
+CursorY=217
+TopLine=192
+LeftCol=1
+
+[View3]
+Module=C:\RoundAbout Programs\Create-a-Saver\ImgLoad.pas
+CursorX=41
+CursorY=311
+TopLine=305
+LeftCol=1
+
+[View4]
+Module=C:\RoundAbout Programs\hlibrary\PlaySnd.pas
+CursorX=83
+CursorY=120
+TopLine=1
+LeftCol=1
+
+[View5]
+Module=C:\RoundAbout Programs\Create-a-Saver\globals.pas
+CursorX=86
+CursorY=588
+TopLine=570
+LeftCol=1
+
+[View6]
+Module=C:\RoundAbout Programs\Create-a-Saver\constants.pas
+CursorX=31
+CursorY=124
+TopLine=94
+LeftCol=1
+
+[View7]
+Module=C:\RoundAbout Programs\Create-a-Saver\savThr.pas
+CursorX=24
+CursorY=190
+TopLine=167
+LeftCol=1
+
+[View8]
+Module=C:\RoundAbout Programs\hlibrary\savRun.pas
+CursorX=19
+CursorY=173
+TopLine=127
+LeftCol=1
+
+[View9]
+Module=C:\RoundAbout Programs\hlibrary\mediaPlayerMPG.pas
+CursorX=36
+CursorY=21
+TopLine=161
+LeftCol=1
+
+[View10]
+Module=C:\RoundAbout Programs\Create-a-Saver\TwoWays.pas
+CursorX=51
+CursorY=16
+TopLine=1
+LeftCol=1
+
+[View11]
+Module=C:\RoundAbout Programs\hlibrary\DecodeGif.pas
+CursorX=1
+CursorY=381
+TopLine=363
+LeftCol=1
+
+[View12]
+Module=C:\RoundAbout Programs\hlibrary\gFunctin.pas
+CursorX=46
+CursorY=25
+TopLine=23
+LeftCol=1
+
+[View13]
+Module=C:\RoundAbout Programs\Create-a-Saver\designer.pas
+CursorX=24
+CursorY=360
+TopLine=311
+LeftCol=1
+
+[View14]
+Module=C:\RoundAbout Programs\hlibrary\PlaySndMPG.pas
+CursorX=25
+CursorY=5
+TopLine=79
+LeftCol=1
+
+[View15]
+Module=C:\RoundAbout Programs\Create-a-Saver\savConf.pas
+CursorX=1
+CursorY=287
+TopLine=417
+LeftCol=1
+
+[View16]
+Module=C:\RoundAbout Programs\hlibrary\Order Form\noPrinterAv.pas
+CursorX=1
+CursorY=66
+TopLine=34
+LeftCol=1
+
+[View17]
+Module=C:\RoundAbout Programs\hlibrary\Order Form\MainForm.pas
+CursorX=68
+CursorY=353
+TopLine=346
+LeftCol=1
+
+[View18]
+Module=C:\RoundAbout Programs\hlibrary\Order Form\gOrderfm.pas
+CursorX=80
+CursorY=51
+TopLine=47
+LeftCol=1
+
+[DockHosts]
+DockHostCount=0
+
+[Watches]
+Count=1
+Watch0='Iwn',2,0,11,1
+
+[Breakpoints]
+Count=1
+Breakpoint0='C:\RoundAbout Programs\Create-a-Saver\savThr.pas',1024,'',0,1
+
+[AddressBreakpoints]
+Count=0
+

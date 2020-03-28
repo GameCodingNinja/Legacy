@@ -1,0 +1,105 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+bubbles256 GIF LOADONCALL DISCARDABLE "bubbles-8bit.gif"
+bubblesRGB GIF LOADONCALL DISCARDABLE "bubbles-24bit.gif"
+
+/* midi toons */
+ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+pop0 WAV LOADONCALL "pop1.pcm"
+pop1 WAV LOADONCALL "pop2.pcm"
+pop2 WAV LOADONCALL "pop3.pcm"
+pop3 WAV LOADONCALL "pop4.pcm"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL DISCARDABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 212
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 168, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 168, 45, 14
+ CONTROL "", STC_BUBBLE_COUNT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 120, 67, 100, 8, 0
+ CONTROL "ScrollBar1", SCR_BUBBLE_COUNT, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 120, 80, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 124, 296, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 124, 282, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 12, 296, 101, 14, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 188, 212, 13, 0
+ CONTROL "ScrollBar2", SCR_POP_AMOUNT, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 120, 108, 100, 9, 0
+ CONTROL "", STC_POP_AMOUNT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 120, 96, 100, 8, 0
+ CONTROL "Sound On", CHK_SOUND_ON, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 128, 96, 12, 0
+ CONTROL "Make Bubbles Pop", CHK_POP, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 144, 100, 12, 0
+ CONTROL "ScrollBar3", SCR_SPEED, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 80, 100, 9, 0
+ CONTROL "", STC_SPEED, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 68, 100, 8, 0
+ CONTROL "Float Mode", GRP_FLOAT_MODE, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 96, 100, 88, 0
+ CONTROL "Bounce Mode", RDO_BOUNCE, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 112, 84, 12, 0
+ CONTROL "Float Mode", RDO_FLOAT, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 128, 84, 12, 0
+ CONTROL "Randomize Above", RDO_RANDOM, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 160, 80, 12, 0
+ CONTROL "Champagne Mode", RDO_CHAMPAGNE, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 144, 84, 12, 0
+}
+
+bubbleRects RCDATA
+{
+	  0,0,65,64,    66,6,58,58,   125,11,53,53,   179,17,47,47,   227,23,41,41,   269,28,36,36,   306,35,30,29,   337,42,23,22
+	 0,65,65,64,   66,70,59,59,   126,77,53,52,   180,82,47,47,   228,87,42,42,	  271,94,36,35,   308,99,30,30,  339,106,23,23
+	0,130,65,64,  66,135,60,59,	 127,141,53,53,	 181,146,48,48,  230,153,42,41,	 273,159,35,35,  309,164,31,30,	 341,171,24,23
+	0,195,65,64,  66,201,58,58,  125,206,53,53,  179,212,47,47,  227,217,42,42,  270,223,36,36,  307,228,30,31,  338,236,23,23
+	0,260,65,64,  66,266,58,58,  125,271,53,53,  179,277,47,47,  227,283,41,41,  269,288,36,36,  306,295,30,29,  337,302,23,22
+	0,325,65,64,  66,330,59,59,  126,337,53,52,  180,342,47,47,  228,347,42,42,  271,354,36,35,  308,359,30,30,  339,366,23,23
+	0,390,65,64,  66,395,60,59,  127,402,53,52,  181,406,48,48,  230,413,42,41,  273,419,35,35,  309,424,31,30,  341,431,24,23
+	0,455,65,64,  66,461,58,58,  125,466,53,53,	 179,472,47,47,	 227,477,42,42,	 270,483,36,36,	 307,488,30,31,  338,496,23,23
+}
+
+bubblePopRects RCDATA
+{
+	0,520,65,65,  66,526,59,59,  126,531,54,54,  181,537,48,48,  230,543,41,42,  272,550,35,35,  308,555,30,30,  339,562,22,23
+}
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Screen Saver\0"
+			VALUE "FileVersion", "3.8.9\0"
+            VALUE "InternalName", "Bubbles\0"
+            VALUE "LegalCopyright", "\251 Copyright 2002 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "Bubbles.scr\0"
+            VALUE "ProductName", "Bubbles\0"
+            VALUE "ProductVersion", "3.8.9\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

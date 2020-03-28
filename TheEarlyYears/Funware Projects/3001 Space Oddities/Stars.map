@@ -1,0 +1,2186 @@
+
+ Start         Length     Name                   Class
+ 0001:00401000 0000167E8H _TEXT                  CODE
+ 0002:00418000 000004244H _DATA                  DATA
+ 0003:0041C244 000000894H _BSS                   BSS
+ 0004:00000000 00000009CH _TLS                   TLS
+
+  Address         Publics by Name
+
+ 0001:0000B8A8      CenterWindow(HWND__ *, int, int, HWND__ *, int)
+ 0001:0000B280      CheckSumData(void *, unsigned long)
+ 0001:00000150      DisplayConfigDialogBox(HINSTANCE__ *, HWND__ *)
+ 0001:000068C4      DisplayHelpHintDialogBox(HINSTANCE__ *, HWND__ *, char *, char *, char *, char *, int *, int, char *, unsigned long, int)
+ 0001:00006D20      DisplayOrderFrmDialogBox(HINSTANCE__ *, HWND__ *, TSettings *, int)
+ 0001:00005B74      DisplayOrderOptionDlg(HINSTANCE__ *, HWND__ *, int)
+ 0001:000066C4      DisplayPrintCancelDlg(HINSTANCE__ *, HWND__ *, char *, int)
+ 0001:0000B148      DoExist(char *)
+ 0001:0000BA30      GetScreenHeight()
+ 0001:0000BA28      GetScreenWidth()
+ 0001:0000B824      GetTheWindowsDirectory(char *, int)
+ 0001:0000B860      GetTheWindowsTmpDir(char *)
+ 0001:0000B1C0      LoadTheResource(HINSTANCE__ *, char *, char *, TLoadRes *)
+ 0001:0000B754      MakeFont(HDC__ *, char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:000092B4      MediaDir_GetSoundDirectory(HINSTANCE__ *, HWND__ *, char *, char *)
+ 0001:0000B100      PostMsg(char *, char *, ...)
+ 0001:0000B99C      SaveResourceToDisk(HINSTANCE__ *, char *, char *, char *)
+ 0001:0000B184      ShowHideCursor(int)
+ 0001:00000140      Sysinit::__linkproc__ __fastcall GetTls()
+ 0002:00000E38      TAnimateSaver::
+ 0001:00005644      TAnimateSaver::AddSubtractRect(tagRECT *, tagRECT *, int, int)
+ 0001:00002C6C      TAnimateSaver::Animate()
+ 0001:00002A04      TAnimateSaver::AnimateSaver()
+ 0001:000036BC      TAnimateSaver::BlitFromBufferToScreen()
+ 0001:0000323C      TAnimateSaver::BlitToTheBuffer()
+ 0001:000029C4      TAnimateSaver::DisplayBufferOnStartUp()
+ 0001:00002C04      TAnimateSaver::DisplayMusicError()
+ 0001:00002CC8      TAnimateSaver::EraseTheBuffer()
+ 0001:000044CC      TAnimateSaver::InitPlanetData()
+ 0001:0000495C      TAnimateSaver::InitShipData()
+ 0001:000039D0      TAnimateSaver::InitStarData()
+ 0001:00002170      TAnimateSaver::LoadControlPanelPrefs()
+ 0001:00002370      TAnimateSaver::LoadGraphics()
+ 0001:00001EB0      TAnimateSaver::LoadSpecificStartUpData()
+ 0001:00002AD8      TAnimateSaver::PlayMusic()
+ 0001:0000580C      TAnimateSaver::ResetPlanetStructure(TPlanet *)
+ 0001:00005964      TAnimateSaver::ResetShipStructure(TShip *)
+ 0001:00005730      TAnimateSaver::ResetStarStructure(TStar *)
+ 0001:00003804      TAnimateSaver::ShowShareWareScreen()
+ 0001:00001DB4      TAnimateSaver::TAnimateSaver(void *)
+ 0001:00002EE8      TAnimateSaver::UpdateAllAnimations()
+ 0001:00003094      TAnimateSaver::UpdatePlanetPositions()
+ 0001:00003170      TAnimateSaver::UpdateShipPositions()
+ 0001:00002F2C      TAnimateSaver::UpdateStarPositions()
+ 0001:000038D0      TAnimateSaver::~TAnimateSaver()
+ 0001:000062F0      TBaseConfigDlg::CheckRegNumber(char *)
+ 0001:00005D98      TBaseConfigDlg::SetupOrderFormInfo()
+ 0001:000061F4      TBaseConfigDlg::ShowOrderFormDlg(HWND__ *)
+ 0001:00005D50      TBaseConfigDlg::TBaseConfigDlg()
+ 0001:00005D6C      TBaseConfigDlg::~TBaseConfigDlg()
+ 0001:000065E8      TBaseSettings::GetSettingsBool(char *, char *, char *, char *)
+ 0001:00006650      TBaseSettings::GetSettingsChar(char *, char *, char *, char *)
+ 0001:00006624      TBaseSettings::GetSettingsInt(char *, char *, char *, char *)
+ 0001:00006678      TBaseSettings::SaveIniSetting(char *, char *, char *, char *)
+ 0001:00006694      TBaseSettings::SaveIniSetting(char *, char *, char *, int)
+ 0001:000015C8      TBaseSettings::TBaseSettings()
+ 0001:00005B58      TBaseSettings::~TBaseSettings()
+ 0002:00000E20      TBitmap::
+ 0001:00008DA0      TBitmap::ColorRect(tagRECT *, HBRUSH__ *)
+ 0001:000087B8      TBitmap::CreateBitmap(int, int)
+ 0001:00008890      TBitmap::CreateDIBSectionBuffer(int, int, int, tagRGBQUAD *)
+ 0001:00008B90      TBitmap::CreateStandardBuffer(int, int)
+ 0001:00008CCC      TBitmap::Draw(HDC__ *, tagRECT *)
+ 0001:00008C8C      TBitmap::Draw(TBitmap *, tagRECT *)
+ 0001:00008D00      TBitmap::Draw(TBitmap *, tagRECT *, tagRECT *)
+ 0001:0000876C      TBitmap::Free()
+ 0001:00002998      TBitmap::Handle()
+ 0001:00008DC0      TBitmap::IsEmpty()
+ 0001:00008D44      TBitmap::StretchDraw(HDC__ *, tagRECT *)
+ 0001:00008728      TBitmap::TBitmap()
+ 0001:00008E10      TBitmap::height()
+ 0001:00008DE0      TBitmap::width()
+ 0001:00002948      TBitmap::~TBitmap()
+ 0001:00009D48      TCanvas::DrawTextA(int, int, char *)
+ 0001:00009E5C      TCanvas::InitActiveDC(HDC__ *)
+ 0001:00009F04      TCanvas::SetBackgroundColor(unsigned long)
+ 0001:00009F34      TCanvas::SetBackgroundMode(int)
+ 0001:00009D78      TCanvas::SetFont(char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:00009F24      TCanvas::SetForgroundColor(unsigned long)
+ 0001:00009F54      TCanvas::SetTextColorToDC(unsigned long)
+ 0001:00009CAC      TCanvas::TCanvas()
+ 0001:00009DE4      TCanvas::TextHeight(char *)
+ 0001:00009E20      TCanvas::WrapText(char *, int, int, int, int, int, int)
+ 0001:00009CDC      TCanvas::~TCanvas()
+ 0001:0000035C      TConfigDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *)
+ 0001:00001438      TConfigDlg::FreeAllAlocations()
+ 0001:00001440      TConfigDlg::GetSoundDirectory(HWND__ *)
+ 0001:00000B10      TConfigDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00000ED4      TConfigDlg::OnHScroll(HWND__ *, HWND__ *, unsigned int, int)
+ 0001:00000380      TConfigDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000002B4      TConfigDlg::OnNCDestroy(HWND__ *)
+ 0001:00000E54      TConfigDlg::OnPaint(HWND__ *)
+ 0001:000010E8      TConfigDlg::OnShowWindow(HWND__ *, int, unsigned int)
+ 0001:00001104      TConfigDlg::RecordUserSettings(HWND__ *)
+ 0001:00000F80      TConfigDlg::SetScrollBarLabels(HWND__ *, HWND__ *, int)
+ 0001:000002C8      TConfigDlg::TConfigDlg()
+ 0001:000002F0      TConfigDlg::~TConfigDlg()
+ 0001:0000C3FC      TDIB::BlitToDC(HDC__ *, int, int)
+ 0001:0000C278      TDIB::DeleteBitmapBits()
+ 0001:0000C25C      TDIB::DeletePalete()
+ 0001:0000C364      TDIB::Free()
+ 0001:0000C2C0      TDIB::GetPalette()
+ 0001:00005B3C      TDIB::Get_biSize()
+ 0001:0000297C      TDIB::InitActiveDC(HDC__ *)
+ 0001:0000C37C      TDIB::IsEmpty()
+ 0001:0000C394      TDIB::LoadFromBuffer(unsigned char *, unsigned long)
+ 0001:0000C0EC      TDIB::LoadFromFile(char *)
+ 0001:0000C038      TDIB::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:00002ED8      TDIB::SetCopyMode(unsigned long)
+ 0001:0000BF74      TDIB::TDIB()
+ 0001:000029A4      TDIB::bits()
+ 0001:0000298C      TDIB::dib()
+ 0001:0000BFD8      TDIB::getDIBcolors()
+ 0001:00001588      TDIB::height()
+ 0001:0000156C      TDIB::width()
+ 0001:00000328      TDIB::~TDIB()
+ 0002:00000508      TGBase::
+ 0001:00001554      TGBase::LoadFromBuffer(unsigned char *, unsigned long)
+ 0001:0000155C      TGBase::LoadFromFile(char *)
+ 0001:00001564      TGBase::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:0000BFC8      TGBase::TGBase()
+ 0001:00001534      TGBase::~TGBase()
+ 0001:0000C4E4      TGif::DecodeGif(char *, char *, HINSTANCE__ *, unsigned char *)
+ 0001:0000C4C4      TGif::LoadFromResource(char *, char *, HINSTANCE__ *)
+ 0001:0000C494      TGif::TGif()
+ 0001:0000CDBC      TGif::decoder(int)
+ 0001:0000CFC8      TGif::free()
+ 0001:0000D004      TGif::get_block()
+ 0001:0000CD4C      TGif::get_byte()
+ 0001:0000CC64      TGif::get_bytes(unsigned int, unsigned char *)
+ 0001:0000D0E8      TGif::get_next_code()
+ 0001:0000D1EC      TGif::init_exp(int)
+ 0001:0000D2E4      TGif::put_line(int, int, int, unsigned char *)
+ 0001:0000D248      TGif::putcolor(int, int, int)
+ 0001:00000A14      TGif::~TGif()
+ 0001:00006A78      THelpHintDlg::CreateDialogWnd(char *, char *, char *, char *, int *, int, char *, unsigned long, int)
+ 0001:00006A2C      THelpHintDlg::GetEditProc()
+ 0001:00006C7C      THelpHintDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00006CDC      THelpHintDlg::OnDestroy(HWND__ *)
+ 0001:00006ACC      THelpHintDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000069D0      THelpHintDlg::OnNCDestroy(HWND__ *)
+ 0001:00006A38      THelpHintDlg::THelpHintDlg(HINSTANCE__ *, HWND__ *)
+ 0001:00006A5C      THelpHintDlg::~THelpHintDlg()
+ 0001:000093E0      TMediaDirDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, char *, char *)
+ 0001:00009598      TMediaDirDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:0000957C      TMediaDirDlg::OnDestroy(HWND__ *)
+ 0001:00009504      TMediaDirDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000093A4      TMediaDirDlg::OnNCDestroy(HWND__ *)
+ 0001:000093B8      TMediaDirDlg::TMediaDirDlg()
+ 0001:000093C4      TMediaDirDlg::~TMediaDirDlg()
+ 0001:00009900      TMediaPlayer::Close()
+ 0001:00002C5C      TMediaPlayer::GetErrorStr()
+ 0001:00002BF4      TMediaPlayer::GetPlayError()
+ 0001:0000992C      TMediaPlayer::GetStatus()
+ 0001:00009888      TMediaPlayer::Play()
+ 0001:00009730      TMediaPlayer::Play(char *)
+ 0001:000097F4      TMediaPlayer::Play(char *, char *)
+ 0001:00009630      TMediaPlayer::TMediaPlayer(HWND__ *, HINSTANCE__ *, int, unsigned long)
+ 0001:000096E8      TMediaPlayer::~TMediaPlayer()
+ 0001:0000B0DC      TMetafile::Draw(HDC__ *, tagRECT *)
+ 0001:0000AFF4      TMetafile::Free()
+ 0001:0000B0C8      TMetafile::IsEmpty()
+ 0001:0000AF98      TMetafile::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:0000B010      TMetafile::ProcessMetafileData(unsigned char *, unsigned long)
+ 0001:0000AF70      TMetafile::TMetafile()
+ 0001:00008480      TMetafile::~TMetafile()
+ 0001:00008E74      TObjFileHeader::TObjFileHeader()
+ 0002:000014B4      TObjList::
+ 0001:000092AC      TObjList::Add()
+ 0001:00008EB4      TObjList::AddObj(void *)
+ 0001:00002164      TObjList::Count()
+ 0001:00008FD8      TObjList::Delete(int)
+ 0001:00008F44      TObjList::FreeObj()
+ 0001:00008F28      TObjList::GetObj(int)
+ 0001:00009298      TObjList::GetObjDataHeader(int)
+ 0001:000092A4      TObjList::GetObjSize(int)
+ 0001:0000912C      TObjList::LoadFromFile(void *)
+ 0001:000091D0      TObjList::LoadObjectData(void *, int)
+ 0001:0000923C      TObjList::LoadObjectDataFromPointer(unsigned char *, int)
+ 0001:00008F8C      TObjList::MixUp()
+ 0001:00009078      TObjList::SaveToFile(void *)
+ 0001:00009AE0      TObjList::SetObj(void *, int)
+ 0001:00008E40      TObjList::TObjList()
+ 0001:00008E8C      TObjList::~TObjList()
+ 0001:000084A4      TOrderFrmDlg::CheckPrinterTopMargin(int, TPrinter *)
+ 0001:00006EC0      TOrderFrmDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, TSettings *, int)
+ 0001:000084DC      TOrderFrmDlg::FormatTotalCost(HWND__ *)
+ 0001:000076F0      TOrderFrmDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00008714      TOrderFrmDlg::OnDestroy(HWND__ *)
+ 0001:00006EF0      TOrderFrmDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:00006E68      TOrderFrmDlg::OnNCDestroy(HWND__ *)
+ 0001:00007A78      TOrderFrmDlg::OnPaint(HWND__ *)
+ 0001:000086E8      TOrderFrmDlg::OnShowWindow(HWND__ *, int, unsigned int)
+ 0001:00007AD4      TOrderFrmDlg::PrintOrderForm(HWND__ *)
+ 0001:000074D4      TOrderFrmDlg::SaveUserSettings(HWND__ *)
+ 0001:00007870      TOrderFrmDlg::ShowNoPrinterDlg(HWND__ *)
+ 0001:00006E7C      TOrderFrmDlg::TOrderFrmDlg()
+ 0001:00006E94      TOrderFrmDlg::~TOrderFrmDlg()
+ 0001:00005C9C      TOrderOptDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, int)
+ 0001:00005D0C      TOrderOptDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00005D48      TOrderOptDlg::OnDestroy(HWND__ *)
+ 0001:00005CC4      TOrderOptDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:00005C64      TOrderOptDlg::OnNCDestroy(HWND__ *)
+ 0001:00005C78      TOrderOptDlg::TOrderOptDlg()
+ 0001:00005C80      TOrderOptDlg::~TOrderOptDlg()
+ 0001:00006804      TPrintCnlDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, char *, int)
+ 0001:000068A4      TPrintCnlDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:000068BC      TPrintCnlDlg::OnDestroy(HWND__ *)
+ 0001:00006848      TPrintCnlDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000067C0      TPrintCnlDlg::OnNCDestroy(HWND__ *)
+ 0001:000067D4      TPrintCnlDlg::TPrintCnlDlg()
+ 0001:000067E8      TPrintCnlDlg::~TPrintCnlDlg()
+ 0001:0000BC14      TPrinter::BeginDoc(const char *)
+ 0001:0000BC9C      TPrinter::BeginPage()
+ 0001:0000BB88      TPrinter::DisplayPrintDlg(int, int)
+ 0001:0000BAC8      TPrinter::Free()
+ 0001:00008410      TPrinter::GetpixelsPerInchX()
+ 0001:000083C0      TPrinter::GetpixelsPerInchY()
+ 0001:00008470      TPrinter::Handle()
+ 0001:0000BF28      TPrinter::Line(int, int, int, int)
+ 0001:0000BEA0      TPrinter::PrintMetafile(TMetafile *, tagRECT *)
+ 0001:0000BCE4      TPrinter::PrintText(int, int, char *, ...)
+ 0001:0000BD50      TPrinter::SetFont(char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:0000BE38      TPrinter::SetPen(int, int, unsigned long)
+ 0001:0000BC70      TPrinter::StopDoc()
+ 0001:0000BCC0      TPrinter::StopPage()
+ 0001:0000BA38      TPrinter::TPrinter()
+ 0001:0000BEE0      TPrinter::WrapText(char *, int, int, int, int, int, int)
+ 0001:00008448      TPrinter::height()
+ 0001:000083E8      TPrinter::width()
+ 0001:0000BAA4      TPrinter::~TPrinter()
+ 0001:0000AD3C      TSSaverBase::CloseIfOk(HWND__ *)
+ 0001:0000A8C8      TSSaverBase::CreateParentWnd(HINSTANCE__ *, char *)
+ 0001:0000AA30      TSSaverBase::CreateWnd(HINSTANCE__ *, int, HWND__ *)
+ 0001:0000AD1C      TSSaverBase::MouseEvent(HWND__ *)
+ 0001:0000AC9C      TSSaverBase::OnButton(HWND__ *)
+ 0001:0000AB94      TSSaverBase::OnClose(HWND__ *)
+ 0001:0000AAD0      TSSaverBase::OnCreate(HWND__ *, tagCREATESTRUCTA *)
+ 0001:0000AB88      TSSaverBase::OnDestroy(HWND__ *)
+ 0001:0000ACD0      TSSaverBase::OnMouseMove(HWND__ *, int, int, unsigned int)
+ 0001:0000ACB4      TSSaverBase::OnNCPaint(HWND__ *, HRGN__ *)
+ 0001:0000ADA4      TSSaverBase::ParseCommandLine(char *, HWND__ * *)
+ 0001:0000A9B0      TSSaverBase::RegisterWnd(HINSTANCE__ *, int)
+ 0001:0000AEA0      TSSaverBase::RunPasswordMode(HWND__ *)
+ 0001:0000A894      TSSaverBase::SetMouseTicks(int)
+ 0001:0000A8A4      TSSaverBase::TSSaverBase()
+ 0001:0000AEFC      TSSaverBase::VerifyPassword(HWND__ *)
+ 0001:0000A8AC      TSSaverBase::~TSSaverBase()
+ 0002:0000172C      TScreenSaver::
+ 0001:0000A5DC      TScreenSaver::DisplayBufferOnStartUp()
+ 0001:0000A21C      TScreenSaver::DisplayShareWareScreen()
+ 0001:00002AAC      TScreenSaver::GetPasswordWindowRect()
+ 0001:00002114      TScreenSaver::GetScreenDC()
+ 0001:00002144      TScreenSaver::Handle()
+ 0001:0000A118      TScreenSaver::Height()
+ 0001:0000A128      TScreenSaver::InitilizeScreenSaver()
+ 0001:00002154      TScreenSaver::Instance()
+ 0001:0000A040      TScreenSaver::LoadGeneralStartUpData()
+ 0001:0000A5D0      TScreenSaver::LoadSpecificStartUpData()
+ 0001:00002134      TScreenSaver::Mode()
+ 0001:00002A9C      TScreenSaver::PaintPasswordDialogRect()
+ 0001:00002ABC      TScreenSaver::ResetPasswordRect()
+ 0001:00002124      TScreenSaver::SaverActive()
+ 0001:0000A16C      TScreenSaver::ScreenSaverErrorAbortSaver(char *)
+ 0001:0000A0F4      TScreenSaver::SetScreenDC(HDC__ *)
+ 0001:0000A1B0      TScreenSaver::StopScreenSaver()
+ 0001:0000A01C      TScreenSaver::TScreenSaver(void *)
+ 0001:0000A4FC      TScreenSaver::ValidateTempRegNum(char *, unsigned long)
+ 0001:0000A108      TScreenSaver::Width()
+ 0001:0000A1C0      TScreenSaver::~TScreenSaver()
+ 0001:000073D4      TSettings::GetAddress1()
+ 0001:000073E4      TSettings::GetAddress2()
+ 0001:00007474      TSettings::GetAmericanExpress()
+ 0001:000079F8      TSettings::GetCheckStateIndex()
+ 0001:000073F4      TSettings::GetCity()
+ 0001:00000AB0      TSettings::GetCloudsOnOff()
+ 0001:00007A28      TSettings::GetCoAddressLine1()
+ 0001:00007A08      TSettings::GetCoAddressLine2()
+ 0001:00007A38      TSettings::GetCoCity()
+ 0001:00007A68      TSettings::GetCoEmailAddress()
+ 0001:00007A58      TSettings::GetCoWebAddress()
+ 0001:00007A48      TSettings::GetCoZip()
+ 0001:00007A18      TSettings::GetCompanyName()
+ 0001:00007484      TSettings::GetCreditCardInfo()
+ 0001:00007464      TSettings::GetDiscover()
+ 0001:00007414      TSettings::GetEmail()
+ 0001:000074B4      TSettings::GetFloppyCost()
+ 0001:000074A4      TSettings::GetFloppyInfo()
+ 0001:00007424      TSettings::GetIncludeFloppy()
+ 0001:00000DF4      TSettings::GetIntroHelpWnd()
+ 0001:00000AE0      TSettings::GetLoadYourOwnOnOff()
+ 0001:00007454      TSettings::GetMasterCard()
+ 0001:000073C4      TSettings::GetName()
+ 0001:000074C4      TSettings::GetNoPrinterAvailable()
+ 0001:00000AF0      TSettings::GetNumPlanetsAtOneTime()
+ 0001:00000B00      TSettings::GetNumShipsAtOneTime()
+ 0001:0000782C      TSettings::GetOFInfoBufferCheckSum()
+ 0001:0000783C      TSettings::GetOFInfoBufferPtr()
+ 0001:0000784C      TSettings::GetOFInfoBufferSize()
+ 0001:0000780C      TSettings::GetOFInfoCaption()
+ 0001:0000781C      TSettings::GetOFInfoTitle()
+ 0001:00007494      TSettings::GetOfferFloppy()
+ 0001:000077FC      TSettings::GetOrderFrmHelpWnd()
+ 0001:000073B4      TSettings::GetOrderInfo()
+ 0001:00000AA0      TSettings::GetPlanetsInfrontOfStars()
+ 0001:00000A70      TSettings::GetPlanetsOnOff()
+ 0001:000083B0      TSettings::GetPrintLogo()
+ 0001:000015D0      TSettings::GetPrivateString()
+ 0001:000086C8      TSettings::GetProductCost()
+ 0001:00000A90      TSettings::GetRandomMusic()
+ 0001:00000A30      TSettings::GetRegNum()
+ 0001:000086D8      TSettings::GetSalesTax()
+ 0001:00000AD0      TSettings::GetSongOnOff()
+ 0001:00001524      TSettings::GetSoundDir()
+ 0001:00000AC0      TSettings::GetSoundOnOff()
+ 0001:00000A80      TSettings::GetSpaceShipsOnOff()
+ 0001:00000A40      TSettings::GetSpeed()
+ 0001:00000A50      TSettings::GetStarCount()
+ 0001:00000A60      TSettings::GetStarMovement()
+ 0001:00007434      TSettings::GetStateIndex()
+ 0001:00008438      TSettings::GetThankYouNoteBuffer()
+ 0001:000073A4      TSettings::GetTitle()
+ 0001:00007444      TSettings::GetVisa()
+ 0001:00007404      TSettings::GetZip()
+ 0001:000013E8      TSettings::SaveCloudsOnOff(int)
+ 0001:00000E40      TSettings::SaveLoadYourOwnOnOff(int)
+ 0001:00001410      TSettings::SaveNumPlanetsAtOneTime(int)
+ 0001:00001424      TSettings::SaveNumShipsAtOneTime(int)
+ 0001:000013D4      TSettings::SavePlanetsInfrontOfStars(int)
+ 0001:000013AC      TSettings::SavePlanetsOnOff(int)
+ 0001:000013FC      TSettings::SaveRandomMusic(int)
+ 0001:00000E2C      TSettings::SaveSongOnOff(int)
+ 0001:00000E18      TSettings::SaveSoundOnOff(int)
+ 0001:000013C0      TSettings::SaveSpaceShipsOnOff(int)
+ 0001:00001370      TSettings::SaveSpeed(int)
+ 0001:00001384      TSettings::SaveStarCount(int)
+ 0001:00001398      TSettings::SaveStarMovement(int)
+ 0001:00007650      TSettings::SetAddress1(char *)
+ 0001:00007668      TSettings::SetAddress2(char *)
+ 0001:00006160      TSettings::SetAmericanExpress(int)
+ 0001:000060E4      TSettings::SetCheckStateIndex(unsigned short)
+ 0001:00007680      TSettings::SetCity(char *)
+ 0001:00005FBC      TSettings::SetCoAddressLine1(char *)
+ 0001:00005FD4      TSettings::SetCoAddressLine2(char *)
+ 0001:00005FEC      TSettings::SetCoCity(char *)
+ 0001:00006034      TSettings::SetCoEmailAddress(char *)
+ 0001:0000601C      TSettings::SetCoWebAddress(char *)
+ 0001:00006004      TSettings::SetCoZip(char *)
+ 0001:00005FA4      TSettings::SetCompanyName(char *)
+ 0001:0000610C      TSettings::SetCreditCardInfo(char *)
+ 0001:0000614C      TSettings::SetDiscover(int)
+ 0001:000076C4      TSettings::SetEmail(char *)
+ 0001:00006078      TSettings::SetFloppyCost(double)
+ 0001:00006094      TSettings::SetFloppyInfo(char *)
+ 0001:000076DC      TSettings::SetIncludeFloppy(int)
+ 0001:00000E04      TSettings::SetIntroHelpWnd(int)
+ 0001:00006138      TSettings::SetMasterCard(int)
+ 0001:00007638      TSettings::SetName(char *)
+ 0001:000060F8      TSettings::SetNoPrinterAvailable(int)
+ 0001:000061A4      TSettings::SetOFInfoBufferCheckSum(int)
+ 0001:000061CC      TSettings::SetOFInfoBufferPtr(char *)
+ 0001:000061E0      TSettings::SetOFInfoBufferSize(unsigned long)
+ 0001:00006174      TSettings::SetOFInfoCaption(char *)
+ 0001:0000618C      TSettings::SetOFInfoTitle(char *)
+ 0001:00006064      TSettings::SetOfferFloppy(int)
+ 0001:0000785C      TSettings::SetOrderFrmHelpWnd(int)
+ 0001:0000604C      TSettings::SetOrderInfo(char *)
+ 0001:000061B8      TSettings::SetPrintLogo(int)
+ 0001:000060AC      TSettings::SetProductCost(double)
+ 0001:000065D0      TSettings::SetRegNum(char *)
+ 0001:000060C8      TSettings::SetSalesTax(double)
+ 0001:00007698      TSettings::SetStateIndex(int)
+ 0001:000062DC      TSettings::SetThankYouNoteBuffer(char *)
+ 0001:00005F8C      TSettings::SetTitle(char *)
+ 0001:00006124      TSettings::SetVisa(int)
+ 0001:000076AC      TSettings::SetZip(char *)
+ 0001:000015A4      TSettings::TSettings()
+ 0001:00001D58      TSettings::WriteHelpHintSettings()
+ 0001:00001A0C      TSettings::WritePrivateString()
+ 0001:000039A8      TSettings::~TSettings()
+ 0002:0000165C      TStringList::
+ 0001:00009CA4      TStringList::Add()
+ 0001:0000999C      TStringList::Add(char *)
+ 0001:00009AF4      TStringList::GetAllFileNamesInDir(char *, char *)
+ 0001:00009C64      TStringList::GetObjDataHeader(int)
+ 0001:00009C84      TStringList::GetObjSize(int)
+ 0001:00009A0C      TStringList::GetString(int)
+ 0001:00009BFC      TStringList::LoadObjectData(void *, int)
+ 0001:00009A24      TStringList::Sort()
+ 0001:00009954      TStringList::TStringList()
+ 0001:00009970      TStringList::~TStringList()
+ 0001:0000A5E4      WinMain
+ 0001:0000B2C0      WrapTextToDevice(HDC__ *, char *, int, int, int, int, int, int, int)
+ 0002:00003148      _CLOCALE
+ 0002:00003038      _CMonetary
+ 0002:0000306C      _CNumeric
+ 0002:00003084      _CTimeDate
+ 0001:000150A3      _CatchCleanup()
+ 0001:00014EFC      _ReThrowException(unsigned int, unsigned char *)
+ 0002:000011BC      _States
+ 0001:00014EC7      _ThrowExceptionLDTC(void *, void *, void *, void *, unsigned int, unsigned int, unsigned int, unsigned char *, void *)
+ 0002:00003874      __AmPm
+ 0003:0000083C      __C0argc
+ 0003:00000840      __C0argv
+ 0003:00000844      __C0environ
+ 0001:000163BA      __CurrExcContext
+ 0002:0000387C      __Days
+ 0003:00000454      __DestructorCountPtr
+ 0003:00000024      __DestructorCountPtr
+ 0001:000133D0      __ErrorExit
+ 0001:000132A4      __ErrorMessage
+ 0001:000131E4      __ErrorMessageHelper
+ 0003:0000085C      __ExcRegPtr
+ 0001:0000D42C      __ExceptInit
+ 0002:00002140      __ExceptVarsSize
+ 0001:0000E9A3      __ExceptionHandler
+ 0001:0000E995      __ExitExceptBlock
+ 0001:00000059      __GetExceptDLLinfo
+ 0001:0000D430      __GetExceptDLLinfoInternal
+ 0001:00014F67      __Global_unwind
+ 0003:00000028      __HandlerPtr
+ 0001:0000D438      __InitDefaultHander
+ 0001:0000E95C      __InitExceptBlockLDTC
+ 0002:00003844      __LMonth
+ 0002:000037F8      __LWeekday
+ 0001:000155C8      __Local_unwind
+ 0002:0000012C      __PackageInfoTable
+ 0001:000155DB      __Return_unwind
+ 0002:00003814      __SMonth
+ 0002:000037DC      __SWeekday
+ 0002:0000011B      __TLS_index
+ 0002:0000011F      __TLS_index4
+ 0002:00003888      __YDays
+ 0002:00000128      ___CPPdebugHook
+ 0002:00000128      ___CPPdebugHook_segment
+ 0002:000020A4      ___CPPexceptionList
+ 0001:0000D7FC      ___CRTL_MEM_CheckBorMem
+ 0001:0000D780      ___CRTL_MEM_GetBorMemPtrs
+ 0001:0000D838      ___CRTL_MEM_Revector
+ 0001:0000D8F0      ___CRTL_MEM_UseBorMM
+ 0001:00014358      ___CRTL_TLS_Alloc
+ 0001:0001439C      ___CRTL_TLS_ExitThread
+ 0001:00014360      ___CRTL_TLS_Free
+ 0001:000143A4      ___CRTL_TLS_GetInfo
+ 0001:00014370      ___CRTL_TLS_GetValue
+ 0001:00014394      ___CRTL_TLS_InitThread
+ 0001:00014380      ___CRTL_TLS_SetValue
+ 0001:0000E558      ___CRTL_VCLLIB_Linkage
+ 0001:0000E554      ___CRTL_VCL_Init
+ 0001:0000FA04      ___DOSerror
+ 0001:000133C0      ___ErrorMessage
+ 0002:000020C0      ___ExceptStaticXbuff
+ 0001:0000F9C0      ___IOerror
+ 0001:000148A3      ___JumpToCatch__
+ 0001:0000FA24      ___NTerror
+ 0001:00000140      ___System__GetTls
+ 0001:0001563C      ____ExceptionHandler
+ 0002:00001CE0      ___allocated
+ 0001:0000F14C      ___call_terminate
+ 0001:0000F1C0      ___call_unexpected
+ 0002:000039B8      ___debuggerDisableTerminateCallback
+ 0001:0000F1FE      ___doGlobalUnwind
+ 0002:000020A8      ___exceptFlags
+ 0002:000020BC      ___exceptMemAllocVars
+ 0002:000020B8      ___exceptStaticBuffP
+ 0001:0000F628      ___fputn
+ 0002:00003470      ___ieee_64_n_inf
+ 0002:00003480      ___ieee_64_n_nanq
+ 0002:00003490      ___ieee_64_n_nans
+ 0002:000034A0      ___ieee_64_n_zero
+ 0002:00003468      ___ieee_64_p_inf
+ 0002:00003478      ___ieee_64_p_nanq
+ 0002:00003488      ___ieee_64_p_nans
+ 0002:00003498      ___ieee_64_p_zero
+ 0001:00011434      ___int64toa
+ 0002:0000010D      ___isDLL
+ 0002:000000D4      ___isGUI
+ 0002:0000010C      ___isVCLPackage
+ 0001:0000F21C      ___isatty
+ 0001:0000F24C      ___isatty_osfhandle
+ 0001:00010950      ___isctype
+ 0001:00010994      ___iswctype
+ 0001:000114E8      ___ldtrunc
+ 0002:00003174      ___locale
+ 0001:00011600      ___longtoa
+ 0001:0000F264      ___lseek
+ 0001:0001134A      ___nextreal
+ 0001:0000E2C0      ___org__expand
+ 0001:00011690      ___org__matherr
+ 0001:000116BC      ___org__matherrl
+ 0001:0000E538      ___org__msize
+ 0001:0000F444      ___org__rtl_write
+ 0001:0000F48C      ___org__write
+ 0001:000112F0      ___org_atoi
+ 0001:00011288      ___org_atol
+ 0001:0000D43C      ___org_calloc
+ 0001:0000D468      ___org_delete
+ 0001:0000D478      ___org_deletea
+ 0001:0000F528      ___org_fflush
+ 0001:0000FA38      ___org_fputc
+ 0001:0000D810      ___org_free
+ 0001:00013540      ___org_getenv
+ 0001:0000D800      ___org_malloc
+ 0001:00010A40      ___org_mblen
+ 0001:00010BFC      ___org_mbstowcs
+ 0001:00010ABC      ___org_mbtowc
+ 0001:0000E81C      ___org_memcmp
+ 0001:0000E5D8      ___org_memcpy
+ 0001:0000E5FC      ___org_memmove
+ 0001:0000E648      ___org_memset
+ 0001:0000D49C      ___org_new
+ 0001:0000D63C      ___org_newa
+ 0001:00013FEC      ___org_raise
+ 0001:0000D820      ___org_realloc
+ 0001:0000FB70      ___org_sprintf
+ 0001:0000E6EC      ___org_strcat
+ 0001:0000E888      ___org_strdup
+ 0001:0000E8BC      ___org_stricmp
+ 0001:0000E728      ___org_strlen
+ 0001:0000E784      ___org_strncat
+ 0001:0000E7F4      ___org_strncmp
+ 0001:00014828      ___org_time
+ 0001:000106A8      ___org_vprintf
+ 0001:0000FB98      ___org_vsprintf
+ 0001:00010D64      ___org_wcstombs
+ 0001:00010B88      ___org_wctomb
+ 0003:00000888      ___pCPPdebugHook
+ 0002:00003638      ___pCallAtExitProcs
+ 0001:00014B0D      ___raiseDebuggerException
+ 0001:00011344      ___realcvt
+ 0002:0000209C      ___terminatePTR
+ 0002:000020B4      ___throwExceptionName
+ 0002:000020AC      ___throwFileName
+ 0002:000020B0      ___throwLineNumber
+ 0002:000020A0      ___unexpectdPTR
+ 0002:0000011A      ___useDynamicTLS
+ 0001:00011674      ___utoa
+ 0001:0000FD70      ___vprinter
+ 0001:0000F2DC      ___write
+ 0001:00012808      ___xcvt
+ 0001:00012ADC      ___xcvtw
+ 0004:00000000      ___xxInfo
+ 0002:00001D78      ___xxPersonality
+ 0001:00013474      __abort
+ 0001:00000000      __acrtused
+ 0001:0000F0A4      __adjustClassAdr(void *, tpid *, tpid *)
+ 0001:0000F4A8      __allocbuf
+ 0003:00000850      __argc
+ 0003:00000818      __argv
+ 0002:00003700      __argv0
+ 0001:000135B4      __argv_default_expand
+ 0002:000036F8      __argv_expand_ptr
+ 0001:00013134      __assert
+ 0003:0000002C      __bormm_pfn_FreeMem
+ 0003:00000030      __bormm_pfn_GetMem
+ 0003:00000038      __bormm_pfn_HeapAddRef
+ 0003:0000003C      __bormm_pfn_HeapRelease
+ 0003:00000034      __bormm_pfn_ReallocMem
+ 0001:00013530      __c_exit
+ 0001:00013520      __cexit
+ 0002:00002188      __cfinfo_get
+ 0002:00002D34      __chartype
+ 0002:00002154      __chtbl__ __call_terminate()
+ 0001:00014148      __cleanup
+ 0001:00011300      __clear87
+ 0002:000036AC      __cmdline_escapes
+ 0001:00011314      __control87
+ 0001:0001406C      __create_shmem
+ 0001:00011AD0      __cvt_init
+ 0001:00011E04      __cvt_initw
+ 0002:000039A4      __daylight
+ 0002:00003428      __default87
+ 0003:00000854      __dll_table
+ 0002:00002714      __dosErrorToSV
+ 0003:000005EC      __doserrno
+ 0001:0000F744      __dup_handle
+ 0002:00002174      __ectbl__ __call_terminate()
+ 0002:00001D64      __ectbl__ std::bad_alloc::~bad_alloc()
+ 0003:00000838      __env_lock
+ 0003:0000082C      __environ
+ 0003:00000834      __envsize
+ 0003:00000870      __exe_table
+ 0001:00013508      __exit
+ 0001:0000FC70      __exit_streams
+ 0001:0001368C      __exitargv
+ 0002:0000364C      __exitargv_ptr
+ 0002:0000363C      __exitbuf
+ 0002:00003640      __exitfopen
+ 0002:00003644      __exitopen
+ 0001:0000E2C0      __expand
+ 0001:00013BFC      __expandblock
+ 0002:0000218C      __fileinfo
+ 0002:00001CC0      __firstHeap
+ 0002:000034AC      __floatconvert
+ 0001:0000F40C      __flushall
+ 0001:0000F5A8      __flushout
+ 0002:0000270C      __fmode
+ 0002:00002710      __fmodeptr
+ 0001:0001138C      __fpreset
+ 0002:00001CCC      __freeStart
+ 0001:0000F7AC      __free_handle
+ 0001:0000D8E0      __free_heaps
+ 0001:000113A4      __ftol
+ 0001:000113CC      __fuildq
+ 0001:000113FC      __fuistq
+ 0001:00011420      __fxam
+ 0001:00000066      __getHInstance
+ 0001:000106F4      __getLocaleNumericInfo
+ 0001:0000F704      __get_handle
+ 0001:00012EF4      __getmbcp
+ 0002:00000123      __hInstance
+ 0001:000138C8      __handle_exitargv
+ 0001:00013770      __handle_setargv
+ 0001:00013AEC      __handle_wexitargv
+ 0001:00013958      __handle_wsetargv
+ 0003:00000524      __handles
+ 0002:00001C88      __heap_redirector
+ 0002:00003430      __huge_dble
+ 0002:0000342C      __huge_flt
+ 0002:00003438      __huge_ldble
+ 0002:00003458      __indefinite
+ 0001:00012EFC      __initMBCSTable
+ 0001:00014074      __init_exit_proc
+ 0001:0000F864      __init_handles
+ 0001:000135DC      __init_setargv_handlers
+ 0001:0000FBC0      __init_streams
+ 0001:00013598      __init_wild_handlers
+ 0001:0000F614      __initfileinfo
+ 0001:0000F604      __initfmode
+ 0001:000116EC      __initmatherr
+ 0001:0000DED8      __internal_free
+ 0001:0000E260      __internal_free_heaps
+ 0001:0000E048      __internal_malloc
+ 0001:0000E4A0      __internal_realloc
+ 0001:0000EF94      __isCompatTypeID(tpid *, tpid *, int, tpid * *)
+ 0001:0000005E      __isDLL
+ 0001:000143A8      __isDST
+ 0001:0000EEB8      __isSameTypeID(tpid *, tpid *)
+ 0002:000037D4      __isWindows
+ 0001:00012F0C      __ismbcalpha
+ 0001:00012F4C      __ismbcdigit
+ 0001:00012F68      __ismbcspace
+ 0002:0000354C      __kalpha
+ 0002:0000354E      __kpunct
+ 0002:00001CC4      __lastHeap
+ 0002:00001CC8      __linktable
+ 0001:00010F2B      __lldiv
+ 0001:00010FEC      __llmod
+ 0001:00010F08      __llmul
+ 0001:000110B4      __llshl
+ 0001:000110D0      __llshr
+ 0001:00010FA3      __lludiv
+ 0001:00011066      __llumod
+ 0001:000110EC      __llushr
+ 0001:000117A0      __lrand
+ 0001:000109EC      __ltoupper
+ 0001:00011690      __matherr
+ 0001:000116BC      __matherrl
+ 0002:00003446      __max_dble
+ 0002:00003442      __max_flt
+ 0002:0000344E      __max_ldble
+ 0003:000006F4      __mbcsCodePage
+ 0003:000005F0      __mbctype
+ 0001:00012F84      __mbsnbcpy
+ 0001:00012FD8      __mbsnbicmp
+ 0001:00013094      __mbsrchr
+ 0002:000035E4      __messagefile
+ 0002:000035E0      __messagefunc
+ 0001:0000E538      __msize
+ 0003:00000020      __new_handler
+ 0002:0000335C      __nextrealptr
+ 0002:000033C4      __nextrealwptr
+ 0002:00002640      __nfile
+ 0002:00001CB0      __nv_heap_size
+ 0002:00001D54      __odtbl__ std::bad_alloc::~bad_alloc()
+ 0002:00002644      __openfd
+ 0003:00000848      __oscmd
+ 0003:0000084C      __osenv
+ 0003:00000814      __ostype
+ 0001:0000E248      __phys_avail
+ 0003:0000045C      __pidtab
+ 0002:000034B0      __pmatherr
+ 0002:000034B4      __pmatherrl
+ 0001:00011108      __pow10
+ 0001:00011704      __qdiv10
+ 0001:0001172C      __qmul10
+ 0002:00003358      __realcvtptr
+ 0002:000033C0      __realcvtwptr
+ 0002:00001CD8      __rover
+ 0001:0000F444      __rtl_write
+ 0002:00001CEC      __rwstd::__rw_stdexcept_BadAllocException
+ 0002:00001CE8      __rwstd::__rw_stdexcept_BadException
+ 0002:00001CF0      __rwstd::__rw_stdexcept_Error
+ 0002:00001CE4      __rwstd::__rw_stdexcept_NoNamedException
+ 0001:000122FC      __scan_init
+ 0001:000127F0      __scan_initw
+ 0001:00011356      __scanrslt
+ 0002:00003364      __scanrsltptr
+ 0001:00011350      __scantod
+ 0002:00003360      __scantodptr
+ 0002:000033CC      __scanwrsltptr
+ 0002:000033C8      __scanwtodptr
+ 0001:00013604      __setargv
+ 0002:00003658      __setargv__
+ 0002:00003648      __setargv_ptr
+ 0002:00003720      __setenvp__
+ 0001:00012DD0      __setmbcp
+ 0002:00001CB4      __smalloc_threshold
+ 0001:000141B4      __startup
+ 0001:0000019C      __stdcall ConfigDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000692C      __stdcall HelpHintDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:000069E4      __stdcall HelpHintEditProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00009304      __stdcall MediaDirDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000A87C      __stdcall MouseResetTimer(HWND__ *, unsigned int, unsigned int, unsigned long)
+ 0001:00006D70      __stdcall OrderFrmDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00005BC0      __stdcall OrderOption_DlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000A7DC      __stdcall PreviewWndProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000671C      __stdcall PrintCancelDlg_DlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000A684      __stdcall SaverWndProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00009F74      __stdcall ScreenSaverThread(void *)
+ 0003:00000878      __stkbase
+ 0002:00002190      __streams
+ 0002:00002840      __sys_errlist
+ 0002:00002904      __sys_nerr
+ 0001:0001405C      __terminate
+ 0002:000039A0      __timezone
+ 0002:0000345C      __tiny_ldble
+ 0001:000144BC      __totalsec
+ 0001:0000D52C      __tpdsc__ std::bad_alloc
+ 0001:0000D5C0      __tpdsc__ std::bad_alloc *
+ 0001:0000D5D8      __tpdsc__ std::exception
+ 0002:000034A8      __turboFloat
+ 0001:0000EE80      __typeIDname(tpid *)
+ 0002:000039A8      __tzname
+ 0001:00014658      __tzset
+ 0002:00002F38      __upper
+ 0002:00001CB8      __virt_chunk_free
+ 0002:00001CBC      __virt_chunk_free2
+ 0002:00001CA8      __virt_chunk_size
+ 0002:00001CAC      __virt_chunk_size2
+ 0002:00001CA4      __virt_heap_size
+ 0003:00000868      __wC0argv
+ 0003:0000086C      __wC0environ
+ 0001:000135C8      __wargv_default_expand
+ 0002:000036FC      __wargv_expand_ptr
+ 0002:00003654      __wexitargv_ptr
+ 0001:0000E6D4      __wmemset
+ 0003:00000864      __woscmd
+ 0003:00000860      __wosenv
+ 0001:0000F48C      __write
+ 0002:00003650      __wsetargv_ptr
+ 0001:000106CC      __xfflush
+ 0001:00013488      _abort
+ 0001:00000EC4      _abs
+ 0001:00006614      _atoi
+ 0001:000112F0      _atoi
+ 0001:00011288      _atol
+ 0001:0000D43C      _calloc
+ 0002:000035DC      _errno
+ 0001:000134F0      _exit
+ 0001:0000F528      _fflush
+ 0001:0000FA38      _fputc
+ 0001:0000D810      _free
+ 0001:000113A4      _ftol()
+ 0002:00001190      _gPrinterContinuePrinting
+ 0001:00013540      _getenv
+ 0003:0000000C      _hgPrintCancelDld
+ 0001:00010748      _isalnum
+ 0001:00010774      _isalpha
+ 0001:00010760      _isascii
+ 0001:0001078C      _iscntrl
+ 0001:000107A0      _isdigit
+ 0001:000107B4      _isgraph
+ 0001:000107CC      _islower
+ 0001:000107E0      _isprint
+ 0001:000107F8      _ispunct
+ 0001:0001080C      _isspace
+ 0001:00010820      _isupper
+ 0001:0001084C      _iswalnum
+ 0001:00010878      _iswalpha
+ 0001:00010864      _iswascii
+ 0001:00010890      _iswcntrl
+ 0001:000108A4      _iswdigit
+ 0001:000108B8      _iswgraph
+ 0001:000108D0      _iswlower
+ 0001:000108E4      _iswprint
+ 0001:000108FC      _iswpunct
+ 0001:00010910      _iswspace
+ 0001:00010924      _iswupper
+ 0001:00010938      _iswxdigit
+ 0001:00010834      _isxdigit
+ 0001:0000D800      _malloc
+ 0001:00010A40      _mblen
+ 0001:00010BFC      _mbstowcs
+ 0001:00010ABC      _mbtowc
+ 0001:0000E81C      _memcmp
+ 0001:0000E5D8      _memcpy
+ 0001:0000E5FC      _memmove
+ 0001:0000E648      _memset
+ 0003:00000000      _pConfigDlg
+ 0003:00000010      _pHelpHintDlg
+ 0003:00000018      _pMediaDirDlg
+ 0003:00000014      _pOrderFrmDlg
+ 0003:00000004      _pOrderOptDlg
+ 0003:00000008      _pPrintCnlDlg
+ 0003:0000001C      _pSSaverBase
+ 0001:00013FEC      _raise
+ 0001:00011784      _rand
+ 0001:0000D820      _realloc
+ 0001:00013F8C      _signal
+ 0001:0000FB70      _sprintf
+ 0001:0001175C      _srand
+ 0001:0000E6EC      _strcat
+ 0001:0000E888      _strdup
+ 0001:0000E8BC      _stricmp
+ 0001:0000E728      _strlen
+ 0001:0000E784      _strncat
+ 0001:0000E7F4      _strncmp
+ 0001:00014828      _time
+ 0001:00014820      _tzset
+ 0001:0000D6B8      _virt_alloc
+ 0001:0000D6E0      _virt_commit
+ 0001:0000D72C      _virt_decommit
+ 0001:0000D744      _virt_release
+ 0001:0000D64C      _virt_reserve
+ 0001:000106A8      _vprintf
+ 0001:0000FB98      _vsprintf
+ 0001:0000E91C      _wcscpy
+ 0001:0000E904      _wcslen
+ 0001:00010D64      _wcstombs
+ 0001:00010B88      _wctomb
+ 0003:00000014      b10_2
+ 0003:00000018      b13_2
+ 0003:000005F0      b1463_2
+ 0003:000006F8      b1599_2
+ 0003:000007F8      b1615_2
+ 0003:00000814      b1627_2
+ 0003:00000818      b1709_2
+ 0003:00000824      b1711_2
+ 0003:00000828      b1713_2
+ 0003:0000082C      b1785_2
+ 0003:0000083C      b1807_1
+ 0003:0000087C      b1847_2
+ 0003:0000001C      b18_2
+ 0003:00000884      b1903_2
+ 0003:0000002C      b243_2
+ 0003:00000000      b2_2
+ 0003:00000020      b44_0
+ 0003:00000024      b46_2
+ 0003:00000044      b557_2
+ 0003:00000454      b561_2
+ 0003:00000004      b5_1
+ 0003:0000045C      b757_1
+ 0003:000005EC      b833_2
+ 0003:00000008      b8_2
+ 0003:00000010      b9_2
+ 0001:000106CC      c1039_0
+ 0001:000106F4      c1053_0
+ 0001:00010748      c1061_0
+ 0001:0001084C      c1063_0
+ 0001:00010950      c1065_0
+ 0001:00010994      c1067_0
+ 0001:000109EC      c1109_0
+ 0001:00010A40      c1113_0
+ 0001:00010F08      c1163_0
+ 0001:00011108      c1203_0
+ 0001:00011288      c1227_0
+ 0001:00011300      c1239_0
+ 0001:00011314      c1253_0
+ 0001:00011344      c1255_0
+ 0001:0001135C      c1259_0
+ 0001:00011374      c1261_0
+ 0001:0001138C      c1301_0
+ 0001:000113A4      c1307_0
+ 0001:000113CC      c1309_0
+ 0001:000113FC      c1311_0
+ 0001:00011420      c1313_0
+ 0001:00011434      c1329_0
+ 0001:000114E8      c1339_0
+ 0001:00011600      c1349_0
+ 0001:00011690      c1361_0
+ 0001:000116BC      c1363_0
+ 0001:000116EC      c1365_0
+ 0001:00011704      c1387_0
+ 0001:0001172C      c1389_0
+ 0001:0001175C      c1391_0
+ 0001:00011778      c1391_2
+ 0001:000117EC      c1393_0
+ 0001:00011AE8      c1395_0
+ 0001:00011E1C      c1403_0
+ 0001:00012314      c1405_0
+ 0001:00012808      c1449_0
+ 0001:00012ADC      c1451_0
+ 0001:00012DD0      c1463_0
+ 0001:00012EFC      c1463_3
+ 0001:00012F0C      c1465_0
+ 0001:00012F4C      c1467_0
+ 0001:00012F68      c1485_0
+ 0001:00012F84      c1523_0
+ 0001:00012FD8      c1525_0
+ 0001:00013094      c1547_0
+ 0001:000130EC      c1599_0
+ 0001:00013194      c1615_0
+ 0001:0001324C      c1619_0
+ 0001:000133E8      c1627_0
+ 0001:000133E8      c1627_3
+ 0001:00013474      c1647_0
+ 0001:00013498      c1685_0
+ 0001:00013540      c1687_0
+ 0001:00013598      c1693_0
+ 0001:000135B4      c1695_0
+ 0001:000135C8      c1697_0
+ 0001:000135DC      c1703_0
+ 0001:00013604      c1709_0
+ 0001:00013604      c1709_3
+ 0001:0001368C      c1709_4
+ 0001:00013770      c1711_0
+ 0001:00013958      c1713_0
+ 0001:00013B80      c1771_0
+ 0001:00013B80      c1771_2
+ 0001:00013BB8      c1771_3
+ 0001:00013BC8      c1785_0
+ 0001:00013D48      c1785_3
+ 0001:00013BC8      c1785_4
+ 0001:00013D68      c1789_0
+ 0001:0001405C      c1809_0
+ 0001:000141B4      c1811_0
+ 0001:00014358      c1825_0
+ 0001:000143A8      c1843_0
+ 0001:00014650      c1845_0
+ 0001:00014650      c1845_2
+ 0001:00014658      c1847_0
+ 0001:00014820      c1849_0
+ 0001:00014828      c1875_0
+ 0001:00014878      c1903_0
+ 0001:00014878      c1903_3
+ 0001:00000000      c1_0
+ 0001:0000D43C      c211_0
+ 0001:0000D468      c213_0
+ 0001:0000D478      c215_0
+ 0001:0000D488      c217_0
+ 0001:0000D63C      c219_0
+ 0001:0000D64C      c241_0
+ 0001:0000D760      c243_0
+ 0001:0000D800      c249_0
+ 0001:0000D820      c251_0
+ 0001:0000D838      c253_0
+ 0001:0000D8D4      c253_2
+ 0001:0000D8F0      c255_0
+ 0001:0000D8F4      c259_0
+ 0001:0000E2C0      c279_0
+ 0001:0000E554      c281_0
+ 0001:0000E558      c285_0
+ 0001:0000E5D8      c429_0
+ 0001:0000E5FC      c433_0
+ 0001:0000E648      c435_0
+ 0001:0000E6D4      c437_0
+ 0001:0000E6EC      c451_0
+ 0001:0000E728      c459_0
+ 0001:0000E784      c461_0
+ 0001:0000E7F4      c463_0
+ 0001:0000D424      c46_0
+ 0001:0000D424      c46_3
+ 0001:0000E81C      c477_0
+ 0001:0000E888      c483_0
+ 0001:0000E8BC      c487_0
+ 0001:0000E904      c511_0
+ 0001:0000E91C      c513_0
+ 0001:0000E95C      c553_0
+ 0001:0000E9CC      c557_0
+ 0001:0000EB23      c557_3
+ 0001:0000F120      c561_0
+ 0001:0000F120      c561_4
+ 0001:0000F1F8      c573_0
+ 0001:0000F21C      c589_0
+ 0001:0000F264      c591_0
+ 0001:0000F2DC      c601_0
+ 0001:0000F3F8      c603_0
+ 0001:0000F40C      c621_0
+ 0001:0000F444      c677_0
+ 0001:0000F4A8      c681_0
+ 0001:0000F528      c743_0
+ 0001:0000F5A8      c765_0
+ 0001:0000F604      c769_0
+ 0001:0000F628      c783_0
+ 0001:0000F704      c831_0
+ 0001:0000F9C0      c833_0
+ 0001:0000FA38      c847_0
+ 0001:0000FB48      c921_0
+ 0001:0000FBC0      c933_0
+ 0001:0000FC70      c933_1
+ 0001:0000FCC0      c961_0
+ 0001:000106A8      c963_0
+ 0002:00002D34      d1041_0
+ 0002:00002F38      d1051_0
+ 0002:00003038      d1071_0
+ 0002:000011BC      d10_1
+ 0002:000013CC      d11_1
+ 0002:00003298      d1203_1
+ 0002:00003358      d1259_1
+ 0002:000033C0      d1261_1
+ 0002:00003428      d1263_0
+ 0002:0000342C      d1317_0
+ 0002:000034A8      d1327_0
+ 0002:000034B0      d1365_1
+ 0002:000034B8      d1391_1
+ 0002:000034C0      d1393_1
+ 0002:000034D4      d1395_1
+ 0002:000014D4      d13_1
+ 0002:000034FC      d1403_1
+ 0002:00003524      d1405_1
+ 0002:0000354C      d1463_1
+ 0002:000015BC      d14_1
+ 0002:00003594      d1599_1
+ 0002:00001658      d15_1
+ 0002:000035B8      d1615_1
+ 0002:000035DC      d1617_1
+ 0002:000035E0      d1619_1
+ 0002:000035F0      d1627_1
+ 0002:00003618      d1647_1
+ 0002:00003638      d1649_0
+ 0002:0000363C      d1685_1
+ 0002:00003648      d1705_0
+ 0002:00003650      d1707_0
+ 0002:00003658      d1709_1
+ 0002:000036AC      d1711_1
+ 0002:000036D4      d1713_1
+ 0002:000036F8      d1767_0
+ 0002:000036FC      d1769_0
+ 0002:00003700      d1771_1
+ 0002:00003720      d1785_1
+ 0002:00003774      d1789_1
+ 0002:00001680      d17_1
+ 0002:000037D4      d1807_0
+ 0002:000037D8      d1809_1
+ 0002:000037DC      d1839_0
+ 0002:000039A0      d1845_1
+ 0002:000039A8      d1847_1
+ 0002:00001734      d18_1
+ 0002:000039B8      d1903_1
+ 0002:00000090      d1_1
+ 0002:000018B8      d20_1
+ 0002:00001B78      d217_1
+ 0002:0000196C      d22_1
+ 0002:00001B48      d23_1
+ 0002:00001BE8      d241_1
+ 0002:00001BEC      d243_1
+ 0002:00001C84      d253_1
+ 0002:00001CA4      d259_1
+ 0002:00000134      d2_1
+ 0002:00001CE4      d349_1
+ 0002:0000052C      d3_1
+ 0002:00000D30      d4_1
+ 0002:00001D78      d555_0
+ 0002:00001D7C      d557_1
+ 0002:0000209C      d559_1
+ 0002:000020A4      d561_1
+ 0002:00002188      d603_1
+ 0002:0000218C      d683_0
+ 0002:00000E40      d6_1
+ 0002:00002190      d755_0
+ 0002:00002640      d757_0
+ 0002:0000270C      d767_0
+ 0002:00002710      d769_1
+ 0002:00001188      d7_1
+ 0002:00002714      d833_1
+ 0002:00002840      d865_1
+ 0002:00001190      d8_1
+ 0002:00002CBC      d961_1
+ 0002:00001194      d9_1
+ 0001:0000F213      invokeHnd()
+ 0001:0000F1F8      jump()
+ 0001:0000D468      operator delete(void *)
+ 0001:0000D478      operator delete[](void *)
+ 0001:0000D49C      operator new(unsigned int)
+ 0001:0000D63C      operator new[](unsigned int)
+ 0002:00001BD4      std::bad_alloc:: (rtti)
+ 0001:0000D584      std::bad_alloc::bad_alloc(const std::bad_alloc&)
+ 0001:0000D630      std::bad_alloc::what() const
+ 0001:0000E57C      std::bad_alloc::~bad_alloc()
+ 0002:00001BC0      std::exception:: (rtti)
+ 0001:0000D624      std::exception::what() const
+ 0001:0000E55C      std::exception::~exception()
+ 0001:00002104      std::randomize()
+ 0001:0000D488      std::set_new_handler(void (*)())
+ 0004:00000000      t561_3
+ 0002:00000514      tdib::
+
+  Address         Publics by Value
+
+ 0001:00000000      c1_0
+ 0001:00000000      __acrtused
+ 0001:00000059      __GetExceptDLLinfo
+ 0001:0000005E      __isDLL
+ 0001:00000066      __getHInstance
+ 0001:00000140      ___System__GetTls
+ 0001:00000140      Sysinit::__linkproc__ __fastcall GetTls()
+ 0001:00000150      DisplayConfigDialogBox(HINSTANCE__ *, HWND__ *)
+ 0001:0000019C      __stdcall ConfigDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:000002B4      TConfigDlg::OnNCDestroy(HWND__ *)
+ 0001:000002C8      TConfigDlg::TConfigDlg()
+ 0001:000002F0      TConfigDlg::~TConfigDlg()
+ 0001:00000328      TDIB::~TDIB()
+ 0001:0000035C      TConfigDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *)
+ 0001:00000380      TConfigDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:00000A14      TGif::~TGif()
+ 0001:00000A30      TSettings::GetRegNum()
+ 0001:00000A40      TSettings::GetSpeed()
+ 0001:00000A50      TSettings::GetStarCount()
+ 0001:00000A60      TSettings::GetStarMovement()
+ 0001:00000A70      TSettings::GetPlanetsOnOff()
+ 0001:00000A80      TSettings::GetSpaceShipsOnOff()
+ 0001:00000A90      TSettings::GetRandomMusic()
+ 0001:00000AA0      TSettings::GetPlanetsInfrontOfStars()
+ 0001:00000AB0      TSettings::GetCloudsOnOff()
+ 0001:00000AC0      TSettings::GetSoundOnOff()
+ 0001:00000AD0      TSettings::GetSongOnOff()
+ 0001:00000AE0      TSettings::GetLoadYourOwnOnOff()
+ 0001:00000AF0      TSettings::GetNumPlanetsAtOneTime()
+ 0001:00000B00      TSettings::GetNumShipsAtOneTime()
+ 0001:00000B10      TConfigDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00000DF4      TSettings::GetIntroHelpWnd()
+ 0001:00000E04      TSettings::SetIntroHelpWnd(int)
+ 0001:00000E18      TSettings::SaveSoundOnOff(int)
+ 0001:00000E2C      TSettings::SaveSongOnOff(int)
+ 0001:00000E40      TSettings::SaveLoadYourOwnOnOff(int)
+ 0001:00000E54      TConfigDlg::OnPaint(HWND__ *)
+ 0001:00000EC4      _abs
+ 0001:00000ED4      TConfigDlg::OnHScroll(HWND__ *, HWND__ *, unsigned int, int)
+ 0001:00000F80      TConfigDlg::SetScrollBarLabels(HWND__ *, HWND__ *, int)
+ 0001:000010E8      TConfigDlg::OnShowWindow(HWND__ *, int, unsigned int)
+ 0001:00001104      TConfigDlg::RecordUserSettings(HWND__ *)
+ 0001:00001370      TSettings::SaveSpeed(int)
+ 0001:00001384      TSettings::SaveStarCount(int)
+ 0001:00001398      TSettings::SaveStarMovement(int)
+ 0001:000013AC      TSettings::SavePlanetsOnOff(int)
+ 0001:000013C0      TSettings::SaveSpaceShipsOnOff(int)
+ 0001:000013D4      TSettings::SavePlanetsInfrontOfStars(int)
+ 0001:000013E8      TSettings::SaveCloudsOnOff(int)
+ 0001:000013FC      TSettings::SaveRandomMusic(int)
+ 0001:00001410      TSettings::SaveNumPlanetsAtOneTime(int)
+ 0001:00001424      TSettings::SaveNumShipsAtOneTime(int)
+ 0001:00001438      TConfigDlg::FreeAllAlocations()
+ 0001:00001440      TConfigDlg::GetSoundDirectory(HWND__ *)
+ 0001:00001524      TSettings::GetSoundDir()
+ 0001:00001534      TGBase::~TGBase()
+ 0001:00001554      TGBase::LoadFromBuffer(unsigned char *, unsigned long)
+ 0001:0000155C      TGBase::LoadFromFile(char *)
+ 0001:00001564      TGBase::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:0000156C      TDIB::width()
+ 0001:00001588      TDIB::height()
+ 0001:000015A4      TSettings::TSettings()
+ 0001:000015C8      TBaseSettings::TBaseSettings()
+ 0001:000015D0      TSettings::GetPrivateString()
+ 0001:00001A0C      TSettings::WritePrivateString()
+ 0001:00001D58      TSettings::WriteHelpHintSettings()
+ 0001:00001DB4      TAnimateSaver::TAnimateSaver(void *)
+ 0001:00001EB0      TAnimateSaver::LoadSpecificStartUpData()
+ 0001:00002104      std::randomize()
+ 0001:00002114      TScreenSaver::GetScreenDC()
+ 0001:00002124      TScreenSaver::SaverActive()
+ 0001:00002134      TScreenSaver::Mode()
+ 0001:00002144      TScreenSaver::Handle()
+ 0001:00002154      TScreenSaver::Instance()
+ 0001:00002164      TObjList::Count()
+ 0001:00002170      TAnimateSaver::LoadControlPanelPrefs()
+ 0001:00002370      TAnimateSaver::LoadGraphics()
+ 0001:00002948      TBitmap::~TBitmap()
+ 0001:0000297C      TDIB::InitActiveDC(HDC__ *)
+ 0001:0000298C      TDIB::dib()
+ 0001:00002998      TBitmap::Handle()
+ 0001:000029A4      TDIB::bits()
+ 0001:000029C4      TAnimateSaver::DisplayBufferOnStartUp()
+ 0001:00002A04      TAnimateSaver::AnimateSaver()
+ 0001:00002A9C      TScreenSaver::PaintPasswordDialogRect()
+ 0001:00002AAC      TScreenSaver::GetPasswordWindowRect()
+ 0001:00002ABC      TScreenSaver::ResetPasswordRect()
+ 0001:00002AD8      TAnimateSaver::PlayMusic()
+ 0001:00002BF4      TMediaPlayer::GetPlayError()
+ 0001:00002C04      TAnimateSaver::DisplayMusicError()
+ 0001:00002C5C      TMediaPlayer::GetErrorStr()
+ 0001:00002C6C      TAnimateSaver::Animate()
+ 0001:00002CC8      TAnimateSaver::EraseTheBuffer()
+ 0001:00002ED8      TDIB::SetCopyMode(unsigned long)
+ 0001:00002EE8      TAnimateSaver::UpdateAllAnimations()
+ 0001:00002F2C      TAnimateSaver::UpdateStarPositions()
+ 0001:00003094      TAnimateSaver::UpdatePlanetPositions()
+ 0001:00003170      TAnimateSaver::UpdateShipPositions()
+ 0001:0000323C      TAnimateSaver::BlitToTheBuffer()
+ 0001:000036BC      TAnimateSaver::BlitFromBufferToScreen()
+ 0001:00003804      TAnimateSaver::ShowShareWareScreen()
+ 0001:000038D0      TAnimateSaver::~TAnimateSaver()
+ 0001:000039A8      TSettings::~TSettings()
+ 0001:000039D0      TAnimateSaver::InitStarData()
+ 0001:000044CC      TAnimateSaver::InitPlanetData()
+ 0001:0000495C      TAnimateSaver::InitShipData()
+ 0001:00005644      TAnimateSaver::AddSubtractRect(tagRECT *, tagRECT *, int, int)
+ 0001:00005730      TAnimateSaver::ResetStarStructure(TStar *)
+ 0001:0000580C      TAnimateSaver::ResetPlanetStructure(TPlanet *)
+ 0001:00005964      TAnimateSaver::ResetShipStructure(TShip *)
+ 0001:00005B3C      TDIB::Get_biSize()
+ 0001:00005B58      TBaseSettings::~TBaseSettings()
+ 0001:00005B74      DisplayOrderOptionDlg(HINSTANCE__ *, HWND__ *, int)
+ 0001:00005BC0      __stdcall OrderOption_DlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00005C64      TOrderOptDlg::OnNCDestroy(HWND__ *)
+ 0001:00005C78      TOrderOptDlg::TOrderOptDlg()
+ 0001:00005C80      TOrderOptDlg::~TOrderOptDlg()
+ 0001:00005C9C      TOrderOptDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, int)
+ 0001:00005CC4      TOrderOptDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:00005D0C      TOrderOptDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00005D48      TOrderOptDlg::OnDestroy(HWND__ *)
+ 0001:00005D50      TBaseConfigDlg::TBaseConfigDlg()
+ 0001:00005D6C      TBaseConfigDlg::~TBaseConfigDlg()
+ 0001:00005D98      TBaseConfigDlg::SetupOrderFormInfo()
+ 0001:00005F8C      TSettings::SetTitle(char *)
+ 0001:00005FA4      TSettings::SetCompanyName(char *)
+ 0001:00005FBC      TSettings::SetCoAddressLine1(char *)
+ 0001:00005FD4      TSettings::SetCoAddressLine2(char *)
+ 0001:00005FEC      TSettings::SetCoCity(char *)
+ 0001:00006004      TSettings::SetCoZip(char *)
+ 0001:0000601C      TSettings::SetCoWebAddress(char *)
+ 0001:00006034      TSettings::SetCoEmailAddress(char *)
+ 0001:0000604C      TSettings::SetOrderInfo(char *)
+ 0001:00006064      TSettings::SetOfferFloppy(int)
+ 0001:00006078      TSettings::SetFloppyCost(double)
+ 0001:00006094      TSettings::SetFloppyInfo(char *)
+ 0001:000060AC      TSettings::SetProductCost(double)
+ 0001:000060C8      TSettings::SetSalesTax(double)
+ 0001:000060E4      TSettings::SetCheckStateIndex(unsigned short)
+ 0001:000060F8      TSettings::SetNoPrinterAvailable(int)
+ 0001:0000610C      TSettings::SetCreditCardInfo(char *)
+ 0001:00006124      TSettings::SetVisa(int)
+ 0001:00006138      TSettings::SetMasterCard(int)
+ 0001:0000614C      TSettings::SetDiscover(int)
+ 0001:00006160      TSettings::SetAmericanExpress(int)
+ 0001:00006174      TSettings::SetOFInfoCaption(char *)
+ 0001:0000618C      TSettings::SetOFInfoTitle(char *)
+ 0001:000061A4      TSettings::SetOFInfoBufferCheckSum(int)
+ 0001:000061B8      TSettings::SetPrintLogo(int)
+ 0001:000061CC      TSettings::SetOFInfoBufferPtr(char *)
+ 0001:000061E0      TSettings::SetOFInfoBufferSize(unsigned long)
+ 0001:000061F4      TBaseConfigDlg::ShowOrderFormDlg(HWND__ *)
+ 0001:000062DC      TSettings::SetThankYouNoteBuffer(char *)
+ 0001:000062F0      TBaseConfigDlg::CheckRegNumber(char *)
+ 0001:000065D0      TSettings::SetRegNum(char *)
+ 0001:000065E8      TBaseSettings::GetSettingsBool(char *, char *, char *, char *)
+ 0001:00006614      _atoi
+ 0001:00006624      TBaseSettings::GetSettingsInt(char *, char *, char *, char *)
+ 0001:00006650      TBaseSettings::GetSettingsChar(char *, char *, char *, char *)
+ 0001:00006678      TBaseSettings::SaveIniSetting(char *, char *, char *, char *)
+ 0001:00006694      TBaseSettings::SaveIniSetting(char *, char *, char *, int)
+ 0001:000066C4      DisplayPrintCancelDlg(HINSTANCE__ *, HWND__ *, char *, int)
+ 0001:0000671C      __stdcall PrintCancelDlg_DlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:000067C0      TPrintCnlDlg::OnNCDestroy(HWND__ *)
+ 0001:000067D4      TPrintCnlDlg::TPrintCnlDlg()
+ 0001:000067E8      TPrintCnlDlg::~TPrintCnlDlg()
+ 0001:00006804      TPrintCnlDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, char *, int)
+ 0001:00006848      TPrintCnlDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000068A4      TPrintCnlDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:000068BC      TPrintCnlDlg::OnDestroy(HWND__ *)
+ 0001:000068C4      DisplayHelpHintDialogBox(HINSTANCE__ *, HWND__ *, char *, char *, char *, char *, int *, int, char *, unsigned long, int)
+ 0001:0000692C      __stdcall HelpHintDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:000069D0      THelpHintDlg::OnNCDestroy(HWND__ *)
+ 0001:000069E4      __stdcall HelpHintEditProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00006A2C      THelpHintDlg::GetEditProc()
+ 0001:00006A38      THelpHintDlg::THelpHintDlg(HINSTANCE__ *, HWND__ *)
+ 0001:00006A5C      THelpHintDlg::~THelpHintDlg()
+ 0001:00006A78      THelpHintDlg::CreateDialogWnd(char *, char *, char *, char *, int *, int, char *, unsigned long, int)
+ 0001:00006ACC      THelpHintDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:00006C7C      THelpHintDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00006CDC      THelpHintDlg::OnDestroy(HWND__ *)
+ 0001:00006D20      DisplayOrderFrmDialogBox(HINSTANCE__ *, HWND__ *, TSettings *, int)
+ 0001:00006D70      __stdcall OrderFrmDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:00006E68      TOrderFrmDlg::OnNCDestroy(HWND__ *)
+ 0001:00006E7C      TOrderFrmDlg::TOrderFrmDlg()
+ 0001:00006E94      TOrderFrmDlg::~TOrderFrmDlg()
+ 0001:00006EC0      TOrderFrmDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, TSettings *, int)
+ 0001:00006EF0      TOrderFrmDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:000073A4      TSettings::GetTitle()
+ 0001:000073B4      TSettings::GetOrderInfo()
+ 0001:000073C4      TSettings::GetName()
+ 0001:000073D4      TSettings::GetAddress1()
+ 0001:000073E4      TSettings::GetAddress2()
+ 0001:000073F4      TSettings::GetCity()
+ 0001:00007404      TSettings::GetZip()
+ 0001:00007414      TSettings::GetEmail()
+ 0001:00007424      TSettings::GetIncludeFloppy()
+ 0001:00007434      TSettings::GetStateIndex()
+ 0001:00007444      TSettings::GetVisa()
+ 0001:00007454      TSettings::GetMasterCard()
+ 0001:00007464      TSettings::GetDiscover()
+ 0001:00007474      TSettings::GetAmericanExpress()
+ 0001:00007484      TSettings::GetCreditCardInfo()
+ 0001:00007494      TSettings::GetOfferFloppy()
+ 0001:000074A4      TSettings::GetFloppyInfo()
+ 0001:000074B4      TSettings::GetFloppyCost()
+ 0001:000074C4      TSettings::GetNoPrinterAvailable()
+ 0001:000074D4      TOrderFrmDlg::SaveUserSettings(HWND__ *)
+ 0001:00007638      TSettings::SetName(char *)
+ 0001:00007650      TSettings::SetAddress1(char *)
+ 0001:00007668      TSettings::SetAddress2(char *)
+ 0001:00007680      TSettings::SetCity(char *)
+ 0001:00007698      TSettings::SetStateIndex(int)
+ 0001:000076AC      TSettings::SetZip(char *)
+ 0001:000076C4      TSettings::SetEmail(char *)
+ 0001:000076DC      TSettings::SetIncludeFloppy(int)
+ 0001:000076F0      TOrderFrmDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:000077FC      TSettings::GetOrderFrmHelpWnd()
+ 0001:0000780C      TSettings::GetOFInfoCaption()
+ 0001:0000781C      TSettings::GetOFInfoTitle()
+ 0001:0000782C      TSettings::GetOFInfoBufferCheckSum()
+ 0001:0000783C      TSettings::GetOFInfoBufferPtr()
+ 0001:0000784C      TSettings::GetOFInfoBufferSize()
+ 0001:0000785C      TSettings::SetOrderFrmHelpWnd(int)
+ 0001:00007870      TOrderFrmDlg::ShowNoPrinterDlg(HWND__ *)
+ 0001:000079F8      TSettings::GetCheckStateIndex()
+ 0001:00007A08      TSettings::GetCoAddressLine2()
+ 0001:00007A18      TSettings::GetCompanyName()
+ 0001:00007A28      TSettings::GetCoAddressLine1()
+ 0001:00007A38      TSettings::GetCoCity()
+ 0001:00007A48      TSettings::GetCoZip()
+ 0001:00007A58      TSettings::GetCoWebAddress()
+ 0001:00007A68      TSettings::GetCoEmailAddress()
+ 0001:00007A78      TOrderFrmDlg::OnPaint(HWND__ *)
+ 0001:00007AD4      TOrderFrmDlg::PrintOrderForm(HWND__ *)
+ 0001:000083B0      TSettings::GetPrintLogo()
+ 0001:000083C0      TPrinter::GetpixelsPerInchY()
+ 0001:000083E8      TPrinter::width()
+ 0001:00008410      TPrinter::GetpixelsPerInchX()
+ 0001:00008438      TSettings::GetThankYouNoteBuffer()
+ 0001:00008448      TPrinter::height()
+ 0001:00008470      TPrinter::Handle()
+ 0001:00008480      TMetafile::~TMetafile()
+ 0001:000084A4      TOrderFrmDlg::CheckPrinterTopMargin(int, TPrinter *)
+ 0001:000084DC      TOrderFrmDlg::FormatTotalCost(HWND__ *)
+ 0001:000086C8      TSettings::GetProductCost()
+ 0001:000086D8      TSettings::GetSalesTax()
+ 0001:000086E8      TOrderFrmDlg::OnShowWindow(HWND__ *, int, unsigned int)
+ 0001:00008714      TOrderFrmDlg::OnDestroy(HWND__ *)
+ 0001:00008728      TBitmap::TBitmap()
+ 0001:0000876C      TBitmap::Free()
+ 0001:000087B8      TBitmap::CreateBitmap(int, int)
+ 0001:00008890      TBitmap::CreateDIBSectionBuffer(int, int, int, tagRGBQUAD *)
+ 0001:00008B90      TBitmap::CreateStandardBuffer(int, int)
+ 0001:00008C8C      TBitmap::Draw(TBitmap *, tagRECT *)
+ 0001:00008CCC      TBitmap::Draw(HDC__ *, tagRECT *)
+ 0001:00008D00      TBitmap::Draw(TBitmap *, tagRECT *, tagRECT *)
+ 0001:00008D44      TBitmap::StretchDraw(HDC__ *, tagRECT *)
+ 0001:00008DA0      TBitmap::ColorRect(tagRECT *, HBRUSH__ *)
+ 0001:00008DC0      TBitmap::IsEmpty()
+ 0001:00008DE0      TBitmap::width()
+ 0001:00008E10      TBitmap::height()
+ 0001:00008E40      TObjList::TObjList()
+ 0001:00008E74      TObjFileHeader::TObjFileHeader()
+ 0001:00008E8C      TObjList::~TObjList()
+ 0001:00008EB4      TObjList::AddObj(void *)
+ 0001:00008F28      TObjList::GetObj(int)
+ 0001:00008F44      TObjList::FreeObj()
+ 0001:00008F8C      TObjList::MixUp()
+ 0001:00008FD8      TObjList::Delete(int)
+ 0001:00009078      TObjList::SaveToFile(void *)
+ 0001:0000912C      TObjList::LoadFromFile(void *)
+ 0001:000091D0      TObjList::LoadObjectData(void *, int)
+ 0001:0000923C      TObjList::LoadObjectDataFromPointer(unsigned char *, int)
+ 0001:00009298      TObjList::GetObjDataHeader(int)
+ 0001:000092A4      TObjList::GetObjSize(int)
+ 0001:000092AC      TObjList::Add()
+ 0001:000092B4      MediaDir_GetSoundDirectory(HINSTANCE__ *, HWND__ *, char *, char *)
+ 0001:00009304      __stdcall MediaDirDlgProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:000093A4      TMediaDirDlg::OnNCDestroy(HWND__ *)
+ 0001:000093B8      TMediaDirDlg::TMediaDirDlg()
+ 0001:000093C4      TMediaDirDlg::~TMediaDirDlg()
+ 0001:000093E0      TMediaDirDlg::CreateDialogWnd(HINSTANCE__ *, HWND__ *, char *, char *)
+ 0001:00009504      TMediaDirDlg::OnInitDialog(HWND__ *, HWND__ *, long)
+ 0001:0000957C      TMediaDirDlg::OnDestroy(HWND__ *)
+ 0001:00009598      TMediaDirDlg::OnCommand(HWND__ *, int, HWND__ *, unsigned int)
+ 0001:00009630      TMediaPlayer::TMediaPlayer(HWND__ *, HINSTANCE__ *, int, unsigned long)
+ 0001:000096E8      TMediaPlayer::~TMediaPlayer()
+ 0001:00009730      TMediaPlayer::Play(char *)
+ 0001:000097F4      TMediaPlayer::Play(char *, char *)
+ 0001:00009888      TMediaPlayer::Play()
+ 0001:00009900      TMediaPlayer::Close()
+ 0001:0000992C      TMediaPlayer::GetStatus()
+ 0001:00009954      TStringList::TStringList()
+ 0001:00009970      TStringList::~TStringList()
+ 0001:0000999C      TStringList::Add(char *)
+ 0001:00009A0C      TStringList::GetString(int)
+ 0001:00009A24      TStringList::Sort()
+ 0001:00009AE0      TObjList::SetObj(void *, int)
+ 0001:00009AF4      TStringList::GetAllFileNamesInDir(char *, char *)
+ 0001:00009BFC      TStringList::LoadObjectData(void *, int)
+ 0001:00009C64      TStringList::GetObjDataHeader(int)
+ 0001:00009C84      TStringList::GetObjSize(int)
+ 0001:00009CA4      TStringList::Add()
+ 0001:00009CAC      TCanvas::TCanvas()
+ 0001:00009CDC      TCanvas::~TCanvas()
+ 0001:00009D48      TCanvas::DrawTextA(int, int, char *)
+ 0001:00009D78      TCanvas::SetFont(char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:00009DE4      TCanvas::TextHeight(char *)
+ 0001:00009E20      TCanvas::WrapText(char *, int, int, int, int, int, int)
+ 0001:00009E5C      TCanvas::InitActiveDC(HDC__ *)
+ 0001:00009F04      TCanvas::SetBackgroundColor(unsigned long)
+ 0001:00009F24      TCanvas::SetForgroundColor(unsigned long)
+ 0001:00009F34      TCanvas::SetBackgroundMode(int)
+ 0001:00009F54      TCanvas::SetTextColorToDC(unsigned long)
+ 0001:00009F74      __stdcall ScreenSaverThread(void *)
+ 0001:0000A01C      TScreenSaver::TScreenSaver(void *)
+ 0001:0000A040      TScreenSaver::LoadGeneralStartUpData()
+ 0001:0000A0F4      TScreenSaver::SetScreenDC(HDC__ *)
+ 0001:0000A108      TScreenSaver::Width()
+ 0001:0000A118      TScreenSaver::Height()
+ 0001:0000A128      TScreenSaver::InitilizeScreenSaver()
+ 0001:0000A16C      TScreenSaver::ScreenSaverErrorAbortSaver(char *)
+ 0001:0000A1B0      TScreenSaver::StopScreenSaver()
+ 0001:0000A1C0      TScreenSaver::~TScreenSaver()
+ 0001:0000A21C      TScreenSaver::DisplayShareWareScreen()
+ 0001:0000A4FC      TScreenSaver::ValidateTempRegNum(char *, unsigned long)
+ 0001:0000A5D0      TScreenSaver::LoadSpecificStartUpData()
+ 0001:0000A5DC      TScreenSaver::DisplayBufferOnStartUp()
+ 0001:0000A5E4      WinMain
+ 0001:0000A684      __stdcall SaverWndProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000A7DC      __stdcall PreviewWndProc(HWND__ *, unsigned int, unsigned int, long)
+ 0001:0000A87C      __stdcall MouseResetTimer(HWND__ *, unsigned int, unsigned int, unsigned long)
+ 0001:0000A894      TSSaverBase::SetMouseTicks(int)
+ 0001:0000A8A4      TSSaverBase::TSSaverBase()
+ 0001:0000A8AC      TSSaverBase::~TSSaverBase()
+ 0001:0000A8C8      TSSaverBase::CreateParentWnd(HINSTANCE__ *, char *)
+ 0001:0000A9B0      TSSaverBase::RegisterWnd(HINSTANCE__ *, int)
+ 0001:0000AA30      TSSaverBase::CreateWnd(HINSTANCE__ *, int, HWND__ *)
+ 0001:0000AAD0      TSSaverBase::OnCreate(HWND__ *, tagCREATESTRUCTA *)
+ 0001:0000AB88      TSSaverBase::OnDestroy(HWND__ *)
+ 0001:0000AB94      TSSaverBase::OnClose(HWND__ *)
+ 0001:0000AC9C      TSSaverBase::OnButton(HWND__ *)
+ 0001:0000ACB4      TSSaverBase::OnNCPaint(HWND__ *, HRGN__ *)
+ 0001:0000ACD0      TSSaverBase::OnMouseMove(HWND__ *, int, int, unsigned int)
+ 0001:0000AD1C      TSSaverBase::MouseEvent(HWND__ *)
+ 0001:0000AD3C      TSSaverBase::CloseIfOk(HWND__ *)
+ 0001:0000ADA4      TSSaverBase::ParseCommandLine(char *, HWND__ * *)
+ 0001:0000AEA0      TSSaverBase::RunPasswordMode(HWND__ *)
+ 0001:0000AEFC      TSSaverBase::VerifyPassword(HWND__ *)
+ 0001:0000AF70      TMetafile::TMetafile()
+ 0001:0000AF98      TMetafile::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:0000AFF4      TMetafile::Free()
+ 0001:0000B010      TMetafile::ProcessMetafileData(unsigned char *, unsigned long)
+ 0001:0000B0C8      TMetafile::IsEmpty()
+ 0001:0000B0DC      TMetafile::Draw(HDC__ *, tagRECT *)
+ 0001:0000B100      PostMsg(char *, char *, ...)
+ 0001:0000B148      DoExist(char *)
+ 0001:0000B184      ShowHideCursor(int)
+ 0001:0000B1C0      LoadTheResource(HINSTANCE__ *, char *, char *, TLoadRes *)
+ 0001:0000B280      CheckSumData(void *, unsigned long)
+ 0001:0000B2C0      WrapTextToDevice(HDC__ *, char *, int, int, int, int, int, int, int)
+ 0001:0000B754      MakeFont(HDC__ *, char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:0000B824      GetTheWindowsDirectory(char *, int)
+ 0001:0000B860      GetTheWindowsTmpDir(char *)
+ 0001:0000B8A8      CenterWindow(HWND__ *, int, int, HWND__ *, int)
+ 0001:0000B99C      SaveResourceToDisk(HINSTANCE__ *, char *, char *, char *)
+ 0001:0000BA28      GetScreenWidth()
+ 0001:0000BA30      GetScreenHeight()
+ 0001:0000BA38      TPrinter::TPrinter()
+ 0001:0000BAA4      TPrinter::~TPrinter()
+ 0001:0000BAC8      TPrinter::Free()
+ 0001:0000BB88      TPrinter::DisplayPrintDlg(int, int)
+ 0001:0000BC14      TPrinter::BeginDoc(const char *)
+ 0001:0000BC70      TPrinter::StopDoc()
+ 0001:0000BC9C      TPrinter::BeginPage()
+ 0001:0000BCC0      TPrinter::StopPage()
+ 0001:0000BCE4      TPrinter::PrintText(int, int, char *, ...)
+ 0001:0000BD50      TPrinter::SetFont(char *, int, unsigned short, unsigned long, int, tagLOGFONTA *)
+ 0001:0000BE38      TPrinter::SetPen(int, int, unsigned long)
+ 0001:0000BEA0      TPrinter::PrintMetafile(TMetafile *, tagRECT *)
+ 0001:0000BEE0      TPrinter::WrapText(char *, int, int, int, int, int, int)
+ 0001:0000BF28      TPrinter::Line(int, int, int, int)
+ 0001:0000BF74      TDIB::TDIB()
+ 0001:0000BFC8      TGBase::TGBase()
+ 0001:0000BFD8      TDIB::getDIBcolors()
+ 0001:0000C038      TDIB::LoadFromResource(HINSTANCE__ *, char *, char *)
+ 0001:0000C0EC      TDIB::LoadFromFile(char *)
+ 0001:0000C25C      TDIB::DeletePalete()
+ 0001:0000C278      TDIB::DeleteBitmapBits()
+ 0001:0000C2C0      TDIB::GetPalette()
+ 0001:0000C364      TDIB::Free()
+ 0001:0000C37C      TDIB::IsEmpty()
+ 0001:0000C394      TDIB::LoadFromBuffer(unsigned char *, unsigned long)
+ 0001:0000C3FC      TDIB::BlitToDC(HDC__ *, int, int)
+ 0001:0000C494      TGif::TGif()
+ 0001:0000C4C4      TGif::LoadFromResource(char *, char *, HINSTANCE__ *)
+ 0001:0000C4E4      TGif::DecodeGif(char *, char *, HINSTANCE__ *, unsigned char *)
+ 0001:0000CC64      TGif::get_bytes(unsigned int, unsigned char *)
+ 0001:0000CD4C      TGif::get_byte()
+ 0001:0000CDBC      TGif::decoder(int)
+ 0001:0000CFC8      TGif::free()
+ 0001:0000D004      TGif::get_block()
+ 0001:0000D0E8      TGif::get_next_code()
+ 0001:0000D1EC      TGif::init_exp(int)
+ 0001:0000D248      TGif::putcolor(int, int, int)
+ 0001:0000D2E4      TGif::put_line(int, int, int, unsigned char *)
+ 0001:0000D424      c46_0
+ 0001:0000D424      c46_3
+ 0001:0000D42C      __ExceptInit
+ 0001:0000D430      __GetExceptDLLinfoInternal
+ 0001:0000D438      __InitDefaultHander
+ 0001:0000D43C      c211_0
+ 0001:0000D43C      _calloc
+ 0001:0000D43C      ___org_calloc
+ 0001:0000D468      c213_0
+ 0001:0000D468      operator delete(void *)
+ 0001:0000D468      ___org_delete
+ 0001:0000D478      ___org_deletea
+ 0001:0000D478      c215_0
+ 0001:0000D478      operator delete[](void *)
+ 0001:0000D488      c217_0
+ 0001:0000D488      std::set_new_handler(void (*)())
+ 0001:0000D49C      operator new(unsigned int)
+ 0001:0000D49C      ___org_new
+ 0001:0000D52C      __tpdsc__ std::bad_alloc
+ 0001:0000D584      std::bad_alloc::bad_alloc(const std::bad_alloc&)
+ 0001:0000D5C0      __tpdsc__ std::bad_alloc *
+ 0001:0000D5D8      __tpdsc__ std::exception
+ 0001:0000D624      std::exception::what() const
+ 0001:0000D630      std::bad_alloc::what() const
+ 0001:0000D63C      operator new[](unsigned int)
+ 0001:0000D63C      ___org_newa
+ 0001:0000D63C      c219_0
+ 0001:0000D64C      _virt_reserve
+ 0001:0000D64C      c241_0
+ 0001:0000D6B8      _virt_alloc
+ 0001:0000D6E0      _virt_commit
+ 0001:0000D72C      _virt_decommit
+ 0001:0000D744      _virt_release
+ 0001:0000D760      c243_0
+ 0001:0000D780      ___CRTL_MEM_GetBorMemPtrs
+ 0001:0000D7FC      ___CRTL_MEM_CheckBorMem
+ 0001:0000D800      _malloc
+ 0001:0000D800      ___org_malloc
+ 0001:0000D800      c249_0
+ 0001:0000D810      ___org_free
+ 0001:0000D810      _free
+ 0001:0000D820      _realloc
+ 0001:0000D820      c251_0
+ 0001:0000D820      ___org_realloc
+ 0001:0000D838      c253_0
+ 0001:0000D838      ___CRTL_MEM_Revector
+ 0001:0000D8D4      c253_2
+ 0001:0000D8E0      __free_heaps
+ 0001:0000D8F0      ___CRTL_MEM_UseBorMM
+ 0001:0000D8F0      c255_0
+ 0001:0000D8F4      c259_0
+ 0001:0000DED8      __internal_free
+ 0001:0000E048      __internal_malloc
+ 0001:0000E248      __phys_avail
+ 0001:0000E260      __internal_free_heaps
+ 0001:0000E2C0      ___org__expand
+ 0001:0000E2C0      c279_0
+ 0001:0000E2C0      __expand
+ 0001:0000E4A0      __internal_realloc
+ 0001:0000E538      __msize
+ 0001:0000E538      ___org__msize
+ 0001:0000E554      ___CRTL_VCL_Init
+ 0001:0000E554      c281_0
+ 0001:0000E558      c285_0
+ 0001:0000E558      ___CRTL_VCLLIB_Linkage
+ 0001:0000E55C      std::exception::~exception()
+ 0001:0000E57C      std::bad_alloc::~bad_alloc()
+ 0001:0000E5D8      _memcpy
+ 0001:0000E5D8      c429_0
+ 0001:0000E5D8      ___org_memcpy
+ 0001:0000E5FC      _memmove
+ 0001:0000E5FC      ___org_memmove
+ 0001:0000E5FC      c433_0
+ 0001:0000E648      _memset
+ 0001:0000E648      ___org_memset
+ 0001:0000E648      c435_0
+ 0001:0000E6D4      __wmemset
+ 0001:0000E6D4      c437_0
+ 0001:0000E6EC      c451_0
+ 0001:0000E6EC      _strcat
+ 0001:0000E6EC      ___org_strcat
+ 0001:0000E728      c459_0
+ 0001:0000E728      _strlen
+ 0001:0000E728      ___org_strlen
+ 0001:0000E784      _strncat
+ 0001:0000E784      ___org_strncat
+ 0001:0000E784      c461_0
+ 0001:0000E7F4      ___org_strncmp
+ 0001:0000E7F4      c463_0
+ 0001:0000E7F4      _strncmp
+ 0001:0000E81C      c477_0
+ 0001:0000E81C      ___org_memcmp
+ 0001:0000E81C      _memcmp
+ 0001:0000E888      ___org_strdup
+ 0001:0000E888      c483_0
+ 0001:0000E888      _strdup
+ 0001:0000E8BC      c487_0
+ 0001:0000E8BC      ___org_stricmp
+ 0001:0000E8BC      _stricmp
+ 0001:0000E904      c511_0
+ 0001:0000E904      _wcslen
+ 0001:0000E91C      _wcscpy
+ 0001:0000E91C      c513_0
+ 0001:0000E95C      c553_0
+ 0001:0000E95C      __InitExceptBlockLDTC
+ 0001:0000E995      __ExitExceptBlock
+ 0001:0000E9A3      __ExceptionHandler
+ 0001:0000E9CC      c557_0
+ 0001:0000EB23      c557_3
+ 0001:0000EE80      __typeIDname(tpid *)
+ 0001:0000EEB8      __isSameTypeID(tpid *, tpid *)
+ 0001:0000EF94      __isCompatTypeID(tpid *, tpid *, int, tpid * *)
+ 0001:0000F0A4      __adjustClassAdr(void *, tpid *, tpid *)
+ 0001:0000F120      c561_0
+ 0001:0000F120      c561_4
+ 0001:0000F14C      ___call_terminate
+ 0001:0000F1C0      ___call_unexpected
+ 0001:0000F1F8      c573_0
+ 0001:0000F1F8      jump()
+ 0001:0000F1FE      ___doGlobalUnwind
+ 0001:0000F213      invokeHnd()
+ 0001:0000F21C      ___isatty
+ 0001:0000F21C      c589_0
+ 0001:0000F24C      ___isatty_osfhandle
+ 0001:0000F264      ___lseek
+ 0001:0000F264      c591_0
+ 0001:0000F2DC      ___write
+ 0001:0000F2DC      c601_0
+ 0001:0000F3F8      c603_0
+ 0001:0000F40C      __flushall
+ 0001:0000F40C      c621_0
+ 0001:0000F444      __rtl_write
+ 0001:0000F444      ___org__rtl_write
+ 0001:0000F444      c677_0
+ 0001:0000F48C      ___org__write
+ 0001:0000F48C      __write
+ 0001:0000F4A8      __allocbuf
+ 0001:0000F4A8      c681_0
+ 0001:0000F528      ___org_fflush
+ 0001:0000F528      _fflush
+ 0001:0000F528      c743_0
+ 0001:0000F5A8      c765_0
+ 0001:0000F5A8      __flushout
+ 0001:0000F604      __initfmode
+ 0001:0000F604      c769_0
+ 0001:0000F614      __initfileinfo
+ 0001:0000F628      c783_0
+ 0001:0000F628      ___fputn
+ 0001:0000F704      c831_0
+ 0001:0000F704      __get_handle
+ 0001:0000F744      __dup_handle
+ 0001:0000F7AC      __free_handle
+ 0001:0000F864      __init_handles
+ 0001:0000F9C0      c833_0
+ 0001:0000F9C0      ___IOerror
+ 0001:0000FA04      ___DOSerror
+ 0001:0000FA24      ___NTerror
+ 0001:0000FA38      ___org_fputc
+ 0001:0000FA38      _fputc
+ 0001:0000FA38      c847_0
+ 0001:0000FB48      c921_0
+ 0001:0000FB70      _sprintf
+ 0001:0000FB70      ___org_sprintf
+ 0001:0000FB98      _vsprintf
+ 0001:0000FB98      ___org_vsprintf
+ 0001:0000FBC0      __init_streams
+ 0001:0000FBC0      c933_0
+ 0001:0000FC70      c933_1
+ 0001:0000FC70      __exit_streams
+ 0001:0000FCC0      c961_0
+ 0001:0000FD70      ___vprinter
+ 0001:000106A8      c963_0
+ 0001:000106A8      _vprintf
+ 0001:000106A8      ___org_vprintf
+ 0001:000106CC      __xfflush
+ 0001:000106CC      c1039_0
+ 0001:000106F4      c1053_0
+ 0001:000106F4      __getLocaleNumericInfo
+ 0001:00010748      _isalnum
+ 0001:00010748      c1061_0
+ 0001:00010760      _isascii
+ 0001:00010774      _isalpha
+ 0001:0001078C      _iscntrl
+ 0001:000107A0      _isdigit
+ 0001:000107B4      _isgraph
+ 0001:000107CC      _islower
+ 0001:000107E0      _isprint
+ 0001:000107F8      _ispunct
+ 0001:0001080C      _isspace
+ 0001:00010820      _isupper
+ 0001:00010834      _isxdigit
+ 0001:0001084C      _iswalnum
+ 0001:0001084C      c1063_0
+ 0001:00010864      _iswascii
+ 0001:00010878      _iswalpha
+ 0001:00010890      _iswcntrl
+ 0001:000108A4      _iswdigit
+ 0001:000108B8      _iswgraph
+ 0001:000108D0      _iswlower
+ 0001:000108E4      _iswprint
+ 0001:000108FC      _iswpunct
+ 0001:00010910      _iswspace
+ 0001:00010924      _iswupper
+ 0001:00010938      _iswxdigit
+ 0001:00010950      c1065_0
+ 0001:00010950      ___isctype
+ 0001:00010994      c1067_0
+ 0001:00010994      ___iswctype
+ 0001:000109EC      __ltoupper
+ 0001:000109EC      c1109_0
+ 0001:00010A40      _mblen
+ 0001:00010A40      ___org_mblen
+ 0001:00010A40      c1113_0
+ 0001:00010ABC      _mbtowc
+ 0001:00010ABC      ___org_mbtowc
+ 0001:00010B88      ___org_wctomb
+ 0001:00010B88      _wctomb
+ 0001:00010BFC      _mbstowcs
+ 0001:00010BFC      ___org_mbstowcs
+ 0001:00010D64      ___org_wcstombs
+ 0001:00010D64      _wcstombs
+ 0001:00010F08      c1163_0
+ 0001:00010F08      __llmul
+ 0001:00010F2B      __lldiv
+ 0001:00010FA3      __lludiv
+ 0001:00010FEC      __llmod
+ 0001:00011066      __llumod
+ 0001:000110B4      __llshl
+ 0001:000110D0      __llshr
+ 0001:000110EC      __llushr
+ 0001:00011108      c1203_0
+ 0001:00011108      __pow10
+ 0001:00011288      ___org_atol
+ 0001:00011288      _atol
+ 0001:00011288      c1227_0
+ 0001:000112F0      _atoi
+ 0001:000112F0      ___org_atoi
+ 0001:00011300      c1239_0
+ 0001:00011300      __clear87
+ 0001:00011314      __control87
+ 0001:00011314      c1253_0
+ 0001:00011344      c1255_0
+ 0001:00011344      ___realcvt
+ 0001:0001134A      ___nextreal
+ 0001:00011350      __scantod
+ 0001:00011356      __scanrslt
+ 0001:0001135C      c1259_0
+ 0001:00011374      c1261_0
+ 0001:0001138C      __fpreset
+ 0001:0001138C      c1301_0
+ 0001:000113A4      c1307_0
+ 0001:000113A4      __ftol
+ 0001:000113A4      _ftol()
+ 0001:000113CC      __fuildq
+ 0001:000113CC      c1309_0
+ 0001:000113FC      c1311_0
+ 0001:000113FC      __fuistq
+ 0001:00011420      c1313_0
+ 0001:00011420      __fxam
+ 0001:00011434      c1329_0
+ 0001:00011434      ___int64toa
+ 0001:000114E8      ___ldtrunc
+ 0001:000114E8      c1339_0
+ 0001:00011600      ___longtoa
+ 0001:00011600      c1349_0
+ 0001:00011674      ___utoa
+ 0001:00011690      __matherr
+ 0001:00011690      c1361_0
+ 0001:00011690      ___org__matherr
+ 0001:000116BC      c1363_0
+ 0001:000116BC      ___org__matherrl
+ 0001:000116BC      __matherrl
+ 0001:000116EC      c1365_0
+ 0001:000116EC      __initmatherr
+ 0001:00011704      __qdiv10
+ 0001:00011704      c1387_0
+ 0001:0001172C      c1389_0
+ 0001:0001172C      __qmul10
+ 0001:0001175C      c1391_0
+ 0001:0001175C      _srand
+ 0001:00011778      c1391_2
+ 0001:00011784      _rand
+ 0001:000117A0      __lrand
+ 0001:000117EC      c1393_0
+ 0001:00011AD0      __cvt_init
+ 0001:00011AE8      c1395_0
+ 0001:00011E04      __cvt_initw
+ 0001:00011E1C      c1403_0
+ 0001:000122FC      __scan_init
+ 0001:00012314      c1405_0
+ 0001:000127F0      __scan_initw
+ 0001:00012808      ___xcvt
+ 0001:00012808      c1449_0
+ 0001:00012ADC      ___xcvtw
+ 0001:00012ADC      c1451_0
+ 0001:00012DD0      __setmbcp
+ 0001:00012DD0      c1463_0
+ 0001:00012EF4      __getmbcp
+ 0001:00012EFC      __initMBCSTable
+ 0001:00012EFC      c1463_3
+ 0001:00012F0C      __ismbcalpha
+ 0001:00012F0C      c1465_0
+ 0001:00012F4C      c1467_0
+ 0001:00012F4C      __ismbcdigit
+ 0001:00012F68      c1485_0
+ 0001:00012F68      __ismbcspace
+ 0001:00012F84      c1523_0
+ 0001:00012F84      __mbsnbcpy
+ 0001:00012FD8      __mbsnbicmp
+ 0001:00012FD8      c1525_0
+ 0001:00013094      __mbsrchr
+ 0001:00013094      c1547_0
+ 0001:000130EC      c1599_0
+ 0001:00013134      __assert
+ 0001:00013194      c1615_0
+ 0001:000131E4      __ErrorMessageHelper
+ 0001:0001324C      c1619_0
+ 0001:000132A4      __ErrorMessage
+ 0001:000133C0      ___ErrorMessage
+ 0001:000133D0      __ErrorExit
+ 0001:000133E8      c1627_0
+ 0001:000133E8      c1627_3
+ 0001:00013474      c1647_0
+ 0001:00013474      __abort
+ 0001:00013488      _abort
+ 0001:00013498      c1685_0
+ 0001:000134F0      _exit
+ 0001:00013508      __exit
+ 0001:00013520      __cexit
+ 0001:00013530      __c_exit
+ 0001:00013540      c1687_0
+ 0001:00013540      ___org_getenv
+ 0001:00013540      _getenv
+ 0001:00013598      c1693_0
+ 0001:00013598      __init_wild_handlers
+ 0001:000135B4      c1695_0
+ 0001:000135B4      __argv_default_expand
+ 0001:000135C8      c1697_0
+ 0001:000135C8      __wargv_default_expand
+ 0001:000135DC      c1703_0
+ 0001:000135DC      __init_setargv_handlers
+ 0001:00013604      __setargv
+ 0001:00013604      c1709_0
+ 0001:00013604      c1709_3
+ 0001:0001368C      c1709_4
+ 0001:0001368C      __exitargv
+ 0001:00013770      __handle_setargv
+ 0001:00013770      c1711_0
+ 0001:000138C8      __handle_exitargv
+ 0001:00013958      c1713_0
+ 0001:00013958      __handle_wsetargv
+ 0001:00013AEC      __handle_wexitargv
+ 0001:00013B80      c1771_2
+ 0001:00013B80      c1771_0
+ 0001:00013BB8      c1771_3
+ 0001:00013BC8      c1785_0
+ 0001:00013BC8      c1785_4
+ 0001:00013BFC      __expandblock
+ 0001:00013D48      c1785_3
+ 0001:00013D68      c1789_0
+ 0001:00013F8C      _signal
+ 0001:00013FEC      _raise
+ 0001:00013FEC      ___org_raise
+ 0001:0001405C      __terminate
+ 0001:0001405C      c1809_0
+ 0001:0001406C      __create_shmem
+ 0001:00014074      __init_exit_proc
+ 0001:00014148      __cleanup
+ 0001:000141B4      __startup
+ 0001:000141B4      c1811_0
+ 0001:00014358      c1825_0
+ 0001:00014358      ___CRTL_TLS_Alloc
+ 0001:00014360      ___CRTL_TLS_Free
+ 0001:00014370      ___CRTL_TLS_GetValue
+ 0001:00014380      ___CRTL_TLS_SetValue
+ 0001:00014394      ___CRTL_TLS_InitThread
+ 0001:0001439C      ___CRTL_TLS_ExitThread
+ 0001:000143A4      ___CRTL_TLS_GetInfo
+ 0001:000143A8      __isDST
+ 0001:000143A8      c1843_0
+ 0001:000144BC      __totalsec
+ 0001:00014650      c1845_0
+ 0001:00014650      c1845_2
+ 0001:00014658      c1847_0
+ 0001:00014658      __tzset
+ 0001:00014820      c1849_0
+ 0001:00014820      _tzset
+ 0001:00014828      ___org_time
+ 0001:00014828      _time
+ 0001:00014828      c1875_0
+ 0001:00014878      c1903_3
+ 0001:00014878      c1903_0
+ 0001:000148A3      ___JumpToCatch__
+ 0001:00014B0D      ___raiseDebuggerException
+ 0001:00014EC7      _ThrowExceptionLDTC(void *, void *, void *, void *, unsigned int, unsigned int, unsigned int, unsigned char *, void *)
+ 0001:00014EFC      _ReThrowException(unsigned int, unsigned char *)
+ 0001:00014F67      __Global_unwind
+ 0001:000150A3      _CatchCleanup()
+ 0001:000155C8      __Local_unwind
+ 0001:000155DB      __Return_unwind
+ 0001:0001563C      ____ExceptionHandler
+ 0001:000163BA      __CurrExcContext
+ 0002:00000090      d1_1
+ 0002:000000D4      ___isGUI
+ 0002:0000010C      ___isVCLPackage
+ 0002:0000010D      ___isDLL
+ 0002:0000011A      ___useDynamicTLS
+ 0002:0000011B      __TLS_index
+ 0002:0000011F      __TLS_index4
+ 0002:00000123      __hInstance
+ 0002:00000128      ___CPPdebugHook_segment
+ 0002:00000128      ___CPPdebugHook
+ 0002:0000012C      __PackageInfoTable
+ 0002:00000134      d2_1
+ 0002:00000508      TGBase::
+ 0002:00000514      tdib::
+ 0002:0000052C      d3_1
+ 0002:00000D30      d4_1
+ 0002:00000E20      TBitmap::
+ 0002:00000E38      TAnimateSaver::
+ 0002:00000E40      d6_1
+ 0002:00001188      d7_1
+ 0002:00001190      _gPrinterContinuePrinting
+ 0002:00001190      d8_1
+ 0002:00001194      d9_1
+ 0002:000011BC      d10_1
+ 0002:000011BC      _States
+ 0002:000013CC      d11_1
+ 0002:000014B4      TObjList::
+ 0002:000014D4      d13_1
+ 0002:000015BC      d14_1
+ 0002:00001658      d15_1
+ 0002:0000165C      TStringList::
+ 0002:00001680      d17_1
+ 0002:0000172C      TScreenSaver::
+ 0002:00001734      d18_1
+ 0002:000018B8      d20_1
+ 0002:0000196C      d22_1
+ 0002:00001B48      d23_1
+ 0002:00001B78      d217_1
+ 0002:00001BC0      std::exception:: (rtti)
+ 0002:00001BD4      std::bad_alloc:: (rtti)
+ 0002:00001BE8      d241_1
+ 0002:00001BEC      d243_1
+ 0002:00001C84      d253_1
+ 0002:00001C88      __heap_redirector
+ 0002:00001CA4      __virt_heap_size
+ 0002:00001CA4      d259_1
+ 0002:00001CA8      __virt_chunk_size
+ 0002:00001CAC      __virt_chunk_size2
+ 0002:00001CB0      __nv_heap_size
+ 0002:00001CB4      __smalloc_threshold
+ 0002:00001CB8      __virt_chunk_free
+ 0002:00001CBC      __virt_chunk_free2
+ 0002:00001CC0      __firstHeap
+ 0002:00001CC4      __lastHeap
+ 0002:00001CC8      __linktable
+ 0002:00001CCC      __freeStart
+ 0002:00001CD8      __rover
+ 0002:00001CE0      ___allocated
+ 0002:00001CE4      __rwstd::__rw_stdexcept_NoNamedException
+ 0002:00001CE4      d349_1
+ 0002:00001CE8      __rwstd::__rw_stdexcept_BadException
+ 0002:00001CEC      __rwstd::__rw_stdexcept_BadAllocException
+ 0002:00001CF0      __rwstd::__rw_stdexcept_Error
+ 0002:00001D54      __odtbl__ std::bad_alloc::~bad_alloc()
+ 0002:00001D64      __ectbl__ std::bad_alloc::~bad_alloc()
+ 0002:00001D78      ___xxPersonality
+ 0002:00001D78      d555_0
+ 0002:00001D7C      d557_1
+ 0002:0000209C      d559_1
+ 0002:0000209C      ___terminatePTR
+ 0002:000020A0      ___unexpectdPTR
+ 0002:000020A4      d561_1
+ 0002:000020A4      ___CPPexceptionList
+ 0002:000020A8      ___exceptFlags
+ 0002:000020AC      ___throwFileName
+ 0002:000020B0      ___throwLineNumber
+ 0002:000020B4      ___throwExceptionName
+ 0002:000020B8      ___exceptStaticBuffP
+ 0002:000020BC      ___exceptMemAllocVars
+ 0002:000020C0      ___ExceptStaticXbuff
+ 0002:00002140      __ExceptVarsSize
+ 0002:00002154      __chtbl__ __call_terminate()
+ 0002:00002174      __ectbl__ __call_terminate()
+ 0002:00002188      __cfinfo_get
+ 0002:00002188      d603_1
+ 0002:0000218C      d683_0
+ 0002:0000218C      __fileinfo
+ 0002:00002190      __streams
+ 0002:00002190      d755_0
+ 0002:00002640      __nfile
+ 0002:00002640      d757_0
+ 0002:00002644      __openfd
+ 0002:0000270C      d767_0
+ 0002:0000270C      __fmode
+ 0002:00002710      d769_1
+ 0002:00002710      __fmodeptr
+ 0002:00002714      __dosErrorToSV
+ 0002:00002714      d833_1
+ 0002:00002840      __sys_errlist
+ 0002:00002840      d865_1
+ 0002:00002904      __sys_nerr
+ 0002:00002CBC      d961_1
+ 0002:00002D34      __chartype
+ 0002:00002D34      d1041_0
+ 0002:00002F38      d1051_0
+ 0002:00002F38      __upper
+ 0002:00003038      d1071_0
+ 0002:00003038      _CMonetary
+ 0002:0000306C      _CNumeric
+ 0002:00003084      _CTimeDate
+ 0002:00003148      _CLOCALE
+ 0002:00003174      ___locale
+ 0002:00003298      d1203_1
+ 0002:00003358      d1259_1
+ 0002:00003358      __realcvtptr
+ 0002:0000335C      __nextrealptr
+ 0002:00003360      __scantodptr
+ 0002:00003364      __scanrsltptr
+ 0002:000033C0      d1261_1
+ 0002:000033C0      __realcvtwptr
+ 0002:000033C4      __nextrealwptr
+ 0002:000033C8      __scanwtodptr
+ 0002:000033CC      __scanwrsltptr
+ 0002:00003428      __default87
+ 0002:00003428      d1263_0
+ 0002:0000342C      __huge_flt
+ 0002:0000342C      d1317_0
+ 0002:00003430      __huge_dble
+ 0002:00003438      __huge_ldble
+ 0002:00003442      __max_flt
+ 0002:00003446      __max_dble
+ 0002:0000344E      __max_ldble
+ 0002:00003458      __indefinite
+ 0002:0000345C      __tiny_ldble
+ 0002:00003468      ___ieee_64_p_inf
+ 0002:00003470      ___ieee_64_n_inf
+ 0002:00003478      ___ieee_64_p_nanq
+ 0002:00003480      ___ieee_64_n_nanq
+ 0002:00003488      ___ieee_64_p_nans
+ 0002:00003490      ___ieee_64_n_nans
+ 0002:00003498      ___ieee_64_p_zero
+ 0002:000034A0      ___ieee_64_n_zero
+ 0002:000034A8      d1327_0
+ 0002:000034A8      __turboFloat
+ 0002:000034AC      __floatconvert
+ 0002:000034B0      d1365_1
+ 0002:000034B0      __pmatherr
+ 0002:000034B4      __pmatherrl
+ 0002:000034B8      d1391_1
+ 0002:000034C0      d1393_1
+ 0002:000034D4      d1395_1
+ 0002:000034FC      d1403_1
+ 0002:00003524      d1405_1
+ 0002:0000354C      __kalpha
+ 0002:0000354C      d1463_1
+ 0002:0000354E      __kpunct
+ 0002:00003594      d1599_1
+ 0002:000035B8      d1615_1
+ 0002:000035DC      _errno
+ 0002:000035DC      d1617_1
+ 0002:000035E0      d1619_1
+ 0002:000035E0      __messagefunc
+ 0002:000035E4      __messagefile
+ 0002:000035F0      d1627_1
+ 0002:00003618      d1647_1
+ 0002:00003638      d1649_0
+ 0002:00003638      ___pCallAtExitProcs
+ 0002:0000363C      d1685_1
+ 0002:0000363C      __exitbuf
+ 0002:00003640      __exitfopen
+ 0002:00003644      __exitopen
+ 0002:00003648      d1705_0
+ 0002:00003648      __setargv_ptr
+ 0002:0000364C      __exitargv_ptr
+ 0002:00003650      __wsetargv_ptr
+ 0002:00003650      d1707_0
+ 0002:00003654      __wexitargv_ptr
+ 0002:00003658      d1709_1
+ 0002:00003658      __setargv__
+ 0002:000036AC      __cmdline_escapes
+ 0002:000036AC      d1711_1
+ 0002:000036D4      d1713_1
+ 0002:000036F8      d1767_0
+ 0002:000036F8      __argv_expand_ptr
+ 0002:000036FC      d1769_0
+ 0002:000036FC      __wargv_expand_ptr
+ 0002:00003700      d1771_1
+ 0002:00003700      __argv0
+ 0002:00003720      __setenvp__
+ 0002:00003720      d1785_1
+ 0002:00003774      d1789_1
+ 0002:000037D4      d1807_0
+ 0002:000037D4      __isWindows
+ 0002:000037D8      d1809_1
+ 0002:000037DC      d1839_0
+ 0002:000037DC      __SWeekday
+ 0002:000037F8      __LWeekday
+ 0002:00003814      __SMonth
+ 0002:00003844      __LMonth
+ 0002:00003874      __AmPm
+ 0002:0000387C      __Days
+ 0002:00003888      __YDays
+ 0002:000039A0      d1845_1
+ 0002:000039A0      __timezone
+ 0002:000039A4      __daylight
+ 0002:000039A8      d1847_1
+ 0002:000039A8      __tzname
+ 0002:000039B8      d1903_1
+ 0002:000039B8      ___debuggerDisableTerminateCallback
+ 0003:00000000      b2_2
+ 0003:00000000      _pConfigDlg
+ 0003:00000004      _pOrderOptDlg
+ 0003:00000004      b5_1
+ 0003:00000008      b8_2
+ 0003:00000008      _pPrintCnlDlg
+ 0003:0000000C      _hgPrintCancelDld
+ 0003:00000010      _pHelpHintDlg
+ 0003:00000010      b9_2
+ 0003:00000014      b10_2
+ 0003:00000014      _pOrderFrmDlg
+ 0003:00000018      _pMediaDirDlg
+ 0003:00000018      b13_2
+ 0003:0000001C      b18_2
+ 0003:0000001C      _pSSaverBase
+ 0003:00000020      __new_handler
+ 0003:00000020      b44_0
+ 0003:00000024      b46_2
+ 0003:00000024      __DestructorCountPtr
+ 0003:00000028      __HandlerPtr
+ 0003:0000002C      __bormm_pfn_FreeMem
+ 0003:0000002C      b243_2
+ 0003:00000030      __bormm_pfn_GetMem
+ 0003:00000034      __bormm_pfn_ReallocMem
+ 0003:00000038      __bormm_pfn_HeapAddRef
+ 0003:0000003C      __bormm_pfn_HeapRelease
+ 0003:00000044      b557_2
+ 0003:00000454      b561_2
+ 0003:00000454      __DestructorCountPtr
+ 0003:0000045C      b757_1
+ 0003:0000045C      __pidtab
+ 0003:00000524      __handles
+ 0003:000005EC      b833_2
+ 0003:000005EC      __doserrno
+ 0003:000005F0      __mbctype
+ 0003:000005F0      b1463_2
+ 0003:000006F4      __mbcsCodePage
+ 0003:000006F8      b1599_2
+ 0003:000007F8      b1615_2
+ 0003:00000814      b1627_2
+ 0003:00000814      __ostype
+ 0003:00000818      b1709_2
+ 0003:00000818      __argv
+ 0003:00000824      b1711_2
+ 0003:00000828      b1713_2
+ 0003:0000082C      b1785_2
+ 0003:0000082C      __environ
+ 0003:00000834      __envsize
+ 0003:00000838      __env_lock
+ 0003:0000083C      b1807_1
+ 0003:0000083C      __C0argc
+ 0003:00000840      __C0argv
+ 0003:00000844      __C0environ
+ 0003:00000848      __oscmd
+ 0003:0000084C      __osenv
+ 0003:00000850      __argc
+ 0003:00000854      __dll_table
+ 0003:0000085C      __ExcRegPtr
+ 0003:00000860      __wosenv
+ 0003:00000864      __woscmd
+ 0003:00000868      __wC0argv
+ 0003:0000086C      __wC0environ
+ 0003:00000870      __exe_table
+ 0003:00000878      __stkbase
+ 0003:0000087C      b1847_2
+ 0003:00000884      b1903_2
+ 0003:00000888      ___pCPPdebugHook
+ 0004:00000000      t561_3
+ 0004:00000000      ___xxInfo

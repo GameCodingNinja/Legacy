@@ -1,0 +1,761 @@
+{This is the Windows 95 version}
+unit Loadpref;
+
+interface
+uses
+Windows, SysUtils, Forms, Classes, Graphics, constants;
+
+
+type TScrnSavSettings = class(TObject)
+private
+       FPassword, FMainImage, FSoundFileDir, FSoundFile, FScreenDesignPath,
+       FTopMessage, FTopFontName, FBKImage, FBackFileLoadErrorStr,
+       FBottomMessage, FBottomFontName, FMainFileLoadErrorStr,
+       FSoundFileLoadErrorStr : String;
+
+       //FSubject,
+       FImageListNo, FTopFontSize, FFileType, FFullVersion,
+       FTopTextPos, FBottomFontSize, FTransSpeed, FTransFillColor, FBKFileType,
+       FBkImageListNo, FBottomTextPos, FMainSingleOrDir, FMainDirRandomSort,
+       FBKSingleOrDir, FBKDirRandomSort, FScreenDesignRandom: Integer;
+
+       FTopFontStyleBold, FTopFontStyleItal, FTransOnOff, FSoundRandList, FSoundSDOnOff,
+       FTopFontStyleUnder, FTopFontStyleStrike, FSizeBitmaps, FBottomTextRandom,
+       FBottomFontStyleBold, FBottomFontStyleItal, FSoundDirOnOff, FTopTextRandom,
+       FBottomFontStyleUnder, FBottomFontStyleStrike, FScreenDesignOnOff,
+       FSoundInterrupt, FRandomBackgrnds: Boolean;
+
+       FTransDelay: DWORD;
+
+       FTopFontColor, FBottomFontColor, FBKFillColor: variant;
+       FCustomColors: TStringList;
+
+       // Theses variables are for pulling/adding to the INI file
+       KeyName: Array[0..100] of char;
+       DefaultTxt, temp: Array[0..256] of char;
+       procedure GetPrivateString;
+       procedure WritePrivateString;
+       function encryption(t: String; method: Integer): String;
+public
+      constructor Create;
+      destructor Destroy; override;
+      property Password: String read FPassword write FPassword;
+      //property Subject: Integer read FSubject write FSubject;
+      property ImageListNo: Integer read FImageListNo write FImageListNo;
+      property MainImage: String read FMainImage write FMainImage;
+      property FileType: Integer read FFileType write FFileType;
+      property TopTextPos: Integer read FTopTextPos write FTopTextPos;
+      property BKImage: String read FBKImage write FBKImage;
+      property BkImageListNo: Integer read FBkImageListNo write FBkImageListNo;
+      property BkFileType: Integer read FBkFileType write FBkFileType;
+      property BottomTextPos: Integer read FBottomTextPos write FBottomTextPos;
+      property BKFillColor: variant read FBKFillColor write FBKFillColor;
+      property Registration: Integer read FFullVersion write FFullVersion;
+      property RandomBackgrnds: Boolean read FRandomBackgrnds write FRandomBackgrnds;
+
+      property TopMessage: String read FTopMessage write FTopMessage;
+      property TopFontName: String read FTopFontName write FTopFontName;
+      property TopFontSize: Integer read FTopFontSize write FTopFontSize;
+      property TopFontStyleBold: Boolean read FTopFontStyleBold write FTopFontStyleBold;
+      property TopFontStyleItal: Boolean read FTopFontStyleItal write FTopFontStyleItal;
+      property TopFontStyleUnder: Boolean read FTopFontStyleUnder write FTopFontStyleUnder;
+      property TopFontStyleStrike: Boolean read FTopFontStyleStrike write FTopFontStyleStrike;
+      property TopFontColor: variant read FTopFontColor write FTopFontColor;
+
+      property BottomMessage: String read FBottomMessage write FBottomMessage;
+      property BottomFontName: String read FBottomFontName write FBottomFontName;
+      property BottomFontSize: Integer read FBottomFontSize write FBottomFontSize;
+      property BottomFontStyleBold: Boolean read FBottomFontStyleBold write FBottomFontStyleBold;
+      property BottomFontStyleItal: Boolean read FBottomFontStyleItal write FBottomFontStyleItal;
+      property BottomFontStyleUnder: Boolean read FBottomFontStyleUnder write FBottomFontStyleUnder;
+      property BottomFontStyleStrike: Boolean read FBottomFontStyleStrike write FBottomFontStyleStrike;
+      property BottomFontColor: variant read FBottomFontColor write FBottomFontColor;
+
+      property CustomColors: TStringList read FCustomColors write FCustomColors;
+
+      property TransOnOff: Boolean read FTransOnOff write FTransOnOff;
+      property TransSpeed: Integer read FTransSpeed write FTransSpeed;
+      property TransFillColor: Integer read FTransFillColor write FTransFillColor;
+      property TransDelay: DWORD read FTransDelay write FTransDelay;
+
+      property MainSingleOrDir: Integer read FMainSingleOrDir write FMainSingleOrDir;
+      property MainDirRandomSort: Integer read FMainDirRandomSort write FMainDirRandomSort;
+      property BKSingleOrDir: Integer read FBKSingleOrDir write FBKSingleOrDir;
+      property BKDirRandomSort: Integer read FBKDirRandomSort write FBKDirRandomSort;
+      property SizeBitmaps: Boolean read FSizeBitmaps write FSizeBitmaps;
+      property SoundFileDir: string read FSoundFileDir write FSoundFileDir;
+      property SoundDirOnOff: Boolean read FSoundDirOnOff write FSoundDirOnOff;
+      property SoundRandList: Boolean read FSoundRandList write FSoundRandList;
+      property SoundInterrupt: Boolean read FSoundInterrupt write FSoundInterrupt;
+      property TopTextRandom: Boolean read FTopTextRandom write FTopTextRandom;
+      property BottomTextRandom: Boolean read FBottomTextRandom write FBottomTextRandom;
+      property ScreenDesignOnOff: Boolean read FScreenDesignOnOff write FScreenDesignOnOff;
+
+      property MainFileLoadErrorStr: string read FMainFileLoadErrorStr write FMainFileLoadErrorStr;
+      property BackFileLoadErrorStr: string read FBackFileLoadErrorStr write FBackFileLoadErrorStr;
+      property SoundFileLoadErrorStr: string read FSoundFileLoadErrorStr write FSoundFileLoadErrorStr;
+      property SoundFile: string read FSoundFile write FSoundFile;
+      property ScreenDesignPath: string read FScreenDesignPath write FScreenDesignPath;
+      property ScreenDesignRandom: Integer read FScreenDesignRandom write FScreenDesignRandom;
+      property SoundSDOnOff: Boolean read FSoundSDOnOff write FSoundSDOnOff;
+
+      procedure SaveINISettings;
+      procedure GetINISettings;
+end;
+
+
+implementation
+
+{-----------------------------------------------------------------------}
+
+constructor TScrnSavSettings.Create;
+begin
+     FCustomColors := TStringList.Create;
+end;
+
+{-----------------------------------------------------------------------}
+
+destructor TScrnSavSettings.Destroy;
+begin
+     FCustomColors.free;
+end;
+
+{-----------------------------------------------------------------------}
+
+procedure TScrnSavSettings.SaveINISettings;
+begin
+     WritePrivateString;
+end;
+
+{-----------------------------------------------------------------------}
+
+procedure TScrnSavSettings.GetINISettings;
+begin
+     GetPrivateString;
+end;
+
+{-----------------------------------------------------------------------}
+
+procedure TScrnSavSettings.GetPrivateString;
+var I: Byte;
+begin
+
+try
+  {Reading settings from the Create-A-Saver.INI file}
+
+  {Get Password}
+  StrPCopy(KeyName, 'wx2zzed3');
+  StrPCopy(DefaultTxt, encryption('NONE', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FPassword := String(temp);
+  FPassword := encryption(FPassword, UNENCRYPT);
+
+  {Get Subject}
+  //StrPCopy(KeyName, 'Subject');
+  //StrPCopy(DefaultTxt, IntToStr(ENGLISH));
+  //GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  //FSubject := StrToInt(String(temp));
+
+  {Get Subject Image}
+  StrPCopy(KeyName, 'wp05tge3ve');
+  StrPCopy(DefaultTxt, encryption('dogrun', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FMainImage := String(temp);
+  FMainImage := encryption(FMainImage, UNENCRYPT);
+
+  {Get ImageListNo}
+  StrPCopy(KeyName, 'Image List No');
+  StrPCopy(DefaultTxt, '19');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FImageListNo := StrToInt(String(temp));
+
+  {Get File Type}
+  StrPCopy(KeyName, 'File Type');
+  StrPCopy(DefaultTxt, IntToStr(RESOURCE)); //NONE
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FFileType := StrToInt(String(temp));
+
+  {Get Text Position}
+  StrPCopy(KeyName, 'Top Text Pos');
+  StrPCopy(DefaultTxt, IntToStr(CENTER_TEXT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopTextPos := StrToInt(String(temp));
+
+  {Get BK Subject Image}
+  StrPCopy(KeyName, 'xz7jk801');
+  StrPCopy(DefaultTxt, encryption('back2', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBKImage := String(temp);
+  FBKImage := encryption(FBKImage, UNENCRYPT);
+
+  {Get BK ImageListNo}
+  StrPCopy(KeyName, 'Backgrnd Image List No');
+  StrPCopy(DefaultTxt, '4');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBkImageListNo := StrToInt(String(temp));
+
+  {Get BK File Type}
+  StrPCopy(KeyName, 'Backgrnd File Type');
+  StrPCopy(DefaultTxt, IntToStr(RESOURCE));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBKFileType := StrToInt(String(temp));
+
+  {Get BK Text Position}
+  StrPCopy(KeyName, 'Bottom Text Pos');
+  StrPCopy(DefaultTxt, IntToStr(CENTER_TEXT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomTextPos := StrToInt(String(temp));
+
+  {Get BK Fill Color}
+  StrPCopy(KeyName, 'Backgrnd Color');
+  StrPCopy(DefaultTxt, IntToStr(clWhite));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBKFillColor := String(temp);
+
+  {Get Randomise backgrounds}
+  StrPCopy(KeyName, 'Randomise Backgrounds');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FRandomBackgrnds := Boolean(StrToInt(String(temp)));
+
+  {------------------------------------------------}
+
+  {Get Top Message}
+  StrPCopy(KeyName, 'u7isd320');
+  StrPCopy(DefaultTxt, encryption('Making a Screen Saver', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopMessage := String(temp);
+  FTopMessage := encryption(FTopMessage, UNENCRYPT);
+
+  {Get Top Font}
+  StrPCopy(KeyName, 'Top Font');
+  StrPCopy(DefaultTxt, 'Arial');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontName := String(temp);
+
+  {Get Top Font Size}
+  StrPCopy(KeyName, 'Top Font Size');
+  StrPCopy(DefaultTxt, '42');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontSize := StrToInt(String(temp));
+
+  {Get Top Font Style Bold}
+  StrPCopy(KeyName, 'Top Font Style Bold');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontStyleBold := Boolean(StrToInt(String(temp)));
+
+  {Get Top Font Style Italic}
+  StrPCopy(KeyName, 'Top Font Style Italic');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontStyleItal := Boolean(StrToInt(String(temp)));
+
+  {Get Top Font Style Underline}
+  StrPCopy(KeyName, 'Top Font Style Underline');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontStyleUnder := Boolean(StrToInt(String(temp)));
+
+  {Get Top Font Style Strikeout}
+  StrPCopy(KeyName, 'Top Font Style Strikeout');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontStyleStrike := Boolean(StrToInt(String(temp)));
+
+  {Get Top Font Color}
+  StrPCopy(KeyName, 'Top Font Color');
+  StrPCopy(DefaultTxt, IntToStr(clYellow));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopFontColor := String(temp);
+
+  {------------------------------------------------}
+
+  {Get Bottom Message}
+  StrPCopy(KeyName, 'p0ft42av');
+  StrPCopy(DefaultTxt, encryption('Is Fun & Easy To Do!', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomMessage := String(temp);
+  FBottomMessage := encryption(FBottomMessage, UNENCRYPT);
+
+  {Get Bottom Font}
+  StrPCopy(KeyName, 'Bottom Font');
+  StrPCopy(DefaultTxt, 'Arial');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontName := String(temp);
+
+  {Get Bottom Font Size}
+  StrPCopy(KeyName, 'Bottom Font Size');
+  StrPCopy(DefaultTxt, '42');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontSize := StrToInt(String(temp));
+
+  {Get Bottom Font Style Bold}
+  StrPCopy(KeyName, 'Bottom Font Style Bold');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontStyleBold := Boolean(StrToInt(String(temp)));
+
+  {Get Bottom Font Style Italic}
+  StrPCopy(KeyName, 'Bottom Font Style Italic');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontStyleItal := Boolean(StrToInt(String(temp)));
+
+  {Get Bottom Font Style Underline}
+  StrPCopy(KeyName, 'Bottom Font Style Underline');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontStyleUnder := Boolean(StrToInt(String(temp)));
+
+  {Get Bottom Font Style Strikeout}
+  StrPCopy(KeyName, 'Bottom Font Style Strikeout');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontStyleStrike := Boolean(StrToInt(String(temp)));
+
+  {Get Bottom Font Color}
+  StrPCopy(KeyName, 'Bottom Font Color');
+  StrPCopy(DefaultTxt, IntToStr(clLime));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomFontColor := String(temp);
+
+{-----------------------------------------------------------------------}
+
+  {Get all the custom colors}
+  for I := 0 to 15 do begin
+     StrPCopy(KeyName, 'CustomColor'+ IntToStr(I));
+     StrPCopy(DefaultTxt, 'Color' + Char(I + 65) + '=FFFFFF');
+     GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+     FCustomColors.Add(String(temp));
+  end;
+
+{-----------------------------------------------------------------------}
+
+  {Get TransOnOff}
+  StrPCopy(KeyName, 'TransOnOff');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTransOnOff := Boolean(StrToInt(String(temp)));
+
+  {Get TransSpeed}
+  StrPCopy(KeyName, 'TransSpeed');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTransSpeed := StrToInt(String(temp));
+
+  {Get TransFillColors}
+  StrPCopy(KeyName, 'TransFillColors');
+  StrPCopy(DefaultTxt, intToStr(ERASE_WITH_NEXT_IMAGE) );
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTransFillColor := StrToInt(String(temp));
+
+  {Get TransDelay}
+  StrPCopy(KeyName, 'TransDelay');
+  StrPCopy(DefaultTxt, '7');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTransDelay := StrToInt(String(temp));
+
+  {Get Full Version Registration}
+  StrPCopy(KeyName, 'FSV');
+  StrPCopy(DefaultTxt, intToStr(REGISTRATION_FAKE_VALIDATION));
+  GetPrivateProfileString(ORDER_FORM_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FFullVersion := StrToInt(StrPas(temp));
+
+  {Get Main Single File or Directory}
+  StrPCopy(KeyName, 'MainSingleFileOrDirectory');
+  StrPCopy(DefaultTxt, IntToStr(NONE));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FMainSingleOrDir := StrToInt(String(temp));
+
+  {Get Main Sorted Files or Random Files}
+  StrPCopy(KeyName, 'MainDirRandomOrSort');
+  StrPCopy(DefaultTxt, IntToStr(SORTED_FILES_IN_DIR));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FMainDirRandomSort := StrToInt(String(temp));
+
+  {Get BK Single File or Directory}
+  StrPCopy(KeyName, 'BKSingleFileOrDirectory');
+  StrPCopy(DefaultTxt, IntToStr(NONE));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBKSingleOrDir := StrToInt(String(temp));
+
+  {Get BK Sorted Files or Random Files}
+  StrPCopy(KeyName, 'BKDirRandomOrSort');
+  StrPCopy(DefaultTxt, IntToStr(SORTED_FILES_IN_DIR));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBKDirRandomSort := StrToInt(String(temp));
+
+  {Get Size Bitmaps}
+  StrPCopy(KeyName, 'Size Bitmap');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSizeBitmaps := Boolean(StrToInt(String(temp)));
+
+  {Get Sound File Directory}
+  StrPCopy(KeyName, 'wrtuqswt');
+  StrPCopy(DefaultTxt, encryption('', ENCRYPT));
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSoundFileDir := String(temp);
+  FSoundFileDir := encryption(FSoundFileDir, UNENCRYPT);
+
+  {Get Sound Dir On Off}
+  StrPCopy(KeyName, 'SoundOnOff');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSoundDirOnOff := Boolean(StrToInt(String(temp)));
+
+  {Get Sound Order}
+  StrPCopy(KeyName, 'SoundRandomOrder');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSoundRandList := Boolean(StrToInt(String(temp)));
+
+  {Get Sound interrupt}
+  StrPCopy(KeyName, 'SoundInterrupt');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSoundInterrupt := Boolean(StrToInt(String(temp)));
+
+  {Get Top Text List or Random}
+  StrPCopy(KeyName, 'Top Text Random');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FTopTextRandom := Boolean(StrToInt(String(temp)));
+
+  {Get Bottom Text List or Random}
+  StrPCopy(KeyName, 'Bottom Text Random');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FBottomTextRandom := Boolean(StrToInt(String(temp)));
+
+  {Get Screen Design On Off}
+  StrPCopy(KeyName, 'Screen Designer On Off');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FScreenDesignOnOff := Boolean(StrToInt(String(temp)));
+
+  {Get Screen Design File Path}
+  StrPCopy(KeyName, 'Screen Designer File Path');
+  StrPCopy(DefaultTxt, 'C:\My Documents\');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FScreenDesignPath := String(temp);
+
+  {Get Screen Design Random}
+  StrPCopy(KeyName, 'Screen Design Random');
+  StrPCopy(DefaultTxt, '0');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FScreenDesignRandom := StrToInt(String(temp));
+
+  {Get Sound for Screen Designer On Off}
+  StrPCopy(KeyName, 'SoundSDOnOff');
+  StrPCopy(DefaultTxt, '1');
+  GetPrivateProfileString(APP_NAME, KeyName, DefaultTxt, temp, SizeOf(temp), FILE_NAME);
+  FSoundSDOnOff := Boolean(StrToInt(String(temp)));
+
+except
+  //Application.MessageBox(pchar(loadstr(1000)),'We''re having a problem', mb_OK);
+end;
+
+end;
+
+{-----------------------------------------------------------------------}
+
+procedure TScrnSavSettings.WritePrivateString;
+var I: Integer;
+begin
+
+try
+  {Writing settings from the Create-A-Saver.INI file}
+
+  {Save Password}
+  FPassword := encryption(FPassword, ENCRYPT);
+  StrPCopy(KeyName, 'wx2zzed3');
+  StrPCopy(temp, FPassword);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Subject}
+  //StrPCopy(KeyName, 'Subject');
+  //StrPCopy(temp, IntToStr(FSubject));
+  //WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Subject Image}
+  FMainImage := encryption(MainImage, ENCRYPT);
+  StrPCopy(KeyName, 'wp05tge3ve');
+  StrPCopy(temp, FMainImage);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save ImageListNo}
+  StrPCopy(KeyName, 'Image List No');
+  StrPCopy(temp, IntToStr(FImageListNo));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save File Type}
+  StrPCopy(KeyName, 'File Type');
+  StrPCopy(temp, IntToStr(FFileType));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Text Pos}
+  StrPCopy(KeyName, 'Top Text Pos');
+  StrPCopy(temp, IntToStr(FTopTextPos));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save BK Subject Image}
+  FBKImage := encryption(FBKImage, ENCRYPT);
+  StrPCopy(KeyName, 'xz7jk801');
+  StrPCopy(temp, FBKImage);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save BK ImageListNo}
+  StrPCopy(KeyName, 'Backgrnd Image List No');
+  StrPCopy(temp, IntToStr(FBkImageListNo));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+  FBkImageListNo := StrToInt(String(temp));
+
+  {Save BK File Type}
+  StrPCopy(KeyName, 'Backgrnd File Type');
+  StrPCopy(temp, IntToStr(FBKFileType));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Text Position}
+  StrPCopy(KeyName, 'Bottom Text Pos');
+  StrPCopy(temp, IntToStr(FBottomTextPos));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save BK Fill Color}
+  StrPCopy(KeyName, 'Backgrnd Color');
+  StrPCopy(temp, FBKFillColor);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Randomise backgrounds}
+  StrPCopy(KeyName, 'Randomise Backgrounds');
+  StrPCopy(temp, IntToStr(Integer(FRandomBackgrnds)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {------------------------------------------------}
+
+  {Save Top Message}
+  FTopMessage := encryption(FTopMessage, ENCRYPT);
+  StrPCopy(KeyName, 'u7isd320');
+  StrPCopy(temp, FTopMessage);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Font}
+  StrPCopy(KeyName, 'Top Font');
+  StrPCopy(temp, FTopFontName);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Font Size}
+  StrPCopy(KeyName, 'Top Font Size');
+  StrPCopy(temp, IntToStr(FTopFontSize));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Font Style Bold}
+  StrPCopy(KeyName, 'Top Font Style Bold');
+  StrPCopy(temp, IntToStr(Integer(FTopFontStyleBold)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Font Style Italic}
+  StrPCopy(KeyName, 'Top Font Style Italic');
+  StrPCopy(temp, IntToStr(Integer(FTopFontStyleItal)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Font Style Underline}
+  StrPCopy(KeyName, 'Top Font Style Underline');
+  StrPCopy(temp, IntToStr(Integer(FTopFontStyleUnder)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Get Top Font Style Strikeout}
+  StrPCopy(KeyName, 'Top Font Style Strikeout');
+  StrPCopy(temp, IntToStr(Integer(FTopFontStyleStrike)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Get Top Font Color}
+  StrPCopy(KeyName, 'Top Font Color');
+  StrPCopy(temp, FTopFontColor);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {------------------------------------------------}
+
+  {Save Bottom Message}
+  FBottomMessage := encryption(FBottomMessage, ENCRYPT);
+  StrPCopy(KeyName, 'p0ft42av');
+  StrPCopy(temp, FBottomMessage);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font}
+  StrPCopy(KeyName, 'Bottom Font');
+  StrPCopy(temp, FBottomFontName);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Size}
+  StrPCopy(KeyName, 'Bottom Font Size');
+  StrPCopy(temp, IntToStr(FBottomFontSize));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Style Bold}
+  StrPCopy(KeyName, 'Bottom Font Style Bold');
+  StrPCopy(temp, IntToStr(Integer(FBottomFontStyleBold)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Style Italic}
+  StrPCopy(KeyName, 'Bottom Font Style Italic');
+  StrPCopy(temp, IntToStr(Integer(FBottomFontStyleItal)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Style Underline}
+  StrPCopy(KeyName, 'Bottom Font Style Underline');
+  StrPCopy(temp, IntToStr(Integer(FBottomFontStyleUnder)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Style Strikeout}
+  StrPCopy(KeyName, 'Bottom Font Style Strikeout');
+  StrPCopy(temp, IntToStr(Integer(FBottomFontStyleStrike)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Bottom Font Color}
+  StrPCopy(KeyName, 'Bottom Font Color');
+  StrPCopy(temp, FBottomFontColor);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {------------------------------------------------}
+
+  {Save all the custom colors}
+  for I := 0 to 15 do begin
+     StrPCopy(KeyName, 'CustomColor'+ IntToStr(I));
+     StrPCopy(temp, FCustomColors.Strings[I]);
+     WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+  end;
+
+  {------------------------------------------------}
+
+  {Save TransOnOff}
+  StrPCopy(KeyName, 'TransOnOff');
+  StrPCopy(temp, IntToStr(Integer(FTransOnOff)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save TransSpeed}
+  StrPCopy(KeyName, 'TransSpeed');
+  StrPCopy(temp, IntToStr(FTransSpeed));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save TransFillColors}
+  StrPCopy(KeyName, 'TransFillColors');
+  StrPCopy(temp, IntToStr(FTransFillColor));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save TransDelay}
+  StrPCopy(KeyName, 'TransDelay');
+  StrPCopy(temp, IntToStr(FTransDelay));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Full Version Registration}
+  StrPCopy(KeyName, 'FSV');
+  StrPCopy(temp, IntToStr(FFullVersion));
+  WritePrivateProfileString(ORDER_FORM_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Main Single File or Directory}
+  StrPCopy(KeyName, 'MainSingleFileOrDirectory');
+  StrPCopy(temp, IntToStr(FMainSingleOrDir));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Main Sorted Files or Random Files}
+  StrPCopy(KeyName, 'MainDirRandomOrSort');
+  StrPCopy(temp, IntToStr(FMainDirRandomSort));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save BK Single File or Directory}
+  StrPCopy(KeyName, 'BKSingleFileOrDirectory');
+  StrPCopy(temp, IntToStr(FBKSingleOrDir));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save BK Sorted Files or Random Files}
+  StrPCopy(KeyName, 'BKDirRandomOrSort');
+  StrPCopy(temp, IntToStr(FBKDirRandomSort));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Size Bitmap}
+  StrPCopy(KeyName, 'Size Bitmap');
+  StrPCopy(temp, IntToStr(Integer(FSizeBitmaps)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Sound Directory}
+  FSoundFileDir := encryption(FSoundFileDir, ENCRYPT);
+  StrPCopy(KeyName, 'wrtuqswt');
+  StrPCopy(temp, FSoundFileDir);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Sound Dir On Off}
+  StrPCopy(KeyName, 'SoundOnOff');
+  StrPCopy(temp, IntToStr(Integer(FSoundDirOnOff)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Sound Order}
+  StrPCopy(KeyName, 'SoundRandomOrder');
+  StrPCopy(temp, IntToStr(Integer(FSoundRandList)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Sound Interrupt}
+  StrPCopy(KeyName, 'SoundInterrupt');
+  StrPCopy(temp, IntToStr(Integer(FSoundInterrupt)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Text List or Random}
+  StrPCopy(KeyName, 'Top Text Random');
+  StrPCopy(temp, IntToStr(Integer(FTopTextRandom)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Top Text List or Random}
+  StrPCopy(KeyName, 'Bottom Text Random');
+  StrPCopy(temp, IntToStr(Integer(FBottomTextRandom)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Screen Design On Off}
+  StrPCopy(KeyName, 'Screen Designer On Off');
+  StrPCopy(temp, IntToStr(Integer(FScreenDesignOnOff)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Screen Design File Path}
+  StrPCopy(KeyName, 'Screen Designer File Path');
+  StrPCopy(temp, FScreenDesignPath);
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Screen Design Random}
+  StrPCopy(KeyName, 'Screen Design Random');
+  StrPCopy(temp, IntToStr(Integer(FScreenDesignRandom)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+  {Save Sound Dir On Off}
+  StrPCopy(KeyName, 'SoundSDOnOff');
+  StrPCopy(temp, IntToStr(Integer(FSoundSDOnOff)));
+  WritePrivateProfileString(APP_NAME, KeyName, temp, FILE_NAME);
+
+except
+  //Application.MessageBox(pchar(loadstr(1001)),'We''re having a problem', mb_OK);
+end;
+
+end;
+
+{-----------------------------------------------------------------------}
+
+function TScrnSavSettings.encryption(t: String; method: Integer): String;
+var
+     L, I, E: Integer;
+const
+     encryptArray: Array[0..29] of Integer = (73,65,127,80,96,79,103,123,63,119,78,
+               87,119,62,97,101,106,70,93,81,125,66,120,90,83,104,69,77,85,108);
+begin
+     L := length(t);
+     E := 0;
+     for I := 1 to L do begin // Start at 1 to skip over length byte
+       if method = ENCRYPT then
+         t[I] := char(Integer(t[I]) + encryptArray[E])
+       else // UNENCRYPT
+         t[I] := char(Integer(t[I]) - encryptArray[E]);
+       inc(E);
+       if E = 30 then E := 0;
+     end;
+     result := t;
+end;
+
+end.

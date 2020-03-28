@@ -1,0 +1,22 @@
+Shareware
+What Is Shareware
+and
+because
+com
+evaluation
+have
+independent
+little
+period.
+program
+purchased
+remove
+screens,
+send
+shareware
+software
+the
+vendor
+version
+well
+you

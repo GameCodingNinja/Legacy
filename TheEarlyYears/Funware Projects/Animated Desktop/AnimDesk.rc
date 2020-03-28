@@ -1,0 +1,31 @@
+//  Starter Resource File
+//  File Starter.rc
+
+#include "GDefines.h"        // Header file with #defines
+
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "TrayApp.ico"
+
+Menu_1 MENU
+{
+    POPUP "&File"
+   {
+		MENUITEM "&Properties", MNU_PROPERTIES
+		MENUITEM "&About", MNU_ABOUT
+		MENUITEM "&Help", MNU_HELP
+		MENUITEM SEPARATOR
+		MENUITEM "&Exit", MNU_EXIT
+	}
+}
+DLG_CONFIG DIALOG 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 92, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 184, 92, 50, 14
+}
+

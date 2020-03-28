@@ -1,0 +1,81 @@
+Vertex List:
+Vertex count: 8
+
+0:    -0.016160, 0.007401, -0.000001
+1:    -0.016160, 0.007401, 2.999999
+2:    -0.016160, 12.819901, 2.999999
+3:    -0.016160, 12.819901, -0.000001
+4:    1.683059, 12.819901, 2.999999
+5:    1.683059, 12.819901, -0.000001
+6:    1.683059, 0.007401, 2.999999
+7:    1.683059, 0.007401, -0.000001
+
+Group/Face List:
+Group count: 1
+Total face count: 10
+
+  1 Group: Text - 
+  Face count: 10
+    1 Face:
+      vIndex: x:1, y:2, z:0
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    2 Face:
+      vIndex: x:2, y:3, z:0
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    3 Face:
+      vIndex: x:2, y:4, z:3
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    4 Face:
+      vIndex: x:4, y:5, z:3
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    5 Face:
+      vIndex: x:4, y:6, z:5
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    6 Face:
+      vIndex: x:6, y:7, z:5
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    7 Face:
+      vIndex: x:6, y:1, z:7
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    8 Face:
+      vIndex: x:1, y:0, z:7
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    9 Face:
+      vIndex: x:5, y:7, z:0
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+    10 Face:
+      vIndex: x:3, y:5, z:0
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      UV: u:0.000000, v:1.000000
+      tIndex: 0, name: (null)
+
+Texture Map List:
+Texture count: 0

@@ -1,0 +1,96 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+StarsPlanets24 GIF LOADONCALL MOVEABLE "starsPlanets24.GIF"
+StarsOnly GIF LOADONCALL MOVEABLE "starsonly.GIF"
+RedClouds GIF LOADONCALL MOVEABLE "cloudsRed.GIF"
+BlueClouds GIF LOADONCALL MOVEABLE "cloudsBlue.GIF"
+PurpleClouds GIF LOADONCALL MOVEABLE "cloudsPurple.GIF"
+OrangeClouds GIF LOADONCALL MOVEABLE "cloudsOrange.GIF"
+BlueGreenClouds GIF LOADONCALL MOVEABLE "cloudsBG.GIF"
+RedBrownClouds GIF LOADONCALL MOVEABLE "cloudsRedBrown.GIF"
+Ships GIF LOADONCALL MOVEABLE "ships.GIF"
+
+/* midi toons */
+ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 243
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 196, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 60, 196, 47, 14
+ CONTROL "Text2", TXT_COUNT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 120, 68, 100, 8, 0
+ CONTROL "ScrollBar2", SCRBAR_AMOUNT, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 120, 81, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 316, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 8, 302, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 116, 312, 101, 14, 0
+ CONTROL "Star && Planet Direction", GRPBOX_STAR_DIRECTION, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 8, 68, 100, 78, 0
+ CONTROL "Move to the Left", RDOBTN_MOVE_LEFT, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 80, 80, 12, 0
+ CONTROL "Move to the Right", RDOBTN_MOVE_RIGHT, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 92, 80, 12, 0
+ CONTROL "Move Up", RDOBTN_MOVE_UP, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 104, 84, 12, 0
+ CONTROL "Move Down", RDOBTN_MOVE_DOWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 116, 80, 12, 0
+ CONTROL "Randomize Above", RDOBTN_MOVE_RANDOM, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 16, 128, 80, 12, 0
+ CONTROL "Planets", CHK_PLANETS, "button", BS_AUTOCHECKBOX | BS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 96, 52, 12, 0
+ CONTROL "Space Ships", CHK_SPACE_SHIPS, "button", BS_AUTOCHECKBOX | BS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 124, 60, 12, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 148, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 160, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 172, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 184, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 196, 76, 12, 0
+ CONTROL "In Front of Stars", CHK_FRONT_OF_STARS, "button", BS_AUTOCHECKBOX | BS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 136, 108, 76, 12, 0
+ CONTROL "", CBOBOX_NUM_PLANETS, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 8, 172, 100, 60, 0
+ CONTROL "", CBOBOX_NUM_SHIPS, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 8, 152, 100, 58, 0
+ CONTROL "Clouds", CHK_CLOUDS, "button", BS_AUTOCHECKBOX | BS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 185, 124, 44, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 220, 212, 13, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Screen Saver\0"
+			VALUE "FileVersion", "1.2.1\0"
+            VALUE "InternalName", "Stars\0"
+            VALUE "LegalCopyright", "\251 Copyright 2000 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "stars.scr\0"
+            VALUE "ProductName", "3001 Space Oddities\0"
+            VALUE "ProductVersion", "1.2.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

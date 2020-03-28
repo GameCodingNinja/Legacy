@@ -1,0 +1,2131 @@
+VBAHA136
+
+
+
+
+Create-A-Saver Help File
+
+Contents
+
+
+
+
+0
+0
+0
+c:\rounda~1\create~1\help\create.rtf
+
+
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+
+
+1
+0
+0
+1
+1
+1
+1
+1
+1
+
+main
+
+200
+100
+600
+800
+0
+0
+15
+15
+
+13
+contents
+contents
+
+
+
+
+
+00002:000
+4
+18
+3
+MS Sans Serif
+24
+2
+101
+101
+4
+1
+0
+0
+
+
+Howie's Funware
+
+1
+MS Sans Serif
+48
+2
+101
+101
+4
+1
+0
+0
+
+
+Create-A-Saver
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+www.howiesfunware.com
+
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+WhatIsCreate
+C:\ROUNDA~1\CREATE~1\HELP\SHARE.SHG
+What Is Create-A-Saver?
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+Shareware
+C:\ROUNDA~1\CREATE~1\HELP\SHARE.SHG
+What Is Shareware?
+
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+register
+C:\ROUNDA~1\CREATE~1\HELP\REGIST.SHG
+Why Should I Register?
+
+3
+MS Sans Serif
+16
+2
+101
+101
+4
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+quicksetup
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Step-by-Step - Quick Setup
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+textfilemessages
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Adding Text File Messages to Quick Setup
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+screendesigner
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Step-by-Step - Screen Designer
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+AddingSound
+C:\ROUNDA~1\CREATE~1\HELP\SOUND.SHG
+Step-by-Step - Adding Sound
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+preferences
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Preferences
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+Scanning
+C:\ROUNDA~1\CREATE~1\HELP\GETTING.SHG
+Scanning Your Own Images
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+JPGFiles
+C:\ROUNDA~1\CREATE~1\HELP\GETTING.SHG
+Using JPEG Files
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+square_bmp
+C:\ROUNDA~1\CREATE~1\HELP\KEY.SHG
+Not All Bitmaps Are Square
+
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+images
+C:\ROUNDA~1\CREATE~1\HELP\BACKUP.SHG
+All About Image Files
+
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+trouble
+C:\ROUNDA~1\CREATE~1\HELP\REQUIR.SHG
+Troubleshooting
+
+Shareware
+Shareware
+
+
+
+
+
+00001:006
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\SHARE.SHG
+What Is Shareware?
+
+9
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Shareware is a concept of "try it before you buy it." The program is downloaded from a BBS, on-line service, off the web or purchased on a disk by a shareware vendor. When it is purchased on a disk, you are only paying for the cost that vendor incurred duplicating and distributing that software on disk. You still have to pay a registration fee to the author to use his software past the evaluation period. Some shareware comes complete and unrestricted while others have limits to its use, hoping you’ll like it enough to send a check in the mail to receive the full version. If the software is complete, you are on the honor system to either remove it off your computer or send in a check once you have finished the evaluation period. To help you decide whether to keep it and pay or remove it off your computer, programmers have added nag screens, time out screens, legal warnings, newer versions and extra feature incentives. Most of the shareware available is under $30.00 because they’re small, handy little programs you wouldn’t find anywhere else.  There’s lots of good shareware out there as well as bad.
+
+Shareware is made by some companies, but mostly from independent programmers. A lot of businesses came about because of an independent programmer doing well on a piece of software he or she wrote. An independent programmer can spend many months, even a couple of years, burning the midnight oil, working on shareware projects in his spare time. That’s why, when you find a neat little program that you like, it’s well worth it to send in the few bucks they are asking for.
+
+register
+register
+
+
+
+
+
+00001:007
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\REGIST.SHG
+Why Should I Register?
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Like all shareware, it's a matter of try it before you buy it. Every program I write takes many months of hard work. People who write shareware are independent authors who spend much of their spare time writing programs. Like me, most of them have a full-time job and do what they can to find time to write their software. It's sort of a small side business. These days, with tons of shareware out there on the online services, shareware authors can only expect to make a few extra bucks. No one will become rich writing shareware. Too many authors give up writing shareware because people don't bother to send the few dollars requested to register the program. Shareware is fun and is the quickest way to aquire the software you want at any given time. Imagine what it would be like if shareware was no longer created. To help keep the effort alive and well, please register the shareware you use.
+
+quicksetup
+quicksetup
+
+
+
+
+
+00001:009
+2
+5
+8
+MS Sans Serif
+24
+0
+101
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Step-by-Step - Two Ways To Setup
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Quick Setup - Using Single Image
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The Quick Setup window comes with some built-in Main Images that you can choose from to make a screen saver, or your can load in one of your own saved images.
+
+Step-by-step instructions for selecting a single image:
+
+  1.  Click on the "Main Images:" combo box; you can either use one 
+       of the available images, or you can choose one of your own.
+  2.  If you wish to use one of the available images, select the image 
+       of your choice from the list.
+  3.  If you want to use your own image, select "Load your own..." from 
+       the "Main Images:" combo box  (second item from the top of list). 
+       You will now be in the "Image or Directory Selector" window.
+  4.  Be sure that the "Select a single image" button is checked in 
+        the "Image Selection Mode" section.  Then, locate the image on 
+        your hard drive and select it. Then, click OK to close the 
+        "Image or Directory Selector" window.
+  5.  The image you have selected, whether one of the available images 
+       or one of your own, will now be the image that displays as your 
+       screen saver.
+
+Create a unique effect by selecting a background to display behind 
+your image.
+
+Instructions for adding background images:
+
+  1.  Click on the "Background Images:" combo box (towards the bottom
+       center of the window.
+  2.  Select the background of your choice from the options given, or
+       choose your own backgrounds by selecting the "Load your own..."
+       option (second item from the top of the list)..
+  3.  If you wish to use one of the available solid color or patterned
+       backgrounds, just select it from the list.
+  4.  If you want to use your own image as a background, select "Load
+       your  own..." from  the "Background Images:" combo box  (second
+       item from the top of list).  You will now be in the "Image or Directory
+       Selector" window.
+  5.  Locate the image on your hard drive and select it. Then, click OK 
+        to close the "Image or Directory Selector" window.
+  6.  The background you have selected, whether one of the available
+       backgrounds, or one of your own, will now be the background that
+       displays behind your main image.
+
+Add text at the top and/or bottom of the screen to give a specific 
+message.
+
+Instructions for adding messages:
+
+  1.  Enter text in the "Message Across Top" and/or "Message Across
+        Bottom" text fields.
+  2.  If you enter text, you can change the font and/or color by clicking 
+       the buttons next to the text fields (first button for font selection 
+       and size, second button for color).
+
+Customize your screen saver even more by adding sound files.
+
+(Specific step-by-step instructions for adding sound can be found in a separate section in the Create-a-Saver Contents window).
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Quick Setup - Using a Folder Full Of Images
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+You say you have a lot of images and you're not afraid to show them, then this is a good way to go. This option is for a more general approach to creating your screen saver. 
+
+Step-by-step instructions for selecting a directory full of  images:
+
+  1.  Create an empty folder and add all of your images to it.  Be sure 
+        you know where you saved your folder to find it easily.
+  2.  Click on the "Main Images:" combo box and select "Load your 
+        own..."  (second item from the top of list).  You will now be in 
+        the "Image or Directory Selector" window.
+  3.  Be sure that the "Select a directory full of  images" button 
+        is checked in the "Image Selection Mode" section.  Then, 
+        locate the folder you have your images saved in and select 
+        it.  *Please be sure to test each image in your folder 
+        individually before running the screen saver.  To do this, you 
+        will have to select the "Select a single image" option from 
+        the Image Selection Mode section while your folder is open.  
+        Make sure they all display in the preview window; if you get 
+        an error message in the box instead of the image, do not 
+        use that  image - remove it from your folder before running 
+        your screen saver!  
+  4.  Once you are satisfied with your selection, select the "Select 
+        a directory full of images" button.  Then, choose one of
+        the options from the "Directory Selection Options" section.
+  5.  When you are finished making your selections, click OK to 
+        close the "Image or Directory Selector" window.
+   6.  The folder of images you have selected will now be displayed
+         as your screen saver.
+
+Create a unique effect by selecting one background or a variety of backgrounds to display behind your images.
+
+Instructions for adding background images:
+
+  1.  Click on the "Background Images:" combo box (towards the bottom
+       center of the window.
+  2.  If you just want one background for your screen saver, select 
+       the background of your choice from the options given, or  
+       choose your own background by selecting the "Load your 
+       own..."  option (second item from the top of the list).
+       If you want to have Create-A-Saver randomly use one of its built in
+       backgrounds each time a new screen is displayed, select one of
+       the built in backgrounds and then click on the button labeled
+       "Preferences" and select the Randomize Backgrounds option.
+  3.  If you wish to use one of the available solid color or patterned
+       backgrounds, just select it from the list.
+  4.  If you want to use your own image as a background, select "Load
+       your  own..." from  the "Background Images:" combo box  (second
+       item from the top of list).  You will now be in the "Image or Directory
+       Selector" window.
+  5.  Locate the image on your hard drive and select it. Then, click OK 
+        to close the "Image or Directory Selector" window.
+  6.  If you wish to use a variety of backgrounds with your images,  
+       create a separate folder just as you did for your images and 
+       put in your background selections.
+  7.  If you have a folder of backgrounds you want to use, select "Load
+       your  own..." from  the "Background Images:" combo box  (second
+       item from the top of list).  You will now be in the "Image or Directory
+       Selector" window.  
+  8.  Be sure that the "Select a directory full of  images" button 
+        is checked in the "Image Selection Mode" section.  Then, 
+        locate the folder you have your backgrounds saved in and 
+        select it.   *Please be sure to test each image in your folder 
+        individually before running the screen saver.  To do this, you 
+        will have to select the "Select a single image" option from 
+        the Image Selection Mode section while your folder is open.  
+        Make sure they all display in the preview window; if you get 
+        an error message in the box instead of the image, do not 
+        use that  image - remove it from your folder before running 
+        your screen saver!
+  9.   When you are finished making your selections, click OK to 
+        close the "Image or Directory Selector" window.
+ 10.  The backgrounds you have selected will now be displayed
+         behind your main images.
+
+To add text or sound to your screen saver, please refer to the instructions given above under Quick Setup - Using Single Image.  (Note:  When using the "Message Across Top/Bottom" fields to enter text, this text will display on each of the screens in your screen saver).
+
+square_bmp
+square_bmp
+
+
+
+
+
+00001:016
+2
+7
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\KEY.SHG
+Not All Bitmaps Are Square
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+8
+MS Sans Serif
+16
+0
+216
+216
+0
+0
+0
+0
+
+C:\ROUNDA~1\CREATE~1\HELP\TRANS.SHG
+
+
+
+Original Image: Image.BMP
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Say you wanted to use an image like the above image but you wanted the white area to be transparent instead of it sitting on a white square. It would look so much nicer if the background could come through. It takes extra work but it can be done. You would have to make two copies of the above image, one being the color image and the other the bitmap mask file.
+
+
+
+8
+MS Sans Serif
+16
+0
+216
+216
+0
+0
+0
+0
+
+C:\ROUNDA~1\CREATE~1\HELP\TRANS1.SHG
+
+
+
+Color Image: MyFile.BMP
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+First, you would need to make a copy of the original file and make the area you wish to be transparent black. Any paint program with a fill tool can do this job. After you fill the areas with black, you may need to go in and paint any stray grey or off-color pixels black with a pen tool so that it looks nice and neat like the above image. This file is not your mask file and can be named anything with a .BMP extension. Example: MyFile.BMP
+
+
+
+8
+MS Sans Serif
+16
+0
+216
+216
+0
+0
+0
+0
+
+C:\ROUNDA~1\CREATE~1\HELP\TRANS2.SHG
+
+
+
+Mask Image: MyFile.MSK
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Once again you would need to make a copy of the original file. Now, fill in the image area of the bitmap with black. The fill tool of a paint program may not be of much help here and you may need to fill the whole image manually. Depending on the complexity of the image, it may take a considerable amount of work. This image needs to be white and black only. Be careful not to leave any stray pixels of any other colors. Next, save the file with the same name as the last file but with a different file extension of .MSK. Example: MyFile.MSK
+
+Once this is done, the image will magically display in the screen saver as a transparent image. The color image and the mask image are the only images you will need. The original image is no longer needed. Both files must be the same size and be together in the same directory. It may take a couple sessions of trial and error to get it right, so don't get discouraged if it doesn't work properly the first time.
+
+If you want to use *.JPG files, use the *.GIF, or *.BMP file format for your mask file. Since your mask file is only black and white, using a *.JPG file is overkill. The *.JPG format is very complex and is slow to decompress, so using *.GIF or *.BMP will greatly improve speed.
+
+trouble
+trouble
+
+
+
+
+
+00001:018
+2
+15
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\REQUIR.SHG
+Troubleshooting
+
+9
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+My images get cut off and I only see the top part of the images
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The image that is being displayed is at a higher resolution than your computer display is set to.  If you're using Quick Setup to design your screen saver, just click on the Preferences button and select the "Size Bitmaps to Fit" option. If you're using Screen Designer to set up your screen saver, that same check box is in the Screen Designer window and applies to the current screen.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+When the screen saver starts, the screen stays black and/or the computer freezes.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This can happen because the screen saver is trying to use an image or a sound file that is corrupt or is in a format that may not be supported by Create-a-Saver. For example, Windows RLE *.BMPs and animated *.GIF files are not supported. Also, you could be trying to play a sound file that your computer may not have the proper drivers for its compression type.
+
+The Solution: You'll need to find the image or sound file that is hanging up the screen saver. It's a good idea to test every image and sound file before using it with the screen saver. If you're using sound files, go into the screen saver and turn off all the sounds. If the screen saver works, then you know it's one of the sound files you're using. Try playing each sound file through the screen saver with the "Select Sound Directory" window to see which one gives you trouble. If it's one of the images, view each image with the "Image and Directory Selector" to see if you get an error with one or more of the images.  If you find the corrupt file, remove it from your folder before running the screen saver.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+When I play MPEG files with my screen saver, the sound skips when it transitions to the next screen.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The reason this is happening is because loading the next screen is taking too long and is interrupting the loading and playing of the MPEG file. The main reason this could be happening is that the image files being used are much larger than is really needed and are taking too long to load. A solution to this problem would be to reduce the image file size being used and/or to convert all the image files to *.BMP format. The *.BMP format is an uncompressed format and loads very fast compared to the compressed formats of GIF or JPEG.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+When the screen saver runs, the color in my images are wrong.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This can happen if you are running your computer in 256-color mode or less. Each bitmap has a palette of colors the system uses to display the bitmap on screen. If you are using a main image and a background image, both of these images could have palettes very different from each other. When your system is running in 256 colors, Windows does its best to try to map both of the 256-color palettes, but if each image uses a set of  very different colors from the other, the result may be less then satisfactory.
+
+The Solution: One simple fix for this is to change your system from 256-color mode to a higher color mode, such as "High Color 16-bit,"  (Start|SettingsControl Panel|Display|Settings|Color Palette box). If that is not an option for your computer, you could do one of two things. First, you could forego the background image and just use a solid color. If you are using the Screen Designer, picking a different solid color for each screen is a great idea. Second, this may take a little more work, but you could experiment with different background images to find one that doesn't conflict with the main image. A background image with just a few colors could work out well.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Why is it so slow when adding *.JPG images?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The *.JPG file format is a very complex compressed RGB image format. Because it is very complex, loading these images can be VERY SLOW. If you have a very fast computer, you may not notice much of a delay, but if you have an older, slower computer, the delay may not be satisfactory. 
+
+The Solution: Convert your *.JPG files to the Windows *.BMP format by using a paint program like PhotoShop or Paint Shop Pro. This format is not compressed and files will load very quickly.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+I get error messages on some of my images.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The screen saver is designed to handle many situations such as bad data and missing bitmaps. If the screen saver is running at the time, you'll see an image of a confused computer or some other warning graphic. There will also be the name of the problem file up at the top lefthand corner of the screen. Sometimes a Windows bitmap can be saved with an RLE compression. This screen saver doesn't support RLE compressed Windows bitmaps. You'll need to load it into an image-editing program and re-save it as a standard Windows bitmap. Also, a file can become damaged because it happens to be sitting on a bad sector of the hard drive.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Something went wrong and I can't get back into the Settings window to change my screen saver options
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+I put a huge effort into testing my software before I make it available, but sometimes something can go wrong whether it was the fault of the screen saver or not. One simple solution is to un-install and then re-install the screen saver. Another solution would be to go to your Windows directory (usually C:\Windows) and delete the file Create-A-Saver.ini. Either option will cause the screen saver to default to its original settings. The screen saver will run as the shareware version and you will then need to key in your registration number again. You'll need to reset all your options like you had it before. If you were using the Screen Designer, just load in your designer file and everything will be like it was before.
+
+images
+images
+
+
+
+
+
+00001:017
+2
+7
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\BACKUP.SHG
+All About Image Files
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What Types Of Image Files Does This Screen Saver Use?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The file formats supported by this screen saver are bitmap and vector. Files with a *.BMP, *.JPG and a *.GIF extension are bitmap files. Files with a *.WMF and an *.EMF extension are vector file formats, also known as Windows Meta Files. If you have images that are of a different file format, you can easily change it to one of the supported formats with a graphics utility. Windows RLE *.BMPs and animated *.GIF files are not supported.
+
+4
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What Are Bitmap Files?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Bitmaps are files that store color information on each pixel of the image. The Windows logo you see when starting your computer is a bitmap file. Since bitmaps hold information about each pixel, depending on how big the file is, they can take up a considerable amount of space. Each bitmap has only one real size. That's why, when you choose "Size Bitmaps" as an option in the screen saver, the image may look odd or very jagged depending on what its original size was.  For example, bitmaps are best for displaying pictures that were taken with a camera.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What Are Meta Files?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Meta files are very different from bitmaps. Instead of holding pixel data like bitmaps do, they hold drawing coordinates. They draw lines and color fills. Meta files do not have a definite size like bitmaps do and look the same no matter what size is displayed. These files also take up a lot less disk space than bitmaps do. Meta files are mostly used to display line drawings with color fills like cartoon images, or graphs and charts.
+
+WhatIsCreate
+WhatIsCreate
+
+
+
+
+
+00001:005
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+101
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\SHARE.SHG
+What Is Create-A-Saver?
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+Create-A-Saver is a Windows screen saver that allows you to design a screen saver with your own images, or you can use the stock images that are included with it. The images that are built into the progam are primarily for the purpose of giving you something to experiment with until you can acquire your own images. Just think of how much fun it would be to have a screen saver display images of your family, friends, vacation, etc. You can even write captions for each image describing what the current screen is all about. Where do you get images? You can get images from the web, scan pictures in using a scanner, a digital camera, or from a Kodak Photo CD (just check this option when processing your film). This version of Create-A-Saver supports *.bmp, *.gif, *.jpg, *.emf and *.wmf image files, and  *.MP1, *.MP2, *.MP3, *.ATX,  *.WAV, *.MID and *.RMI sound files .  If you have an image or sound file of a different format, you'll need to convert it. Converting an image or a sound file to a different format mostly involves finding a utility program from the web that will do the conversion for you.
+
+Create-A-Saver isn't a complicated program, and it does have a lot of nice features. If you're new to the computer and/or Windows in general, some things may be confusing at first. Just take your time and do some experiments. Don't be afraid to click around and try different options.
+
+JPGFiles
+JPGFiles
+
+
+
+
+
+00001:015
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\GETTING.SHG
+Using JPEG Files
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+For your information, the *.JPG file format is a very complex compressed RGB image format. Because it is very complex, loading these images can be VERY SLOW. If you have a very fast computer, you may not notice much of a delay, but if you have an older, slower computer, the delay may not be satisfactory. One solution is to convert your *.JPG files to the Windows *.BMP format by using a paint program like PhotoShop or Paint Shop Pro. This format is not compressed and files will load very quickly.
+
+AddingSound
+AddingSound
+
+
+
+
+
+00001:012
+2
+8
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\SOUND.SHG
+Step-by-Step - Adding Sound
+
+9
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+When using sound files downloaded from the web, AOL, or any  other online service, be sure to test the sound file first before using them.  Wave files (*.WAV) come in many different compressed formats. Your computer can play any of these compressed formats if it has the appropriate drivers. Be sure to TEST ALL SOUND FILES before using them with this screen saver. You can test a sound file by playing them first in the "Select Sound Directory" window. If the sound file doesn't play, don't use that sound file with this screen saver. Trying to play a sound file without having the needed drivers could result in program hang or system crash.
+
+
+1
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Adding sound to "Quick Setup" screen savers
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+  1. Make a folder and add some sound files.
+  2. In the "Quick Setup" window, click on the small, square speaker icon located 
+      near the bottom, right hand side of the window.
+  3. Locate  your folder full of sound files.
+  4. Select each new sound file to ensure that it plays.
+  5. Click "OK" and your screen saver will play the sound files when it runs.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Adding sound to "Screen Designer" screen savers
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+With "Screen Designer," you select a different sound file per screen.
+
+  1. Make a folder and add some sound files.
+  2. In the "Screen Designer" window, click "Load Sound File" under
+      the "Extra" menu option.
+  3. Locate your folder full of sound files.
+  4.  Select each new sound file to ensure that it plays.
+  5. Select one sound file from the list that you wish to apply to the current screen.
+  6. Click "OK" to select the sound file.
+  7 .That sound will now play when that screen is showing. Repeat the
+      same process for each screen you want a sound to play.
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+Using the "Don't Let Sound Files Interrupt" Preferences Option
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you want to play music while your screen saver is running, then you will need to make sure this option is selected. Using this option, all sound files play through until they have finished. When all sound files have played, the process will be repeated. If you are randomizing your sound files, the order will be mixed up each time the cycle finishes. Even if you are using "Screen Designer" to design your screen saver, the sound files are cycled and will not follow the frame in which they were added.
+
+When  this option is unchecked, all sound files are stopped when the next frame is drawn, even if it is not finished.
+
+Scanning
+Scanning
+
+
+
+
+
+00001:014
+2
+6
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\GETTING.SHG
+Scanning Your Own Images
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+
+So, you have a scanner and you're not afraid to use it!  Now you want to put that scanner to good use by scanning in some images and making a screen saver.  Well, before you start scanning there are a few things you need to consider.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What size do I scan it in at?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+First you need to know what resolution your computer is currently set at. The most common resolutions are 640 x 480, 600 x 800, 1024 x 768, and some are even higher. These numbers are in pixels wide by pixels tall. You can find this information by clicking on your Start button/Settings/Control Panel/Display/Settings Tab. The "Desktop area" will show what resolution you are currently in. Create-A-Saver has a feature that will shrink or expand your images to fit your screen but your images will always look better if you scan them to size. Scanning is no simple feat so it may take some trial and error before you get it to do what you want.
+
+Let's say, for example, your resolution is 800 x 600 pixels. Your finished scan should fall around this range. The key word here is pixels because your scanner may default to inches as the unit of measurement. Just be sure to set it to pixels. Set your picture down on your flatbed scanner and do a preview. Once you have the preview, you should be able to draw a box around the picture telling the scanner that this is the only area you want to scan. With your box drawn, the scanning software should be able to tell you what size the scan should be in pixels wide and pixels tall. If the number is way off, say too high or too low, change your scanning resolution. Scanning in pictures to display at screen resolution doesn't take very much resolution so chances are you will be setting it low. Your scanner may be set at 300 ppi and that may be too high a setting so try setting it at 250, or 200, or 123 to get near the resolution you need.
+
+While you're at it, crop the picture to only show the more interesting parts. Say it's a horizontal picture of a child sitting up holding his teddy bear. No need to see all that stuff on the sides. Zoom in on that picture, and crop out all the uninteresting stuff. Now it will be a vertical picture which is a close-up. Change your scanning resolution so that you are close to your desired pixel width and height resolution. Now scan it.
+
+You'll never hit the perfect size at this point. You'll usually be a little too big or too small. It's best to be bigger because then you have room to crop the image in your image editing software and you can also size it down to the size you need. Your scans will usually be more horizontal or vertical than your screen, which means your width or your height will reach your screen size first. So if your screen resolution is 800 x 600, and your width is closest to 800 then you may want it to be a little bit less than the screen - say about 700 or 750, and the same goes for your height -  500 to 550 will look the best.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+What file format should you save it at?
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Saving it as a Windows *.BMP will take up some considerable disk space. If you have the option, you could save it as a *.JPG. You could also save it as a *.GIF but then you would have to index your image to a 256-color palette. If you run your computer in 256 colors, *.GIF may be your best solution. If you're running your computer in more than 256 colors, *.JPG could be your best choice.
+
+preferences
+preferences
+
+
+
+
+
+00001:013
+2
+22
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Preferences
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Some of the options below are shared by both Quick Setup and Screen Designer.  Others are specific to Quick Setup only.  If you are in the Screen Designer mode, options specific to Quick Setup will be "greyed out" in the Preferences window and cannot be selected. 
+
+Below is a description of each option in the Preferences window.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Delay In Seconds (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The number entered into this box determines how many seconds between each screen.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Transitions On (Quick Setup and Screen Designer):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+This causes the screen to transition from one screen to the next by drawing lines or squares to fill and reveal the next screen. With this option off, the screen just flips to the next image.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Size Bitmaps To Fit (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+With this option selected, the bitmap will fill the screen regardless of its original size.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Randomize Backgrounds (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If a background is selected from the list of backgrounds, and this option is selected, a different background is chosen on each cycle.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Sound Directory Off (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+With this selected, any sound files you have loaded into Quick Setup will stop playing until Sound Directory is turned back on.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Play Sounds In Random Order (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+The directory of sound files you have selected to play will play in random order.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Don't Let Sound Files Interrupt (Quick Setup and Screen Designer):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+With this option selected, the sound files will play completely through before the next sound file starts.  If this option is turned off, the sound files will change each time a new screen is drawn.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Top Text in Random Order (Quick Setup only):
+Bottom Text in Random Order (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you have loaded a text file of messages (see section in the Contents page for instructions), select this option to randomize those messages.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Speed (Quick Setup and Screen Designer):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+How fast the transition is completed.
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Erase Fill Style (Quick Setup only):
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If transitions is turned on, use one of these three methods to go from one screen to the next. The screen transitions by painting over the image with black, random colors, or the next screen (only in 16-bit or greater color modes).
+
+screendesigner
+screendesigner
+
+
+
+
+
+00001:011
+2
+3
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Step-by-Step - Screen Designer
+
+9
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+4
+1
+0
+0
+
+
+
+Screen Designer
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+If you want to hand craft each screen, then this is the place to be. The Screen Designer is like a separate application inside the screen saver. When the Screen Designer is active and turned on, then the Quick Setup window is disabled and can't be changed. That way there is no confusion as to how you are using the screen saver. (You will know you are using the Screen Designer mode if you see a flashing box around the "Designer" button located in the Quick Setup window).  The Screen Designer will allow you to set up each screen, on a screen-by-screen basis. Each screen can have its own main and background image, caption, fonts and sounds. Just think, you could set up a screen saver showing a vacation you took and each image would display a caption describing what the image is.  When you're done setting up your screens in the Screen Designer, be sure to save your file. When using the Screen Designer, it is possible to keep all your files in the same folder, which is not a bad idea.  By saving your file and exiting out of the Screen Designer while your file is still loaded, the screen saver will know that that will be the file to use when it is activated. To use a different file you have created, just load it into the Screen Designer and exit out. Be sure to click "OK" in the Settings window to save your new choice.
+
+*Note:  If you jump from Screen Designer mode to Quick Setup mode, you will have to re-load your desired file again in Screen Designer when you go back to using that mode.
+
+
+Step-By-Step Instructions on Using Screen Designer:
+
+ 1.  First, while in the Quick Setup window, click on the "Screen Designer"
+      button, which will bring you into the Screen Designer window.
+ 2.  Be sure the "Screen Designer" check box is checked to be "On" (near
+      top center of the window).
+ 3.  Click on the "Main Images:" combo box and select your first image
+      (either one of the stock images available or by selecting one of your
+      own by clicking on  "Load Your Own."
+ 4.  If you'd like a background to go with your image, click on the
+      "Background Images:" combo box and select one of the backgrounds
+      already available, or select your own by clicking on "Load Your Own.."
+      to choose your own background.
+ 5.  If you want to add text to the top and/or bottom of the screen, type in your
+      message in the "Message Across Top/Bottom:" edit fields.  You can
+      customize your font, font size and color by clicking on the two icons to
+      the right of these edit fields.
+ 6.  You can customize your text even more by choosing to have it right
+      justified, left justified or centered by clicking on either of the three "label"
+     icons that are located just above the text edit fields.
+ 7. The final option to your screen would be to add sound if you'd like. Click
+     on the "Extra" menu option and be sure that the "Sound On" option at the
+     very bottom has a check mark in front of it.  Now, select "Load Sound
+     File..."  (Be sure to read the Helpful Hints box that opens up first).  Now,
+     the "Select Sound Directory" window will be open.  Locate the sound file
+     of your choice and select it.  Be sure to test the sound first by clicking
+     on the little speaker icon located in the Select Sound Directory window. 
+     If the sound does not work, or you get an error message, do not use that
+     sound file.  Click OK.  That sound file will now play when this particular
+     screen runs.
+ 8.  There two other options you can use with your screen.  The first is the
+     "Erase Fill Style:" which is located near the top right of the Screen
+     Designer window.  By clicking on one of the three options available, the
+     displayed screen will erase itself this particular way before going on to
+     the next screen. If you do not want any of these options and would just
+     like to see your screens display without a transition, click on the
+     "Preferences" button in the Quick Setup window and at the top of the
+     options list will be "Transitions On."  Click on that box to uncheck it and it
+     will now say "Transitions Off." Click OK to accept that option. The last
+     option is "Delay."  How many seconds do you want this particular screen
+     to display?  Just type in the number and that's how long this screen will
+     play before erasing and displaying the next screen.
+ 9.  Once you are satisfield with all of your selections for this particular
+     screen, you are ready to do another one.  Just click on the "Blank White
+     Screen" icon underneath the preview window and you can start all over
+     again with your next image.
+10.  When you are completely finished creating your screen saver and you
+     have all of your screens the way you want them, save your file by
+     clicking on the "File" menu option and selecting "Save As..."  Type in the
+     name of your choice with the *.cas extension attached.  Be sure you
+     save it in a location where you'll be able to locate it when you want to
+     use it.
+11.  After you've saved your file, close the Screen Designer window and
+    click the OK button in the Quick Setup window.  This will ensure that the
+    file you have just made will display as your screen saver.
+
+
+Some commonly asked questions about the use of Screen Designer:
+
+Q.  I have all of my images in a particular order making up 27 different screens.  Now I find another photo I want to use, but I want to put it somewhere in the middle.  Can I do that?
+
+A.  You bet.  If you know exactly where you want the additional screen placed within your other screen savers (meaning which number you want it to be), just create your screen adding it to the end of your current screen saver, then click on the "Extra" menu option.  Select the "Move Current Screen" option which will open up the "Move Current Screen to New Position" window.  Click on the down arrow of the "Current Screen to Be Moved" list.   A drop-down list will open up giving you all of the screen numbers you have for this particular creation.  The selection "Current Screen to Be Moved" will be the one that you want placed elsewhere.  Then finally, just click on the location where you want it to be placed and click the OK button.  Your screen will now be placed in the position you want it to be in.  Always be sure to save your changes.
+
+
+Q.  I created a screen saver using many different images, but when I went to run the screen saver again, one of the screens I see is a funny computer face and not one of my images?  What happened?
+
+A.  When you see a "confused" computer face instead of one of your images, that means that the image you should have in that particular screen has been moved from the location you originally loaded it from to another location or the image file is damanaged.  If you're not sure which image it is, take a look at the top of the screen and you will see an "Error Message."  Create-a-Saver will tell you exactly which file is missing or damanaged and where you originally loaded it from.  This message will display on all of the screens in that screen saver until you either find the image and put it back in the folder Create-a-Saver found it in, or until you delete that particular screen from your designed screen saver.
+
+
+Q.  I don't like it when the screens have those "funny black lines and dots, etc." erasing the screens.  Can I just have my screens come on without them.
+
+A.  Sure you can.  Just go into the Create-a-Saver Quick Setup window and click on the rectangular "Preferences" button towards the bottom right side of the window.  This will bring you into the "Screen Saver Preferences" window.  Be sure the check box in front of the first option "Transitions On:" is unchecked.  It will now say "Transitions Off:" and you will just get your screens one after the other without being "erased."
+
+
+textfilemessages
+textfilemessages
+
+
+
+
+
+00001:010
+2
+2
+8
+MS Sans Serif
+24
+0
+216
+216
+4
+1
+0
+0
+contents
+C:\ROUNDA~1\CREATE~1\HELP\CONTROL.SHG
+Creating Text File Messages in Quick Setup
+
+9
+
+0
+0
+0
+0
+0
+0
+0
+0
+
+
+
+
+3
+MS Sans Serif
+20
+0
+216
+216
+0
+0
+0
+0
+
+
+Adding Multiple Text Captions:
+
+If you are using a folder full of images in Quick Setup, you may want to have a different line of text for each image.  In this case, the "Message Across Top/Bottom" edit fields will not help you.  There is a way to do this, however.
+
+Using Note Pad (available through your Program/Accessories option), or any basic text editor that creates a standard *.txt file, do the following:
+
+ 1.  If you want to have one line of text for each image at the top of the
+      screen, just type in your text in NotePad (or other program), pressing 
+      the enter key after each specific message. 
+ 2.  When you are finished creating all of your lines of text, save your file in
+       the same folder as your images; this helps keep all of your files
+       together.
+ 3.  If you want to do the same for the bottom of the screen, repeat the
+      process above and save your file in the same folder with your images.
+ 4.  Now, to display your text with your images, just click on the "lined paper"
+      icon (to the far right of the message edit fields).  This will bring up a
+      screen where you will select the file you want to use.  When you have
+      found and selected your file, click the "Open" button.  Your messages
+      will now display in your screen saver.
+ 5.  Repeat this process for the bottom text also, if necessary.
+
+If it doesn't matter what order your message show up, you can have them display in random order by clicking on the "Preferences" button in the Quick Setup window and then checking the "Top/Bottom Text in Random Order:" boxes.  Your text will now display in random order.
+
+Now, you can also show a list of text on your screens.  This process is done a little differently and the list will show up on each of the screens if you're using a folder full of images.
+
+ 1.  While in your NotePad or other program, type your text on one
+      continuous line only.  When you want to separate your items, press
+      the |  key to force a return.
+ 2.  For example, if you type in this line of text on one line, Test 1 | Test 2 | 
+      Test 3, all three will be listed like this on the screen:
+      Test 1
+      Test 2
+      Test 3
+ 3.  As above, save this file in the folder of images you want it to display with.
+ 4.  Then, load up your text by clicking on the "lined paper"  icon (to the far
+      right of the message edit fields).  This will bring up a screen where you
+      will select the file you want to use.  When you have found and selected
+      your file, click the "Open" button.  Your list will now display in your
+      screen saver.
+
+
+
+
+
+
+

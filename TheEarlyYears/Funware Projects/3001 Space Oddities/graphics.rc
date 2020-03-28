@@ -1,0 +1,12 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// Have to split up the graphics into different resource files because
+// the command line tools don't like big resource files
+
+OrangeClouds GIF LOADONCALL MOVEABLE "cloudsOrange.GIF"
+BlueGreenClouds GIF LOADONCALL MOVEABLE "cloudsBG.GIF"
+RedBrownClouds GIF LOADONCALL MOVEABLE "cloudsRedBrown.GIF"
+Ships GIF LOADONCALL MOVEABLE "ships.GIF"

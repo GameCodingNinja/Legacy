@@ -1,0 +1,120 @@
+[Main Window]
+Create=1
+Visible=1
+State=2
+Left=0
+Top=2
+Width=1024
+Height=105
+MaxLeft=-1
+MaxTop=-1
+MaxWidth=1288
+MaxHeight=105
+ClientWidth=1280
+ClientHeight=78
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=108
+Width=208
+Height=828
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=198
+ClientHeight=802
+TBDockHeight=494
+LRDockWidth=190
+Dockable=1
+SplitPos=99
+
+[Closed Files]
+File_0=SourceModule,'C:\RoundAbout Programs\Image Preview\ImgLoad.pas',0,1,68,5,87,1,0
+File_1=SourceModule,'C:\RoundAbout Programs\hlibrary\DecodeGif.pas',0,1,1,5,63,0,0
+File_2=SourceModule,'C:\RoundAbout Programs\Create-a-Saver\globals.pas',0,1,14,1,16,0,0
+File_3=SourceModule,'C:\RoundAbout Programs\Bubbles Screen Saver\savThr.pas',0,1,514,5,530,0,0
+File_4=SourceModule,'C:\RoundAbout Programs\Image Preview\startup.pas',0,1,1,41,33,1,0
+File_5=SourceModule,'C:\RoundAbout Programs\Create-a-Saver\savConf.pas',0,1,226,1,479,1,0
+File_6=SourceModule,'C:\RoundAbout Programs\hlibrary\gFunctin.pas',0,1,21,1,1,0,0
+File_7=SourceModule,'C:\RoundAbout Programs\Image Preview\Globals.pas',0,1,964,47,13,0,0
+File_8=SourceModule,'C:\RoundAbout Programs\Create-a-Saver\ImgLoad.pas',0,1,239,23,246,1,1
+File_9=SourceModule,'C:\RoundAbout Programs\Create-a-Saver\Loadpref.pas',0,1,35,16,46,0,0
+
+[Modules]
+Module0=C:\RoundAbout Programs\CheckSumQuad\main.pas
+Count=1
+EditWindowCount=1
+
+[C:\RoundAbout Programs\CheckSumQuad\main.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi4\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\RoundAbout Programs\CheckSumQuad\chechsum.dpr]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=234
+Top=204
+Width=734
+Height=482
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=726
+ClientHeight=455
+LeftPanelSize=0
+RightPanelSize=0
+BottomPanelSize=52
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=000004000000000000000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+ViewCount=1
+CurrentView=0
+View0=0
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=11
+Top=0
+Width=715
+Height=52
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=715
+ClientHeight=52
+TBDockHeight=52
+LRDockWidth=443
+Dockable=1
+
+[View0]
+Module=C:\RoundAbout Programs\CheckSumQuad\main.pas
+CursorX=5
+CursorY=111
+TopLine=101
+LeftCol=1
+
+[DockHosts]
+DockHostCount=0
+
+[Watches]
+Count=1
+Watch0='Iwn',2,0,11,1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
