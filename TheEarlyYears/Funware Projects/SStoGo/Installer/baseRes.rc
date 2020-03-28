@@ -1,0 +1,74 @@
+//-----------------------------------------------------
+// Program: Screen Saver Installer
+// File: Install.rc
+// Copyright (c) 1998 by Howard C Rosenorn
+// Description: Program for installing my screen savers
+//-----------------------------------------------------
+
+
+#include "Install.h"
+
+
+Menu_1 MENU
+{
+	POPUP "&File"
+	{
+		MENUITEM "&Install Screen Saver", ID_FILE_INSTALL
+		MENUITEM "&Delete Screen Saver", ID_FILE_UNINSTALL
+		MENUITEM SEPARATOR
+		MENUITEM "&Exit", ID_FILE_EXIT
+	}
+
+	POPUP "&Misc"
+	{
+		MENUITEM "&About", ID_MISC_ABOUT
+	}
+	MENUITEM "go to Web Site...", MNU_WEB_LINK
+}
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+	1009, "Uninstall Error"	 // UNINSTALL_ERROR
+	1010, "Unable to delete program. Restart your computer and try again." // UNINSTALL_ERROR_MESSAGE
+	1011, "Hard Drive Error" // HARD_DRIVE_ERROR
+	1012, "Error trying to retrieve hard drive information. Restart your computer and try again." // ERROR_GETTING_AVAILABLE_SPACE
+	1013, "There's not enough hard drive space to install program. Clear off some space and try again."	// NOT_ENOUGH_SPACE_ON_DRIVE
+END
+
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "Screen Savers To Go Installer\0"
+            VALUE "FileVersion", "1.0.2\0"
+            VALUE "InternalName", "Install.exe\0"
+            VALUE "LegalCopyright", "2001 All Rights Reserved, Howie's Funware\0"
+            VALUE "LegalTrademarks", "Howie's Funware\0"
+            VALUE "OriginalFilename", "Install.exe\0"
+            VALUE "ProductName", "1.0.2\0"
+            VALUE "ProductVersion", "Screen Savers To Go Installer\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

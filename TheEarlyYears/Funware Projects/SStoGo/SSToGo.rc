@@ -1,0 +1,284 @@
+
+/************************************************************************
+*
+*    PRODUCT:         Screen Savers To Go
+*
+*    FILE NAME:       SSToGo.rc
+*
+*    DESCRIPTION:     Screen Savers To Go main resource file 
+*
+*    Copyright(c) by Howard C Rosenorn
+*    All Rights Reserved
+*
+************************************************************************/
+
+#include "gDefines.h"
+
+// Applications
+ScreenSaver EXE LOADONCALL MOVEABLE "s2g.exe"
+Installer EXE LOADONCALL MOVEABLE "install.exe"
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+TOOLBARBMP BITMAP "Buttons5.bmp"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+IntroTxt TXT LOADONCALL MOVEABLE "IntroS2G.txt"
+startup GIF LOADONCALL MOVEABLE "s2goLogo.GIF"
+AppIcon ICON "SS2Go.ico"
+install ICON "Install.ico"
+center BITMAP LOADONCALL MOVEABLE "center.BMP"
+left   BITMAP LOADONCALL MOVEABLE "left.BMP"
+right  BITMAP LOADONCALL MOVEABLE "right.BMP"
+fonts  BITMAP LOADONCALL MOVEABLE "fonts.BMP"
+colors  BITMAP LOADONCALL MOVEABLE "color.BMP"
+
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+    // Reg Num Info text
+    50, "This ebook is in shareware mode and is restricted to the number of pages you can view.\015\015To view the entire ebook, a registration fee is required. Click on the Order Form Program button below, fill out the order form, print it and mail it along with your payment.\015\015Once payment is received, your registration number will be emailed to you. Type in the registration number into the below edit field to remove the shareware restriction."
+    51, "This program is in shareware mode. The executables it generates will only run on the computer it is built on and can only be used for evaluation.\015\015To have full use of this program requires a registration fee. There are two ways to register this program: \015Online using the order form on my secure and encrypted web site at www.howiesfunware.com or through the mail by completing and filling out the built-in order form located under the Order Info menu."
+    52, "Sorry, but the number entered is not the correct registration number. Check that you have entered the number correctly and that you didn't include any spaces that do not belong."
+    53, "Thank you for registering this program. The program will now run in full registered mode."
+end
+
+
+DLG_STARTUP_SCRN DIALOG 0, 0, 240, 120
+STYLE WS_POPUP | WS_VISIBLE
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+}
+
+
+DLG_ABOUT DIALOG 0, 0, 240, 191
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 168, 42, 14
+ CONTROL "", TXT_ABOUT, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 140, 224, 24, 0
+ CONTROL "Goto Web Site...", BTN_GOTO_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 168, 68, 14, 0
+}
+
+
+DLG_REG_NUMBER DIALOG 0, 0, 220, 201
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Register"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 128, 178, 40, 15
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 172, 178, 40, 15
+ CONTROL "reg info", TXT_ORDERING_INFO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 48, 204, 92, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER, 8, 158, 152, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE, 8, 178, 84, 15, 0
+ CONTROL "Enter in Your Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 144, 156, 10, 0
+ CONTROL "Shareware Mode", TXT_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 8, 204, 20, 0
+ CONTROL "Program cost", TXT_PROGRAM_COST, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 32, 204, 8, 0
+}
+
+// Move pages around
+DLG_MOVE_PAGE DIALOG 0, 0, 164, 86
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Move Current Page to a New Position"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 48, 60, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 60, 46, 14
+ CONTROL "Select the new position you want the current page to be in:", -1, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 20, 8, 124, 24, 0
+ CONTROL "", CBO_MOVE_PAGE, "combobox", CBS_DROPDOWNLIST | CBS_DISABLENOSCROLL | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 20, 36, 124, 96, 0
+}
+
+DLG_LOAD_PICT DIALOG 0, -1, 235, 119
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", STC_PICTLOAD_IMAGE_WND, "static", SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE | WS_BORDER, 52, 0, 172, 104, 0
+ CONTROL "", STC_PICTLOAD_INFO, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 52, 107, 172, 8, 0
+}
+
+
+Art4SaleAccl ACCELERATORS 
+BEGIN 
+    "N", MNU_NEW, CONTROL, VIRTKEY            // CTRL+N 
+    "O", MNU_OPEN, CONTROL, VIRTKEY           // Ctrl+O 
+    "S", MNU_SAVE, CONTROL, VIRTKEY           // Ctrl+S 
+    "Q", MNU_EXIT, CONTROL, VIRTKEY           // Ctrl+Q
+    "B", MNU_ADD_BK_IMAGE, CONTROL, VIRTKEY   // Ctrl+B
+    "M", MNU_ADD_MAIN_IMAGE, CONTROL, VIRTKEY // Ctrl+M
+    "P", MNU_PRINT, CONTROL, VIRTKEY          // Ctrl+P
+    "R", MNU_RUN_SAVER, CONTROL, VIRTKEY      // Ctrl+R
+	"F", MNU_FIND_SCREENSAVER, CONTROL, VIRTKEY      // Ctrl+F
+    VK_DELETE, MNU_DELETE_PAGE, VIRTKEY       // Delete key
+    //VK_LEFT, BTN_FLIP_LEFT, VIRTKEY           // Left key
+    //VK_RIGHT, BTN_FLIP_RIGHT, VIRTKEY         // Right key 
+END
+
+Menu_1 MENU
+{
+   POPUP "&File"
+   {
+      MENUITEM "&New Project...\tCtrl+N", MNU_NEW
+      MENUITEM "&Open Project...\tCtrl+O", MNU_OPEN
+      MENUITEM "&Save\tCtrl+S", MNU_SAVE
+      MENUITEM "Save &As...", MNU_SAVEAS
+      MENUITEM "&Close Project", MNU_CLOSE
+      MENUITEM SEPARATOR
+      MENUITEM "&Print\tCtrl+P", MNU_PRINT
+      MENUITEM "P&rint Setup...", MNU_PRINT_SETUP
+      MENUITEM SEPARATOR
+      MENUITEM "&Preferences...", MNU_PREFS
+      MENUITEM SEPARATOR
+      MENUITEM "&Exit\tCtrl+Q", MNU_EXIT
+   }
+
+   POPUP "&Project"
+   {
+      MENUITEM "Add &Main Image...\tCtrl+M", MNU_ADD_MAIN_IMAGE
+	  MENUITEM "Add &Background Image...\tCtrl+B", MNU_ADD_BK_IMAGE
+	  MENUITEM "&Change Main Image...", MNU_CHANGE_MAIN_IMAGE
+	  MENUITEM "Set B&ackground Color...", MNU_BACKGROUND_COLOR
+      MENUITEM SEPARATOR
+      MENUITEM "Add &Sound File to Current Screen...", MNU_ADD_SOUND
+      MENUITEM "Remove Sound &File from Current Screen...", MNU_REMOVE_SOUND
+      MENUITEM SEPARATOR
+      MENUITEM "Move Current Screen...", MNU_MOVE_PAGE
+      MENUITEM "&Delete Current Screen\tDel", MNU_DELETE_PAGE              
+   }
+
+   POPUP "&Run"
+   {
+	  MENUITEM "Run &Screen Saver...\tCtrl+R", MNU_RUN_SAVER
+	  MENUITEM "Run &Control Panel Preferences...", MNU_RUN_PREFS
+	  MENUITEM "Run &Installer...", MNU_RUN_INSTALLER
+	  MENUITEM SEPARATOR
+	  MENUITEM "&Find My Screen Saver...\tCtrl+F", MNU_FIND_SCREENSAVER		
+   }
+
+   POPUP "&Help"
+   {
+      MENUITEM "&Contents...", MNU_HLP_CONTENTS
+      MENUITEM "&Index...", MNU_HLP_INDEX
+      MENUITEM SEPARATOR
+      MENUITEM "&About...", MNU_ABOUT
+   }
+   MENUITEM "go to Web Site...", MNU_WEB_LINK
+}
+
+
+DLG_PROJECT_PREFS DIALOG 0, 0, 162, 92
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Project Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", EDT_APP_TITLE, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 16, 144, 12, 0
+ CONTROL "", EDT_EXE_NAME, "edit", ES_LEFT | ES_AUTOHSCROLL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 48, 144, 12, 0
+ CONTROL "OK", BTN_OK, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 40, 68, 50, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 96, 68, 50, 14
+ CONTROL "Title of your screen saver:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 4, 136, 8, 0
+ CONTROL "Name of your screen saver's install (EXE) file:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 36, 148, 8, 0
+}
+
+DLG_STATUS_WND DIALOG 0, 0, 240, 50
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_BORDER
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "", PROG_BAR, "msctls_progress32", WS_CHILD | WS_VISIBLE | WS_BORDER, 8, 24, 224, 12, 0
+ CONTROL "", STC_PROGBAR_TXT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 8, 224, 8, 0
+}
+
+DLG_YOUR_INSTALLER DIALOG 0, 0, 229, 77
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Your Install File"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 172, 56, 50, 14
+ CONTROL "install", -1, "static", SS_ICON | WS_CHILD | WS_VISIBLE, 8, 8, 18, 15, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 12, 60, 88, 12, 0
+ CONTROL "Look for the blue floppy disk icon!", STC_LOOK_FOR, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 40, 8, 192, 16, 0
+ CONTROL "This is the ONLY file you need that will install your screen saver and is the ONLY file you will need for handing out your screen saver to others.", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 40, 28, 180, 24, 0
+}
+
+DLG_PRINTING DIALOG 0, 0, 178, 49
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_TOPMOST
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Printing"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Printing...", TXT_PRINTING, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 12, 10, 156, 16, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 28, 46, 14, 0
+}
+
+// helpful hint dialog
+DLG_HELPFUL_HINT DIALOG 0, 0, 257, 206
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Helpful Hint"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Done", BTN_DONE, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 204, 184, 46, 15
+ CONTROL "", EDT_HELPFUL_HINT, "edit", ES_LEFT | ES_MULTILINE | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 24, 241, 152, 0
+ CONTROL "Don't Show Again", CHK_DONT_SHOW_AGAIN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 185, 84, 12, 0
+ CONTROL "", TXT_HLP_TITLE, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 240, 16, 0
+}
+
+DLG_MEDIA_DIR DIALOG 0, 0, 262, 35
+STYLE DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Test Selected Sound File", BTN_PLAY_SOUND, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 54, 16, 155, 14
+ CONTROL "Be sure to test each sound file before using it with the screen saver", TXT_MEDIA_DIR, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 8, 3, 248, 10, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "1.0.7\0"
+            VALUE "InternalName", "\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SSToGo.exe\0"
+            VALUE "ProductName", "Screen Savers To Go\0"
+            VALUE "ProductVersion", "1.0.7\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+
+
+
+
+
+
+
+

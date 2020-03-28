@@ -1,0 +1,59 @@
+//-----------------------------------------------------
+// Program: Screen Saver Installer
+// File: Install.rc
+// Copyright (c) 1998 by Howard C Rosenorn
+// Description: Program for installing my screen savers
+//-----------------------------------------------------
+
+
+#include "Install.h"
+
+// Change these to change the install messages
+#define INSTALLER "Installer - Screen Savers To Go Ver 1.0.2"
+#define TYPEOFPROGRAM3 "Screen Saver"
+#define TYPEOFPROGRAM4 "screen saver"
+#define CONFIGURE "Control Panel/Display/Screen Saver/Settings"
+#define WEBSITE "www.howiesfunware.com"
+#define EMAIL "funware@aol.com"
+
+/* GRAPHICS */
+AppIcon ICON "Install.ico"
+installBMP BITMAP LOADONCALL DISCARDABLE "ss2go.BMP"
+
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+   0, "About Screen Savers To Go" // ABOUT_WINDOW_CAPTION
+   1, INSTALLER"   "EMAIL"   "WEBSITE // ABOUT_WINDOW_INFO
+   2, INSTALLER // PARENT_WINDOW_TITLE
+   3, "Delete "TYPEOFPROGRAM3  // UNINSTALL_BUTTON
+   4, "Install "TYPEOFPROGRAM3  // INSTALL_BUTTON
+   5, "Exit"  // EXIT_BUTTON
+   6, TYPEOFPROGRAM3" Installer" // PROGRAM_INSTALLER
+   7, TYPEOFPROGRAM3" Uninstaller" // PROGRAM_UNINSTALLER
+   8, "The "TYPEOFPROGRAM3" is already installed on your computer. To install this one, the current one will have to be deleted. Do you want to delete the current one." // ALLREADY_INSTALLED
+   9, "The "TYPEOFPROGRAM3" has successfully been installed. To configure the "TYPEOFPROGRAM4", go to your "CONFIGURE" to adjust the "TYPEOFPROGRAM4" settings. Click OK to go there now.\r\rTo uninstall this screen saver, run this installer again and click on the Delete Screen Saver Button" // SUCCESSFUL_INSTALL
+   10, "Are you sure you want to uninstall the "TYPEOFPROGRAM3"?" // QUESTION_UNINSTALL
+   11, "The "TYPEOFPROGRAM3" is not currently installed on this computer. There is nothing to uninstall at this time." // NO_PRODUCT_TO_UNSTALL
+   12, "Install Finished" // INSTALL_FINISHED
+   13, "The "TYPEOFPROGRAM3" has been uninstalled." // UNINSTALL_COMPLETED
+   14, "Uninstall Finished"  // UNINSTALL_FINISHED
+   15, "The "TYPEOFPROGRAM3" has successfully been installed. Windows will need to be restarted for some changes to take effect. Do you want to restart Windows now?"
+
+   // Error messages
+   1000, "Resource Error" // RESOURCE_ERROR_TITLE
+   1003, "Parent window bitmap resource not found!" // PARENT_BITMAP_ERROR
+   1004, TYPEOFPROGRAM3" Install Error"
+   1005, "The "TYPEOFPROGRAM3" could not be uncompressed to your hard drive. Your hard drive may not have enough space available."
+   1006, TYPEOFPROGRAM3" Not Installed" // NOT_INSTALLED
+   1007, "Compressed file could not be transfered to temporary file. Install aborted."
+END
+
+/* Installing Dialog Box */
+Installing DIALOG LOADONCALL DISCARDABLE 0, 0, 140, 50
+STYLE DS_MODALFRAME | DS_CENTER | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Installing"
+FONT 8, "MS Sans Serif"
+BEGIN
+ CONTROL "Installing Screen Saver...", 101, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 0, 20, 140, 8, 0
+END

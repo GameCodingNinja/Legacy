@@ -1,0 +1,115 @@
+#include "GDefines.h"
+#include <windows.h>         // Windows header file for creating windows programs. This is a must have.
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+AttackShipPly POLY LOADONCALL DISCARDABLE "Resource Files\\Ship1.ply"
+MotherShipPly POLY LOADONCALL DISCARDABLE "Resource Files\\Ship2.ply"
+DefendShipPly POLY LOADONCALL DISCARDABLE "Resource Files\\Ship3.ply"
+DefendLaser POLY LOADONCALL DISCARDABLE "Resource Files\\LaserDefend.ply"
+DefendLaserOnly POLY LOADONCALL DISCARDABLE "Resource Files\\LaserOnlyDefend.ply"
+AttackLaser POLY LOADONCALL DISCARDABLE "Resource Files\\LaserAttack.ply"
+AttackLaserOnly POLY LOADONCALL DISCARDABLE "Resource Files\\LaserOnlyAttack.ply"
+Explosion POLY LOADONCALL DISCARDABLE "Resource Files\\Explosionpolys.ply"
+SpeedTest POLY LOADONCALL DISCARDABLE "Resource Files\\testRender.ply"
+
+AttackShipCrd CRD LOADONCALL DISCARDABLE "Resource Files\\Ship1.crd"
+MotherShipCrd CRD LOADONCALL DISCARDABLE "Resource Files\\Ship2.crd"
+DefendShipCrd CRD LOADONCALL DISCARDABLE "Resource Files\\Ship3.crd"
+DefendLaserCrd CRD LOADONCALL DISCARDABLE "Resource Files\\LaserDefend.crd"
+DefendLaserOnlyCrd CRD LOADONCALL DISCARDABLE "Resource Files\\LaserOnlyDefend.crd"
+AttackLaserCrd CRD LOADONCALL DISCARDABLE "Resource Files\\LaserAttack.crd"
+AttackLaserOnlyCrd CRD LOADONCALL DISCARDABLE "Resource Files\\LaserOnlyAttack.crd"
+ExplosionCrd CRD LOADONCALL DISCARDABLE "Resource Files\\Explosionpolys.crd"
+
+AttackShipBt BTXT LOADONCALL DISCARDABLE "Resource Files\\Ship1.bt"
+MotherShipBt BTXT LOADONCALL DISCARDABLE "Resource Files\\Ship2.bt"
+DefendShipBt BTXT LOADONCALL DISCARDABLE "Resource Files\\Ship3.bt"
+DefendLaserBt BTXT LOADONCALL DISCARDABLE "Resource Files\\LaserDefend.bt"
+AttackLaserBt BTXT LOADONCALL DISCARDABLE "Resource Files\\LaserAttack.bt"
+ExplosionBt BTXT LOADONCALL DISCARDABLE "Resource Files\\Explosionpolys.bt"
+SpeedTestBt BTXT LOADONCALL DISCARDABLE "Resource Files\\testRender.bt"
+
+ShadedTable8bit STBL LOADONCALL "Resource Files\\STable.st8"
+ShadedTable16bit STBL LOADONCALL "Resource Files\\STable.s16"
+
+BlueStarBackground16 BMP LOADONCALL DISCARDABLE "Resource Files\\BlueCloudsWstars16.bmp"
+BlueStarBackground8 BMP LOADONCALL DISCARDABLE "Resource Files\\BlueCloudsWstars8.bmp"
+
+// Bad poly check list
+// A list of the polys that will break and need their bounds checked
+BadMotherPlyLst BIN LOADONCALL DISCARDABLE "Resource Files\\badpolyMotherShip.bin"
+
+// midi toons
+ThemeSong MIDI LOADONCALL DISCARDABLE "Resource Files\\SpaceMain1.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 161
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 140, 38, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 184, 140, 37, 14
+ CONTROL "Text1", STC_RENDER_RES, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 68, 112, 8, 0
+ CONTROL "ScrollBar1", SCR_RENDER_RES, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 81, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 108, 224, 100, 14, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 108, 208, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 4, 224, 101, 14, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 70, 100, 64, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 82, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 94, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 106, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 118, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 140, 120, 13, 0
+ CONTROL "Size To Fill Screen", CHK_FILL_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 94, 100, 12, 0
+ CONTROL "Run in 16 Bit Color Mode", CHK_FORCE_16BIT, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 106, 100, 12, 0
+ CONTROL "Skip Intro - Jump To Battle", CHK_JUMP_TO_BATTLE, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 120, 108, 12, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Screen Saver\0"
+			VALUE "FileVersion", "1.1.3\0"
+            VALUE "InternalName", "Space Battle\0"
+            VALUE "LegalCopyright", "\251 Copyright 2002 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "Space Battle.scr\0"
+            VALUE "ProductName", "Space Battle\0"
+            VALUE "ProductVersion", "1.1.3\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

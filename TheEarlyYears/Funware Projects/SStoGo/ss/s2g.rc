@@ -1,0 +1,146 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "SS2Go.ico"
+
+// Graphics
+settings GIF LOADONCALL MOVEABLE "ss2go.GIF"
+FlipLeft BITMAP "flipL.bmp"
+FlipRight BITMAP LOADONCALL MOVEABLE "flipR.BMP"
+play BITMAP LOADONCALL MOVEABLE "play.BMP"
+pause BITMAP LOADONCALL MOVEABLE "pause.BMP"
+stop BITMAP LOADONCALL MOVEABLE "stop.BMP"
+funwareLogo WMF LOADONCALL MOVEABLE "howlogo2.wmf"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 234, 265
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 235, 28, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 192, 235, 31, 14
+ CONTROL "", STC_VIEW_WND, "static", SS_ETCHEDFRAME | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 9, 81, 216, 150, WS_EX_STATICEDGE
+ CONTROL "", BTN_FLIP_LEFT, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 9, 235, 15, 14
+ CONTROL "", BTN_FLIP_RIGHT, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 25, 235, 15, 14, 0
+ CONTROL "", BTN_SOUND_PLAY, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 46, 235, 15, 14
+ CONTROL "", STC_TOTAL_PAGES, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 99, 237, 56, 10, 0
+ CONTROL "", BTN_SOUND_PAUSE, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 63, 235, 15, 14, 0
+ CONTROL "", BTN_SOUND_STOP, "button", BS_PUSHBUTTON | BS_BITMAP | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 80, 235, 15, 14, 0
+ CONTROL "Frame2", -1, "static", SS_ETCHEDFRAME | WS_CHILD | WS_VISIBLE, 0, 0, 236, 1, 0
+}
+
+DLG_PRINTING DIALOG 0, 0, 178, 49
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_TOPMOST
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Printing"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Printing...", TXT_PRINTING, "static", SS_CENTER | WS_CHILD | WS_VISIBLE, 12, 10, 156, 16, 0
+ CONTROL "Cancel", BTN_CANCEL, "button", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 124, 28, 46, 14, 0
+}
+
+
+ConFigMenu MENU
+{
+    POPUP "&File"
+    {
+        MENUITEM "&Print...", MNU_PRINT
+        MENUITEM "P&rint Setup...", MNU_PRINT_SETUP
+    }
+
+    POPUP "&Preferences"
+    {
+        MENUITEM "&Sound On", MNU_SOUND_ON
+        MENUITEM "&Transitions On", MNU_TRANS_ON
+        MENUITEM "S&ize All Images To Fit Screen", MNU_SIZE_ALL_IMAGES
+        MENUITEM "&Randomize Screens", MNU_RANDOMIZE_SCREENS
+        MENUITEM "R&andomize Backgrounds", MNU_RANDOMIZE_BACKS
+        MENUITEM "Ra&ndomize Music", MNU_RANDOMIZE_MUSIC
+    }
+        MENUITEM "go to Web Site...", MNU_WEB_LINK
+}
+
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+
+    // Random messages for Shareware version
+    2, "5" // Number of Messages
+    3, "You can register the full version of " PRODUCT_NAME " on my web site!\015\015" WEB_ADDRESS
+    4, "These shareware screens go away when you register " PRODUCT_NAME ".\015\015" WEB_ADDRESS
+    5, "These shareware screens go away when you register " PRODUCT_NAME ".\015\015" WEB_ADDRESS
+    6, "These shareware screens go away when you register " PRODUCT_NAME ".\015\015" WEB_ADDRESS
+    7, "There's a good chance you'll find a newer version " PRODUCT_NAME " on my web site.\015\015" WEB_ADDRESS
+
+    // Easy registration shareware message
+    100, "Register online at " WEB_ADDRESS " or fill out the order form program that is built into " PRODUCT_NAME "."
+
+END
+
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "Screen Saver\0"
+            VALUE "FileVersion", "1.0.5\0"
+            VALUE "InternalName", "Screen Savers To Go\0"
+            VALUE "LegalCopyright", "\251 Copyright 2001 Howie's Funware\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "s2g.scr\0"
+            VALUE "ProductName", "Screen Savers To Go\0"
+            VALUE "ProductVersion", "1.0.5\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_CONTEXTHELP
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 6, 50, 14
+ CONTROL "Cancel", IDCANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 26, 50, 14
+ CONTROL "Help", IDHELP, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 46, 50, 14
+}
+
+
+IDD_DIALOG2 DIALOGEX 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME | WS_EX_CONTEXTHELP
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 6, 50, 14
+ CONTROL "Cancel", IDCANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 26, 50, 14
+ CONTROL "Help", IDHELP, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 186, 46, 50, 14
+}
+
+
+

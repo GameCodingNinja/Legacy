@@ -1,0 +1,112 @@
+#define PROGRAM "Lightning"
+#define WEBSITE "www.howiesfunware.com"
+
+ScrnSettings GIF LOADONCALL DISCARDABLE "SettingB.GIF"
+
+/* Thunder and Lighting artwork */
+city_Lt WMF LOADONCALL DISCARDABLE "city.WMF"
+city_Dk WMF LOADONCALL DISCARDABLE "citydk.WMF"
+city_Dk2 WMF LOADONCALL DISCARDABLE "citydk2.WMF"
+
+city_Lights1 WMF LOADONCALL DISCARDABLE "citylgh1.WMF"
+city_Lights2 WMF LOADONCALL DISCARDABLE "citylgh2.WMF"
+city_Lights3 WMF LOADONCALL DISCARDABLE "citylgh3.WMF"
+city_Lights4 WMF LOADONCALL DISCARDABLE "citylgh4.WMF"
+city_Lights5 WMF LOADONCALL DISCARDABLE "citylgh5.WMF"
+city_Lights6 WMF LOADONCALL DISCARDABLE "citylgh6.WMF"
+city_Lights7 WMF LOADONCALL DISCARDABLE "citylgh7.WMF"
+
+city_LightsDK1 WMF LOADONCALL DISCARDABLE "cityldk1.WMF"
+city_LightsDK2 WMF LOADONCALL DISCARDABLE "cityldk2.WMF"
+city_LightsDK3 WMF LOADONCALL DISCARDABLE "cityldk3.WMF"
+city_LightsDK4 WMF LOADONCALL DISCARDABLE "cityldk4.WMF"
+city_LightsDK5 WMF LOADONCALL DISCARDABLE "cityldk5.WMF"
+city_LightsDK6 WMF LOADONCALL DISCARDABLE "cityldk6.WMF"
+city_LightsDK7 WMF LOADONCALL DISCARDABLE "cityldk7.WMF"
+
+Block WMF LOADONCALL DISCARDABLE "block.WMF"
+Grey_Highlight WMF LOADONCALL DISCARDABLE "blklinGR.WMF"
+GreyLt_Highlight WMF LOADONCALL DISCARDABLE "blklinLg.WMF"
+White_Highlight WMF LOADONCALL DISCARDABLE "blklinWT.WMF"
+
+Blue_Highlight WMF LOADONCALL DISCARDABLE "blklinB.WMF"
+Green_Highlight WMF LOADONCALL DISCARDABLE "blklinG.WMF"
+Red_Highlight WMF LOADONCALL DISCARDABLE "blklinR.WMF"
+Yellow_Highlight WMF LOADONCALL DISCARDABLE "blklinY.WMF"
+Purple_Highlight WMF LOADONCALL DISCARDABLE "blklinP.WMF"
+Orange_Highlight WMF LOADONCALL DISCARDABLE "blklinO.WMF"
+
+Green01_lightning WMF LOADONCALL DISCARDABLE "light1.WMF"
+Blue02_lightning WMF LOADONCALL DISCARDABLE "light2.wmf"
+Red03_lightning WMF LOADONCALL DISCARDABLE "light3.wmf"
+Yellow04_lightning WMF LOADONCALL DISCARDABLE "light4.wmf"
+Purple05_lightning WMF LOADONCALL DISCARDABLE "light5.wmf"
+Orange06_lightning WMF LOADONCALL DISCARDABLE "light6.wmf"
+Purple07_lightning WMF LOADONCALL DISCARDABLE "light7.wmf"
+Yellow08_lightning WMF LOADONCALL DISCARDABLE "light8.wmf"
+Blue09_lightning WMF LOADONCALL DISCARDABLE "light9.wmf"
+Red10_lightning WMF LOADONCALL DISCARDABLE "light10.wmf"
+Blue11_lightning WMF LOADONCALL DISCARDABLE "light11.wmf"
+Green12_lightning WMF LOADONCALL DISCARDABLE "light12.WMF"
+BlueGray13_lightning WMF LOADONCALL DISCARDABLE "light13.wmf"
+RedGray14_lightning WMF LOADONCALL DISCARDABLE "light14.wmf"
+Purple15_lightning WMF LOADONCALL DISCARDABLE "light15.wmf"
+Yellow16_lightning WMF LOADONCALL DISCARDABLE "light16.wmf"
+GreenGray18_lightning WMF LOADONCALL DISCARDABLE "light18.wmf"
+Purple19_lightning WMF LOADONCALL DISCARDABLE "light19.wmf"
+RedGray20_lightning WMF LOADONCALL DISCARDABLE "light20.wmf"
+BlueGray21_lightning WMF LOADONCALL DISCARDABLE "light21.wmf"
+RedOrange22_lightning WMF LOADONCALL DISCARDABLE "light22.wmf"
+Yellow23_lightning WMF LOADONCALL DISCARDABLE "light23.wmf"
+Green24_lightning WMF LOADONCALL DISCARDABLE "light24.wmf"
+
+Block_LightsBase WMF LOADONCALL DISCARDABLE "blocklt1.WMF"
+Block_Lights2 WMF LOADONCALL DISCARDABLE "blocklt2.WMF"
+Block_Lights3 WMF LOADONCALL DISCARDABLE "blocklt3.WMF"
+Block_Lights4 WMF LOADONCALL DISCARDABLE "blocklt4.WMF"
+Block_Lights5 WMF LOADONCALL DISCARDABLE "blocklt5.WMF"
+Block_Lights6 WMF LOADONCALL DISCARDABLE "blocklt6.WMF"
+Block_Lights7 WMF LOADONCALL DISCARDABLE "blocklt7.WMF"
+Block_Lights8 WMF LOADONCALL DISCARDABLE "blocklt8.WMF"
+Block_Lights9 WMF LOADONCALL DISCARDABLE "blocklt9.WMF"
+Block_LightsA WMF LOADONCALL DISCARDABLE "blockltA.WMF"
+Block_LightsB WMF LOADONCALL DISCARDABLE "blockltB.WMF"
+Block_LightsC WMF LOADONCALL DISCARDABLE "blockltC.WMF"
+Block_LightsD WMF LOADONCALL DISCARDABLE "blockltD.WMF"
+Block_LightsE WMF LOADONCALL DISCARDABLE "blockltE.WMF"
+Block_LightsF WMF LOADONCALL DISCARDABLE "blockltF.WMF"
+Block_LightsG WMF LOADONCALL DISCARDABLE "blockltG.WMF"
+Block_LightsH WMF LOADONCALL DISCARDABLE "blockltH.WMF"
+Block_LightsI WMF LOADONCALL DISCARDABLE "blockltI.WMF"
+Block_LightsJ WMF LOADONCALL DISCARDABLE "blockltJ.WMF"
+Block_LightsOut WMF LOADONCALL DISCARDABLE "blockOut.WMF"
+
+Porch_Light WMF LOADONCALL DISCARDABLE "plight.WMF"
+
+/* Sound Files with rain */
+Thunder1r WAV LOADONCALL MOVEABLE "Thunder1rr.wav"
+Thunder2r WAV LOADONCALL MOVEABLE "Thunder2r.wav"
+Thunder3r WAV LOADONCALL MOVEABLE "Thunder3r.wav"
+Shockr WAV LOADONCALL MOVEABLE "Shockr.wav"
+
+/* Sound Files without rain */
+Thunder1 WAV LOADONCALL MOVEABLE "Thunder1e.wav"
+Thunder2 WAV LOADONCALL MOVEABLE "Thunder2e.wav"
+Thunder3 WAV LOADONCALL MOVEABLE "Thunder3e.wav"
+Shock WAV LOADONCALL MOVEABLE "Shocke.wav"
+
+Rain WAV LOADONCALL MOVEABLE "Raina.wav"
+
+STRINGTABLE LOADONCALL DISCARDABLE
+BEGIN
+
+  /* Order Form Strings*/
+  500, WEBSITE
+  501, "215189-43627" /* Full Version Number */
+  502, "52G-538-1W27" /* First Temp Number */
+  503, "2M9-4D2-A192" /* Second Temp Number */
+  504, "q4svfack7.dli" /* First Temp Number check file */
+  505, "d9sbm3ic.dli" /* Second Temp Number check file */
+  506, "Thank you for registering the " PROGRAM " screen saver. Please visit my web site for more great screen savers.  " WEBSITE
+
+END

@@ -1,0 +1,78 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+
+
+/* midi toons */
+ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 265, 273
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 232, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 210, 232, 45, 14
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 140, 252, 116, 13, 0
+ CONTROL "AvailableSavers", LST_AVAILABLE_SAVERS, "listbox", LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 136, 84, 120, 120, 0
+ CONTROL "SaversToRun", LST_SAVERS_TO_RUN, "listbox", LBS_NOTIFY | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP, 8, 84, 120, 120, 0
+ CONTROL "Screen Savers on this Computer:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 136, 70, 120, 8, 0
+ CONTROL "Screen Savers To Play:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 70, 120, 8, 0
+ CONTROL "<< Add", BTN_ADD, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 180, 208, 32, 14, 0
+ CONTROL "Remove", BTN_REMOVE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 208, 36, 14, 0
+ CONTROL "Preview", BTN_PREVIEW_TOTAL, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 218, 208, 38, 14, 0
+ CONTROL "Preview", BTN_PREVIEW_PLAY, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 56, 208, 36, 14, 0
+ CONTROL "ComboBox1", CBO_LIST, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 8, 240, 120, 56, 0
+ CONTROL "Switch To The Next Screen Saver:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 228, 124, 8, 0
+ CONTROL "Randomise Screen Saver List:", CHK_RANDOMISE, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 256, 128, 12, 0
+ CONTROL "Config", BTN_CFG, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 96, 208, 32, 14, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Screen Saver\0"
+			VALUE "FileVersion", "1.0.1\0"
+            VALUE "InternalName", "Stars\0"
+            VALUE "LegalCopyright", "\251 Copyright 2004 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "Howie's Saver Randomizer.scr\0"
+            VALUE "ProductName", "Howie's Saver Randomizer\0"
+            VALUE "ProductVersion", "1.0.1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

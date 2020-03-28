@@ -1,0 +1,39 @@
+[Options]
+Compress=High
+OldKeyPhrase=No
+Warning=1
+
+[Files]
+c:\rounda~1\sstogo\help\stw.rtf
+
+[BuildTags]
+
+[Config]
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+BrowseButtons()
+
+[Bitmaps]
+C:\ROUNDA~1\SSTOGO\HELP\S2GLOGO.SHG
+C:\ROUNDA~1\sstogo\HELP\CONTROL.SHG
+C:\ROUNDA~1\sstogo\HELP\BACKUP.SHG
+C:\ROUNDA~1\sstogo\HELP\QNOTE.SHG
+C:\ROUNDA~1\sstogo\HELP\PREF-IC.SHG
+C:\ROUNDA~1\sstogo\HELP\REQUIR.SHG
+
+
+[Map]
+contents 1
+stepbystep 2
+Preferences 3
+qanda 4
+FileMenuOptions 5
+prepar 6
+trouble 7
+
+[Alias]
+
+[Windows]
+ZZZZZZZZ="",(0,0,350,623),0,(255,255,255),(192,192,192), 0
+
+[Baggage]

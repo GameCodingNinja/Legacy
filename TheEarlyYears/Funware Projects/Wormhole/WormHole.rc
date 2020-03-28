@@ -1,0 +1,89 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+// Graphics
+
+texture BMPTXT LOADONCALL DISCARDABLE "Wormhole.bt"
+Wormhole1Poly POLY LOADONCALL DISCARDABLE "Wormhole.ply"
+Wormhole1Cord CORD LOADONCALL DISCARDABLE "Wormhole.crd"
+CameraMove1 MOVEMENT LOADONCALL "camera1.bin"
+
+SpeedTest POLY LOADONCALL DISCARDABLE "testRender.ply"
+SpeedTestBt BTXT LOADONCALL DISCARDABLE "testRender.bt"
+ShadedTable16bit STBL LOADONCALL "STable.s16"
+
+/* midi toons */
+ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 181
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 142, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 142, 45, 14
+ CONTROL "Text1", STC_RENDER_RES, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 68, 112, 8, 0
+ CONTROL "ScrollBar1", SCR_RENDER_RES, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 81, 100, 9, 0
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 12, 256, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 12, 242, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 128, 256, 101, 14, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 70, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 82, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 94, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 106, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 118, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 160, 120, 13, 0
+ CONTROL "Size To Fill Screen", CHK_FILL_SCREEN, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 124, 100, 12, 0
+ CONTROL "Text2", STC_SPEED, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 96, 104, 8, 0
+ CONTROL "ScrollBar2", SCR_SPEED, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 108, 100, 9, 0
+ CONTROL "Do Random Rotation", CHK_RANDOM_ROT, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 140, 104, 12, 0
+ CONTROL "Change Camera Views", CHK_RANDOM_CAMERA, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 156, 92, 12, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+			VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+			VALUE "FileDescription", "Wormhole Journey Screen Saver\0"
+			VALUE "FileVersion", "1.0.3\0"
+            VALUE "InternalName", "Wormhole Journey\0"
+            VALUE "LegalCopyright", "\251 Copyright 2004 Howie's Funware\0"
+			VALUE "LegalTrademarks", "\0"
+			VALUE "OriginalFilename", "Wormhole Journey.scr\0"
+            VALUE "ProductName", "Wormhole Journey\0"
+            VALUE "ProductVersion", "1.0.3\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

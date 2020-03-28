@@ -1,0 +1,197 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+/* midi toons */
+//ThemeSong MIDI LOADONCALL DISCARDABLE "Starz2.mid"
+
+// Graphics
+/* Thunder and Lighting artwork */
+city_0 WMF LOADONCALL DISCARDABLE "city.WMF"      // light city
+city_1 WMF LOADONCALL DISCARDABLE "citydk.WMF"    // dark city
+city_2 WMF LOADONCALL DISCARDABLE "citydk2.WMF"   // darker city
+
+city_LightsOn0 WMF LOADONCALL DISCARDABLE "citylgh1.WMF"   // base lights
+city_LightsOn1 WMF LOADONCALL DISCARDABLE "citylgh2.WMF"
+city_LightsOn2 WMF LOADONCALL DISCARDABLE "citylgh3.WMF"
+city_LightsOn3 WMF LOADONCALL DISCARDABLE "citylgh4.WMF"
+city_LightsOn4 WMF LOADONCALL DISCARDABLE "citylgh5.WMF"
+city_LightsOn5 WMF LOADONCALL DISCARDABLE "citylgh6.WMF"
+city_LightsOn6 WMF LOADONCALL DISCARDABLE "citylgh7.WMF"
+
+city_LightsOff0 WMF LOADONCALL DISCARDABLE "cityldk1.WMF"  // base lights
+city_LightsOff1 WMF LOADONCALL DISCARDABLE "cityldk2.WMF"
+city_LightsOff2 WMF LOADONCALL DISCARDABLE "cityldk3.WMF"
+city_LightsOff3 WMF LOADONCALL DISCARDABLE "cityldk4.WMF"
+city_LightsOff4 WMF LOADONCALL DISCARDABLE "cityldk5.WMF"
+city_LightsOff5 WMF LOADONCALL DISCARDABLE "cityldk6.WMF"
+city_LightsOff6 WMF LOADONCALL DISCARDABLE "cityldk7.WMF"
+
+Block_Misc0 WMF LOADONCALL DISCARDABLE "block.WMF"	 // Neighborhood
+Block_Misc1 WMF LOADONCALL DISCARDABLE "plight.WMF"	 // porch lights
+
+Block_Highlight0 WMF LOADONCALL DISCARDABLE "blklinGR.WMF"  // grey
+Block_Highlight1 WMF LOADONCALL DISCARDABLE "blklinLg.WMF"  // light grey
+Block_Highlight2 WMF LOADONCALL DISCARDABLE "blklinWT.WMF"  // white
+Block_Highlight3 WMF LOADONCALL DISCARDABLE "blklinB.WMF"   // blue
+Block_Highlight4 WMF LOADONCALL DISCARDABLE "blklinG.WMF"   // green
+Block_Highlight5 WMF LOADONCALL DISCARDABLE "blklinR.WMF"   // red
+Block_Highlight6 WMF LOADONCALL DISCARDABLE "blklinY.WMF"   // yellow
+Block_Highlight7 WMF LOADONCALL DISCARDABLE "blklinP.WMF"   // purple
+Block_Highlight8 WMF LOADONCALL DISCARDABLE "blklinO.WMF"   // orange
+
+Block_Lights0 WMF LOADONCALL DISCARDABLE "blocklt1.WMF"   // Base lights
+Block_Lights1 WMF LOADONCALL DISCARDABLE "blockOut.WMF"   // all lights out
+Block_Lights2 WMF LOADONCALL DISCARDABLE "blocklt2.WMF"
+Block_Lights3 WMF LOADONCALL DISCARDABLE "blocklt3.WMF"
+Block_Lights4 WMF LOADONCALL DISCARDABLE "blocklt4.WMF"
+Block_Lights5 WMF LOADONCALL DISCARDABLE "blocklt5.WMF"
+Block_Lights6 WMF LOADONCALL DISCARDABLE "blocklt6.WMF"
+Block_Lights7 WMF LOADONCALL DISCARDABLE "blocklt7.WMF"
+Block_Lights8 WMF LOADONCALL DISCARDABLE "blocklt8.WMF"
+Block_Lights9 WMF LOADONCALL DISCARDABLE "blocklt9.WMF"
+Block_Lights10 WMF LOADONCALL DISCARDABLE "blockltA.WMF"
+Block_Lights11 WMF LOADONCALL DISCARDABLE "blockltB.WMF"
+Block_Lights12 WMF LOADONCALL DISCARDABLE "blockltC.WMF"
+Block_Lights13 WMF LOADONCALL DISCARDABLE "blockltD.WMF"
+Block_Lights14 WMF LOADONCALL DISCARDABLE "blockltE.WMF"
+Block_Lights15 WMF LOADONCALL DISCARDABLE "blockltF.WMF"
+Block_Lights16 WMF LOADONCALL DISCARDABLE "blockltG.WMF"
+Block_Lights17 WMF LOADONCALL DISCARDABLE "blockltH.WMF"
+Block_Lights18 WMF LOADONCALL DISCARDABLE "blockltI.WMF"
+Block_Lights19 WMF LOADONCALL DISCARDABLE "blockltJ.WMF"
+
+lightning0  WMF LOADONCALL DISCARDABLE "light01.WMF"
+lightning1  WMF LOADONCALL DISCARDABLE "light02.wmf"
+lightning2  WMF LOADONCALL DISCARDABLE "light03.wmf"
+lightning3  WMF LOADONCALL DISCARDABLE "light04.wmf"
+lightning4  WMF LOADONCALL DISCARDABLE "light05.wmf"
+lightning5  WMF LOADONCALL DISCARDABLE "light06.wmf"
+lightning6  WMF LOADONCALL DISCARDABLE "light07.wmf"
+lightning7  WMF LOADONCALL DISCARDABLE "light08.wmf"
+lightning8  WMF LOADONCALL DISCARDABLE "light09.wmf"
+lightning9  WMF LOADONCALL DISCARDABLE "light10.wmf"
+lightning10 WMF LOADONCALL DISCARDABLE "light11.wmf"
+lightning11 WMF LOADONCALL DISCARDABLE "light12.WMF"
+lightning12 WMF LOADONCALL DISCARDABLE "light13.wmf"
+lightning13 WMF LOADONCALL DISCARDABLE "light14.wmf"
+lightning14 WMF LOADONCALL DISCARDABLE "light15.wmf"
+lightning15 WMF LOADONCALL DISCARDABLE "light16.wmf"
+lightning16 WMF LOADONCALL DISCARDABLE "light17.wmf"
+lightning17 WMF LOADONCALL DISCARDABLE "light18.wmf"
+lightning18 WMF LOADONCALL DISCARDABLE "light19.wmf"
+lightning19 WMF LOADONCALL DISCARDABLE "light20.wmf"
+lightning20 WMF LOADONCALL DISCARDABLE "light21.wmf"
+lightning21 WMF LOADONCALL DISCARDABLE "light22.wmf"
+lightning22 WMF LOADONCALL DISCARDABLE "light23.wmf"
+lightning23 WMF LOADONCALL DISCARDABLE "light24.wmf"
+
+car0 WMF LOADONCALL DISCARDABLE "car.wmf"
+car1 WMF LOADONCALL DISCARDABLE "car2.wmf"
+car2 WMF LOADONCALL DISCARDABLE "car3.wmf"
+car3 WMF LOADONCALL DISCARDABLE "car4.wmf"
+car4 WMF LOADONCALL DISCARDABLE "car5.wmf"
+
+/* Sound Files with rain */
+sndLow2 WAV LOADONCALL "Thunder1rr.pcm"
+sndLow3 WAV LOADONCALL "Thunder2r.pcm"
+sndLow4 WAV LOADONCALL "Thunder3r.pcm"
+sndLow1 WAV LOADONCALL "Shockr.pcm"
+
+/* Sound Files without rain */
+sndRainStraight WAV LOADONCALL "rain4.pcm"
+sndLow0 WAV LOADONCALL "Rainb.pcm"
+sndBlackOut WAV LOADONCALL "Shocke.pcm"
+
+soundThunder0 WAV LOADONCALL "Thunder1.pcm"
+soundThunder1 WAV LOADONCALL "Thunder2.pcm"
+soundThunder2 WAV LOADONCALL "Thunder3.pcm"
+soundThunder3 WAV LOADONCALL "thunder4.pcm"
+soundThunder4 WAV LOADONCALL "thunder5.pcm"
+soundThunder5 WAV LOADONCALL "thunder6.pcm"
+soundThunder6 WAV LOADONCALL "thunder7.pcm"
+
+// Background sound effects
+backSound0 WAV LOADONCALL "BSirenSto.pcm"
+backSound1 WAV LOADONCALL "Bthunder1.pcm"
+backSound2 WAV LOADONCALL "Bthunder2.pcm"
+backSound3 WAV LOADONCALL "Bthunder3.pcm"
+backSound4 WAV LOADONCALL "Bthunder4.pcm"
+backSound5 WAV LOADONCALL "Bthunder6.pcm"
+backSound6 WAV LOADONCALL "Bthunder5.pcm"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 229, 215
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Text1", STC_RAIN_AMOUNT, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 99, 100, 8, 0
+ CONTROL "ScrollBar1", SCRBAR_RAIN_AMOUNT, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 112, 100, 9, 0
+ CONTROL "ComboBox2", CBOBOX_RAIN_OPT, "combobox", CBS_DROPDOWNLIST | WS_CHILD | WS_VISIBLE | WS_VSCROLL | WS_TABSTOP, 8, 80, 100, 44, 0
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 122, 172, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 175, 172, 45, 14
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 12, 300, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 12, 286, 100, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 120, 300, 101, 14, 0
+ CONTROL "Sound Options:", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 68, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 92, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 128, 280, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 104, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 116, 76, 12, 0
+ CONTROL "Play Sound Effects", CHK_SND_EFX, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 80, 84, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 192, 212, 13, 0
+ CONTROL "Rain Options:", -1, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 68, 48, 8, 0
+ CONTROL "Text5", STC_LIGHTING_HITS, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 130, 104, 8, 0
+ CONTROL "ScrollBar2", SCRBAR_LIGHT_HITS, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 144, 100, 9, 0
+ CONTROL "Text6", STC_GROUP_HITS, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 8, 163, 100, 8, 0
+ CONTROL "ScrollBar3", SCRBAR_GROUP_HITS, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 8, 176, 100, 9, 0
+ CONTROL "Text7", STC_BLACKOUTS, "static", SS_LEFT | WS_CHILD | WS_VISIBLE, 120, 144, 100, 8, 0
+ CONTROL "ScrollBar4", SCRBAR_BLACKOUTS, "scrollbar", SBS_HORZ | WS_CHILD | WS_VISIBLE, 120, 156, 100, 9, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "Thunder and Lightning Screen Saver\0"
+            VALUE "FileVersion", "1.3.7\0"
+            VALUE "InternalName", "Thunder and Lightning\0"
+            VALUE "LegalCopyright", "\251 Copyright 2002 Howie's Funware\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Thunder and Lightning.scr\0"
+            VALUE "ProductName", "Thunder and Lightning\0"
+            VALUE "ProductVersion", "1.3.7\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

@@ -1,0 +1,22 @@
+//  Starter Resource File
+//  File Starter.rc
+
+#include "StartSS.h"         // Header for parent window
+
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "starter.ico"
+
+
+Menu_1 MENU
+{
+    POPUP "&File"
+   {
+      MENUITEM "&Start Screen Saver Timer", MNU_START_SS
+	  MENUITEM "&Reset Counter", MNU_RESET_COUNTER
+      MENUITEM SEPARATOR
+      MENUITEM "&Exit", MNU_EXIT
+   }
+}
+

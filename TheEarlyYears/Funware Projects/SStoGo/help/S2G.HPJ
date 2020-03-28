@@ -1,0 +1,39 @@
+[Options]
+Compress=High
+OldKeyPhrase=No
+Warning=1
+
+[Files]
+c:\funwar~1\sstogo\help\s2g.rtf
+
+[BuildTags]
+
+[Config]
+RegisterRoutine("mmsystem.dll", "sndPlaySound", "i=Si")
+
+BrowseButtons()
+
+[Bitmaps]
+C:\funwar~1\SSTOGO\HELP\S2GLOGO.SHG
+C:\funwar~1\sstogo\HELP\CONTROL.SHG
+C:\funwar~1\sstogo\HELP\BACKUP.SHG
+C:\funwar~1\sstogo\HELP\QNOTE.SHG
+C:\funwar~1\sstogo\HELP\PREF-IC.SHG
+C:\funwar~1\sstogo\HELP\REQUIR.SHG
+
+
+[Map]
+contents 1
+stepbystep 2
+Preferences 3
+qanda 4
+FileMenuOptions 5
+prepar 6
+trouble 7
+
+[Alias]
+
+[Windows]
+ZZZZZZZZ="",(0,0,350,623),0,(255,255,255),(192,192,192), 0
+
+[Baggage]
