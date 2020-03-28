@@ -1,0 +1,183 @@
+#include "GDefines.h"
+
+//  Make the name of this resource the name of your screen saver
+//  This resource is for holding all your screen saver specific resources
+
+// AppIcon automatically makes it the icon for the *.exe
+// This icon is also used for the parent window
+AppIcon ICON "screen.ico"
+
+///////////////////////
+//  Graphics
+//////////////////////
+
+// Background
+Back WMF LOADONCALL DISCARDABLE "fplace.wmf"
+// Fire Animation
+Fire0 WMF LOADONCALL "FIRE_01.wmf"
+Fire1 WMF LOADONCALL "FIRE_02.wmf"
+Fire2 WMF LOADONCALL "FIRE_03.wmf"
+Fire3 WMF LOADONCALL "FIRE_04.wmf"
+Fire4 WMF LOADONCALL "FIRE_05.wmf"
+Fire5 WMF LOADONCALL "FIRE_06.wmf"
+Fire6 WMF LOADONCALL "FIRE_07.wmf"
+Fire7 WMF LOADONCALL "FIRE_08.wmf"
+Fire8 WMF LOADONCALL "FIRE_09.wmf"
+// Tree Lights
+Tree0 WMF LOADONCALL "Blue_Lights_on.wmf"
+Tree1 WMF LOADONCALL "Red_Lights_on.wmf"
+Tree2 WMF LOADONCALL "Green_Lights_on.wmf"
+Tree3 WMF LOADONCALL "Yellow_Lights_on.wmf"
+Tree4 WMF LOADONCALL "Lights_off.wmf"
+// Cat Animations
+CatSleep0 WMF LOADONCALL "Cat001.wmf"
+CatSleep1 WMF LOADONCALL "Cat002.wmf"
+CatSleep2 WMF LOADONCALL "Cat003.wmf"
+CatSleep3 WMF LOADONCALL "Cat004.wmf"
+CatSleep4 WMF LOADONCALL "Cat005.wmf"
+CatSleep5 WMF LOADONCALL "Cat006.wmf"
+CatSleep6 WMF LOADONCALL "Cat007.wmf"
+CatYawn0 WMF LOADONCALL "CAT_yawn_001.wmf"
+CatYawn1 WMF LOADONCALL "CAT_yawn_002.wmf"
+CatYawn2 WMF LOADONCALL "CAT_yawn_003.wmf"
+CatYawn3 WMF LOADONCALL "CAT_yawn_004.wmf"
+CatYawn4 WMF LOADONCALL "CAT_yawn_005.wmf"
+CatEyeOpen0 WMF LOADONCALL "CAT_EYEOPEN_001.wmf"
+CatEyeOpen1 WMF LOADONCALL "CAT_EYEOPEN_002.wmf"
+CatEyeOpen2 WMF LOADONCALL "CAT_EYEOPEN_003.wmf"
+CatEyeOpen3 WMF LOADONCALL "CAT_EYEOPEN_004.wmf"
+// Santa clock Animation
+SantaBody WMF LOADONCALL DISCARDABLE "SANTA_body2.wmf"
+SantaEyes0 WMF LOADONCALL "SANTAeyes-2-01.wmf"
+SantaEyes1 WMF LOADONCALL "SANTAeyes-2-02.wmf"
+SantaEyes2 WMF LOADONCALL "SANTAeyes-2-03.wmf"
+SantaEyes3 WMF LOADONCALL "SANTAeyes-2-04.wmf"
+SantaEyes4 WMF LOADONCALL "SANTAeyes-2-05.wmf"
+SantaFeet0 WMF LOADONCALL "SANTAfeet-2-01.wmf"
+SantaFeet1 WMF LOADONCALL "SANTAfeet-2-02.wmf"
+SantaFeet2 WMF LOADONCALL "SANTAfeet-2-03.wmf"
+// Mouse Animations
+MouseWalk0 WMF LOADONCALL "Mousewalk-2-01.wmf"
+MouseWalk1 WMF LOADONCALL "Mousewalk-2-02.wmf"
+MouseWalk2 WMF LOADONCALL "Mousewalk-2-03.wmf"
+MouseWalk3 WMF LOADONCALL "Mousewalk-2-04.wmf"
+MouseWalk4 WMF LOADONCALL "Mousewalk-2-05.wmf"
+MouseWalk5 WMF LOADONCALL "Mousewalk-2-06.wmf"
+MouseWalk6 WMF LOADONCALL "Mousewalk-2-07.wmf"
+MouseWalk7 WMF LOADONCALL "Mousewalk-2-08.wmf"
+// presents
+Present0  WMF LOADONCALL "PRESENT_v2_01.wmf"
+Present1  WMF LOADONCALL "PRESENT_v2_02.wmf"
+Present2  WMF LOADONCALL "PRESENT_v2_03.wmf"
+Present3  WMF LOADONCALL "PRESENT_v2_04.wmf"
+Present4  WMF LOADONCALL "PRESENT_v2_05.wmf"
+Present5  WMF LOADONCALL "PRESENT_v2_06.wmf"
+Present6  WMF LOADONCALL "PRESENT_v2_07.wmf"
+Present7  WMF LOADONCALL "PRESENT_v2_08.wmf"
+Present8  WMF LOADONCALL "PRESENT_v2_09.wmf"
+Present9  WMF LOADONCALL "PRESENT_v2_10.wmf"
+Present10 WMF LOADONCALL "PRESENT_v2_11.wmf"
+Present11 WMF LOADONCALL "PRESENT_v2_12.wmf"
+Present12 WMF LOADONCALL "PRESENT_v2_13.wmf"
+Present13 WMF LOADONCALL "PRESENT_v2_14.wmf"
+Present14 WMF LOADONCALL "PRESENT_v2_15.wmf"
+Present15 WMF LOADONCALL "PRESENT_v2_16.wmf"
+Present16 WMF LOADONCALL "PRESENT_v3_17.wmf"
+Present17 WMF LOADONCALL "PRESENT_v2_18.wmf"
+Present18 WMF LOADONCALL "PRESENT_v2_19.wmf"
+Present19 WMF LOADONCALL "PRESENT_v2_20.wmf"
+Present20 WMF LOADONCALL "PRESENT_v2_21.wmf"
+Present21 WMF LOADONCALL "PRESENT_v2_22.wmf"
+Present22 WMF LOADONCALL "PRESENT_v2_23.wmf"
+
+
+///////////////////////
+//  Music
+//////////////////////
+Song0 MIDI LOADONCALL DISCARDABLE "xmastune.mid"
+Song1 MIDI LOADONCALL DISCARDABLE "bells2.mid"
+Song2 MIDI LOADONCALL DISCARDABLE "chstnut1.mid"
+Song3 MIDI LOADONCALL DISCARDABLE "goldear.mid"
+Song4 MIDI LOADONCALL DISCARDABLE "linusxms.mid"
+Song5 MIDI LOADONCALL DISCARDABLE "pchricom.mid"
+Song6 MIDI LOADONCALL DISCARDABLE "pchristm.mid"
+Song7 MIDI LOADONCALL DISCARDABLE "pskating.mid"
+Song8 MIDI LOADONCALL DISCARDABLE "rooftop.mid"
+Song9 MIDI LOADONCALL DISCARDABLE "silntnt.mid"
+Song10 MIDI LOADONCALL DISCARDABLE "still.mid"
+Song11 MIDI LOADONCALL DISCARDABLE "torch.mid"
+Song12 MIDI LOADONCALL DISCARDABLE "deckhll2.mid"
+Song13 MIDI LOADONCALL DISCARDABLE "Hark2.mid"
+Song14 MIDI LOADONCALL DISCARDABLE "letsnow2.mid"
+Song15 MIDI LOADONCALL DISCARDABLE "MSRgdrst.mid"
+Song16 MIDI LOADONCALL DISCARDABLE "MSRHark.mid"
+Song17 MIDI LOADONCALL DISCARDABLE "Oxmastr2.mid"
+Song18 MIDI LOADONCALL DISCARDABLE "rocktree.mid"
+Song19 MIDI LOADONCALL DISCARDABLE "rudolph.mid"
+Song20 MIDI LOADONCALL DISCARDABLE "sailing.mid"
+Song21 MIDI LOADONCALL DISCARDABLE "sothis1.mid"
+Song22 MIDI LOADONCALL DISCARDABLE "wondrful.mid"
+
+// Be sure to NULL terminate these text files and that all the information is correct
+settings TXT LOADONCALL MOVEABLE "settings.txt"
+
+// Config dialog
+DLG_CONFIG DIALOG 0, 0, 228, 166
+STYLE DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_THICKFRAME
+CAPTION "Screen Save Preferences"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", BTN_OK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 124, 46, 14
+ CONTROL "Cancel", BTN_CANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 64, 124, 43, 14
+ CONTROL "", EDT_REG_NUMBER, "edit", ES_LEFT | WS_CHILD | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP, 8, 232, 100, 13, 0
+ CONTROL "Registration Number:", TXT_REG_NUM, "static", SS_LEFT | WS_CHILD | NOT WS_VISIBLE, 8, 218, 104, 12, 0
+ CONTROL "Order Form", BTN_ORDER_FORM, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | NOT WS_VISIBLE | WS_TABSTOP, 120, 232, 101, 14, 0
+ CONTROL "Music Options", GRPBOX_MUSIC, "button", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP, 120, 70, 100, 68, 0
+ CONTROL "Music Off", RDO_MUSIC_OFF, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 82, 60, 12, 0
+ CONTROL "Play Theme Music", RDO_DEFAULT_MUSIC, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 94, 80, 12, 0
+ CONTROL "Load Your Own", RDO_LOAD_YOUR_OWN, "button", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 106, 80, 12, 0
+ CONTROL "Randomize Music", CHK_RAND_MUSIC, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 136, 118, 76, 12, 0
+ CONTROL "go to  www.howiesfunware.com", BTN_WEB_SITE, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 144, 212, 13, 0
+ CONTROL "Animate Mouse", CHK_MOUSE, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 69, 96, 12, 0
+ CONTROL "Animate Christmas Tree", CHK_TREE, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 82, 96, 12, 0
+ CONTROL "Animate Santa Clock", CHK_SANTA_CLOCK, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 95, 96, 12, 0
+ CONTROL "Animate Cat", CHK_CAT, "button", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 8, 107, 100, 12, 0
+}
+
+// Version information
+1 VERSIONINFO
+ FILEVERSION 3,3,0,0
+ PRODUCTVERSION 3,3,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0xbL
+#else
+ FILEFLAGS 0xaL
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "Comments", "www.howiesfunware.com  Please visit my web site for more great products.\0"
+            VALUE "CompanyName", "Howie's Funware\0"
+            VALUE "FileDescription", "Nite Before Christmas Screen Saver\0"
+            VALUE "FileVersion", "1.1.1\0"
+            VALUE "InternalName", "NBX\0"
+            VALUE "LegalCopyright", "\251 Copyright 2001 Howie's Funware\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NBX.scr\0"
+            VALUE "ProductName", "Nite Before Christmas\0"
+            VALUE "ProductVersion", "1.1.1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+

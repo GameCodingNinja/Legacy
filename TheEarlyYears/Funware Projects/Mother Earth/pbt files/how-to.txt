@@ -1,0 +1,27 @@
+HOW TO USE EXTERNAL TEXTURE WITH THE "MOTHER EARTH" SCREEN SAVER
+
+Loading external textures is only available to registered users of the screen saver.
+
+1) Make a folder on your hard drive to unzip the contents of this zip file into. You can keep all your external texture files in the same folder. Do not change or rename these files.
+
+2) This "How-To.txt" file is the same in all the zipped texture files so there is no need to unzip this file more then once.
+
+3) Go to the screen savers settings window to select the external texture file.
+
+  Click on your "Start button"
+  "Settings" menu option
+  "Control Panel" menu option, this will load the "Control Panel" window
+  Double-click on the "Display" icon
+  Click on the "Screen Saver" Tab.
+  Make sure the screen saver you are registering is the selected screen saver
+  Now click on "Settings..." button
+
+  You should now be in the "Mother Earth" settings window.
+
+4) Click on the "Load Planet Texture" check box. The "Load Planet Texture" dialog window will show.
+
+5) Make your way to the folder you made that you put the contents of the zip file into.
+
+6) Go into that folder and select the desired "PBT" file and click OK.
+
+7) Now click OK from the screen savers settings window. You should see the new texture displayed from the small preview window.
